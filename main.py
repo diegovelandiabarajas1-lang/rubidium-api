@@ -96,17 +96,17 @@ def root():
     return {"service": "Rubidium API", "version": "2.0", "engine": "numpy", "status": "running"}
 
 
-@app.get("/state", response_model=StateResponse)
+@app.get("/state")
 def get_state():
     global transformer
     if transformer is None or not transformer.is_trained:
-        return StateResponse(is_trained=False, vocab_size=0, model_size="none")
+        return {"is_trained": False, "vocab_size": 0, "model_size": "none"}
     params = sum(p.data.size for p in transformer._all_params())
-    return StateResponse(
-        is_trained=True,
-        vocab_size=transformer.vocab_size,
-        model_size=f"{params/1000:.1f}K params"
-    )
+    return {
+        "is_trained": True,
+        "vocab_size": transformer.vocab_size,
+        "model_size": f"{params/1000:.1f}K params"
+    }
 
 
 @app.post("/train")

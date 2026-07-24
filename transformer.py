@@ -258,6 +258,23 @@ class MultiHeadAttention:
     def parameters(self) -> List[AutogradTensor]:
         return self.wq.parameters() + self.wk.parameters() + self.wv.parameters() + self.wo.parameters()
 
+    def forward_numpy(self, x: np.ndarray) -> np.ndarray:
+        B, L, D = x.shape
+        q = x @ self.wq.weight.data + self.wq.bias.data
+        k = x @ self.wk.weight.data + self.wk.bias.data
+        v = x @ self.wv.weight.data + self.wv.bias.data
+        q = q.reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
+        k = k.reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
+        v = v.reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
+        scale = 1.0 / np.sqrt(self.head_dim)
+        att = (q @ k.transpose(0, 1, 3, 2)) * scale
+        att = att + self.mask[:L, :L]
+        att = np.exp(att - att.max(axis=-1, keepdims=True))
+        att = att / (att.sum(axis=-1, keepdims=True) + 1e-8)
+        out = att @ v
+        out = out.transpose(0, 2, 1, 3).reshape(B, L, D)
+        return out @ self.wo.weight.data + self.wo.bias.data
+
 
 class FeedForward:
     def __init__(self, d_model: int, d_ff: int):
@@ -269,6 +286,9 @@ class FeedForward:
 
     def parameters(self) -> List[AutogradTensor]:
         return self.w1.parameters() + self.w2.parameters()
+
+    def forward_numpy(self, x: np.ndarray) -> np.ndarray:
+        return np.maximum(0, x @ self.w1.weight.data + self.w1.bias.data) @ self.w2.weight.data + self.w2.bias.data
 
 
 class TransformerBlock:
@@ -287,6 +307,17 @@ class TransformerBlock:
 
     def parameters(self) -> List[AutogradTensor]:
         return [self.ln1_w, self.ln1_b, self.ln2_w, self.ln2_b] + self.attn.parameters() + self.mlp.parameters()
+
+    def forward_numpy(self, x: np.ndarray) -> np.ndarray:
+        mean = x.mean(axis=-1, keepdims=True)
+        var = x.var(axis=-1, keepdims=True)
+        x_norm = (x - mean) / np.sqrt(var + 1e-5)
+        x = x + self.attn.forward_numpy(self.ln1_w.data * x_norm + self.ln1_b.data)
+        mean = x.mean(axis=-1, keepdims=True)
+        var = x.var(axis=-1, keepdims=True)
+        x_norm = (x - mean) / np.sqrt(var + 1e-5)
+        x = x + self.mlp.forward_numpy(self.ln2_w.data * x_norm + self.ln2_b.data)
+        return x
 
 
 class NumpyTransformer:
@@ -406,6 +437,19 @@ class NumpyTransformer:
 
         self.is_trained = True
 
+    def forward_numpy(self, x: np.ndarray) -> np.ndarray:
+        B, L = x.shape
+        tok_emb = self.token_embedding.weight.data[x]
+        pos_emb = self.pos_embedding.data[:, :L, :]
+        h = tok_emb + pos_emb
+        for layer in self.layers:
+            h = layer.forward_numpy(h)
+        mean = h.mean(axis=-1, keepdims=True)
+        var = h.var(axis=-1, keepdims=True)
+        h = (h - mean) / np.sqrt(var + 1e-5)
+        h = self.ln_f_w.data * h + self.ln_f_b.data
+        return h @ self.lm_head.weight.data + self.lm_head.bias.data
+
     def generate(self, seed: str, max_chars: int = 200, temperature: float = 0.8, top_k: int = 20) -> str:
         if not self.is_trained:
             return ""
@@ -417,8 +461,8 @@ class NumpyTransformer:
         for _ in range(max_chars):
             ids_trimmed = ids[-self.block_size:]
             x = np.array([ids_trimmed], dtype=np.int32)
-            logits = self.forward(x)
-            logits = logits.data[0, -1, :] / max(temperature, 0.05)
+            logits = self.forward_numpy(x)
+            logits = logits[0, -1, :] / max(temperature, 0.05)
 
             if top_k > 0:
                 topk_vals = np.sort(logits)[-top_k:]

@@ -235,7 +235,7 @@ class MultiHeadAttention:
         self.wv = Linear(d_model, d_model)
         self.wo = Linear(d_model, d_model)
 
-        mask = np.triu(np.ones((block_size, block_size), dtype=np.float32), diagonal=1) * -1e9
+        mask = np.triu(np.ones((block_size, block_size), dtype=np.float32), 1) * -1e9
         self.mask = mask
 
     def __call__(self, x: AutogradTensor) -> AutogradTensor:

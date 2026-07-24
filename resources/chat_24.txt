@@ -1,0 +1,29 @@
+U: Qué es REST vs GraphQL vs gRPC
+B. REST: HTTP verbs, recursos, cacheable, simple, over-fetching/under-fetching. GraphQL: query flexible, single endpoint, tipos fuertes, introspección, complejidad servidor. gRPC: HTTP/2, protobuf, contrato fuerte, streaming, performance, código generado, menos debug-friendly.
+
+U: Qué es Protocol Buffers (protobuf)
+B. Serialización binaria, schema-defined. .proto define mensajes/services. Compilador genera código (Go, Java, Python, C++, JS, etc.). Compacto, rápido, evolutivo (field numbers, optional/required/repeated). gRPC usa protobuf por defecto.
+
+U: Qué es AsyncAPI
+B. Especificación para APIs event-driven (async). Define channels, messages, schemas, protocols (Kafka, AMQP, MQTT, WebSocket, HTTP streaming). OpenAPI para async. Documentación, codegen, validación, tooling. Complementa OpenAPI (REST).
+
+U: Qué es Event Sourcing
+B. Guarda eventos (hechos inmutables) en vez de estado actual. Estado = replay eventos. Audit trail completo, temporal queries, rebuild projections. CQRS natural (write model = eventos, read model = proyecciones). Complejidad: eventual consistency, event versioning, snapshots.
+
+U: Qué es CQRS
+B. Command Query Responsibility Segregation. Separa modelo escritura (commands, valida, emite eventos) de modelo lectura (queries, proyecciones optimizadas). Escalado independiente, modelos especializados. Complejidad: eventual consistency, dual write, event versioning.
+
+U: Qué es Saga Pattern
+B. Transacción distribuida sin 2PC. Coreografía (eventos) u Orquestación (orchestrator). Cada paso tiene compensación (undo). Ej: Order → Payment (reserva) → Inventory (reserva) → Shipping. Si falla Payment → undo Inventory. Eventual consistency garantizada.
+
+U: Qué es Outbox Pattern
+B. Garantiza atomicidad: escribe en BD + publica evento. Tabla outbox en misma transacción BD. Poller / CDC (Debezium) lee outbox y publica a message broker. Evita dual write, garantiza "at-least-once". Idempotencia en consumidor requerida.
+
+U: Qué es CDC (Change Data Capture)
+B. Captura cambios en BD (INSERT/UPDATE/DELETE) y los emite como stream eventos. Debezium (Kafka Connect) lee binlog (MySQL/Postgres), WAL (Postgres), oplog (Mongo). Stream → Kafka → consumers. No invasivo, sin modificar app. Base para CDC, replication, cache invalidation, audit.
+
+U: Qué es idempotencia
+B. Operación repetida produce mismo resultado que una sola vez. GET, PUT, DELETE idempotentes por diseño HTTP. POST no. Idempotency key (cliente genera UUID, servidor guarda resultado). Clave para reintentos seguros, exactly-once semantics.
+
+U: Qué es eventual consistency
+B. Modelo donde réplicas convergen a mismo estado tras tiempo finito. No garantiza lectura inmediata de escritura propia. BASE (Basically Available, Soft state, Eventual consistency) vs ACID. Vector clocks, CRDTs, conflict resolution (last-write-wins, merge). Trade-off: disponibilidad vs consistencia fuerte.

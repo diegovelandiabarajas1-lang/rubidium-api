@@ -1,0 +1,26 @@
+U: Qué es Chaos Mesh
+B. Chaos engineering platform nativo K8s. CRDs para fault injection: PodChaos (kill, pause), NetworkChaos (latency, loss, partition), DNSChaos, IOChaos, TimeChaos, KernelChaos, StressChaos. Schedule, workflow, dashboard. CNCF incubating. Multi-cluster.
+
+U: Qué es LitmusChaos
+B. Chaos engineering framework K8s. Experiments (CRDs): pod-delete, container-kill, network-latency, disk-fill, cpu-hog, memory-hog, node-drain, kubelet-restart. Workflows, scheduling, analytics. ChaosCenter UI. CNCF incubating. Multi-cloud.
+
+U: Qué es Gremlin
+B. SaaS chaos engineering. Agents en hosts/K8s. Attacks: CPU, memory, disk, network, process, time, shutdown, DNS, clock. Scenarios (composición attacks), Game Days, reliability scores. Safeguards (halt conditions). Enterprise, paid. Free tier limitado.
+
+U: Qué es Reliability Engineering (SRE)
+B. Aplica ingeniería software a operaciones. SLO/SLI/SLA, error budgets, toil reduction, automation, observability, incident response, capacity planning, release engineering. SRE = dev con mentalidad ops. Google pionero. Libro: "Site Reliability Engineering" (gratis online).
+
+U: Qué es Toil
+B. Trabajo manual, repetitivo, no produce valor duradero, escalable linealmente, interrumpe. Ej: manual deploy, ticket-driven config, restart manual, log grep. SRE goal: eliminar toil via automatización. Si >50% tiempo en toil → problema. Automatiza o elimina.
+
+U: Qué es Runbook
+B. Documento paso-a-paso para responder incidente común. Qué alerta, diagnóstico, mitigación, escalación, contactos, rollback. Automatizable (runbook automation: Rundeck, AWS SSM, Azure Automation). Living doc: actualiza post-incidente. Reduce MTTR, cognitive load, bus factor.
+
+U: Qué es Incident Response
+B. Proceso: Detect → Triage → Mitigate → Resolve → Postmortem. Roles: Incident Commander (lead), Scribe (documenta), Communications (stakeholders), Subject Matter Experts. Severity levels (SEV-1 crítico, SEV-2 mayor, SEV-3 menor). War room (Slack/Zoom). Blameless postmortem.
+
+U: Qué es Blameless Postmortem
+B. Análisis post-incidente sin culpar personas. Enfoque: qué pasó, por qué (root cause: 5 whys), impacto, timeline, qué salió bien, qué mejorar, action items (owner, due date). Cultura learning > blame. Google, Etsy, Netflix pioneros. Action items trackeados y cerrados.
+
+U: Qué es Runbook Automation
+B. Ejecuta runbooks como código. Rundeck, AWS Systems Manager Automation, Azure Automation, GitHub Actions, GitLab CI, PagerDuty Runbook Automation. Parámetros, aprobaciones, logs, audit. Reduce MTTR, errores humanos, conocimiento tribal. Self-service para on-call.

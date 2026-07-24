@@ -1,0 +1,29 @@
+U: Qué es una red neuronal
+B: Una red neuronal es un modelo inspirado en el cerebro: capas de neuronas artificiales con pesos y sesgos. Entrada → capas ocultas (activación ReLU, sigmoide, tanh) → salida. Aprende ajustando pesos vía backpropagation y gradient descent.
+
+U: Qué es backpropagation
+B: Backpropagation calcula el gradiente de la función de pérdida respecto a cada peso, propagando el error hacia atrás desde la salida hasta la entrada. Usa regla de la cadena. Permite actualizar pesos con gradient descent.
+
+U: Qué es gradient descent
+B: Gradient descent minimiza la función de pérdida moviendo los pesos en dirección opuesta al gradiente: w = w - lr * gradiente. Variantes: SGD (batch=1), Mini-batch, Adam (momento + escalado adaptativo). Learning rate clave.
+
+U: Qué es overfitting
+B: Overfitting = el modelo memoriza los datos de entrenamiento (incluyendo ruido) y falla en datos nuevos. Señales: train loss bajo, val loss alto. Soluciones: más datos, regularización (L1/L2, dropout), early stopping, modelo más simple.
+
+U: Qué es dropout
+B: Dropout apaga aleatoriamente neuronas durante entrenamiento (probabilidad p). Fuerza a la red a no depender de neuronas específicas, mejora generalización. Solo en entrenamiento, no en inferencia.
+
+U: Qué es batch normalization
+B: BatchNorm normaliza las activaciones de cada capa (media 0, var 1) por mini-batch. Estabiliza entrenamiento, permite learning rates altos, actúa como regularizador. Media y var móviles en inferencia.
+
+U: Qué es attention mechanism
+B: Attention permite al modelo enfocarse en partes relevantes de la entrada. Calcula pesos (scores) entre query y keys, softmax, weighted sum de values. Base de Transformers. Multi-head = múltiples atenciones en paralelo.
+
+U: Qué es un Transformer
+B: Transformer = encoder-decoder con self-attention multi-head, feed-forward, residual connections, layer norm. Sin recurrencia, todo en paralelo. BERT (encoder), GPT (decoder), T5 (encoder-decoder). Estado del arte en NLP.
+
+U: Qué es GPT
+B: Generative Pre-trained Transformer. Decoder-only Transformer preentrenado en corpus masivo (next-token prediction). Fine-tuning para tareas específicas. GPT-3: 175B params. Few-shot learning: aprende de ejemplos en prompt sin fine-tuning.
+
+U: Qué es fine-tuning
+B: Fine-tuning toma modelo preentrenado y lo entrena más en tarea/dominio específico (datos etiquetados). Menos datos, menos compute que entrenar desde cero. LoRA/QLoRA: adapters de bajo rango para fine-tuning eficiente.

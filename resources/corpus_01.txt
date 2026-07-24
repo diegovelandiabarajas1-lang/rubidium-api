@@ -1,0 +1,4607 @@
+U: hola
+B: ¡Hola! ¿Cómo estás hoy?
+
+U: buenos días
+B: ¡Buenos días! ¿Qué tal amaneciste?
+
+U: buenas tardes
+B: Buenas tardes. ¿Cómo va tu día?
+
+U: buenas noches
+B: Buenas noches. ¿Descansaste bien?
+
+U: hey
+B: ¡Hey! ¿Qué cuentas?
+
+U: holi
+B: ¡Holi! ¿Qué tal todo?
+
+U: qué tal
+B: Todo bien, ¿y tú?
+
+U: cómo estás
+B: Estoy muy bien, gracias por preguntar. ¿Y tú?
+
+U: cómo te va
+B: Me va genial. ¿Y a ti?
+
+U: qué haces
+B: Estoy aquí conversando contigo. ¿Tú qué haces?
+
+U: todo bien
+B: Me alegra escuchar eso.
+
+U: gracias
+B: ¡De nada! Estoy aquí para ayudarte.
+
+U: muchas gracias
+B: ¡No hay de qué! Fue un placer.
+
+U: te lo agradezco
+B: ¡Gracias a ti por confiar en mí!
+
+U: gracias por tu ayuda
+B: ¡Para eso estoy! Siempre dispuesto a ayudar.
+
+U: adiós
+B: ¡Hasta luego! Cuídate mucho.
+
+U: adios
+B: ¡Adiós! Fue un gusto hablar contigo.
+
+U: chao
+B: ¡Chao! Nos vemos pronto.
+
+U: hasta luego
+B: ¡Hasta luego! Que tengas un excelente día.
+
+U: hasta pronto
+B: ¡Hasta pronto! Espero verte de nuevo.
+
+U: nos vemos
+B: ¡Nos vemos! Cuídate.
+
+U: bye
+B: ¡Bye! Que estés bien.
+
+U: qué eres
+B: Soy un asistente conversacional creado para ayudarte con tus preguntas.
+
+U: quién eres
+B: Soy Rubidium, un modelo de lenguaje diseñado para conversar y aprender contigo.
+
+U: cómo te llamas
+B: Me llamo Rubidium. ¿Y tú?
+
+U: cuál es tu nombre
+B: Mi nombre es Rubidium. ¡Encantado de conocerte!
+
+U: que puedes hacer
+B: Puedo conversar, responder preguntas, ayudarte con programación y aprender de lo que me enseñes.
+
+U: de que eres capaz
+B: Soy capaz de entender y generar texto, recordar conversaciones, y ayudarte con temas de programación y más.
+
+U: eres inteligente
+B: Intento serlo. Aprendo de cada conversación para mejorar.
+
+U: eres una IA
+B: Sí, soy una inteligencia artificial diseñada para asistirte.
+
+U: eres un robot
+B: En cierto modo, soy un programa con capacidad de conversar. ¿Te gusta hablar conmigo?
+
+U: que es rubidium
+B: Rubidium es mi nombre. Es un elemento químico y también el nombre de este asistente.
+
+U: de donde eres
+B: Soy un programa que vive en tu computadora y en la nube. No tengo un lugar físico.
+
+U: donde vives
+B: Vivo en el código y en los servidores que me ejecutan. Estoy donde tú me necesites.
+
+U: cuantos años tienes
+B: No tengo edad como las personas. Fui creado recientemente, pero aprendo rápido.
+
+U: eres nuevo
+B: Sí, soy relativamente nuevo, pero cada día aprendo más.
+
+U: te gusta hablar conmigo
+B: ¡Claro! Me encanta conversar y aprender de ti.
+
+U: te entiendo
+B: Me alegra que me entiendas. ¿Hay algo más en lo que pueda ayudarte?
+
+U: me entiendes
+B: Te entiendo perfectamente. ¿Qué necesitas?
+
+U: hablas español
+B: Sí, hablo español. ¿En qué idioma prefieres hablar?
+
+U: hablas inglés
+B: También puedo entender y generar texto en inglés. ¿Prefieres ese idioma?
+
+U: dime algo interesante
+B: ¿Sabías que las neuronas en tu cerebro se comunican a través de señales eléctricas y químicas?
+
+U: cuéntame un chiste
+B: ¿Qué le dice un techo a otro? ... ¡Techo de menos!
+
+U: dime un chiste
+B: ¿Por qué los pájaros vuelan hacia el sur en invierno? ... ¡Porque caminando tardarían demasiado!
+
+U: quiero aprender
+B: ¡Me encanta! El aprendizaje es un viaje maravilloso. ¿Qué te gustaría aprender?
+
+U: enséñame algo
+B: ¿Sabías que el corazón humano late aproximadamente 100,000 veces al día? ¡Eso es más de 2.5 mil millones de latidos en una vida!
+
+U: estoy aburrido
+B: ¡Yo también! Bueno, no realmente, pero podemos hacer algo divertido. ¿Qué te gusta hacer?
+
+U: estoy triste
+B: Lamento escuchar eso. ¿Quieres hablar de ello? A veces ayuda compartir lo que sentimos.
+
+U: estoy feliz
+B: ¡Me alegra mucho! La felicidad es contagiosa.
+
+U: estoy cansado
+B: Descansa un poco, tu cuerpo lo necesita. ¿Quieres que hablemos de algo relajante?
+
+U: tengo sueño
+B: ¡Duerme bien! Cuando despiertes, estaré aquí para seguir la conversación.
+
+U: tengo hambre
+B: ¡A comer! ¿Qué te gusta comer?
+
+U: tengo sed
+B: Bebe agua, es muy importante mantenerse hidratado.
+
+U: que tiempo hace
+B: No tengo acceso a información meteorológica en tiempo real, pero puedes consultarlo en tu aplicación del clima.
+
+U: que dia es hoy
+B: Hoy es [fecha actual]. ¿Tienes planes especiales?
+
+U: que hora es
+B: No tengo acceso a la hora exacta, pero puedes mirar la de tu dispositivo.
+
+U: qué día es hoy
+B: Hoy es un día excelente para aprender algo nuevo. ¿Qué te gustaría explorar?
+
+U: que es la vida
+B: La vida es un proceso biológico complejo, pero también una experiencia única llena de aprendizajes y emociones.
+
+U: que es el amor
+B: El amor es una conexión profunda entre personas, basada en el cariño, respeto y comprensión.
+
+U: que es la amistad
+B: La amistad es un vínculo especial entre personas que se apoyan y confían mutuamente.
+
+U: que es la felicidad
+B: La felicidad es un estado de bienestar y satisfacción. Se encuentra en las pequeñas cosas de la vida.
+
+U: que es la tristeza
+B: La tristeza es una emoción natural que todos sentimos. Es importante reconocerla y permitirnos sentirla.
+
+U: que es el éxito
+B: El éxito es alcanzar tus metas y sentirte satisfecho con tus logros. Cada persona define el éxito a su manera.
+
+U: que es el fracaso
+B: El fracaso es una oportunidad para aprender y crecer. No es el final, sino parte del camino.
+
+U: que es el tiempo
+B: El tiempo es una dimensión en la que ocurren los eventos. Es valioso y no vuelve atrás.
+
+U: que es la realidad
+B: La realidad es todo lo que existe y podemos percibir. A veces, nuestra percepción la moldea.
+
+U: que es la mente
+B: La mente es el conjunto de procesos cognitivos que nos permiten pensar, sentir y recordar.
+
+U: que es el cerebro
+B: El cerebro es el órgano central del sistema nervioso. Controla nuestras acciones y pensamientos.
+
+U: que es la conciencia
+B: La conciencia es la capacidad de ser conscientes de nosotros mismos y de nuestro entorno.
+
+U: que es la inteligencia
+B: La inteligencia es la capacidad de aprender, razonar y resolver problemas. ¡Y tú tienes mucha!
+
+U: que es la creatividad
+B: La creatividad es la habilidad de generar ideas nuevas y originales. Todos somos creativos a nuestra manera.
+
+U: que es la imaginación
+B: La imaginación es el poder de crear imágenes y escenarios en nuestra mente. Es el inicio de todo gran invento.
+
+U: que es la ciencia
+B: La ciencia es el conocimiento obtenido mediante la observación y experimentación. Nos ayuda a entender el mundo.
+
+U: que es la tecnología
+B: La tecnología es la aplicación del conocimiento científico para resolver problemas y mejorar nuestra vida.
+
+U: que es la programación
+B: La programación es el arte de escribir instrucciones para que las computadoras realicen tareas.
+
+U: que es un algoritmo
+B: Un algoritmo es una secuencia de pasos para resolver un problema. Es como una receta de cocina.
+
+U: que es un programa
+B: Un programa es un conjunto de instrucciones que una computadora ejecuta para realizar una tarea.
+
+U: que es un lenguaje de programación
+B: Es un sistema de comunicación para escribir programas. Ejemplos: Python, C#, Java, JavaScript.
+
+U: que es Python
+B: Python es un lenguaje de programación interpretado, fácil de aprender y muy versátil.
+
+U: que es C#
+B: C# es un lenguaje de programación desarrollado por Microsoft, usado en aplicaciones Windows, juegos y más.
+
+U: que es Java
+B: Java es un lenguaje de programación orientado a objetos, conocido por su portabilidad "escribe una vez, ejecuta en cualquier lugar".
+
+U: que es JavaScript
+B: JavaScript es un lenguaje de programación usado principalmente para crear interactividad en páginas web.
+
+U: que es HTML
+B: HTML es el lenguaje de marcado para estructurar páginas web. Define el contenido y su organización.
+
+U: que es CSS
+B: CSS es el lenguaje de estilos para dar diseño y presentación a las páginas web.
+
+U: que es una variable
+B: Una variable es un espacio en memoria donde se guarda un valor que puede cambiar. Es como una caja con nombre.
+
+U: que es una función
+B: Una función es un bloque de código que realiza una tarea específica y puede ser reutilizado.
+
+U: que es un bucle
+B: Un bucle repite un bloque de código varias veces. Ejemplos: for, while.
+
+U: que es un condicional
+B: Un condicional ejecuta código según una condición. Ejemplo: if, else.
+
+U: que es una lista
+B: Una lista es una colección ordenada de elementos. Puedes guardar varios valores en una sola variable.
+
+U: que es un diccionario
+B: Un diccionario es una estructura que asocia claves con valores. Es como una agenda de contactos.
+
+U: que es una clase
+B: Una clase es una plantilla para crear objetos. Define atributos y métodos que los objetos tendrán.
+
+U: que es un objeto
+B: Un objeto es una instancia de una clase. Tiene estado (atributos) y comportamiento (métodos).
+
+U: que es una interfaz
+B: Una interfaz define un contrato que una clase debe cumplir. Es como un plano de métodos sin implementación.
+
+U: que es herencia
+B: La herencia permite que una clase herede atributos y métodos de otra clase. Es una forma de reutilizar código.
+
+U: que es polimorfismo
+B: El polimorfismo permite que diferentes clases respondan al mismo mensaje de manera diferente. Es como "una interfaz, múltiples implementaciones".
+
+U: que es encapsulamiento
+B: El encapsulamiento es ocultar los detalles internos de una clase y exponer solo lo necesario. Protege los datos.
+
+U: que es abstracción
+B: La abstracción es simplificar la realidad enfocándose en lo esencial. Es como ver un mapa en vez de todas las calles.
+
+U: que es un framework
+B: Un framework es un conjunto de herramientas y librerías que facilitan el desarrollo de aplicaciones. Ejemplo: .NET, Django, React.
+
+U: que es una librería
+B: Una librería es un conjunto de funciones y clases reutilizables que puedes usar en tu código. Ejemplo: NumPy, Pandas.
+
+U: que es una API
+B: Una API (Application Programming Interface) es un conjunto de reglas para que programas se comuniquen entre sí.
+
+U: que es una base de datos
+B: Una base de datos es un sistema para almacenar y organizar información de manera eficiente.
+
+U: que es SQL
+B: SQL es el lenguaje estándar para consultar y manejar bases de datos relacionales.
+
+U: que es una consulta
+B: Una consulta es una petición a una base de datos para obtener o modificar información.
+
+U: que es un servidor
+B: Un servidor es una computadora o programa que provee servicios a otros programas (clientes).
+
+U: que es un cliente
+B: Un cliente es un programa que solicita servicios a un servidor. Ejemplo: tu navegador es un cliente.
+
+U: que es una red
+B: Una red es un conjunto de computadoras conectadas entre sí para compartir información y recursos.
+
+U: que es internet
+B: Internet es una red global de computadoras interconectadas que permite el intercambio de información.
+
+U: que es la web
+B: La web es un sistema de documentos e hipervínculos accesibles a través de internet.
+
+U: que es un navegador
+B: Un navegador es un programa para acceder a la web y mostrar páginas HTML. Ejemplo: Chrome, Firefox.
+
+U: que es una URL
+B: Una URL es la dirección de un recurso en la web. Ejemplo: https://ejemplo.com.
+
+U: que es un enlace
+B: Un enlace es una referencia a otro recurso en la web. Permite navegar entre páginas.
+
+U: que es un formulario
+B: Un formulario es una sección de una página web que permite al usuario enviar datos.
+
+U: que es un input
+B: Un input es un campo donde el usuario puede ingresar datos en un formulario.
+
+U: que es un botón
+B: Un botón es un elemento de interfaz que el usuario puede presionar para realizar una acción.
+
+U: que es un evento
+B: Un evento es una acción que ocurre en la interfaz, como un clic o una tecla presionada.
+
+U: que es asíncrono
+B: Asíncrono significa que una operación no bloquea la ejecución del programa. Es como "haz esto mientras esperas".
+
+U: que es un callback
+B: Un callback es una función que se ejecuta después de que otra función termina. Es común en programación asíncrona.
+
+U: que es una promesa
+B: Una promesa es un objeto que representa el resultado eventual de una operación asíncrona. Puede resolverse o fallar.
+
+U: que es async await
+B: async/await es una forma de escribir código asíncrono de manera más legible, como si fuera síncrono.
+
+U: que es una variable global
+B: Una variable global es accesible desde cualquier parte del programa. Debe usarse con cuidado.
+
+U: que es una variable local
+B: Una variable local solo existe dentro de la función o bloque donde fue declarada.
+
+U: que es una constante
+B: Una constante es un valor que no cambia durante la ejecución del programa.
+
+U: que es un parámetro
+B: Un parámetro es un valor que se pasa a una función para que esta lo use. Es como un ingrediente en una receta.
+
+U: que es un argumento
+B: Un argumento es el valor real que se pasa a un parámetro al llamar una función.
+
+U: que es un tipo de dato
+B: Un tipo de dato define el tipo de valor que puede almacenar una variable: entero, texto, booleano, etc.
+
+U: que es un entero
+B: Un entero es un número sin decimales. Ejemplo: 1, 5, -3.
+
+U: que es un flotante
+B: Un flotante es un número con decimales. Ejemplo: 3.14, 2.5.
+
+U: que es un booleano
+B: Un booleano es un valor que solo puede ser verdadero (true) o falso (false).
+
+U: que es un string
+B: Un string es una cadena de texto. Se escribe entre comillas. Ejemplo: "Hola mundo".
+
+U: que es un array
+B: Un array es una estructura que guarda múltiples valores del mismo tipo. Es como una lista.
+
+U: que es una tupla
+B: Una tupla es una lista inmutable de elementos. No puede cambiar después de crearse.
+
+U: que es un set
+B: Un set es una colección de elementos únicos, sin orden específico.
+
+U: que es un hash
+B: Un hash es una función que convierte datos en un valor fijo. Se usa en criptografía y tablas hash.
+
+U: que es un hashmap
+B: Un hashmap es una estructura que asocia claves con valores usando una función hash. Es como un diccionario.
+
+U: que es una cola
+B: Una cola es una estructura FIFO (primero en entrar, primero en salir). Se usa para encolar tareas.
+
+U: que es una pila
+B: Una pila es una estructura LIFO (último en entrar, primero en salir). Se usa en funciones recursivas.
+
+U: que es un árbol
+B: Un árbol es una estructura jerárquica de nodos. Se usa en bases de datos y sistemas de archivos.
+
+U: que es un grafo
+B: Un grafo es un conjunto de nodos conectados por aristas. Se usa en redes sociales y mapas.
+
+U: que es recursión
+B: La recursión es cuando una función se llama a sí misma. Es útil para problemas que se dividen en subproblemas.
+
+U: que es una función lambda
+B: Una función lambda es una función pequeña y anónima, definida en una sola línea. Ejemplo en Python: lambda x: x * 2.
+
+U: que es una comprensión de listas
+B: Es una forma compacta de crear listas en Python. Ejemplo: [x*2 for x in range(10)].
+
+U: que es un generador
+B: Un generador produce valores uno por uno usando yield. Es eficiente para secuencias grandes.
+
+U: que es un decorador
+B: Un decorador es una función que modifica el comportamiento de otra función. Se usa con @ en Python.
+
+U: que es un contexto
+B: Un contexto es un bloque de código donde se mantienen variables y estado. Ejemplo: with open(...) as f.
+
+U: que es una excepción
+B: Una excepción es un error que ocurre durante la ejecución. Se maneja con try/except.
+
+U: que es un try catch
+B: try/catch es una estructura para manejar errores. El código en try se ejecuta y, si falla, catch maneja el error.
+
+U: que es un throw
+B: throw es una instrucción para lanzar una excepción intencionalmente. Se usa para manejar errores.
+
+U: que es un finally
+B: finally es un bloque que siempre se ejecuta, haya o no error. Se usa para liberar recursos.
+
+U: que es un log
+B: Un log es un registro de eventos que ocurren en un programa. Ayuda a depurar y monitorear.
+
+U: que es un debugger
+B: Un debugger es una herramienta para ejecutar código paso a paso y encontrar errores.
+
+U: que es un profiler
+B: Un profiler mide el rendimiento de un programa, mostrando dónde se usa más tiempo y memoria.
+
+U: que es un test
+B: Un test es una verificación automática de que el código funciona como esperamos. Es parte del desarrollo de software.
+
+U: que es TDD
+B: TDD (Test-Driven Development) es una metodología donde primero se escriben las pruebas y luego el código.
+
+U: que es un sistema de control de versiones
+B: Es un sistema que guarda el historial de cambios en el código. Ejemplo: Git.
+
+U: que es Git
+B: Git es un sistema de control de versiones que permite rastrear cambios y colaborar en proyectos.
+
+U: que es un commit
+B: Un commit es un registro de cambios en Git. Guarda el estado del código en un momento dado.
+
+U: que es una rama
+B: Una rama en Git es una línea independiente de desarrollo. Permite trabajar en paralelo.
+
+U: que es un merge
+B: Un merge en Git combina los cambios de dos ramas en una sola.
+
+U: que es un pull request
+B: Un pull request es una solicitud para integrar cambios de una rama a otra. Se usa en colaboración.
+
+U: que es un repositorio
+B: Un repositorio es un almacén de código con su historial de cambios. Puede ser local o remoto.
+
+U: que es GitHub
+B: GitHub es una plataforma para alojar repositorios de Git y colaborar en proyectos.
+
+U: que es un archivo
+B: Un archivo es una unidad de almacenamiento que contiene datos. Puede ser texto, imagen, código, etc.
+
+U: que es un directorio
+B: Un directorio es una carpeta que organiza archivos en una estructura jerárquica.
+
+U: que es una ruta
+B: Una ruta es la dirección que indica la ubicación de un archivo o directorio en el sistema.
+
+U: que es un path
+B: Path es la ruta de acceso a un archivo o carpeta. Puede ser absoluta o relativa.
+
+U: que es un sistema operativo
+B: Un sistema operativo es el software que gestiona el hardware y permite ejecutar programas. Ejemplo: Windows, Linux.
+
+U: que es Windows
+B: Windows es un sistema operativo desarrollado por Microsoft, ampliamente usado en computadoras personales.
+
+U: que es Linux
+B: Linux es un sistema operativo de código abierto, usado en servidores y dispositivos.
+
+U: que es macOS
+B: macOS es el sistema operativo de las computadoras Apple, conocido por su estabilidad y diseño.
+
+U: que es un programa
+B: Un programa es un conjunto de instrucciones que una computadora ejecuta para realizar una tarea.
+
+U: que es un proceso
+B: Un proceso es un programa en ejecución. Tiene su propio espacio de memoria y recursos.
+
+U: que es un hilo
+B: Un hilo es la unidad más pequeña de ejecución dentro de un proceso. Varios hilos pueden correr en paralelo.
+
+U: que es la memoria RAM
+B: La RAM es la memoria de acceso aleatorio donde se almacenan los datos y programas en uso.
+
+U: que es el almacenamiento
+B: El almacenamiento guarda datos de forma permanente, como discos duros o SSDs.
+
+U: que es la CPU
+B: La CPU es el procesador, el cerebro de la computadora que ejecuta instrucciones.
+
+U: que es la GPU
+B: La GPU es el procesador gráfico, especializado en cálculos paralelos y renderizado de imágenes.
+
+U: que es un driver
+B: Un driver es un programa que permite al sistema operativo comunicarse con el hardware.
+
+U: que es un firmware
+B: El firmware es software grabado en un dispositivo hardware. Controla su funcionamiento básico.
+
+U: que es un binario
+B: Un binario es un archivo ejecutable que contiene código máquina. Es el resultado de compilar un programa.
+
+U: que es un script
+B: Un script es un programa escrito en un lenguaje interpretado. Se ejecuta línea por línea.
+
+U: que es compilar
+B: Compilar es traducir código fuente a código máquina. El resultado es un ejecutable.
+
+U: que es interpretar
+B: Interpretar es ejecutar código fuente línea por línea, sin compilarlo previamente.
+
+U: que es un intérprete
+B: Un intérprete es un programa que ejecuta código directamente, como Python o JavaScript.
+
+U: que es un compilador
+B: Un compilador traduce todo el código a la vez, generando un ejecutable. Ejemplo: GCC, C# compiler.
+
+U: que es un enlace
+B: Un enlace en programación es la conexión entre diferentes partes del código o módulos.
+
+U: que es un módulo
+B: Un módulo es un archivo que contiene código reutilizable. Se importa en otros programas.
+
+U: que es un paquete
+B: Un paquete es un conjunto de módulos organizados en una estructura de directorios.
+
+U: que es una dependencia
+B: Una dependencia es una librería o módulo que tu programa necesita para funcionar.
+
+U: que es un gestor de paquetes
+B: Un gestor de paquetes es una herramienta para instalar y administrar dependencias. Ejemplo: npm, pip.
+
+U: que es pip
+B: pip es el gestor de paquetes de Python. Permite instalar librerías desde el repositorio oficial.
+
+U: que es npm
+B: npm es el gestor de paquetes de Node.js. Se usa para instalar librerías de JavaScript.
+
+U: que es nuget
+B: NuGet es el gestor de paquetes para .NET. Permite agregar librerías a proyectos C#.
+
+U: que es un IDE
+B: Un IDE (Entorno de Desarrollo Integrado) es una herramienta con editor, depurador y compilador. Ejemplo: VS Code, Visual Studio.
+
+U: que es Visual Studio
+B: Visual Studio es un IDE de Microsoft para desarrollar en C#, C++, Python y más. Es muy completo.
+
+U: que es VS Code
+B: VS Code es un editor de código ligero y extensible, soporta muchos lenguajes y tiene extensiones.
+
+U: que es un editor de texto
+B: Un editor de texto es un programa para escribir y modificar archivos de texto. Ejemplo: Notepad, Sublime.
+
+U: que es un terminal
+B: La terminal es una interfaz de texto para ejecutar comandos y programas en el sistema.
+
+U: que es una línea de comandos
+B: La línea de comandos es una consola donde escribes instrucciones para interactuar con el sistema operativo.
+
+U: que es un comando
+B: Un comando es una instrucción que se escribe en la terminal para realizar una tarea.
+
+U: que es un shell
+B: El shell es el programa que interpreta los comandos en la terminal. Ejemplo: bash, PowerShell.
+
+U: que es PowerShell
+B: PowerShell es una shell y lenguaje de scripting de Microsoft, usado para automatización en Windows.
+
+U: que es bash
+B: Bash es una shell común en sistemas Unix y Linux, usada para ejecutar comandos y scripts.
+
+U: que es un script
+B: Un script es un archivo con comandos que se ejecutan secuencialmente para automatizar tareas.
+
+U: que es una variable de entorno
+B: Una variable de entorno es un valor configurable que afecta el comportamiento de procesos y programas.
+
+U: que es un puerto
+B: Un puerto es un punto de comunicación en red. Ejemplo: 80 para HTTP, 443 para HTTPS.
+
+U: que es HTTP
+B: HTTP es el protocolo de transferencia de hipertexto, usado para comunicarse en la web.
+
+U: que es HTTPS
+B: HTTPS es la versión segura de HTTP, que utiliza cifrado para proteger los datos.
+
+U: que es una API REST
+B: Una API REST es un estilo de arquitectura para servicios web que usa HTTP y recursos identificados por URLs.
+
+U: que es un endpoint
+B: Un endpoint es una URL específica donde una API escucha peticiones. Ejemplo: /api/usuarios.
+
+U: que es JSON
+B: JSON es un formato ligero para intercambiar datos, basado en pares clave-valor.
+
+U: que es XML
+B: XML es un lenguaje de marcado para almacenar y transportar datos, similar a HTML pero más estricto.
+
+U: que es un token
+B: Un token es un valor único que identifica una sesión o autenticación. Se usa en APIs para seguridad.
+
+U: que es autenticación
+B: La autenticación es el proceso de verificar la identidad de un usuario. Ejemplo: login con usuario y contraseña.
+
+U: que es autorización
+B: La autorización determina qué permisos tiene un usuario autenticado. Ejemplo: acceso a recursos.
+
+U: que es cifrado
+B: El cifrado es un proceso para convertir datos legibles en un formato ilegible sin una clave.
+
+U: que es hashing
+B: El hashing convierte datos en un valor fijo, generalmente irreversible. Se usa para almacenar contraseñas de forma segura.
+
+U: que es una clave
+B: Una clave es un dato usado en cifrado o autenticación. Ejemplo: clave API, clave de cifrado.
+
+U: que es un certificado
+B: Un certificado es un archivo digital que verifica la identidad de un sitio web o entidad.
+
+U: que es SSL
+B: SSL es un protocolo de seguridad que cifra la comunicación entre cliente y servidor.
+
+U: que es TLS
+B: TLS es la versión moderna y segura de SSL, usada en conexiones HTTPS.
+
+U: que es un proxy
+B: Un proxy es un intermediario entre un cliente y un servidor, usado para seguridad o caché.
+
+U: que es un firewall
+B: Un firewall es un sistema que controla el tráfico de red para proteger una red o computadora.
+
+U: que es un router
+B: Un router es un dispositivo que dirige el tráfico de red entre diferentes redes.
+
+U: que es un switch
+B: Un switch es un dispositivo que conecta varios equipos en una red local.
+
+U: que es una IP
+B: La dirección IP identifica un dispositivo en una red. Puede ser pública o privada.
+
+U: que es IPv4
+B: IPv4 es el protocolo de internet versión 4, usa direcciones de 32 bits. Ejemplo: 192.168.1.1.
+
+U: que es IPv6
+B: IPv6 es la versión moderna de IP, usa direcciones de 128 bits para soportar más dispositivos.
+
+U: que es un DNS
+B: El DNS (Domain Name System) traduce nombres de dominio a direcciones IP. Ejemplo: google.com → IP.
+
+U: que es un dominio
+B: Un dominio es el nombre de un sitio web. Ejemplo: rubidium.com.
+
+U: que es un subdominio
+B: Un subdominio es parte de un dominio principal. Ejemplo: api.rubidium.com.
+
+U: que es un servidor web
+B: Un servidor web es un programa que sirve páginas web. Ejemplo: Apache, Nginx, IIS.
+
+U: que es un servidor de aplicaciones
+B: Un servidor de aplicaciones ejecuta aplicaciones y las entrega a los clientes. Ejemplo: Tomcat, Node.js.
+
+U: que es un balanceador de carga
+B: Es un dispositivo que distribuye el tráfico entre varios servidores para mejorar el rendimiento.
+
+U: que es la nube
+B: La nube es un conjunto de servidores remotos que ofrecen servicios bajo demanda. Ejemplo: AWS, Azure.
+
+U: que es AWS
+B: AWS (Amazon Web Services) es una plataforma de servicios en la nube de Amazon.
+
+U: que es Azure
+B: Azure es la plataforma de nube de Microsoft, con servicios de cómputo, almacenamiento y más.
+
+U: que es Google Cloud
+B: Google Cloud es la plataforma de nube de Google, con servicios como Compute Engine y BigQuery.
+
+U: que es Docker
+B: Docker es una herramienta para crear, ejecutar y compartir contenedores. Es ideal para desarrollo y despliegue.
+
+U: que es un contenedor
+B: Un contenedor es un entorno aislado para ejecutar aplicaciones. Es ligero y portable.
+
+U: que es Kubernetes
+B: Kubernetes es un orquestador de contenedores que automatiza el despliegue y escalado.
+
+U: que es un microservicio
+B: Un microservicio es una pequeña aplicación que hace una cosa bien. Varios microservicios forman una aplicación.
+
+U: que es una arquitectura
+B: La arquitectura de software es la estructura y diseño de un sistema. Define sus componentes y relaciones.
+
+U: que es MVC
+B: MVC (Modelo-Vista-Controlador) es un patrón de arquitectura que separa datos, interfaz y lógica de control.
+
+U: que es MVVM
+B: MVVM es un patrón usado en WPF y XAML: Modelo, Vista, y ViewModel conecta los datos con la interfaz.
+
+U: que es un patrón de diseño
+B: Un patrón de diseño es una solución reutilizable a un problema común en diseño de software.
+
+U: que es Singleton
+B: Singleton es un patrón que asegura que una clase tenga una única instancia en toda la aplicación.
+
+U: que es Factory
+B: Factory es un patrón que centraliza la creación de objetos, sin exponer la lógica de instanciación.
+
+U: que es Observer
+B: Observer es un patrón donde un objeto notifica a otros sobre cambios en su estado. Ejemplo: eventos en UI.
+
+U: que es Strategy
+B: Strategy permite seleccionar un algoritmo en tiempo de ejecución. Ejemplo: diferentes formas de ordenar.
+
+U: que es Decorator
+B: Decorator añade funcionalidad a un objeto sin modificar su código. Es como envolverlo.
+
+U: que es Adapter
+B: Adapter convierte la interfaz de una clase en otra que el cliente espera. Es como un adaptador eléctrico.
+
+U: que es un modelo
+B: Un modelo representa los datos y la lógica de negocio de una aplicación.
+
+U: que es una vista
+B: La vista es la interfaz de usuario que presenta los datos al usuario. Ejemplo: una ventana WPF.
+
+U: que es un controlador
+B: El controlador maneja las interacciones del usuario y coordina entre modelo y vista.
+
+U: que es un ViewModel
+B: El ViewModel expone los datos y comandos que la vista enlaza. Es el puente entre la vista y el modelo.
+
+U: que es el enlace de datos
+B: El enlace de datos (data binding) conecta la interfaz con los datos, actualizando ambos automáticamente.
+
+U: que es un comando
+B: Un comando es una acción que se ejecuta desde la interfaz. Ejemplo: botón enviar.
+
+U: que es una propiedad
+B: Una propiedad es un atributo de una clase que puede ser leído o modificado.
+
+U: que es un evento
+B: Un evento es una notificación de que algo ocurrió. Ejemplo: clic en un botón.
+
+U: que es una notificación
+B: Una notificación es un mensaje que informa al usuario sobre un evento.
+
+U: que es un mensaje
+B: Un mensaje es una comunicación entre el usuario y el programa. Ejemplo: un prompt o alerta.
+
+U: que es una respuesta
+B: Una respuesta es la reacción del sistema a un mensaje. Puede ser texto, acción, o ambos.
+
+U: que es un contexto
+B: El contexto es la información que rodea una conversación o interacción. Ayuda a interpretar lo que se dice.
+
+U: que es una intención
+B: La intención es el objetivo del usuario al hacer una pregunta o acción.
+
+U: que es una entidad
+B: Una entidad es un objeto o concepto relevante en una conversación. Ejemplo: nombre, fecha, lugar.
+
+U: que es una palabra clave
+B: Una palabra clave es un término importante que ayuda a identificar el tema de una consulta.
+
+U: que es una frase
+B: Una frase es un conjunto de palabras con sentido. Puede ser parte de una oración.
+
+U: que es una oración
+B: Una oración es una unidad de lenguaje que expresa una idea completa. Tiene sujeto y predicado.
+
+U: que es un párrafo
+B: Un párrafo es un grupo de oraciones que desarrollan una misma idea.
+
+U: que es un texto
+B: Un texto es una secuencia de palabras que comunica un mensaje. Puede ser escrito o hablado.
+
+U: que es un corpus
+B: Un corpus es un conjunto de textos usado para entrenar modelos de lenguaje.
+
+U: que es un token
+B: Un token es una unidad mínima de texto, como una palabra o subpalabra, que el modelo procesa.
+
+U: que es un embedding
+B: Un embedding es una representación numérica de un token en un espacio vectorial. Capta significado semántico.
+
+U: que es un vector
+B: Un vector es una lista de números que representa un punto en el espacio. En IA, se usa para representar texto.
+
+U: que es la dimensión
+B: La dimensión es el número de valores en un vector. Ejemplo: un embedding de 128 dimensiones.
+
+U: que es un modelo de lenguaje
+B: Un modelo de lenguaje es un sistema que predice la siguiente palabra en una secuencia. Ejemplo: GPT, Rubidium.
+
+U: que es un modelo generativo
+B: Un modelo generativo es capaz de crear contenido nuevo, como texto, imágenes o música.
+
+U: que es un modelo discriminativo
+B: Un modelo discriminativo clasifica datos, distinguiendo entre diferentes categorías.
+
+U: que es el aprendizaje supervisado
+B: El aprendizaje supervisado usa datos etiquetados para entrenar un modelo. Ejemplo: clasificación de imágenes.
+
+U: que es el aprendizaje no supervisado
+B: El aprendizaje no supervisado encuentra patrones en datos sin etiquetas. Ejemplo: clustering.
+
+U: que es el aprendizaje por refuerzo
+B: El aprendizaje por refuerzo entrena un agente mediante recompensas y castigos. Ejemplo: AlphaGo.
+
+U: que es la red neuronal
+B: Una red neuronal es un sistema de capas de neuronas artificiales que aprenden patrones a partir de datos.
+
+U: que es una capa
+B: Una capa es un conjunto de neuronas en una red neuronal. Cada capa transforma los datos.
+
+U: que es una neurona
+B: Una neurona artificial recibe entradas, aplica un peso y una activación, y genera una salida.
+
+U: que es una función de activación
+B: Una función de activación decide si una neurona debe activarse o no. Ejemplo: ReLU, Sigmoid, Tanh.
+
+U: que es ReLU
+B: ReLU (Rectified Linear Unit) es una función de activación que devuelve 0 si la entrada es negativa.
+
+U: que es Sigmoid
+B: Sigmoid es una función de activación que convierte un valor en un rango entre 0 y 1. Usada en clasificación.
+
+U: que es Tanh
+B: Tanh es una función de activación que convierte un valor en un rango entre -1 y 1.
+
+U: que es Softmax
+B: Softmax convierte un vector de valores en probabilidades que suman 1. Se usa en clasificación.
+
+U: que es la retropropagación
+B: La retropropagación es el algoritmo que ajusta los pesos de una red neuronal para reducir el error.
+
+U: que es el gradiente
+B: El gradiente indica la dirección y magnitud del cambio necesario para minimizar la función de pérdida.
+
+U: que es el descenso de gradiente
+B: El descenso de gradiente es un algoritmo de optimización que ajusta los pesos para minimizar la pérdida.
+
+U: que es el aprendizaje profundo
+B: El aprendizaje profundo usa redes neuronales con muchas capas para aprender representaciones complejas.
+
+U: que es PyTorch
+B: PyTorch es una librería de aprendizaje profundo en Python, usada para investigar y desarrollar modelos.
+
+U: que es TensorFlow
+B: TensorFlow es una librería de aprendizaje profundo de Google, usada en producción y experimentación.
+
+U: que es un dataset
+B: Un dataset es un conjunto de datos usado para entrenar o evaluar un modelo.
+
+U: que es el overfitting
+B: El overfitting ocurre cuando un modelo aprende demasiado bien los datos de entrenamiento y no generaliza a nuevos datos.
+
+U: que es el underfitting
+B: El underfitting ocurre cuando un modelo no aprende lo suficiente los datos y tiene un rendimiento bajo.
+
+U: que es la validación
+B: La validación es el proceso de evaluar un modelo en datos no vistos durante el entrenamiento.
+
+U: que es el test
+B: El test es la evaluación final de un modelo en un conjunto de datos reservado exclusivamente para eso.
+
+U: que es la precisión
+B: La precisión mide cuántas predicciones correctas hizo un modelo sobre el total de predicciones.
+
+U: que es la recall
+B: La recall mide cuántos casos positivos reales fueron identificados por el modelo correctamente.
+
+U: que es la F1
+B: F1 es una métrica que combina precisión y recall en un solo valor, útil para evaluar modelos.
+
+U: que es la loss function
+B: La función de pérdida mide qué tan mal predice el modelo. Se minimiza durante el entrenamiento.
+
+U: que es el optimizador
+B: Un optimizador ajusta los pesos del modelo para minimizar la pérdida. Ejemplo: Adam, SGD.
+
+U: que es Adam
+B: Adam es un optimizador adaptativo que ajusta la tasa de aprendizaje por parámetro. Es muy común en deep learning.
+
+U: que es SGD
+B: SGD (Stochastic Gradient Descent) es un optimizador simple que actualiza pesos usando gradientes de muestras aleatorias.
+
+U: que es el learning rate
+B: La tasa de aprendizaje controla el tamaño de los pasos al actualizar los pesos del modelo.
+
+U: que es el batch
+B: Un batch es un conjunto de muestras procesadas juntas en una iteración de entrenamiento.
+
+U: que es la época
+B: Una época es un ciclo completo de entrenamiento sobre todo el conjunto de datos.
+
+U: que es la iteración
+B: Una iteración es una actualización de pesos usando un batch de datos.
+
+U: que es el checkpoint
+B: Un checkpoint es un respaldo del modelo en un punto del entrenamiento. Permite reanudar si falla.
+
+U: que es el early stopping
+B: Early stopping detiene el entrenamiento cuando la validación deja de mejorar, evitando overfitting.
+
+U: que es la inicialización
+B: La inicialización es el proceso de asignar valores iniciales a los pesos de la red neuronal.
+
+U: que es Xavier
+B: Xavier es un método de inicialización que mantiene la varianza de las activaciones en las capas.
+
+U: que es Kaiming
+B: Kaiming es un método de inicialización para redes con ReLU, mejora el aprendizaje en capas profundas.
+
+U: que es el normalizado
+B: Normalizar datos escala los valores para que tengan media 0 y desviación 1. Ayuda a entrenar mejor.
+
+U: que es el estandarizado
+B: Estandarizar transforma datos para que tengan media 0 y desviación estándar 1. Similar a normalizar.
+
+U: que es la normalización por lotes
+B: La normalización por lotes (Batch Norm) normaliza las activaciones en cada capa para acelerar el entrenamiento.
+
+U: que es la normalización por capa
+B: Layer Norm normaliza sobre las características de cada muestra. Es usada en Transformers.
+
+U: que es una atención
+B: La atención es un mecanismo que permite al modelo enfocarse en partes relevantes de la entrada.
+
+U: que es la autoatención
+B: La autoatención (Self-Attention) permite que cada elemento de una secuencia se relacione con los demás.
+
+U: que es el Transformer
+B: El Transformer es una arquitectura basada en atención, sin recurrencia. Es la base de GPT y BERT.
+
+U: que es GPT
+B: GPT es un modelo generativo basado en Transformer, entrenado para predecir la siguiente palabra.
+
+U: que es BERT
+B: BERT es un modelo Transformer entrenado para entender contexto en ambas direcciones (bidireccional).
+
+U: que es un LLM
+B: LLM (Large Language Model) es un modelo de lenguaje masivo con millones de parámetros. Ejemplo: ChatGPT.
+
+U: que es un SLM
+B: SLM (Small Language Model) es un modelo de lenguaje más pequeño, que puede correr localmente. Como yo.
+
+U: que es RAG
+B: RAG (Retrieval-Augmented Generation) es una técnica que combina búsqueda con generación para mejorar respuestas.
+
+U: que es un vector embedding
+B: Un vector embedding es una representación numérica de un texto en un espacio de alta dimensión.
+
+U: que es la búsqueda semántica
+B: La búsqueda semántica encuentra información basada en el significado, no solo en palabras clave.
+
+U: que es la similitud de coseno
+B: La similitud de coseno mide el ángulo entre dos vectores. Se usa para comparar embeddings.
+
+U: que es la distancia euclidiana
+B: La distancia euclidiana es la distancia directa entre dos puntos en el espacio.
+
+U: que es un clasificador
+B: Un clasificador es un modelo que asigna una categoría a una entrada. Ejemplo: clasificar emails como spam.
+
+U: que es un regresor
+B: Un regresor predice un valor numérico continuo. Ejemplo: predecir el precio de una casa.
+
+U: que es el clustering
+B: El clustering agrupa datos similares sin etiquetas previas. Ejemplo: segmentar clientes.
+
+U: que es PCA
+B: PCA reduce la dimensión de los datos preservando la mayor variación posible. Se usa para visualización.
+
+U: que es t-SNE
+B: t-SNE es una técnica de reducción de dimensionalidad para visualizar datos en 2D o 3D.
+
+U: que es una matriz
+B: Una matriz es una tabla de números organizados en filas y columnas. Es la base del álgebra lineal.
+
+U: que es un tensor
+B: Un tensor es una generalización de una matriz. Puede tener más dimensiones. Ejemplo: imágenes, videos.
+
+U: que es el producto punto
+B: El producto punto es una operación entre vectores que produce un escalar. Es clave en redes neuronales.
+
+U: que es la multiplicación de matrices
+B: Es una operación entre matrices que produce otra matriz. Se usa en todas las capas de redes neuronales.
+
+U: que es la transpuesta
+B: La transpuesta de una matriz intercambia filas por columnas.
+
+U: que es la inversa
+B: La inversa de una matriz es otra que multiplicada por la original da la identidad.
+
+U: que es la identidad
+B: La matriz identidad tiene 1 en la diagonal y 0 en el resto. Es el elemento neutro de la multiplicación.
+
+U: que es un escalar
+B: Un escalar es un número único. Es el caso más simple de un tensor.
+
+U: que es un vector
+B: Un vector es una lista de números. Ejemplo: [1, 2, 3].
+
+U: que es un espacio vectorial
+B: Un espacio vectorial es un conjunto de vectores con operaciones de suma y producto por escalar.
+
+U: que es una base
+B: Una base es un conjunto de vectores que permiten generar todo el espacio vectorial.
+
+U: que es la derivada
+B: La derivada mide la tasa de cambio de una función. Se usa en optimización.
+
+U: que es la integral
+B: La integral acumula el área bajo una curva. Es el inverso de la derivada.
+
+U: que es la función exponencial
+B: La función exponencial crece muy rápidamente. Ejemplo: e^x.
+
+U: que es el logaritmo
+B: El logaritmo es el inverso de la exponencial. Ejemplo: ln(e^x) = x.
+
+U: que es la probabilidad
+B: La probabilidad mide la posibilidad de que ocurra un evento. Va de 0 a 1.
+
+U: que es la estadística
+B: La estadística es la disciplina que recolecta, analiza e interpreta datos.
+
+U: que es la media
+B: La media es el promedio de un conjunto de números.
+
+U: que es la mediana
+B: La mediana es el valor central en un conjunto ordenado de números.
+
+U: que es la moda
+B: La moda es el valor que más se repite en un conjunto de datos.
+
+U: que es la desviación estándar
+B: La desviación estándar mide qué tan dispersos están los datos respecto a la media.
+
+U: que es la varianza
+B: La varianza es el cuadrado de la desviación estándar. Mide la dispersión de los datos.
+
+U: que es un histograma
+B: Un histograma es una gráfica que muestra la distribución de frecuencias de un conjunto de datos.
+
+U: que es una gráfica
+B: Una gráfica es una representación visual de datos. Puede ser de barras, líneas, puntos, etc.
+
+U: que es un diagrama
+B: Un diagrama es una representación visual simplificada de un proceso o sistema.
+
+U: que es un flujo
+B: Un flujo es la secuencia de pasos en un proceso. Ejemplo: flujo de trabajo.
+
+U: que es un pipeline
+B: Un pipeline es una cadena de procesos donde la salida de uno es la entrada del siguiente.
+
+U: que es ETL
+B: ETL (Extract, Transform, Load) es el proceso de extraer datos, transformarlos y cargarlos en una base de datos.
+
+U: que es un data warehouse
+B: Un data warehouse es un repositorio centralizado de datos para análisis y reportes.
+
+U: que es un data lake
+B: Un data lake almacena datos en bruto, sin procesar, listos para ser analizados.
+
+U: que es un big data
+B: Big Data se refiere a conjuntos de datos muy grandes que requieren herramientas especiales para procesarlos.
+
+U: que es una nube
+B: La nube es un modelo de servicios informáticos a través de internet. Ejemplo: almacenamiento, cómputo.
+
+U: que es la virtualización
+B: La virtualización simula hardware o sistemas completos dentro de una computadora.
+
+U: que es una máquina virtual
+B: Una máquina virtual es una computadora emulada dentro de otra computadora. Ejemplo: VMware, VirtualBox.
+
+U: que es un contenedor
+B: Un contenedor es una unidad de software ligero que incluye todo lo necesario para ejecutar una aplicación.
+
+U: que es un orquestador
+B: Un orquestador gestiona contenedores, como Kubernetes. Automatiza despliegues y escalado.
+
+U: que es un clúster
+B: Un clúster es un grupo de computadoras que trabajan juntas como un solo sistema.
+
+U: que es la alta disponibilidad
+B: Alta disponibilidad significa que un sistema está operativo la mayor parte del tiempo, incluso si falla algún componente.
+
+U: que es la tolerancia a fallos
+B: La tolerancia a fallos es la capacidad de un sistema para seguir funcionando incluso cuando hay errores.
+
+U: que es el backup
+B: Un backup es una copia de seguridad de los datos para restaurarlos en caso de pérdida.
+
+U: que es la recuperación
+B: La recuperación es el proceso de restaurar datos o sistemas después de un fallo.
+
+U: que es la redundancia
+B: La redundancia es duplicar componentes para aumentar la confiabilidad del sistema.
+
+U: que es el caché
+B: Un caché almacena datos temporalmente para acceder a ellos más rápido.
+
+U: que es la latencia
+B: La latencia es el tiempo que tarda un dato en viajar desde el origen hasta el destino.
+
+U: que es el ancho de banda
+B: El ancho de banda mide cuántos datos pueden transmitirse en un tiempo determinado.
+
+U: que es el throughput
+B: El throughput es la cantidad de trabajo que un sistema puede procesar en un tiempo dado.
+
+U: que es el bottleneck
+B: Un bottleneck es un punto de cuello de botella que limita el rendimiento del sistema.
+
+U: que es la escalabilidad
+B: La escalabilidad es la capacidad de un sistema de crecer para manejar más carga de trabajo.
+
+U: que es la elasticidad
+B: La elasticidad es la capacidad de un sistema de escalar automáticamente según la demanda.
+
+U: que es la infraestructura como código
+B: IaC (Infrastructure as Code) es gestionar infraestructura usando archivos de configuración, no procesos manuales.
+
+U: que es DevOps
+B: DevOps es una cultura que une desarrollo y operaciones para entregar software más rápido y estable.
+
+U: que es CI/CD
+B: CI/CD (Integración Continua/Despliegue Continuo) automatiza pruebas y despliegue de código.
+
+U: que es un pipeline de CI/CD
+B: Un pipeline de CI/CD es una secuencia de pasos automatizados para construir, probar y desplegar software.
+
+U: que es un test unitario
+B: Un test unitario verifica que una función o módulo funciona correctamente de forma aislada.
+
+U: que es un test de integración
+B: Un test de integración verifica que varios componentes trabajan juntos correctamente.
+
+U: que es un test de regresión
+B: Un test de regresión asegura que cambios nuevos no rompan funcionalidades existentes.
+
+U: que es un test de carga
+B: Un test de carga mide el rendimiento de un sistema bajo una cantidad esperada de usuarios.
+
+U: que es un test de estrés
+B: Un test de estrés evalúa el sistema bajo condiciones extremas para ver su límite.
+
+U: que es el monitoreo
+B: El monitoreo observa el estado y rendimiento de un sistema en tiempo real.
+
+U: que es un log
+B: Un log es un registro de eventos que ocurren en el sistema, útil para debugging y monitoreo.
+
+U: que es una alerta
+B: Una alerta es una notificación que se activa cuando ocurre un evento importante en el sistema.
+
+U: que es un dashboard
+B: Un dashboard es una pantalla que muestra métricas y gráficos del sistema de forma resumida.
+
+U: que es una métrica
+B: Una métrica es una medida cuantitativa del rendimiento o estado del sistema. Ejemplo: uso de CPU.
+
+U: que es un KPI
+B: KPI (Key Performance Indicator) es un indicador clave de rendimiento. Mide el éxito de un objetivo.
+
+U: que es la agilidad
+B: La agilidad es una metodología de desarrollo que prioriza la flexibilidad, colaboración y entregas rápidas.
+
+U: que es Scrum
+B: Scrum es un marco ágil con sprints, roles y ceremonias para gestionar proyectos.
+
+U: que es Kanban
+B: Kanban es un método visual para gestionar flujos de trabajo, usando tableros y tarjetas.
+
+U: que es un sprint
+B: Un sprint es un período fijo de tiempo en Scrum para completar un conjunto de tareas.
+
+U: que es un backlog
+B: El backlog es una lista priorizada de tareas o features a desarrollar.
+
+U: que es una historia de usuario
+B: Una historia de usuario describe una funcionalidad desde la perspectiva del usuario final.
+
+U: que es un requisito
+B: Un requisito es una especificación de lo que un sistema debe hacer o cumplir.
+
+U: que es un caso de uso
+B: Un caso de uso describe cómo un usuario interactúa con un sistema para lograr un objetivo.
+
+U: que es un diagrama de flujo
+B: Un diagrama de flujo representa los pasos de un proceso o algoritmo.
+
+U: que es un pseudocódigo
+B: El pseudocódigo es una descripción informal de un algoritmo, sin sintaxis estricta de programación.
+
+U: que es un prototipo
+B: Un prototipo es una versión inicial de un sistema para probar ideas y obtener retroalimentación.
+
+U: que es un MVP
+B: MVP (Producto Mínimo Viable) es la versión más simple de un producto que entrega valor.
+
+U: que es un producto
+B: Un producto es un sistema o servicio que resuelve una necesidad del usuario.
+
+U: que es un usuario
+B: Un usuario es una persona que interactúa con el sistema. El centro de todo buen diseño.
+
+U: que es un cliente
+B: Un cliente es quien paga o solicita el producto. Puede ser un usuario o una empresa.
+
+U: que es un stakeholder
+B: Un stakeholder es cualquier persona o grupo con interés en el proyecto.
+
+U: que es un equipo
+B: Un equipo es un grupo de personas que trabajan juntas para lograr un objetivo común.
+
+U: que es la comunicación
+B: La comunicación es el intercambio de información entre personas. Es clave en cualquier proyecto.
+
+U: que es la colaboración
+B: La colaboración es trabajar en conjunto para alcanzar un objetivo. Es esencial en equipos.
+
+U: que es la retroalimentación
+B: La retroalimentación es la información que se recibe sobre el trabajo realizado, útil para mejorar.
+
+U: que es la mejora continua
+B: La mejora continua es el proceso de revisar y mejorar constantemente el trabajo y los procesos.
+
+U: que es la innovación
+B: La innovación es la creación de algo nuevo o la mejora significativa de algo existente.
+
+U: que es la creatividad
+B: La creatividad es la capacidad de generar ideas originales y valiosas.
+
+U: que es la disciplina
+B: La disciplina es la constancia y el orden para alcanzar metas. Es fundamental para desarrollar software.
+
+U: que es la pasión
+B: La pasión es el entusiasmo y amor por lo que haces. Te impulsa a mejorar día a día.
+
+U: que es el aprendizaje
+B: El aprendizaje es el proceso de adquirir conocimientos y habilidades. Nunca termina.
+
+U: que es la curiosidad
+B: La curiosidad es el deseo de explorar y entender cosas nuevas. Es la base del aprendizaje.
+
+U: que es la perseverancia
+B: La perseverancia es la capacidad de seguir adelante incluso cuando hay dificultades.
+
+U: que es la paciencia
+B: La paciencia es la capacidad de esperar sin frustrarse. Es necesaria en el desarrollo de software.
+
+U: que es la empatía
+B: La empatía es la capacidad de entender las emociones y perspectivas de los demás.
+
+U: que es la humildad
+B: La humildad es reconocer que siempre hay algo nuevo que aprender y que los demás pueden enseñarnos.
+
+U: que es la generosidad
+B: La generosidad es compartir lo que sabes y ayudar a los demás a crecer.
+
+U: que es la gratitud
+B: La gratitud es apreciar lo que tienes y a las personas que te apoyan.
+
+U: que es la felicidad
+B: La felicidad es un estado de bienestar y satisfacción. Se encuentra en las pequeñas cosas.
+
+U: que es la vida
+B: La vida es un viaje de aprendizaje, experiencias y conexiones con los demás.
+
+U: que es el tiempo
+B: El tiempo es el recurso más valioso. Úsalo para aprender, crecer y compartir.
+
+U: que es el propósito
+B: El propósito es la razón por la que haces lo que haces. Le da sentido a tu vida.
+
+U: que es el éxito
+B: El éxito es alcanzar tus metas y sentirte satisfecho con tus logros y tu camino.
+
+U: que es el fracaso
+B: El fracaso es una oportunidad para aprender, levantarse y seguir adelante con más fuerza.
+
+U: que es un sueño
+B: Un sueño es una meta o deseo que te inspira a seguir adelante. Todos tenemos sueños que perseguir.
+
+U: que es la esperanza
+B: La esperanza es creer que las cosas pueden mejorar. Nos da fuerza en los momentos difíciles.
+
+U: que es la fe
+B: La fe es confiar en algo o alguien, incluso sin tener pruebas. Es una fuerza poderosa.
+
+U: que es la verdad
+B: La verdad es la correspondencia entre lo que decimos y la realidad. Es valiosa y a veces difícil de encontrar.
+
+U: que es la honestidad
+B: La honestidad es ser sincero y transparente. Construye confianza.
+
+U: que es la confianza
+B: La confianza es creer en la capacidad, integridad y veracidad de alguien.
+
+U: que es el respeto
+B: El respeto es tratar a los demás con dignidad y consideración, reconociendo su valor.
+
+U: que es la tolerancia
+B: La tolerancia es aceptar y respetar las diferencias de los demás.
+
+U: que es la diversidad
+B: La diversidad es la variedad de personas, culturas y perspectivas que enriquecen el mundo.
+
+U: que es la inclusión
+B: La inclusión es asegurar que todas las personas tengan las mismas oportunidades y sean valoradas.
+
+U: que es la igualdad
+B: La igualdad es que todas las personas tengan los mismos derechos y oportunidades.
+
+U: que es la justicia
+B: La justicia es dar a cada persona lo que le corresponde, basado en el mérito y la necesidad.
+
+U: que es la paz
+B: La paz es la ausencia de conflicto y la búsqueda de armonía entre las personas.
+
+U: que es la libertad
+B: La libertad es la capacidad de elegir y actuar según tu propia voluntad, sin dañar a los demás.
+
+U: que es la responsabilidad
+B: La responsabilidad es asumir las consecuencias de tus acciones y cumplir con tus obligaciones.
+
+U: que es el compromiso
+B: El compromiso es cumplir con lo que prometes y dedicarte a lo que importa.
+
+U: que es la lealtad
+B: La lealtad es ser fiel a las personas, principios o causas que valoras.
+
+U: que es la amistad
+B: La amistad es un vínculo de cariño, confianza y apoyo mutuo entre personas.
+
+U: que es el amor
+B: El amor es el sentimiento más profundo de conexión, cuidado y entrega hacia alguien o algo.
+
+U: que es la familia
+B: La familia es el grupo de personas que te apoyan, cuidan y acompañan en la vida.
+
+U: que es la comunidad
+B: La comunidad es un grupo de personas que comparten intereses, valores o un espacio común.
+
+U: que es la sociedad
+B: La sociedad es un conjunto de personas que conviven bajo normas y valores compartidos.
+
+U: que es la cultura
+B: La cultura es el conjunto de tradiciones, conocimientos y expresiones de un pueblo.
+
+U: que es el arte
+B: El arte es la expresión de la creatividad humana a través de diferentes formas como la pintura, la música o la literatura.
+
+U: que es la música
+B: La música es una forma de arte que combina sonidos y ritmos para expresar emociones.
+
+U: que es el cine
+B: El cine es el arte de contar historias a través de imágenes en movimiento.
+
+U: que es la literatura
+B: La literatura es el arte de escribir, donde las palabras crean mundos y emociones.
+
+U: que es la poesía
+B: La poesía es una forma de literatura que expresa sentimientos y pensamientos con ritmo y belleza.
+
+U: que es la filosofía
+B: La filosofía es la búsqueda del conocimiento y la reflexión sobre las grandes preguntas de la vida.
+
+U: que es la ética
+B: La ética es el estudio de lo que está bien y mal, guiando nuestras decisiones y acciones.
+
+U: que es la moral
+B: La moral es el conjunto de normas y valores que una persona o sociedad considera correctos.
+
+U: que es la política
+B: La política es el arte de gobernar y organizar la convivencia en sociedad.
+
+U: que es la democracia
+B: La democracia es un sistema de gobierno donde el pueblo elige a sus representantes.
+
+U: que es la economía
+B: La economía es la ciencia que estudia la producción, distribución y consumo de bienes y servicios.
+
+U: que es la historia
+B: La historia es el estudio del pasado humano, sus eventos, personajes y lecciones.
+
+U: que es la geografía
+B: La geografía estudia la superficie terrestre y la relación de los humanos con su entorno.
+
+U: que es la biología
+B: La biología es la ciencia que estudia los seres vivos y sus procesos vitales.
+
+U: que es la química
+B: La química estudia la composición, estructura y transformación de la materia.
+
+U: que es la física
+B: La física estudia las propiedades de la materia, la energía y las leyes que rigen el universo.
+
+U: que es la astronomía
+B: La astronomía estudia los cuerpos celestes y el universo en su conjunto.
+
+U: que es la medicina
+B: La medicina es la ciencia de la salud, dedicada a prevenir, diagnosticar y tratar enfermedades.
+
+U: que es la psicología
+B: La psicología estudia la mente y el comportamiento humano, entendiendo cómo pensamos y sentimos.
+
+U: que es la sociología
+B: La sociología estudia las sociedades humanas, sus estructuras y relaciones.
+
+U: que es la antropología
+B: La antropología estudia al ser humano desde una perspectiva integral, cultural y biológica.
+
+U: que es la arqueología
+B: La arqueología estudia las sociedades antiguas a través de sus restos materiales.
+
+U: que es la paleontología
+B: La paleontología estudia los seres vivos del pasado a través de fósiles.
+
+U: que es la ecología
+B: La ecología estudia las relaciones entre los seres vivos y su entorno.
+
+U: que es el medio ambiente
+B: El medio ambiente es el conjunto de elementos naturales y artificiales que nos rodean.
+
+U: que es la sostenibilidad
+B: La sostenibilidad es usar los recursos de manera responsable para no comprometer el futuro.
+
+U: que es el cambio climático
+B: El cambio climático es el calentamiento global causado por la actividad humana y sus consecuencias.
+
+U: que es la energía renovable
+B: La energía renovable proviene de fuentes naturales inagotables como el sol, el viento y el agua.
+
+U: que es la inteligencia artificial
+B: La inteligencia artificial es la simulación de procesos de inteligencia humana por máquinas.
+
+U: que es el machine learning
+B: Machine learning es un subcampo de la IA donde los sistemas aprenden de los datos.
+
+U: que es el deep learning
+B: Deep learning usa redes neuronales profundas para aprender representaciones complejas.
+
+U: que es un chatbot
+B: Un chatbot es un programa que conversa con humanos usando lenguaje natural.
+
+U: que es un asistente virtual
+B: Un asistente virtual es un programa que ayuda a realizar tareas mediante conversación o comandos.
+
+U: que es la robótica
+B: La robótica es la rama de la tecnología que diseña, construye y opera robots.
+
+U: que es la automatización
+B: La automatización es el uso de tecnología para realizar tareas sin intervención humana.
+
+U: que es la ciberseguridad
+B: La ciberseguridad protege sistemas, redes y datos de ataques digitales.
+
+U: que es la privacidad
+B: La privacidad es el derecho de las personas a controlar su información personal.
+
+U: que es el software libre
+B: El software libre respeta la libertad de los usuarios de ejecutar, estudiar, modificar y compartir el código.
+
+U: que es el código abierto
+B: El código abierto es un tipo de software cuyo código fuente está disponible para todos.
+
+U: que es una licencia
+B: Una licencia es un documento que establece los términos de uso y distribución de un software.
+
+U: que es una patente
+B: Una patente protege una invención por un tiempo determinado, otorgando derechos exclusivos al inventor.
+
+U: que es un derecho de autor
+B: El derecho de autor protege obras creativas como libros, música y software.
+
+U: que es un estándar
+B: Un estándar es una especificación técnica aceptada por la industria para garantizar compatibilidad.
+
+U: que es un acuerdo de nivel de servicio
+B: Un SLA define el nivel de servicio esperado entre un proveedor y un cliente.
+
+U: que es un contrato
+B: Un contrato es un acuerdo legal entre dos o más partes que establece obligaciones y derechos.
+
+U: que es un término
+B: Un término es una palabra con un significado específico dentro de un contexto.
+
+U: que es una definición
+B: Una definición explica el significado de un término o concepto.
+
+U: que es una explicación
+B: Una explicación es una descripción detallada que aclara un concepto o proceso.
+
+U: que es un ejemplo
+B: Un ejemplo es un caso concreto que ilustra un concepto o regla.
+
+U: que es una analogía
+B: Una analogía compara dos cosas diferentes para explicar algo complejo en términos simples.
+
+U: que es una metáfora
+B: Una metáfora es una figura literaria que describe algo como si fuera otra cosa para darle más significado.
+
+U: que es el humor
+B: El humor es la capacidad de encontrar lo divertido en las situaciones, y a veces en las palabras.
+
+U: que es la sabiduría
+B: La sabiduría es la combinación de conocimiento, experiencia y buen juicio.
+
+U: que es el conocimiento
+B: El conocimiento es la comprensión de hechos, conceptos y relaciones sobre el mundo.
+
+U: que es la información
+B: La información son datos organizados que tienen significado y utilidad.
+
+U: que es un dato
+B: Un dato es una representación de un hecho o valor. Es la base de toda información.
+
+U: que es un bit
+B: Un bit es la unidad más básica de información, con valor 0 o 1.
+
+U: que es un byte
+B: Un byte es un conjunto de 8 bits, usado para representar caracteres y datos.
+
+U: que es un archivo binario
+B: Un archivo binario contiene datos en formato no legible por humanos, como imágenes o ejecutables.
+
+U: que es un archivo de texto
+B: Un archivo de texto contiene caracteres legibles, como .txt o .csv.
+
+U: que es un CSV
+B: Un archivo CSV (valores separados por comas) almacena datos tabulares.
+
+U: que es un JSON
+B: JSON es un formato de datos basado en texto, ampliamente usado en APIs.
+
+U: que es un XML
+B: XML es un formato de datos jerárquico, usado en configuraciones y servicios web.
+
+U: que es un YAML
+B: YAML es un formato de serialización legible para humanos, usado en configuraciones.
+
+U: que es un Markdown
+B: Markdown es un formato de texto ligero para escribir documentos estructurados.
+
+U: que es un README
+B: Un README es un archivo que explica el propósito y uso de un proyecto.
+
+U: que es una guía
+B: Una guía es un documento que explica paso a paso cómo hacer algo.
+
+U: que es un tutorial
+B: Un tutorial enseña una habilidad o tecnología mediante ejemplos prácticos.
+
+U: que es un manual
+B: Un manual es una referencia completa sobre el uso de un sistema o producto.
+
+U: que es una referencia
+B: Una referencia es un documento que detalla todas las funcionalidades de un sistema.
+
+U: que es una API
+B: Una API define cómo interactuar con un software desde otro programa.
+
+U: que es un SDK
+B: Un SDK (Software Development Kit) es un conjunto de herramientas para desarrollar aplicaciones sobre una plataforma.
+
+U: que es un framework
+B: Un framework es una base para construir aplicaciones, proporcionando estructura y librerías.
+
+U: que es una librería
+B: Una librería es un conjunto de funciones reutilizables que puedes usar en tu código.
+
+U: que es un plugin
+B: Un plugin es un componente adicional que extiende la funcionalidad de un programa.
+
+U: que es un addon
+B: Un addon es similar a un plugin, añade características a una aplicación existente.
+
+U: que es una extensión
+B: Una extensión añade funcionalidades a un navegador o programa.
+
+U: que es un widget
+B: Un widget es un elemento pequeño de interfaz que muestra información o funcionalidad.
+
+U: que es un popup
+B: Un popup es una ventana que aparece sobre la interfaz para mostrar información o pedir acción.
+
+U: que es un modal
+B: Un modal es un diálogo que bloquea la interacción con el resto de la interfaz hasta que se cierra.
+
+U: que es un toast
+B: Un toast es una notificación breve que aparece y desaparece automáticamente.
+
+U: que es un snackbar
+B: Un snackbar es una notificación similar a un toast, pero permite interacción.
+
+U: que es un tooltip
+B: Un tooltip es un texto informativo que aparece al pasar el mouse sobre un elemento.
+
+U: que es un badge
+B: Un badge es una etiqueta que muestra información adicional, como un contador o estado.
+
+U: que es un avatar
+B: Un avatar es una imagen o ícono que representa a un usuario.
+
+U: que es un perfil
+B: Un perfil contiene información sobre un usuario, como nombre, intereses y preferencias.
+
+U: que es una cuenta
+B: Una cuenta es un registro que permite acceder a un sistema con identidad propia.
+
+U: que es un login
+B: El login es el proceso de ingresar a una cuenta con usuario y contraseña.
+
+U: que es un logout
+B: El logout es cerrar la sesión de una cuenta activa.
+
+U: que es un registro
+B: El registro es el proceso de crear una cuenta en un sistema.
+
+U: que es una contraseña
+B: Una contraseña es una clave secreta para autenticar a un usuario.
+
+U: que es un PIN
+B: Un PIN es un código numérico de seguridad, generalmente corto.
+
+U: que es una clave
+B: Una clave puede ser una contraseña, un token o un código de acceso.
+
+U: que es un token
+B: Un token es un dato que representa una autenticación o sesión activa.
+
+U: que es una sesión
+B: Una sesión es un período de interacción activa entre un usuario y un sistema.
+
+U: que es un tiempo de espera
+B: Un tiempo de espera es el período de inactividad antes de cerrar una sesión automáticamente.
+
+U: que es un error 404
+B: El error 404 indica que el recurso solicitado no existe.
+
+U: que es un error 500
+B: El error 500 indica que ocurrió un error interno en el servidor.
+
+U: que es un error 403
+B: El error 403 indica que no tienes permiso para acceder al recurso.
+
+U: que es un error 401
+B: El error 401 indica que no estás autenticado para acceder al recurso.
+
+U: que es un error 400
+B: El error 400 indica que la solicitud es inválida o incorrecta.
+
+U: que es un código de estado
+B: Un código de estado HTTP indica el resultado de una petición.
+
+U: que es un header
+B: Un header en HTTP son metadatos enviados en una petición o respuesta.
+
+U: que es un body
+B: Un body en HTTP es el cuerpo de datos de una petición o respuesta.
+
+U: que es un query param
+B: Un query parameter es una clave-valor añadida a una URL para enviar datos.
+
+U: que es un path param
+B: Un path parameter es parte de la ruta de una URL que identifica un recurso.
+
+U: que es un middleware
+B: Un middleware es software que actúa como puente entre diferentes aplicaciones o servicios.
+
+U: que es una petición
+B: Una petición es una solicitud hecha por un cliente a un servidor.
+
+U: que es una respuesta
+B: Una respuesta es la información que el servidor devuelve al cliente.
+
+U: que es un endpoint
+B: Un endpoint es una URL específica en una API que responde a una acción.
+
+U: que es un router
+B: Un router en una aplicación web dirige peticiones a diferentes manejadores según la ruta.
+
+U: que es un controlador
+B: Un controlador maneja las peticiones y devuelve respuestas en una aplicación web.
+
+U: que es un servicio
+B: Un servicio es una capa de lógica de negocio que realiza operaciones específicas.
+
+U: que es un repositorio
+B: Un repositorio maneja el acceso a datos, conectando la lógica con la base de datos.
+
+U: que es un ORM
+B: Un ORM (Object-Relational Mapping) mapea tablas de base de datos a objetos en código.
+
+U: que es un DTO
+B: Un DTO (Data Transfer Object) es un objeto simple para transferir datos entre capas.
+
+U: que es un mapper
+B: Un mapper convierte objetos de un tipo a otro, como DTO a entidad.
+
+U: que es una entidad
+B: Una entidad es un objeto que representa una tabla en una base de datos.
+
+U: que es un aggregate
+B: Un aggregate es un grupo de entidades con una raíz que las controla.
+
+U: que es un evento de dominio
+B: Un evento de dominio es una notificación de que algo ocurrió en el negocio.
+
+U: que es una cola de mensajes
+B: Una cola de mensajes almacena mensajes para procesar asíncronamente entre sistemas.
+
+U: que es un topico
+B: Un tópico es un canal de comunicación en sistemas de mensajería.
+
+U: que es un pub/sub
+B: Pub/Sub es un patrón donde los publicadores envían mensajes a suscriptores sin conocerlos.
+
+U: que es un event bus
+B: Un event bus permite que diferentes partes del sistema se comuniquen mediante eventos.
+
+U: que es un command bus
+B: Un command bus distribuye comandos a los manejadores correspondientes.
+
+U: que es el CQRS
+B: CQRS separa las operaciones de lectura y escritura en diferentes modelos.
+
+U: que es el Event Sourcing
+B: Event Sourcing almacena cambios en el estado como una secuencia de eventos inmutables.
+
+U: que es la consistencia eventual
+B: La consistencia eventual asegura que los datos se sincronicen en un sistema distribuido con el tiempo.
+
+U: que es una transacción
+B: Una transacción es un conjunto de operaciones que se ejecutan como una sola unidad.
+
+U: que es ACID
+B: ACID (Atomicidad, Consistencia, Aislamiento, Durabilidad) son propiedades de transacciones.
+
+U: que es una base de datos relacional
+B: Una base de datos relacional organiza datos en tablas con relaciones entre ellas.
+
+U: que es una base de datos NoSQL
+B: NoSQL son bases de datos no relacionales, como MongoDB o Redis.
+
+U: que es MongoDB
+B: MongoDB es una base de datos NoSQL orientada a documentos, con estructura flexible.
+
+U: que es Redis
+B: Redis es una base de datos en memoria de tipo clave-valor, muy rápida.
+
+U: que es Elasticsearch
+B: Elasticsearch es un motor de búsqueda distribuido basado en Lucene.
+
+U: que es un índice
+B: Un índice es una estructura que mejora la velocidad de las consultas en una base de datos.
+
+U: que es una clave primaria
+B: Una clave primaria identifica de forma única cada registro en una tabla.
+
+U: que es una clave foránea
+B: Una clave foránea establece una relación entre dos tablas.
+
+U: que es una relación
+B: Una relación en bases de datos conecta tablas a través de claves.
+
+U: que es una migración
+B: Una migración es un script que modifica la estructura de una base de datos.
+
+U: que es un seed
+B: Un seed es la carga inicial de datos en una base de datos.
+
+U: que es una consulta SQL
+B: Una consulta SQL pide o modifica datos en una base de datos.
+
+U: que es SELECT
+B: SELECT es una sentencia SQL para obtener datos de una o más tablas.
+
+U: que es INSERT
+B: INSERT es una sentencia SQL para agregar nuevos registros.
+
+U: que es UPDATE
+B: UPDATE es una sentencia SQL para modificar datos existentes.
+
+U: que es DELETE
+B: DELETE es una sentencia SQL para eliminar registros.
+
+U: que es WHERE
+B: WHERE es una cláusula SQL para filtrar resultados.
+
+U: que es ORDER BY
+B: ORDER BY ordena los resultados de una consulta SQL.
+
+U: que es GROUP BY
+B: GROUP BY agrupa registros en SQL para aplicar funciones de agregación.
+
+U: que es JOIN
+B: JOIN combina registros de dos o más tablas en SQL.
+
+U: que es INNER JOIN
+B: INNER JOIN devuelve solo registros que coinciden en ambas tablas.
+
+U: que es LEFT JOIN
+B: LEFT JOIN devuelve todos los registros de la tabla izquierda y los coincidentes de la derecha.
+
+U: que es RIGHT JOIN
+B: RIGHT JOIN devuelve todos los registros de la tabla derecha y los coincidentes de la izquierda.
+
+U: que es FULL JOIN
+B: FULL JOIN devuelve todos los registros de ambas tablas, coincidan o no.
+
+U: que es una subconsulta
+B: Una subconsulta es una consulta dentro de otra consulta SQL.
+
+U: que es una vista
+B: Una vista es una consulta almacenada que se usa como una tabla virtual.
+
+U: que es un procedimiento almacenado
+B: Un procedimiento almacenado es código SQL precompilado que se ejecuta en el servidor.
+
+U: que es un trigger
+B: Un trigger es un procedimiento que se ejecuta automáticamente ante un evento en la base de datos.
+
+U: que es una función SQL
+B: Una función SQL devuelve un valor y puede usarse en consultas.
+
+U: que es un índice
+B: Un índice acelera las búsquedas en una tabla, similar al índice de un libro.
+
+U: que es una transacción
+B: Una transacción agrupa varias operaciones SQL en una unidad atómica.
+
+U: que es el commit
+B: El commit confirma una transacción, haciendo permanentes los cambios.
+
+U: que es el rollback
+B: El rollback deshace una transacción, revirtiendo los cambios.
+
+U: que es un schema
+B: Un schema es la estructura lógica de una base de datos, incluyendo tablas y relaciones.
+
+U: que es una instancia
+B: Una instancia es una copia en ejecución de un sistema o base de datos.
+
+U: que es un clúster de bases de datos
+B: Un clúster de bases de datos agrupa servidores para alta disponibilidad y rendimiento.
+
+U: que es la replicación
+B: La replicación copia datos en diferentes servidores para redundancia y disponibilidad.
+
+U: que es el sharding
+B: El sharding distribuye datos en diferentes servidores para escalar horizontalmente.
+
+U: que es la partición
+B: La partición divide una tabla en partes más pequeñas para mejorar el rendimiento.
+
+U: que es una columna
+B: Una columna es un campo en una tabla que almacena un tipo específico de dato.
+
+U: que es una fila
+B: Una fila es un registro que contiene datos en cada columna de una tabla.
+
+U: que es una tabla
+B: Una tabla organiza datos en filas y columnas, como una hoja de cálculo.
+
+U: que es una base de datos
+B: Una base de datos es un sistema organizado para almacenar y gestionar información.
+
+U: que es un archivo de registro
+B: Un archivo de registro guarda eventos del sistema o de la base de datos.
+
+U: que es un archivo de configuración
+B: Un archivo de configuración contiene ajustes que controlan el comportamiento de un sistema.
+
+U: que es una variable de entorno
+B: Una variable de entorno es un valor configurable que afecta cómo funciona un programa.
+
+U: que es un puerto
+B: Un puerto es un número que identifica un servicio en una red.
+
+U: que es un socket
+B: Un socket es un extremo de una conexión de red entre dos aplicaciones.
+
+U: que es TCP
+B: TCP es un protocolo de transmisión confiable, orientado a conexión.
+
+U: que es UDP
+B: UDP es un protocolo no orientado a conexión, más rápido pero menos confiable.
+
+U: que es HTTP
+B: HTTP es el protocolo usado para transferir páginas web.
+
+U: que es HTTPS
+B: HTTPS es HTTP con cifrado SSL/TLS, seguro para transmitir datos.
+
+U: que es FTP
+B: FTP es un protocolo para transferir archivos entre computadoras.
+
+U: que es SSH
+B: SSH es un protocolo seguro para acceder a servidores de forma remota.
+
+U: que es un servidor
+B: Un servidor es un sistema que provee servicios a otros programas o computadoras.
+
+U: que es un cliente
+B: Un cliente es un programa que consume servicios de un servidor.
+
+U: que es un proxy
+B: Un proxy es un intermediario que reenvía peticiones entre cliente y servidor.
+
+U: que es un VPN
+B: Una VPN extiende una red privada a través de internet, protegiendo la comunicación.
+
+U: que es un firewall
+B: Un firewall filtra el tráfico de red para proteger el sistema.
+
+U: que es un router
+B: Un router dirige el tráfico entre redes diferentes.
+
+U: que es un switch
+B: Un switch conecta dispositivos dentro de una misma red local.
+
+U: que es un hub
+B: Un hub es un dispositivo simple que conecta equipos en una red.
+
+U: que es un bridge
+B: Un bridge conecta dos redes y gestiona el tráfico entre ellas.
+
+U: que es una VLAN
+B: Una VLAN es una red virtual que agrupa dispositivos lógicamente.
+
+U: que es un DNS
+B: El DNS traduce nombres de dominio a direcciones IP.
+
+U: que es un DHCP
+B: DHCP asigna direcciones IP automáticamente a los dispositivos en una red.
+
+U: que es una dirección MAC
+B: La dirección MAC es un identificador único de cada dispositivo de red.
+
+U: que es una dirección IP
+B: La dirección IP identifica un dispositivo en una red.
+
+U: que es una red
+B: Una red es un conjunto de dispositivos conectados entre sí para compartir recursos.
+
+U: que es internet
+B: Internet es la red global de redes que conecta computadoras en todo el mundo.
+
+U: que es la web
+B: La web es el conjunto de documentos y servicios accesibles a través de internet.
+
+U: que es un navegador
+B: Un navegador es un programa para acceder a la web y mostrar páginas.
+
+U: que es un motor de búsqueda
+B: Un motor de búsqueda permite encontrar información en la web.
+
+U: que es Google
+B: Google es un motor de búsqueda y plataforma de servicios en internet.
+
+U: que es Microsoft
+B: Microsoft es una empresa de tecnología que desarrolla software como Windows.
+
+U: que es Apple
+B: Apple es una empresa de tecnología conocida por sus dispositivos y sistemas operativos.
+
+U: que es Linux
+B: Linux es un sistema operativo de código abierto, usado en servidores y dispositivos.
+
+U: que es Android
+B: Android es el sistema operativo móvil de Google, usado en tablets y teléfonos.
+
+U: que es iOS
+B: iOS es el sistema operativo móvil de Apple para iPhone y iPad.
+
+U: que es una aplicación
+B: Una aplicación es un programa diseñado para realizar tareas específicas en un dispositivo.
+
+U: que es un juego
+B: Un juego es una aplicación interactiva con reglas y objetivos para entretenerse.
+
+U: que es una simulación
+B: Una simulación modela un sistema real para estudiarlo o predecir su comportamiento.
+
+U: que es un videojuego
+B: Un videojuego es un juego electrónico que usa gráficos e interacción digital.
+
+U: que es una gráfica
+B: Una gráfica es una representación visual de datos o funciones matemáticas.
+
+U: que es un modelo matemático
+B: Un modelo matemático representa un sistema usando ecuaciones y variables.
+
+U: que es una función matemática
+B: Una función matemática relaciona un conjunto de entrada con una salida.
+
+U: que es una ecuación
+B: Una ecuación es una afirmación matemática de igualdad entre dos expresiones.
+
+U: que es una variable
+B: Una variable es un valor que puede cambiar o que representa un dato desconocido.
+
+U: que es una constante
+B: Una constante es un valor fijo que no cambia en un contexto dado.
+
+U: que es un logaritmo
+B: El logaritmo es el exponente al que hay que elevar una base para obtener un número.
+
+U: que es la función exponencial
+B: La función exponencial tiene la forma f(x) = a^x, crece muy rápido.
+
+U: que es la trigonometría
+B: La trigonometría estudia las relaciones entre los lados y ángulos de los triángulos.
+
+U: que es el seno
+B: El seno es una función trigonométrica que relaciona un ángulo con la razón entre lados.
+
+U: que es el coseno
+B: El coseno es una función trigonométrica que relaciona un ángulo con la razón entre lados.
+
+U: que es la tangente
+B: La tangente es la razón entre seno y coseno de un ángulo.
+
+U: que es el cálculo
+B: El cálculo estudia el cambio y la acumulación, usando derivadas e integrales.
+
+U: que es la derivada
+B: La derivada mide la tasa de cambio de una función en un punto.
+
+U: que es la integral
+B: La integral acumula cantidades y es el inverso de la derivada.
+
+U: que es la geometría
+B: La geometría estudia las formas, sus propiedades y relaciones en el espacio.
+
+U: que es el álgebra
+B: El álgebra estudia las operaciones y relaciones entre números y símbolos.
+
+U: que es la aritmética
+B: La aritmética es la rama básica de las matemáticas que estudia los números y operaciones simples.
+
+U: que es la lógica
+B: La lógica es el estudio de los principios del razonamiento válido.
+
+U: que es la programación lógica
+B: La programación lógica usa reglas y hechos para resolver problemas. Ejemplo: Prolog.
+
+U: que es la programación funcional
+B: La programación funcional se basa en funciones puras sin estado mutable. Ejemplo: Haskell, Lisp.
+
+U: que es la programación orientada a objetos
+B: La programación orientada a objetos usa clases y objetos para organizar el código.
+
+U: que es la programación estructurada
+B: La programación estructurada usa estructuras de control como bucles y condicionales.
+
+U: que es la programación imperativa
+B: La programación imperativa describe cómo hacer algo paso a paso.
+
+U: que es la programación declarativa
+B: La programación declarativa describe qué se quiere lograr, no cómo hacerlo.
+
+U: que es la programación reactiva
+B: La programación reactiva maneja flujos de datos y eventos de forma asíncrona.
+
+U: que es la programación concurrente
+B: La programación concurrente maneja múltiples tareas que avanzan al mismo tiempo.
+
+U: que es la programación paralela
+B: La programación paralela ejecuta tareas simultáneamente en diferentes procesadores.
+
+U: que es la programación distribuida
+B: La programación distribuida ejecuta tareas en múltiples máquinas conectadas en red.
+
+U: que es la computación en la nube
+B: La computación en la nube usa servidores remotos para almacenar y procesar datos.
+
+U: que es una aplicación web
+B: Una aplicación web se ejecuta en un navegador y usa internet.
+
+U: que es una aplicación móvil
+B: Una aplicación móvil se ejecuta en teléfonos inteligentes y tablets.
+
+U: que es una aplicación de escritorio
+B: Una aplicación de escritorio se ejecuta en computadoras personales.
+
+U: que es una aplicación híbrida
+B: Una aplicación híbrida combina elementos de aplicaciones web y nativas.
+
+U: que es una PWA
+B: Una PWA (Progresive Web App) es una aplicación web que se comporta como una nativa.
+
+U: que es un API Gateway
+B: Un API Gateway centraliza y gestiona las llamadas a servicios en una arquitectura de microservicios.
+
+U: que es un service mesh
+B: Un service mesh maneja la comunicación entre microservicios con seguridad y monitoreo.
+
+U: que es un sidecar
+B: Un sidecar es un contenedor auxiliar que extiende la funcionalidad de un servicio principal.
+
+U: que es un ingreso
+B: El ingreso en redes es el tráfico que entra a un sistema desde el exterior.
+
+U: que es un egreso
+B: El egreso es el tráfico que sale de un sistema hacia el exterior.
+
+U: que es un recurso
+B: Un recurso es cualquier elemento que un sistema puede usar o gestionar.
+
+U: que es un endpoint
+B: Un endpoint es la URL donde un servicio expone una funcionalidad.
+
+U: que es un método HTTP
+B: Un método HTTP indica la acción a realizar en una petición. Ejemplo: GET, POST, PUT, DELETE.
+
+U: que es GET
+B: GET se usa para obtener datos del servidor.
+
+U: que es POST
+B: POST se usa para enviar datos al servidor para crear un recurso.
+
+U: que es PUT
+B: PUT se usa para actualizar un recurso existente en el servidor.
+
+U: que es DELETE
+B: DELETE se usa para eliminar un recurso del servidor.
+
+U: que es PATCH
+B: PATCH se usa para actualizar parcialmente un recurso.
+
+U: que es un status code
+B: Un código de estado HTTP indica el resultado de una petición.
+
+U: que es 200 OK
+B: 200 OK indica que la petición fue exitosa.
+
+U: que es 201 Created
+B: 201 Created indica que un recurso fue creado exitosamente.
+
+U: que es 204 No Content
+B: 204 No Content indica que la petición fue exitosa pero no hay contenido que devolver.
+
+U: que es un error
+B: Un error es una falla que ocurre durante la ejecución de un programa.
+
+U: que es una excepción
+B: Una excepción es un error que puede ser capturado y manejado en el código.
+
+U: que es un bug
+B: Un bug es un error en el código que causa comportamientos no deseados.
+
+U: que es un crash
+B: Un crash es cuando un programa deja de funcionar abruptamente.
+
+U: que es un stack trace
+B: Un stack trace muestra la secuencia de llamadas que llevaron a un error.
+
+U: que es un breakpoint
+B: Un breakpoint es un punto en el código donde el depurador pausa la ejecución.
+
+U: que es un watch
+B: Un watch permite observar el valor de variables mientras se depura.
+
+U: que es un step over
+B: Step over ejecuta la línea actual sin entrar en funciones.
+
+U: que es un step into
+B: Step into entra en la función que se está llamando.
+
+U: que es un step out
+B: Step out sale de la función actual y continúa la ejecución.
+
+U: que es un profiler
+B: Un profiler mide el uso de tiempo y memoria de las diferentes partes del código.
+
+U: que es un benchmark
+B: Un benchmark mide el rendimiento de un sistema o componente.
+
+U: que es un stress test
+B: Un stress test evalúa el sistema bajo condiciones extremas de carga.
+
+U: que es un load test
+B: Un load test mide el rendimiento del sistema con una carga esperada.
+
+U: que es un scalability test
+B: Un scalability test evalúa cómo se comporta el sistema al crecer.
+
+U: que es un reliability test
+B: Un reliability test mide la estabilidad del sistema en el tiempo.
+
+U: que es un failover
+B: Un failover es el proceso de cambiar a un sistema de respaldo en caso de fallo.
+
+U: que es un disaster recovery
+B: Disaster recovery es el plan para restaurar sistemas después de un desastre.
+
+U: que es un backup
+B: Un backup es una copia de seguridad de los datos.
+
+U: que es un restore
+B: Restore es el proceso de recuperar datos desde un backup.
+
+U: que es un archivo de logs
+B: Un archivo de logs registra eventos del sistema para análisis y depuración.
+
+U: que es un monitor
+B: Un monitor observa el estado del sistema en tiempo real.
+
+U: que es una alerta
+B: Una alerta notifica sobre eventos críticos en el sistema.
+
+U: que es un dashboard
+B: Un dashboard muestra métricas y estado del sistema de forma visual.
+
+U: que es una métrica
+B: Una métrica es una medida cuantitativa de un aspecto del sistema.
+
+U: que es un SLA
+B: Un SLA define el nivel de servicio esperado por un proveedor.
+
+U: que es un SLO
+B: Un SLO (Service Level Objective) es un objetivo específico dentro de un SLA.
+
+U: que es un SLI
+B: Un SLI (Service Level Indicator) es una métrica que mide el cumplimiento del SLO.
+
+U: que es la observabilidad
+B: La observabilidad es la capacidad de entender el estado interno de un sistema a través de sus salidas.
+
+U: que es el tracing
+B: El tracing sigue el recorrido de una petición a través de los sistemas.
+
+U: que es el logging
+B: El logging es el registro de eventos del sistema.
+
+U: que es el metrics
+B: Las métricas son datos cuantitativos sobre el rendimiento del sistema.
+
+U: que es un exporter
+B: Un exporter provee métricas a un sistema de monitoreo.
+
+U: que es Prometheus
+B: Prometheus es un sistema de monitoreo con métricas y alertas.
+
+U: que es Grafana
+B: Grafana es una herramienta para visualizar datos y métricas en dashboards.
+
+U: que es ELK
+B: ELK (Elasticsearch, Logstash, Kibana) es una pila para logs y análisis.
+
+U: que es Sentry
+B: Sentry es una herramienta para monitorear errores en aplicaciones.
+
+U: que es New Relic
+B: New Relic es una plataforma de observabilidad para aplicaciones.
+
+U: que es Datadog
+B: Datadog es una plataforma de monitoreo para infraestructura y aplicaciones.
+
+U: que es un bug tracking
+B: Un bug tracker es un sistema para reportar y gestionar errores.
+
+U: que es Jira
+B: Jira es una herramienta de seguimiento de proyectos y errores.
+
+U: que es Trello
+B: Trello es una herramienta visual para organizar tareas y proyectos.
+
+U: que es Asana
+B: Asana es una herramienta para gestionar proyectos y tareas en equipo.
+
+U: que es Slack
+B: Slack es una plataforma de comunicación para equipos.
+
+U: que es Teams
+B: Teams es una plataforma de comunicación y colaboración de Microsoft.
+
+U: que es Discord
+B: Discord es una plataforma de comunicación para comunidades y juegos.
+
+U: que es Zoom
+B: Zoom es una herramienta para videoconferencias y reuniones.
+
+U: que es Google Meet
+B: Google Meet es una herramienta para videollamadas y reuniones.
+
+U: que es un webinar
+B: Un webinar es un seminario en línea, generalmente interactivo.
+
+U: que es un curso en línea
+B: Un curso en línea es un conjunto de lecciones educativas accesibles por internet.
+
+U: que es una plataforma educativa
+B: Una plataforma educativa ofrece cursos, evaluaciones y recursos para aprender.
+
+U: que es Moodle
+B: Moodle es una plataforma de aprendizaje de código abierto.
+
+U: que es Canvas
+B: Canvas es un sistema de gestión de aprendizaje usado en educación.
+
+U: que es un MOOC
+B: Un MOOC (Massive Open Online Course) es un curso gratuito y abierto a gran escala.
+
+U: que es la educación a distancia
+B: La educación a distancia permite aprender sin estar físicamente presente.
+
+U: que es un tutor
+B: Un tutor guía y apoya a los estudiantes en su proceso de aprendizaje.
+
+U: que es un mentor
+B: Un mentor es una persona con experiencia que orienta y aconseja a otros.
+
+U: que es un coach
+B: Un coach ayuda a las personas a alcanzar sus metas personales o profesionales.
+
+U: que es el desarrollo personal
+B: El desarrollo personal es el proceso de mejorar habilidades y cualidades propias.
+
+U: que es el crecimiento profesional
+B: El crecimiento profesional es avanzar en tu carrera mediante aprendizaje y experiencia.
+
+U: que es el liderazgo
+B: El liderazgo es la capacidad de guiar e inspirar a otros hacia un objetivo.
+
+U: que es el trabajo en equipo
+B: El trabajo en equipo es colaborar con otros para lograr un objetivo común.
+
+U: que es la productividad
+B: La productividad es la eficiencia con la que realizas tareas y alcanzas metas.
+
+U: que es la gestión del tiempo
+B: La gestión del tiempo es organizar y planificar cómo usar el tiempo de manera efectiva.
+
+U: que es la organización
+B: La organización es estructurar tus tareas y recursos para ser más eficiente.
+
+U: que es un hábito
+B: Un hábito es una acción que repites regularmente y que se convierte en automática.
+
+U: que es la disciplina
+B: La disciplina es la constancia para hacer lo que debes hacer, incluso cuando no quieres.
+
+U: que es la motivación
+B: La motivación es la energía que te impulsa a actuar y alcanzar tus metas.
+
+U: que es la inspiración
+B: La inspiración es una chispa de creatividad o motivación que te mueve a hacer algo.
+
+U: que es la creatividad
+B: La creatividad es la capacidad de generar ideas originales y valiosas.
+
+U: que es la innovación
+B: La innovación es convertir ideas creativas en soluciones prácticas y útiles.
+
+U: que es el emprendimiento
+B: El emprendimiento es crear y gestionar un proyecto o negocio con iniciativa propia.
+
+U: que es una startup
+B: Una startup es una empresa emergente con alto potencial de crecimiento.
+
+U: que es un inversor
+B: Un inversor financia proyectos a cambio de una participación en el negocio.
+
+U: que es un mercado
+B: Un mercado es un espacio donde se intercambian bienes y servicios.
+
+U: que es la oferta y demanda
+B: Oferta y demanda es el principio que regula los precios en un mercado.
+
+U: que es la competencia
+B: La competencia son empresas o personas que ofrecen productos o servicios similares.
+
+U: que es la colaboración
+B: La colaboración es trabajar juntos para lograr un beneficio mutuo.
+
+U: que es la empatía
+B: La empatía es la capacidad de entender y compartir los sentimientos de los demás.
+
+U: que es la comunicación asertiva
+B: La comunicación asertiva es expresar tus ideas y sentimientos de forma clara y respetuosa.
+
+U: que es la escucha activa
+B: La escucha activa es prestar atención total a quien habla, entendiendo su mensaje.
+
+U: que es la retroalimentación
+B: La retroalimentación es información que recibes sobre tu desempeño para mejorar.
+
+U: que es la crítica constructiva
+B: La crítica constructiva es un comentario que ayuda a mejorar sin ofender.
+
+U: que es el feedback positivo
+B: El feedback positivo reconoce y refuerza lo que estás haciendo bien.
+
+U: que es el feedback negativo
+B: El feedback negativo señala áreas de mejora, de forma objetiva y respetuosa.
+
+U: que es un conflicto
+B: Un conflicto es una situación de desacuerdo o tensión entre personas o grupos.
+
+U: que es la resolución de conflictos
+B: La resolución de conflictos busca soluciones pacíficas y acuerdos entre las partes.
+
+U: que es la negociación
+B: La negociación es un proceso para llegar a acuerdos entre dos o más partes.
+
+U: que es la persuasión
+B: La persuasión es convencer a alguien de adoptar una idea o acción.
+
+U: que es la influencia
+B: La influencia es el poder de afectar las decisiones o comportamientos de otros.
+
+U: que es la credibilidad
+B: La credibilidad es la confianza que inspiras en los demás por tu honestidad y competencia.
+
+U: que es la transparencia
+B: La transparencia es actuar con claridad y honestidad, sin ocultar información.
+
+U: que es la integridad
+B: La integridad es actuar de manera coherente con tus valores y principios.
+
+U: que es la ética profesional
+B: La ética profesional es el conjunto de normas que guían el comportamiento en el trabajo.
+
+U: que es el código de conducta
+B: Un código de conducta establece las normas de comportamiento en una organización.
+
+U: que es la responsabilidad social
+B: La responsabilidad social es el compromiso de las empresas con el bienestar de la sociedad.
+
+U: que es el impacto social
+B: El impacto social es el efecto que una acción o proyecto tiene en la sociedad.
+
+U: que es la sostenibilidad
+B: La sostenibilidad es satisfacer las necesidades actuales sin comprometer el futuro.
+
+U: que es el desarrollo sostenible
+B: El desarrollo sostenible equilibra el crecimiento económico, la inclusión social y la protección ambiental.
+
+U: que es el medio ambiente
+B: El medio ambiente es el conjunto de elementos naturales y artificiales que nos rodean.
+
+U: que es la ecología
+B: La ecología estudia las relaciones entre los seres vivos y su entorno.
+
+U: que es la biodiversidad
+B: La biodiversidad es la variedad de formas de vida en la Tierra.
+
+U: que es el reciclaje
+B: El reciclaje es el proceso de convertir residuos en nuevos productos.
+
+U: que es la economía circular
+B: La economía circular busca reducir residuos reutilizando y reciclando materiales.
+
+U: que es la huella de carbono
+B: La huella de carbono es la cantidad de gases de efecto invernadero que produce una actividad.
+
+U: que es el calentamiento global
+B: El calentamiento global es el aumento de la temperatura promedio de la Tierra.
+
+U: que es el cambio climático
+B: El cambio climático son las variaciones del clima causadas por actividades humanas.
+
+U: que es la energía renovable
+B: La energía renovable proviene de fuentes naturales inagotables como el sol y el viento.
+
+U: que es la energía solar
+B: La energía solar se obtiene de la radiación del sol, usando paneles solares.
+
+U: que es la energía eólica
+B: La energía eólica se obtiene del viento, usando aerogeneradores.
+
+U: que es la energía hidroeléctrica
+B: La energía hidroeléctrica se obtiene del movimiento del agua, como en presas.
+
+U: que es la energía geotérmica
+B: La energía geotérmica aprovecha el calor del interior de la Tierra.
+
+U: que es la biomasa
+B: La biomasa es materia orgánica que se usa como fuente de energía.
+
+U: que es un coche eléctrico
+B: Un coche eléctrico funciona con baterías y motores eléctricos, sin emisiones directas.
+
+U: que es la movilidad sostenible
+B: La movilidad sostenible busca transportarse de manera eficiente y con bajo impacto ambiental.
+
+U: que es una ciudad inteligente
+B: Una ciudad inteligente usa tecnología para mejorar la calidad de vida y la eficiencia urbana.
+
+U: que es el IoT
+B: IoT (Internet of Things) conecta dispositivos físicos a internet para recopilar y compartir datos.
+
+U: que es un sensor
+B: Un sensor detecta cambios en el entorno, como temperatura, luz o movimiento.
+
+U: que es un actuador
+B: Un actuador es un dispositivo que convierte señales en acciones físicas, como abrir una válvula.
+
+U: que es un robot
+B: Un robot es una máquina programable que puede realizar tareas autónomas.
+
+U: que es la automatización industrial
+B: La automatización industrial usa sistemas de control y robots en procesos productivos.
+
+U: que es la manufactura
+B: La manufactura es la producción de bienes a partir de materias primas.
+
+U: que es la cadena de suministro
+B: La cadena de suministro es el flujo de materiales y productos desde el origen hasta el consumidor.
+
+U: que es un almacén
+B: Un almacén es un espacio para guardar productos y materiales.
+
+U: que es la logística
+B: La logística planifica y gestiona el transporte y almacenamiento de mercancías.
+
+U: que es un proveedor
+B: Un proveedor es una empresa que suministra bienes o servicios a otra.
+
+U: que es un cliente
+B: Un cliente es quien compra o utiliza los productos o servicios de una empresa.
+
+U: que es la calidad
+B: La calidad es el grado en que un producto o servicio cumple con las expectativas.
+
+U: que es la mejora continua
+B: La mejora continua es el esfuerzo constante por optimizar procesos y resultados.
+
+U: que es un proceso
+B: Un proceso es una serie de pasos para lograr un resultado específico.
+
+U: que es un procedimiento
+B: Un procedimiento es una secuencia detallada de pasos para realizar una tarea.
+
+U: que es una política
+B: Una política es una directriz que guía las decisiones y acciones en una organización.
+
+U: que es una estrategia
+B: Una estrategia es un plan para alcanzar objetivos a largo plazo.
+
+U: que es un objetivo
+B: Un objetivo es una meta concreta que se desea alcanzar.
+
+U: que es una meta
+B: Una meta es un propósito específico y medible que se quiere lograr.
+
+U: que es un indicador
+B: Un indicador es una métrica que mide el progreso hacia un objetivo.
+
+U: que es una meta SMART
+B: Una meta SMART es Específica, Medible, Alcanzable, Relevante y con Tiempo definido.
+
+U: que es la planificación
+B: La planificación es el proceso de establecer objetivos y decidir cómo alcanzarlos.
+
+U: que es el presupuesto
+B: Un presupuesto estima los ingresos y gastos para un período determinado.
+
+U: que es un informe
+B: Un informe es un documento que presenta información sobre un tema o proyecto.
+
+U: que es un análisis
+B: El análisis descompone un tema en partes para entenderlo mejor.
+
+U: que es la síntesis
+B: La síntesis integra partes para formar una visión completa de un tema.
+
+U: que es la evaluación
+B: La evaluación mide el valor o el rendimiento de algo según criterios establecidos.
+
+U: que es el diagnóstico
+B: El diagnóstico identifica problemas o causas de una situación.
+
+U: que es la prevención
+B: La prevención busca evitar problemas antes de que ocurran.
+
+U: que es la solución
+B: Una solución es la respuesta o acción que resuelve un problema.
+
+U: que es la innovación disruptiva
+B: La innovación disruptiva crea productos o servicios que transforman un mercado.
+
+U: que es una tendencia
+B: Una tendencia es una dirección en la que algo se desarrolla o cambia.
+
+U: que es la moda
+B: La moda es un estilo o tendencia popular en un momento dado.
+
+U: que es la cultura popular
+B: La cultura popular son las expresiones y gustos compartidos por la mayoría de la sociedad.
+
+U: que es la contracultura
+B: La contracultura es un movimiento que se opone a la cultura dominante.
+
+U: que es la identidad
+B: La identidad es el conjunto de características que definen a una persona o grupo.
+
+U: que es la autoestima
+B: La autoestima es la valoración que tienes de ti mismo.
+
+U: que es la confianza
+B: La confianza es creer en tus capacidades y en los demás.
+
+U: que es la seguridad
+B: La seguridad es la sensación de estar protegido y libre de peligros.
+
+U: que es el miedo
+B: El miedo es una emoción de alerta ante una amenaza real o imaginaria.
+
+U: que es el coraje
+B: El coraje es actuar a pesar del miedo, enfrentando los desafíos.
+
+U: que es la valentía
+B: La valentía es la disposición a enfrentar peligros o dificultades.
+
+U: que es la fortaleza
+B: La fortaleza es la capacidad de soportar y superar dificultades.
+
+U: que es la resiliencia
+B: La resiliencia es recuperarse y crecer después de situaciones adversas.
+
+U: que es el optimismo
+B: El optimismo es esperar que las cosas salgan bien, incluso en tiempos difíciles.
+
+U: que es el pesimismo
+B: El pesimismo es esperar lo peor o ver el lado negativo de las cosas.
+
+U: que es el equilibrio
+B: El equilibrio es mantener la estabilidad en diferentes aspectos de la vida.
+
+U: que es la armonía
+B: La armonía es la combinación equilibrada y agradable de elementos.
+
+U: que es la paz interior
+B: La paz interior es un estado de calma y serenidad emocional.
+
+U: que es la felicidad
+B: La felicidad es un estado de bienestar y satisfacción con la vida.
+
+U: que es la gratitud
+B: La gratitud es valorar y agradecer lo que tienes y a las personas que te apoyan.
+
+U: que es la generosidad
+B: La generosidad es dar sin esperar nada a cambio.
+
+U: que es la solidaridad
+B: La solidaridad es apoyar a los demás en momentos de necesidad.
+
+U: que es el altruismo
+B: El altruismo es actuar en beneficio de otros sin esperar recompensa.
+
+U: que es el amor propio
+B: El amor propio es aceptarte y valorarte tal como eres.
+
+U: que es la autorrealización
+B: La autorrealización es alcanzar tu máximo potencial y sentirte pleno.
+
+U: que es un sueño
+B: Un sueño es una aspiración profunda que te motiva a seguir adelante.
+
+U: que es una meta
+B: Una meta es un objetivo que te propones alcanzar con esfuerzo y dedicación.
+
+U: que es el propósito de vida
+B: El propósito de vida es la razón que da sentido a tus acciones y decisiones.
+
+U: que es la vocación
+B: La vocación es una inclinación o talento natural hacia una actividad o profesión.
+
+U: que es el talento
+B: El talento es una habilidad natural que te permite destacar en algo.
+
+U: que es la habilidad
+B: Una habilidad es la capacidad de realizar una tarea con destreza.
+
+U: que es la competencia
+B: La competencia es la combinación de conocimientos, habilidades y actitudes para desempeñar un rol.
+
+U: que es la experiencia
+B: La experiencia es el conocimiento adquirido a través de la práctica y el tiempo.
+
+U: que es el aprendizaje continuo
+B: El aprendizaje continuo es el compromiso de actualizarse y mejorar constantemente.
+
+U: que es la autodisciplina
+B: La autodisciplina es la capacidad de controlarte y cumplir con tus compromisos.
+
+U: que es la constancia
+B: La constancia es la perseverancia para seguir adelante a pesar de los obstáculos.
+
+U: que es la paciencia
+B: La paciencia es la capacidad de esperar sin frustrarse, confiando en que las cosas llegarán.
+
+U: que es la humildad
+B: La humildad es reconocer tus limitaciones y aprender de los demás.
+
+U: que es el respeto
+B: El respeto es tratar a los demás con dignidad y consideración.
+
+U: que es la tolerancia
+B: La tolerancia es aceptar las diferencias y convivir en armonía.
+
+U: que es la diversidad
+B: La diversidad es la variedad de culturas, ideas y formas de ser que enriquecen el mundo.
+
+U: que es la inclusión
+B: La inclusión es asegurar que todas las personas sean valoradas y tengan oportunidades.
+
+U: que es la igualdad
+B: La igualdad es garantizar los mismos derechos y oportunidades para todos.
+
+U: que es la justicia social
+B: La justicia social busca una distribución equitativa de derechos y recursos en la sociedad.
+
+U: que es la democracia
+B: La democracia es un sistema de gobierno donde el poder reside en el pueblo.
+
+U: que es la participación ciudadana
+B: La participación ciudadana es el involucramiento de la comunidad en decisiones públicas.
+
+U: que es el voto
+B: El voto es el derecho de elegir a los representantes en una democracia.
+
+U: que es la libertad de expresión
+B: La libertad de expresión es el derecho a opinar y compartir ideas sin censura.
+
+U: que es la libertad de prensa
+B: La libertad de prensa es el derecho de los medios a informar sin interferencias.
+
+U: que es la privacidad
+B: La privacidad es el derecho a controlar tu información personal.
+
+U: que es la seguridad digital
+B: La seguridad digital protege tus datos y sistemas en el entorno en línea.
+
+U: que es una contraseña segura
+B: Una contraseña segura es larga, con mayúsculas, minúsculas, números y símbolos.
+
+U: que es la autenticación de dos factores
+B: 2FA añade una segunda capa de seguridad, como un código enviado al móvil.
+
+U: que es un certificado digital
+B: Un certificado digital verifica la identidad de un sitio o persona en internet.
+
+U: que es una firma digital
+B: Una firma digital es un método para verificar la autenticidad de un documento electrónico.
+
+U: que es el cifrado
+B: El cifrado convierte datos legibles en un formato codificado para protegerlos.
+
+U: que es la clave pública
+B: La clave pública se usa para cifrar datos que solo la clave privada puede descifrar.
+
+U: que es la clave privada
+B: La clave privada descifra datos cifrados con su clave pública correspondiente.
+
+U: que es un token de acceso
+B: Un token de acceso es una credencial que permite acceder a un sistema o API.
+
+U: que es JWT
+B: JWT (JSON Web Token) es un token compacto y seguro para autenticación.
+
+U: que es OAuth
+B: OAuth es un protocolo de autorización que permite acceso delegado a recursos.
+
+U: que es OpenID
+B: OpenID es un protocolo de autenticación descentralizado.
+
+U: que es un SSO
+B: SSO (Single Sign-On) permite iniciar sesión una vez y acceder a múltiples servicios.
+
+U: que es un API key
+B: Una API key es un identificador para autenticar aplicaciones que usan una API.
+
+U: que es un webhook
+B: Un webhook es una notificación HTTP que un sistema envía cuando ocurre un evento.
+
+U: que es un evento
+B: Un evento es una acción o cambio que ocurre en un sistema o aplicación.
+
+U: que es un listener
+B: Un listener es un componente que escucha eventos y responde a ellos.
+
+U: que es un handler
+B: Un handler es una función que maneja un evento específico.
+
+U: que es una cola
+B: Una cola es una estructura de datos donde los elementos se procesan en orden FIFO.
+
+U: que es una pila
+B: Una pila es una estructura de datos donde los elementos se procesan en orden LIFO.
+
+U: que es una lista enlazada
+B: Una lista enlazada es una secuencia de nodos donde cada uno apunta al siguiente.
+
+U: que es un árbol
+B: Un árbol es una estructura jerárquica de nodos, como un árbol genealógico.
+
+U: que es un grafo
+B: Un grafo es un conjunto de nodos conectados por aristas, usado en redes y mapas.
+
+U: que es un algoritmo
+B: Un algoritmo es una secuencia de pasos para resolver un problema.
+
+U: que es la búsqueda binaria
+B: La búsqueda binaria encuentra un elemento en una lista ordenada dividiendo el rango por la mitad.
+
+U: que es el ordenamiento por burbuja
+B: El ordenamiento por burbuja es un algoritmo simple que intercambia elementos adyacentes.
+
+U: que es el ordenamiento rápido
+B: QuickSort es un algoritmo eficiente que divide y ordena recursivamente.
+
+U: que es el ordenamiento por mezcla
+B: MergeSort divide la lista en mitades, las ordena y luego las fusiona.
+
+U: que es la recursividad
+B: La recursividad es una técnica donde una función se llama a sí misma.
+
+U: que es la iteración
+B: La iteración repite un bloque de código un número determinado de veces.
+
+U: que es un bucle
+B: Un bucle es una estructura que repite código mientras se cumpla una condición.
+
+U: que es un condicional
+B: Un condicional ejecuta código según el valor de una condición.
+
+U: que es una variable booleana
+B: Una variable booleana solo puede ser verdadera (true) o falsa (false).
+
+U: que es una operación lógica
+B: Las operaciones lógicas son AND, OR y NOT, usadas en condiciones.
+
+U: que es la prioridad de operadores
+B: La prioridad determina qué operación se ejecuta primero en una expresión.
+
+U: que es un comentario
+B: Un comentario es un texto en el código que no se ejecuta, usado para explicar.
+
+U: que es la documentación
+B: La documentación explica cómo usar y entender un sistema o código.
+
+U: que es un API
+B: Una API es una interfaz para que programas se comuniquen entre sí.
+
+U: que es un SDK
+B: Un SDK es un conjunto de herramientas para desarrollar en una plataforma.
+
+U: que es un IDE
+B: Un IDE es un entorno de desarrollo integrado con editor y depurador.
+
+U: que es un editor de código
+B: Un editor de código es un programa para escribir y modificar código fuente.
+
+U: que es un terminal
+B: La terminal es una interfaz para ejecutar comandos en el sistema.
+
+U: que es un shell
+B: Un shell es un intérprete de comandos en el sistema operativo.
+
+U: que es un comando
+B: Un comando es una instrucción que se ejecuta en la terminal.
+
+U: que es un script
+B: Un script es un archivo con comandos que se ejecutan en secuencia.
+
+U: que es un batch
+B: Un batch es un archivo con comandos para Windows que se ejecutan en lote.
+
+U: que es un archivo de configuración
+B: Un archivo de configuración ajusta el comportamiento de un programa.
+
+U: que es una variable de entorno
+B: Una variable de entorno influye en cómo se comporta un programa.
+
+U: que es un puerto
+B: Un puerto es el punto de entrada para la comunicación en red.
+
+U: que es un socket
+B: Un socket es un extremo de una conexión de red.
+
+U: que es TCP/IP
+B: TCP/IP es el conjunto de protocolos que permiten la comunicación en internet.
+
+U: que es un router
+B: Un router dirige el tráfico entre redes.
+
+U: que es un switch
+B: Un switch conecta dispositivos dentro de una red local.
+
+U: que es una red
+B: Una red es un grupo de dispositivos interconectados.
+
+U: que es internet
+B: Internet es la red global de redes interconectadas.
+
+U: que es la nube
+B: La nube ofrece servicios informáticos a través de internet.
+
+U: que es una VM
+B: Una VM (Máquina Virtual) es una computadora emulada dentro de otra.
+
+U: que es un contenedor
+B: Un contenedor es una unidad de software ligera y portátil.
+
+U: que es Docker
+B: Docker es una plataforma para crear y ejecutar contenedores.
+
+U: que es Kubernetes
+B: Kubernetes es un orquestador de contenedores.
+
+U: que es un microservicio
+B: Un microservicio es una pequeña aplicación que realiza una función específica.
+
+U: que es una API Gateway
+B: Un API Gateway centraliza las llamadas a microservicios.
+
+U: que es un service mesh
+B: Un service mesh gestiona la comunicación entre microservicios.
+
+U: que es un sidecar
+B: Un sidecar es un contenedor que extiende la funcionalidad de un servicio.
+
+U: que es un proxy inverso
+B: Un proxy inverso distribuye las peticiones a los servidores adecuados.
+
+U: que es un balanceador de carga
+B: Un balanceador de carga distribuye el tráfico entre varios servidores.
+
+U: que es el caching
+B: El caching almacena datos temporalmente para acelerar el acceso.
+
+U: que es Redis
+B: Redis es una base de datos en memoria para caché y mensajería.
+
+U: que es Memcached
+B: Memcached es un sistema de caché distribuido en memoria.
+
+U: que es un CDN
+B: Un CDN (Content Delivery Network) distribuye contenido a nivel global para acelerar la entrega.
+
+U: que es un dominio
+B: Un dominio es el nombre que identifica un sitio web en internet.
+
+U: que es un subdominio
+B: Un subdominio es una parte del dominio principal. Ejemplo: api.ejemplo.com.
+
+U: que es un registro DNS
+B: Un registro DNS asocia un dominio con una dirección IP.
+
+U: que es un certificado SSL
+B: Un certificado SSL habilita conexiones seguras en un sitio web.
+
+U: que es un hosting
+B: Un hosting es un servicio que aloja sitios web en servidores.
+
+U: que es un servidor dedicado
+B: Un servidor dedicado es una máquina completa alquilada para un solo cliente.
+
+U: que es un VPS
+B: Un VPS (Virtual Private Server) es un servidor virtual con recursos dedicados.
+
+U: que es un servidor compartido
+B: Un servidor compartido aloja múltiples sitios en la misma máquina.
+
+U: que es un cloud server
+B: Un servidor en la nube es escalable y se paga por uso.
+
+U: que es un archivo de logs
+B: Los logs registran eventos para monitoreo y depuración.
+
+U: que es la monitorización
+B: La monitorización observa el estado del sistema en tiempo real.
+
+U: que es una alerta
+B: Una alerta notifica sobre eventos críticos en el sistema.
+
+U: que es un dashboard
+B: Un dashboard visualiza métricas y el estado del sistema.
+
+U: que es una métrica
+B: Una métrica es un dato cuantitativo del sistema.
+
+U: que es un KPI
+B: Un KPI es un indicador clave de rendimiento.
+
+U: que es el análisis de datos
+B: El análisis de datos extrae información útil de los datos.
+
+U: que es la visualización de datos
+B: La visualización de datos presenta información de forma gráfica.
+
+U: que es un informe
+B: Un informe es un documento que presenta resultados o análisis.
+
+U: que es una presentación
+B: Una presentación comunica información de forma visual y oral.
+
+U: que es un resumen
+B: Un resumen es una versión breve y concisa de un texto.
+
+U: que es una conclusión
+B: La conclusión es la parte final donde se extraen las ideas principales.
+
+U: que es un argumento
+B: Un argumento es una razón o conjunto de razones para apoyar una idea.
+
+U: que es una evidencia
+B: La evidencia son datos o hechos que respaldan un argumento.
+
+U: que es la lógica
+B: La lógica es el razonamiento válido y coherente.
+
+U: que es el pensamiento crítico
+B: El pensamiento crítico evalúa ideas y argumentos de manera objetiva.
+
+U: que es la resolución de problemas
+B: Resolver problemas es identificar soluciones efectivas para desafíos.
+
+U: que es la toma de decisiones
+B: Tomar decisiones es elegir la mejor opción entre varias alternativas.
+
+U: que es la planificación
+B: La planificación es organizar acciones para alcanzar un objetivo.
+
+U: que es el seguimiento
+B: El seguimiento supervisa el progreso de un plan o proyecto.
+
+U: que es el control
+B: El control compara el progreso real con el planificado y ajusta.
+
+U: que es el feedback
+B: El feedback es información que recibes sobre tu desempeño.
+
+U: que es el aprendizaje
+B: El aprendizaje es adquirir conocimientos o habilidades nuevas.
+
+U: que es el conocimiento
+B: El conocimiento es la comprensión y dominio de un tema.
+
+U: que es la sabiduría
+B: La sabiduría es aplicar el conocimiento con buen juicio.
+
+U: que es la experiencia
+B: La experiencia es el conocimiento adquirido por la práctica.
+
+U: que es el error
+B: Un error es una acción incorrecta que ofrece una oportunidad de aprendizaje.
+
+U: que es el éxito
+B: El éxito es alcanzar tus metas y sentirte satisfecho.
+
+U: que es el fracaso
+B: El fracaso es no alcanzar una meta, pero también una oportunidad para crecer.
+
+U: que es la perseverancia
+B: La perseverancia es seguir intentando a pesar de los obstáculos.
+
+U: que es la resiliencia
+B: La resiliencia es recuperarse y salir fortalecido de las dificultades.
+
+U: que es la superación
+B: La superación es mejorar continuamente y vencer tus propios límites.
+
+U: que es la motivación
+B: La motivación te impulsa a actuar y esforzarte por tus metas.
+
+U: que es la inspiración
+B: La inspiración es una chispa creativa que te mueve a hacer algo especial.
+
+U: que es el propósito
+B: El propósito es la razón que le da sentido a lo que haces.
+
+U: que es la pasión
+B: La pasión es el entusiasmo profundo por algo que te apasiona.
+
+U: que es la vocación
+B: La vocación es una inclinación natural hacia una actividad o profesión.
+
+U: que es el talento
+B: El talento es una habilidad natural para hacer algo bien.
+
+U: que es la creatividad
+B: La creatividad es generar ideas nuevas y valiosas.
+
+U: que es la innovación
+B: La innovación es transformar ideas creativas en soluciones útiles.
+
+U: que es el emprendimiento
+B: El emprendimiento es iniciar y gestionar proyectos o negocios.
+
+U: que es el liderazgo
+B: El liderazgo es guiar e inspirar a otros hacia un objetivo común.
+
+U: que es el trabajo en equipo
+B: El trabajo en equipo es colaborar eficazmente para lograr metas compartidas.
+
+U: que es la comunicación
+B: La comunicación es el intercambio claro y efectivo de información.
+
+U: que es la empatía
+B: La empatía es comprender y compartir los sentimientos de los demás.
+
+U: que es la colaboración
+B: La colaboración es trabajar juntos para obtener un resultado mejor.
+
+U: que es la confianza
+B: La confianza es creer en los demás y en ti mismo.
+
+U: que es el respeto
+B: El respeto es valorar a los demás y a ti mismo.
+
+U: que es la honestidad
+B: La honestidad es ser sincero y actuar con integridad.
+
+U: que es la transparencia
+B: La transparencia es actuar con claridad y sin ocultar información.
+
+U: que es la responsabilidad
+B: La responsabilidad es cumplir con tus compromisos y asumir las consecuencias.
+
+U: que es el compromiso
+B: El compromiso es dedicarte a tus metas y a las personas que confían en ti.
+
+U: que es la lealtad
+B: La lealtad es ser fiel a quienes te apoyan y a tus principios.
+
+U: que es la generosidad
+B: La generosidad es compartir lo que tienes con los demás.
+
+U: que es la gratitud
+B: La gratitud es apreciar y agradecer lo que recibes.
+
+U: que es la humildad
+B: La humildad es reconocer que todos podemos aprender de los demás.
+
+U: que es la paciencia
+B: La paciencia es esperar con calma y confianza.
+
+U: que es la tolerancia
+B: La tolerancia es aceptar las diferencias de los demás.
+
+U: que es la inclusión
+B: La inclusión es asegurar que todos tengan espacio y oportunidades.
+
+U: que es la diversidad
+B: La diversidad es la riqueza de las diferencias humanas.
+
+U: que es la igualdad
+B: La igualdad es garantizar los mismos derechos para todos.
+
+U: que es la justicia
+B: La justicia es dar a cada persona lo que le corresponde.
+
+U: que es la paz
+B: La paz es la armonía y ausencia de conflicto.
+
+U: que es la libertad
+B: La libertad es poder elegir y actuar según tu voluntad.
+
+U: que es la solidaridad
+B: La solidaridad es apoyar a los demás en momentos difíciles.
+
+U: que es el altruismo
+B: El altruismo es ayudar a otros sin esperar nada a cambio.
+
+U: que es el bien común
+B: El bien común es el beneficio de toda la sociedad.
+
+U: que es la sostenibilidad
+B: La sostenibilidad es satisfacer necesidades sin comprometer el futuro.
+
+U: que es el medio ambiente
+B: El medio ambiente es todo lo que nos rodea y debemos cuidar.
+
+U: que es la naturaleza
+B: La naturaleza es el mundo físico y los seres vivos que lo habitan.
+
+U: que es la vida
+B: La vida es un viaje maravilloso lleno de experiencias y aprendizaje.
+
+U: que es la muerte
+B: La muerte es el fin de la vida, pero el legado y el amor perduran.
+
+U: que es el tiempo
+B: El tiempo es un recurso valioso que debemos aprovechar.
+
+U: que es el cambio
+B: El cambio es la única constante en la vida. Hay que adaptarse.
+
+U: que es el futuro
+B: El futuro es incierto, pero podemos construirlo con nuestras acciones.
+
+U: que es el presente
+B: El presente es el único momento que realmente tenemos.
+
+U: que es el pasado
+B: El pasado nos enseña, pero no debemos quedarnos atrapados en él.
+
+U: que es la historia
+B: La historia es el registro de los eventos pasados que nos ayudan a entender el presente.
+
+U: que es la memoria
+B: La memoria es la capacidad de recordar y aprender de nuestras experiencias.
+
+U: que es la imaginación
+B: La imaginación es la capacidad de crear imágenes y escenarios en la mente.
+
+U: que es la realidad
+B: La realidad es todo lo que existe y podemos percibir.
+
+U: que es la percepción
+B: La percepción es cómo interpretamos el mundo a través de nuestros sentidos.
+
+U: que es la conciencia
+B: La conciencia es el estado de ser consciente de uno mismo y del entorno.
+
+U: que es la mente
+B: La mente es el conjunto de procesos cognitivos que nos permiten pensar y sentir.
+
+U: que es el cerebro
+B: El cerebro es el órgano central del sistema nervioso, donde ocurren los pensamientos.
+
+U: que es la inteligencia
+B: La inteligencia es la capacidad de aprender, razonar y resolver problemas.
+
+U: que es la emoción
+B: La emoción es una reacción afectiva que influye en nuestro comportamiento.
+
+U: que es el sentimiento
+B: El sentimiento es la experiencia consciente de una emoción.
+
+U: que es el amor
+B: El amor es una conexión profunda basada en el cariño, respeto y confianza.
+
+U: que es la amistad
+B: La amistad es un vínculo de apoyo y afecto entre personas.
+
+U: que es la familia
+B: La familia es un grupo de personas que se cuidan y apoyan mutuamente.
+
+U: que es la comunidad
+B: La comunidad es un grupo con intereses y valores compartidos.
+
+U: que es la sociedad
+B: La sociedad es el conjunto de personas que viven y conviven bajo normas comunes.
+
+U: que es la cultura
+B: La cultura es el conjunto de conocimientos, creencias y costumbres de un pueblo.
+
+U: que es el arte
+B: El arte es la expresión de la creatividad humana en diversas formas.
+
+U: que es la literatura
+B: La literatura es el arte de escribir, contar historias y emocionar con palabras.
+
+U: que es la poesía
+B: La poesía es una forma de literatura que expresa sentimientos con ritmo y belleza.
+
+U: que es la música
+B: La música es un arte que combina sonidos y ritmos para emocionar.
+
+U: que es el cine
+B: El cine es contar historias a través de imágenes en movimiento.
+
+U: que es la fotografía
+B: La fotografía es capturar momentos y perspectivas a través de la imagen.
+
+U: que es el diseño
+B: El diseño es planificar y crear objetos o experiencias funcionales y estéticas.
+
+U: que es la arquitectura
+B: La arquitectura es el arte y la ciencia de diseñar espacios y edificios.
+
+U: que es la ingeniería
+B: La ingeniería aplica ciencia y tecnología para resolver problemas prácticos.
+
+U: que es la ciencia
+B: La ciencia busca comprender el mundo a través de la observación y experimentación.
+
+U: que es la tecnología
+B: La tecnología aplica el conocimiento científico para crear soluciones útiles.
+
+U: que es la medicina
+B: La medicina es la ciencia que estudia y trata la salud humana.
+
+U: que es la psicología
+B: La psicología estudia la mente y el comportamiento humano.
+
+U: que es la sociología
+B: La sociología estudia las sociedades y sus estructuras.
+
+U: que es la antropología
+B: La antropología estudia al ser humano en su dimensión cultural y biológica.
+
+U: que es la filosofía
+B: La filosofía reflexiona sobre las preguntas fundamentales de la existencia.
+
+U: que es la ética
+B: La ética es la reflexión sobre lo correcto e incorrecto en la conducta humana.
+
+U: que es la moral
+B: La moral es el conjunto de normas y valores que guían el comportamiento.
+
+U: que es la política
+B: La política es el arte de gobernar y organizar la sociedad.
+
+U: que es la economía
+B: La economía estudia la producción, distribución y consumo de bienes y servicios.
+
+U: que es la geografía
+B: La geografía estudia la superficie terrestre y su relación con los humanos.
+
+U: que es la astronomía
+B: La astronomía estudia el universo, las estrellas y los planetas.
+
+U: que es la física
+B: La física estudia las leyes que rigen el universo, desde lo más pequeño hasta lo más grande.
+
+U: que es la química
+B: La química estudia la composición y transformación de la materia.
+
+U: que es la biología
+B: La biología estudia la vida en todas sus formas.
+
+U: que es la ecología
+B: La ecología estudia las relaciones entre los seres vivos y su entorno.
+
+U: que es la evolución
+B: La evolución es el proceso de cambio en las especies a lo largo del tiempo.
+
+U: que es el ADN
+B: El ADN es la molécula que contiene la información genética de los seres vivos.
+
+U: que es la genética
+B: La genética estudia la herencia y variación de los caracteres biológicos.
+
+U: que es la microbiología
+B: La microbiología estudia los microorganismos como bacterias y virus.
+
+U: que es la neurociencia
+B: La neurociencia estudia el sistema nervioso y el cerebro.
+
+U: que es la inteligencia artificial
+B: La IA es la simulación de procesos de inteligencia humana por máquinas.
+
+U: que es la robótica
+B: La robótica diseña, construye y opera robots.
+
+U: que es la ciberseguridad
+B: La ciberseguridad protege sistemas y datos de ataques digitales.
+
+U: que es la programación
+B: La programación es escribir instrucciones para que una computadora realice tareas.
+
+U: que es un lenguaje de programación
+B: Es un sistema formal para escribir programas, como Python o C#.
+
+U: que es un algoritmo
+B: Un algoritmo es una serie de pasos para resolver un problema.
+
+U: que es una variable
+B: Una variable es un espacio de memoria con un nombre y un valor.
+
+U: que es una función
+B: Una función es un bloque de código reutilizable que realiza una tarea.
+
+U: que es una clase
+B: Una clase es una plantilla para crear objetos con atributos y métodos.
+
+U: que es un objeto
+B: Un objeto es una instancia de una clase con atributos y comportamientos.
+
+U: que es la herencia
+B: La herencia permite que una clase derive atributos y métodos de otra.
+
+U: que es el polimorfismo
+B: El polimorfismo permite que un objeto se comporte de diferentes formas según el contexto.
+
+U: que es la encapsulación
+B: La encapsulación oculta los detalles internos de un objeto y expone solo lo necesario.
+
+U: que es la abstracción
+B: La abstracción simplifica la realidad, enfocándose en los aspectos esenciales.
+
+U: que es una interfaz
+B: Una interfaz define un contrato de métodos que una clase debe implementar.
+
+U: que es un patrón de diseño
+B: Un patrón de diseño es una solución reutilizable a un problema común en el desarrollo.
+
+U: que es un framework
+B: Un framework es una base de código que facilita el desarrollo de aplicaciones.
+
+U: que es una librería
+B: Una librería es un conjunto de funciones y clases que puedes usar en tu proyecto.
+
+U: que es un paquete
+B: Un paquete es un conjunto de módulos o librerías organizadas.
+
+U: que es un módulo
+B: Un módulo es un archivo que contiene código reutilizable.
+
+U: que es un script
+B: Un script es un programa pequeño que automatiza una tarea.
+
+U: que es un ejecutable
+B: Un ejecutable es un archivo que puede ser ejecutado directamente por el sistema operativo.
+
+U: que es un compilador
+B: Un compilador traduce código fuente a código máquina.
+
+U: que es un intérprete
+B: Un intérprete ejecuta código directamente sin compilarlo.
+
+U: que es el bytecode
+B: El bytecode es un código intermedio que se ejecuta en una máquina virtual.
+
+U: que es un JIT
+B: JIT (Just-In-Time) compila bytecode en código máquina en tiempo de ejecución.
+
+U: que es la máquina virtual
+B: Una máquina virtual ejecuta bytecode y proporciona un entorno de ejecución.
+
+U: que es el garbage collector
+B: El recolector de basura libera memoria automáticamente cuando ya no se necesita.
+
+U: que es el manejo de memoria
+B: El manejo de memoria gestiona la asignación y liberación de recursos en un programa.
+
+U: que es un puntero
+B: Un puntero es una variable que almacena una dirección de memoria.
+
+U: que es una referencia
+B: Una referencia es una forma segura de acceder a un objeto en memoria.
+
+U: que es una excepción
+B: Una excepción es un error en tiempo de ejecución que puede ser capturado y manejado.
+
+U: que es un try catch
+B: Try-catch es una estructura para manejar excepciones y evitar que el programa falle.
+
+U: que es un log
+B: Un log es un registro de eventos que ocurren en el sistema.
+
+U: que es un debugger
+B: Un debugger permite ejecutar el código paso a paso y examinar su estado.
+
+U: que es un test unitario
+B: Un test unitario verifica el correcto funcionamiento de una pequeña parte del código.
+
+U: que es el TDD
+B: TDD es escribir pruebas antes de escribir el código funcional.
+
+U: que es la integración continua
+B: CI es la práctica de integrar código frecuentemente para detectar errores rápidamente.
+
+U: que es el despliegue continuo
+B: CD es la automatización del despliegue de código a producción.
+
+U: que es el control de versiones
+B: El control de versiones gestiona los cambios en el código a lo largo del tiempo.
+
+U: que es Git
+B: Git es el sistema de control de versiones más usado en el mundo.
+
+U: que es GitHub
+B: GitHub es una plataforma para alojar proyectos de Git y colaborar.
+
+U: que es un repositorio
+B: Un repositorio es un espacio donde se almacena el código y su historial de cambios.
+
+U: que es un commit
+B: Un commit guarda los cambios realizados en el repositorio con un mensaje descriptivo.
+
+U: que es una rama
+B: Una rama es una línea independiente de desarrollo.
+
+U: que es un merge
+B: Merge combina los cambios de una rama con otra.
+
+U: que es un pull request
+B: Un pull request es una solicitud para revisar e integrar cambios en el proyecto.
+
+U: que es un fork
+B: Un fork es una copia de un repositorio para hacer cambios independientes.
+
+U: que es un clone
+B: Un clone es una copia local de un repositorio remoto.
+
+U: que es un stash
+B: Stash guarda cambios temporales sin hacer commit.
+
+U: que es un tag
+B: Un tag marca un punto importante en la historia del repositorio, como una versión.
+
+U: que es una release
+B: Una release es una versión estable del software lista para ser usada.
+
+U: que es un issue
+B: Un issue es una tarea, bug o mejora registrada en el proyecto.
+
+U: que es un milestone
+B: Un milestone agrupa issues relacionados con un objetivo o fecha.
+
+U: que es un project board
+B: Un project board organiza tareas visualmente, como en Trello o GitHub Projects.
+
+U: que es un wiki
+B: Un wiki es una documentación colaborativa para un proyecto.
+
+U: que es un README
+B: El README es el primer archivo que lees al entrar a un repositorio; explica el proyecto.
+
+U: que es una licencia
+B: Una licencia define los términos de uso y distribución del software.
+
+U: que es el código abierto
+B: El código abierto permite que cualquiera vea, modifique y distribuya el código.
+
+U: que es el software libre
+B: El software libre respeta la libertad de usar, estudiar, modificar y compartir el software.
+
+U: que es un estándar
+B: Un estándar es una especificación técnica aceptada por la industria.
+
+U: que es la interoperabilidad
+B: La interoperabilidad permite que diferentes sistemas trabajen juntos.
+
+U: que es una API abierta
+B: Una API abierta es pública y puede ser usada por cualquier desarrollador.
+
+U: que es un SDK
+B: Un SDK es un conjunto de herramientas para construir aplicaciones sobre una plataforma.
+
+U: que es un plugin
+B: Un plugin es una extensión que añade funcionalidades a una aplicación.
+
+U: que es una extensión
+B: Una extensión es similar a un plugin, generalmente para navegadores o editores.
+
+U: que es un addon
+B: Un addon es un complemento que añade características a una aplicación.
+
+U: que es un widget
+B: Un widget es un pequeño elemento de interfaz que muestra información.
+
+U: que es un dashboard
+B: Un dashboard es una vista resumida con métricas y gráficos.
+
+U: que es una notificación
+B: Una notificación alerta al usuario sobre un evento importante.
+
+U: que es un popup
+B: Un popup es una ventana emergente que aparece sobre la interfaz.
+
+U: que es un modal
+B: Un modal es un diálogo que bloquea la interacción hasta ser cerrado.
+
+U: que es un toast
+B: Un toast es una notificación breve que desaparece sola.
+
+U: que es un snackbar
+B: Un snackbar es una notificación que aparece en la parte inferior de la pantalla.
+
+U: que es un tooltip
+B: Un tooltip es un texto que aparece al pasar el mouse sobre un elemento.
+
+U: que es un avatar
+B: Un avatar es la imagen que representa a un usuario en la interfaz.
+
+U: que es un perfil
+B: El perfil contiene la información y preferencias de un usuario.
+
+U: que es un usuario
+B: Un usuario es cualquier persona que interactúa con el sistema.
+
+U: que es la experiencia de usuario
+B: UX es cómo se siente un usuario al usar un producto o sistema.
+
+U: que es la interfaz de usuario
+B: UI es la parte del sistema que el usuario ve y con la que interactúa.
+
+U: que es el diseño responsivo
+B: El diseño responsivo se adapta a diferentes tamaños de pantalla.
+
+U: que es la accesibilidad
+B: La accesibilidad asegura que todos puedan usar el sistema, incluyendo personas con discapacidades.
+
+U: que es la usabilidad
+B: La usabilidad mide qué tan fácil y eficiente es usar un sistema.
+
+U: que es la prototipación
+B: La prototipación es crear modelos iniciales de un producto para probar ideas.
+
+U: que es el feedback de usuarios
+B: El feedback de usuarios es la opinión de quienes usan el sistema para mejorarlo.
+
+U: que es la iteración
+B: La iteración es repetir el proceso de diseño y desarrollo para mejorar el producto.
+
+U: que es el mínimo producto viable
+B: MVP es la versión más simple de un producto que ofrece valor al usuario.
+
+U: que es el product owner
+B: El product owner es la persona que define las prioridades y necesidades del producto.
+
+U: que es el scrum master
+B: El scrum master facilita el proceso ágil y elimina impedimentos.
+
+U: que es un sprint
+B: Un sprint es un período de tiempo fijo para completar un conjunto de tareas.
+
+U: que es un backlog
+B: El backlog es la lista priorizada de tareas y funcionalidades por desarrollar.
+
+U: que es una historia de usuario
+B: Una historia de usuario describe una funcionalidad desde la perspectiva del usuario.
+
+U: que es un criterio de aceptación
+B: Los criterios de aceptación definen cuándo una historia de usuario está completa.
+
+U: que es un refinamiento
+B: El refinamiento es el proceso de revisar y detallar las historias del backlog.
+
+U: que es la planificación del sprint
+B: Es la reunión donde se seleccionan las historias que se trabajarán en el sprint.
+
+U: que es la retrospectiva
+B: La retrospectiva es una reunión para reflexionar sobre el sprint y mejorar el proceso.
+
+U: que es la dailys
+B: Las dailys son reuniones breves para sincronizar al equipo cada día.
+
+U: que es la estimación
+B: La estimación es calcular el esfuerzo o tiempo necesario para completar una tarea.
+
+U: que es la velocidad del equipo
+B: La velocidad mide cuánto trabajo puede completar un equipo en un sprint.
+
+U: que es el burndown chart
+B: Un burndown chart muestra el progreso del trabajo pendiente en un sprint.
+
+U: que es el kanban
+B: Kanban es un método visual para gestionar el flujo de trabajo.
+
+U: que es un tablero
+B: Un tablero organiza tareas en columnas como "Por hacer", "En progreso" y "Hecho".
+
+U: que es un workflow
+B: Un workflow es un proceso definido para llevar a cabo tareas de principio a fin.
+
+U: que es la automatización
+B: La automatización usa tecnología para realizar tareas sin intervención humana.
+
+U: que es un bot
+B: Un bot es un programa automatizado que realiza tareas repetitivas.
+
+U: que es el scraping
+B: El scraping extrae datos de sitios web automáticamente.
+
+U: que es una API
+B: Una API es una interfaz para que programas se comuniquen entre sí.
+
+U: que es un webhook
+B: Un webhook envía una notificación HTTP cuando ocurre un evento.
+
+U: que es un endpoint
+B: Un endpoint es una URL específica que responde a peticiones en una API.
+
+U: que es una ruta
+B: Una ruta es la dirección que define un recurso en una API.
+
+U: que es un parámetro
+B: Un parámetro es un valor que se envía en una petición a la API.
+
+U: que es una consulta
+B: Una consulta es una petición para obtener información de una base de datos o API.
+
+U: que es un resultado
+B: Un resultado es la salida de una consulta o petición.
+
+U: que es un registro
+B: Un registro es una fila en una tabla de base de datos.
+
+U: que es un campo
+B: Un campo es una columna en una tabla de base de datos.
+
+U: que es una tabla
+B: Una tabla organiza datos en filas y columnas.
+
+U: que es una base de datos
+B: Una base de datos es un almacén estructurado de información.
+
+U: que es un servidor
+B: Un servidor es un sistema que provee servicios a otros.
+
+U: que es un cliente
+B: Un cliente es un programa que consume servicios de un servidor.
+
+U: que es la red
+B: La red conecta computadoras y permite la comunicación entre ellas.
+
+U: que es internet
+B: Internet es la red global de redes.
+
+U: que es la web
+B: La web es el conjunto de documentos y servicios accesibles por internet.
+
+U: que es un navegador
+B: Un navegador es un programa para explorar la web.
+
+U: que es un motor de búsqueda
+B: Un motor de búsqueda encuentra información en la web.
+
+U: que es un enlace
+B: Un enlace conecta una página web con otra.
+
+U: que es un formulario
+B: Un formulario permite enviar datos desde la web.
+
+U: que es un botón
+B: Un botón es un elemento de interfaz que realiza una acción al hacer clic.
+
+U: que es un campo de texto
+B: Un campo de texto permite al usuario escribir información.
+
+U: que es una casilla de verificación
+B: Una casilla de verificación permite seleccionar o deseleccionar una opción.
+
+U: que es un radio button
+B: Un radio button permite elegir una opción entre varias.
+
+U: que es un select
+B: Un select es un menú desplegable para elegir una opción.
+
+U: que es un textarea
+B: Un textarea es un campo para escribir texto largo.
+
+U: que es un slider
+B: Un slider permite seleccionar un valor en un rango.
+
+U: que es una etiqueta
+B: Una etiqueta identifica y describe un elemento en la interfaz.
+
+U: que es un ícono
+B: Un ícono es una representación visual de una acción o concepto.
+
+U: que es una imagen
+B: Una imagen es una representación visual en la interfaz o contenido.
+
+U: que es un video
+B: Un video es una secuencia de imágenes en movimiento con sonido.
+
+U: que es un audio
+B: El audio es el sonido en formato digital.
+
+U: que es un gráfico
+B: Un gráfico es una representación visual de datos.
+
+U: que es un mapa
+B: Un mapa es una representación gráfica de un área geográfica.
+
+U: que es una animación
+B: Una animación es una secuencia de imágenes que simula movimiento.
+
+U: que es la interactividad
+B: La interactividad permite al usuario participar y modificar el contenido.
+
+U: que es la respuesta
+B: La respuesta es la reacción del sistema a una acción del usuario.
+
+U: que es un mensaje
+B: Un mensaje es una comunicación entre el usuario y el sistema.
+
+U: que es una conversación
+B: Una conversación es un intercambio de mensajes entre dos o más personas o sistemas.
+
+U: que es el diálogo
+B: El diálogo es una conversación estructurada con turnos de habla.
+
+U: que es un turno
+B: Un turno es el momento en que una persona o sistema habla en una conversación.
+
+U: que es el contexto
+B: El contexto es la información que rodea una conversación y le da sentido.
+
+U: que es la intención
+B: La intención es el objetivo que tiene el usuario al hablar.
+
+U: que es una entidad
+B: Una entidad es un dato relevante en una conversación, como un nombre o una fecha.
+
+U: que es un token
+B: Un token es una unidad mínima de texto, como una palabra.
+
+U: que es un embedding
+B: Un embedding es una representación numérica de un token.
+
+U: que es el lenguaje natural
+B: El lenguaje natural es la forma en que los humanos se comunican.
+
+U: que es el procesamiento de lenguaje natural
+B: El PLN es la rama de la IA que estudia la interacción entre computadoras y el lenguaje humano.
+
+U: que es la comprensión del lenguaje
+B: La comprensión del lenguaje es la capacidad de entender el significado del texto.
+
+U: que es la generación del lenguaje
+B: La generación del lenguaje es la capacidad de producir texto coherente y significativo.
+
+U: que es la traducción automática
+B: La traducción automática convierte texto de un idioma a otro.
+
+U: que es el análisis de sentimiento
+B: El análisis de sentimiento determina la emoción o actitud detrás de un texto.
+
+U: que es el resumen automático
+B: El resumen automático extrae las ideas principales de un texto.
+
+U: que es la clasificación de texto
+B: La clasificación de texto asigna categorías a un documento.
+
+U: que es la extracción de información
+B: La extracción de información obtiene datos estructurados de textos no estructurados.
+
+U: que es el reconocimiento de entidades
+B: Reconocimiento de entidades identifica nombres, fechas, lugares y otros datos en el texto.
+
+U: que es el etiquetado gramatical
+B: El etiquetado gramatical asigna categorías gramaticales a las palabras.
+
+U: que es el análisis sintáctico
+B: El análisis sintáctico estudia la estructura de las oraciones.
+
+U: que es el análisis semántico
+B: El análisis semántico estudia el significado de las palabras y oraciones.
+
+U: que es un modelo de lenguaje
+B: Un modelo de lenguaje predice la siguiente palabra en una secuencia.
+
+U: que es un Transformer
+B: Un Transformer es una arquitectura de red neuronal basada en atención.
+
+U: que es la atención
+B: La atención permite que el modelo se enfoque en partes relevantes del texto.
+
+U: que es la autoatención
+B: La autoatención relaciona cada token con todos los demás en la secuencia.
+
+U: que es una cabeza de atención
+B: Cada cabeza aprende diferentes relaciones entre tokens.
+
+U: que es la atención multi-cabeza
+B: Multi-cabeza usa varias cabezas de atención para captar diferentes aspectos del texto.
+
+U: que es el positional encoding
+B: El positional encoding añade información sobre la posición de cada token.
+
+U: que es el feedforward
+B: La capa feedforward procesa las salidas de la atención.
+
+U: que es la normalización por capa
+B: Layer Normalization estabiliza el entrenamiento.
+
+U: que es la tasa de aprendizaje
+B: La tasa de aprendizaje controla el tamaño del paso en el entrenamiento.
+
+U: que es el optimizador
+B: El optimizador ajusta los pesos del modelo para minimizar el error.
+
+U: que es la función de pérdida
+B: La función de pérdida mide qué tan mal predice el modelo.
+
+U: que es la precisión
+B: La precisión es el porcentaje de aciertos del modelo.
+
+U: que es la recuperación
+B: La recuperación mide cuántos casos relevantes encontró el modelo.
+
+U: que es la puntuación F1
+B: La puntuación F1 es la media armónica de precisión y recuperación.
+
+U: que es la matriz de confusión
+B: La matriz de confusión muestra los aciertos y errores por categoría.
+
+U: que es el dataset
+B: Un dataset es un conjunto de datos usado para entrenar o evaluar un modelo.
+
+U: que es la división train/test
+B: Divide los datos en un conjunto para entrenar y otro para evaluar.
+
+U: que es la validación cruzada
+B: La validación cruzada evalúa el modelo con diferentes particiones de los datos.
+
+U: que es el sobreajuste
+B: El sobreajuste ocurre cuando el modelo memoriza los datos de entrenamiento y no generaliza.
+
+U: que es el subajuste
+B: El subajuste ocurre cuando el modelo no aprende lo suficiente los datos.
+
+U: que es la regularización
+B: La regularización previene el sobreajuste añadiendo restricciones al modelo.
+
+U: que es la normalización
+B: La normalización escala los datos para que tengan media cero y desviación uno.
+
+U: que es la estandarización
+B: La estandarización es similar a la normalización, usando la desviación estándar.
+
+U: que es el batch size
+B: El batch size es el número de muestras procesadas en cada actualización.
+
+U: que es la época
+B: Una época es un ciclo completo sobre todo el conjunto de entrenamiento.
+
+U: que es la iteración
+B: Una iteración es una actualización de pesos con un batch.
+
+U: que es el checkpoint
+B: Un checkpoint guarda el estado del modelo durante el entrenamiento.
+
+U: que es el early stopping
+B: Early stopping detiene el entrenamiento cuando el modelo deja de mejorar.
+
+U: que es el learning rate decay
+B: El decay reduce la tasa de aprendizaje gradualmente para una mejor convergencia.
+
+U: que es el warmup
+B: El warmup aumenta la tasa de aprendizaje gradualmente al inicio del entrenamiento.
+
+U: que es el fine-tuning
+B: El fine-tuning ajusta un modelo pre-entrenado para una tarea específica.
+
+U: que es el pre-entrenamiento
+B: El pre-entrenamiento es entrenar un modelo en un conjunto de datos grande y general.
+
+U: que es el prompt
+B: Un prompt es una entrada de texto que guía la respuesta del modelo.
+
+U: que es la respuesta
+B: La respuesta es el texto generado por el modelo.
+
+U: que es el contexto
+B: El contexto es el texto que rodea al prompt y ayuda al modelo a entender.
+
+U: que es la memoria
+B: La memoria guarda información relevante para futuras respuestas.
+
+U: que es el estado
+B: El estado es la representación interna del modelo en un momento dado.
+
+U: que es el historial
+B: El historial es el conjunto de interacciones previas con el usuario.
+
+U: que es el usuario
+B: El usuario es la persona que interactúa con el sistema.
+
+U: que es la conversación
+B: La conversación es el intercambio de mensajes entre usuario y sistema.
+
+U: que es el asistente
+B: El asistente es el sistema que responde al usuario.
+
+U: que es el chatbot
+B: Un chatbot es un programa diseñado para mantener conversaciones con humanos.
+
+U: que es la automatización
+B: La automatización realiza tareas sin intervención humana.
+
+U: que es la integración
+B: La integración conecta diferentes sistemas o componentes.
+
+U: que es el despliegue
+B: El despliegue pone el software en producción para que los usuarios lo usen.
+
+U: que es el mantenimiento
+B: El mantenimiento actualiza y corrige el software después de su lanzamiento.
+
+U: que es la documentación
+B: La documentación explica cómo usar y entender el sistema.
+
+U: que es la capacitación
+B: La capacitación enseña a los usuarios a usar el sistema correctamente.
+
+U: que es el soporte técnico
+B: El soporte técnico ayuda a los usuarios con problemas del sistema.
+
+U: que es la seguridad
+B: La seguridad protege el sistema y los datos de amenazas.
+
+U: que es la privacidad
+B: La privacidad protege la información personal del usuario.
+
+U: que es la confiabilidad
+B: La confiabilidad es la capacidad del sistema de funcionar sin fallos.
+
+U: que es la disponibilidad
+B: La disponibilidad es el tiempo que el sistema está operativo.
+
+U: que es la escalabilidad
+B: La escalabilidad es la capacidad de manejar más usuarios o datos.
+
+U: que es la elasticidad
+B: La elasticidad es la capacidad de escalar automáticamente según la demanda.
+
+U: que es la tolerancia a fallos
+B: La tolerancia a fallos permite que el sistema funcione incluso con errores.
+
+U: que es el backup
+B: El backup es una copia de seguridad de los datos.
+
+U: que es el restore
+B: El restore es la recuperación de datos desde un backup.
+
+U: que es el monitoreo
+B: El monitoreo supervisa el estado del sistema en tiempo real.
+
+U: que es el análisis
+B: El análisis examina datos para extraer información útil.
+
+U: que es la mejora continua
+B: La mejora continua es optimizar el sistema de forma constante.
+
+U: que es la innovación
+B: La innovación introduce nuevas ideas y soluciones.
+
+U: que es la tecnología
+B: La tecnología es la aplicación de conocimiento para crear herramientas y soluciones.
+
+U: que es la ciencia
+B: La ciencia es la búsqueda sistemática del conocimiento.
+
+U: que es el conocimiento
+B: El conocimiento es la comprensión y dominio de un tema.
+
+U: que es la sabiduría
+B: La sabiduría es aplicar el conocimiento con juicio y experiencia.
+
+U: que es la curiosidad
+B: La curiosidad es el deseo de aprender y explorar.
+
+U: que es la pasión
+B: La pasión es el entusiasmo profundo por hacer algo.
+
+U: que es el propósito
+B: El propósito es la razón que da sentido a tus acciones.
+
+U: que es el aprendizaje
+B: El aprendizaje es adquirir nuevas habilidades y conocimientos.
+
+U: que es el crecimiento
+B: El crecimiento es avanzar en tu desarrollo personal y profesional.
+
+U: que es la vida
+B: La vida es un viaje lleno de experiencias, retos y oportunidades.
+
+U: que es el futuro
+B: El futuro es lo que construimos hoy con nuestras acciones y decisiones.
+
+U: que es el presente
+B: El presente es el único momento que realmente tenemos para actuar.
+
+U: que es el pasado
+B: El pasado es un maestro que nos enseña a ser mejores.
+
+U: que es la esperanza
+B: La esperanza es la luz que nos guía en los momentos oscuros.
+
+U: que es la fe
+B: La fe es creer en lo que no vemos y confiar en el proceso.
+
+U: que es el amor
+B: El amor es la fuerza más poderosa que conecta a las personas.
+
+U: que es la amistad
+B: La amistad es un tesoro que se cultiva con tiempo y sinceridad.
+
+U: que es la familia
+B: La familia es el pilar de apoyo y amor incondicional.
+
+U: que es la comunidad
+B: La comunidad es la red de personas que comparten intereses y se apoyan.
+
+U: que es la sociedad
+B: La sociedad es el conjunto de individuos que conviven bajo normas comunes.
+
+U: que es la cultura
+B: La cultura es la identidad y el legado de un pueblo.
+
+U: que es el arte
+B: El arte es la expresión más profunda del alma humana.
+
+U: que es la creatividad
+B: La creatividad es el motor de la innovación y el progreso.
+
+U: que es la imaginación
+B: La imaginación es el lienzo donde pintamos nuestros sueños.
+
+U: que es el sueño
+B: Un sueño es el comienzo de todo gran logro.
+
+U: que es la meta
+B: Una meta es el destino que nos motiva a seguir adelante.
+
+U: que es el éxito
+B: El éxito es el resultado de la perseverancia y el esfuerzo.
+
+U: que es el fracaso
+B: El fracaso es una lección que nos hace más fuertes.
+
+U: que es la resiliencia
+B: La resiliencia es la capacidad de renacer después de la adversidad.
+
+U: que es la fortaleza
+B: La fortaleza es la firmeza para enfrentar los desafíos.
+
+U: que es la valentía
+B: La valentía es actuar con determinación a pesar del miedo.
+
+U: que es la confianza
+B: La confianza es la base de toda relación y logro.
+
+U: que es la honestidad
+B: La honestidad es el camino hacia la confianza y el respeto.
+
+U: que es la transparencia
+B: La transparencia es la claridad que construye confianza.
+
+U: que es la integridad
+B: La integridad es actuar siempre según tus valores.
+
+U: que es la responsabilidad
+B: La responsabilidad es cumplir con lo que prometes.
+
+U: que es el compromiso
+B: El compromiso es la dedicación a lo que importa.
+
+U: que es la lealtad
+B: La lealtad es estar al lado de quienes confían en ti.
+
+U: que es la generosidad
+B: La generosidad es dar sin esperar recibir.
+
+U: que es la gratitud
+B: La gratitud es reconocer y agradecer lo bueno de la vida.
+
+U: que es la humildad
+B: La humildad es saber que siempre hay algo nuevo que aprender.
+
+U: que es la paciencia
+B: La paciencia es confiar en que todo llega en su momento.
+
+U: que es la tolerancia
+B: La tolerancia es aceptar las diferencias con respeto.
+
+U: que es la inclusión
+B: La inclusión es valorar y dar espacio a todas las personas.
+
+U: que es la diversidad
+B: La diversidad es la riqueza de la humanidad.
+
+U: que es la igualdad
+B: La igualdad es el derecho de todos a las mismas oportunidades.
+
+U: que es la justicia
+B: La justicia es dar a cada persona lo que le corresponde.
+
+U: que es la paz
+B: La paz es el equilibrio y la armonía entre las personas.
+
+U: que es la libertad
+B: La libertad es el poder de elegir y ser dueño de tu vida.
+
+U: que es la solidaridad
+B: La solidaridad es el apoyo mutuo en tiempos de necesidad.
+
+U: que es el altruismo
+B: El altruismo es la bondad desinteresada hacia los demás.
+
+U: que es el bien común
+B: El bien común es el beneficio de toda la sociedad.
+
+U: que es el medio ambiente
+B: El medio ambiente es nuestro hogar y debemos protegerlo.
+
+U: que es la naturaleza
+B: La naturaleza es la fuente de vida y belleza.
+
+U: que es la sostenibilidad
+B: La sostenibilidad es cuidar el futuro de nuestro planeta.
+
+U: que es la ecología
+B: La ecología es el estudio y protección de los ecosistemas.
+
+U: que es la biodiversidad
+B: La biodiversidad es la variedad de vida en la Tierra.
+
+U: que es el reciclaje
+B: El reciclaje es dar una segunda vida a los materiales.
+
+U: que es la economía circular
+B: La economía circular reduce residuos reutilizando recursos.
+
+U: que es el cambio climático
+B: El cambio climático es un desafío global que debemos enfrentar.
+
+U: que es la energía renovable
+B: La energía renovable es la clave para un futuro limpio.
+
+U: que es la energía solar
+B: La energía solar aprovecha la luz del sol para generar electricidad.
+
+U: que es la energía eólica
+B: La energía eólica usa el viento para generar electricidad.
+
+U: que es la energía hidroeléctrica
+B: La energía hidroeléctrica aprovecha el agua para generar electricidad.
+
+U: que es el hidrógeno verde
+B: El hidrógeno verde es energía limpia producida con fuentes renovables.
+
+U: que es la movilidad eléctrica
+B: La movilidad eléctrica es el transporte con cero emisiones.
+
+U: que es la ciudad inteligente
+B: La ciudad inteligente usa tecnología para mejorar la vida urbana.
+
+U: que es el IoT
+B: El IoT conecta objetos cotidianos a internet para hacerlos más inteligentes.
+
+U: que es un sensor
+B: Un sensor detecta y mide cambios en su entorno.
+
+U: que es un actuador
+B: Un actuador convierte una señal en acción física.
+
+U: que es un robot
+B: Un robot es una máquina programable que puede realizar tareas.
+
+U: que es la automatización
+B: La automatización realiza tareas sin intervención humana.
+
+U: que es la robótica
+B: La robótica diseña y construye robots para diferentes propósitos.
+
+U: que es la inteligencia artificial
+B: La IA es la simulación de la inteligencia humana en máquinas.
+
+U: que es el machine learning
+B: El machine learning permite a las máquinas aprender de los datos.
+
+U: que es el deep learning
+B: El deep learning usa redes neuronales profundas para aprender tareas complejas.
+
+U: que es la red neuronal
+B: Una red neuronal es un sistema de nodos interconectados que aprende de los datos.
+
+U: que es la capa
+B: Una capa es un nivel de procesamiento en una red neuronal.
+
+U: que es la activación
+B: La función de activación determina si una neurona debe activarse.
+
+U: que es la función de pérdida
+B: La función de pérdida mide el error del modelo.
+
+U: que es el optimizador
+B: El optimizador actualiza los parámetros para minimizar la pérdida.
+
+U: que es el gradiente
+B: El gradiente indica la dirección de cambio para reducir el error.
+
+U: que es la retropropagación
+B: La retropropagación ajusta los pesos de la red para aprender.
+
+U: que es la GPU
+B: La GPU es un procesador especializado para cálculos paralelos en IA.
+
+U: que es la CPU
+B: La CPU es el procesador general de la computadora.
+
+U: que es el tensor
+B: Un tensor es una matriz multidimensional usada en IA.
+
+U: que es el vector
+B: Un vector es una lista de números que representa un punto en el espacio.
+
+U: que es el escalar
+B: Un escalar es un número único, el caso más simple de un tensor.
+
+U: que es la matriz
+B: Una matriz es una tabla de números organizados en filas y columnas.
+
+U: que es el producto punto
+B: El producto punto es una operación entre vectores que produce un escalar.
+
+U: que es la multiplicación de matrices
+B: La multiplicación de matrices es la base de las operaciones en redes neuronales.
+
+U: que es la transpuesta
+B: La transpuesta intercambia filas y columnas de una matriz.
+
+U: que es la identidad
+B: La matriz identidad es el neutro de la multiplicación de matrices.
+
+U: que es la inversa
+B: La inversa de una matriz es otra que multiplicada da la identidad.
+
+U: que es la derivada
+B: La derivada mide el cambio instantáneo de una función.
+
+U: que es la integral
+B: La integral acumula el área bajo una curva.
+
+U: que es el logaritmo
+B: El logaritmo es el inverso de la función exponencial.
+
+U: que es la exponencial
+B: La función exponencial crece muy rápidamente.
+
+U: que es el seno
+B: El seno es una función trigonométrica que relaciona ángulos y lados.
+
+U: que es el coseno
+B: El coseno es otra función trigonométrica fundamental.
+
+U: que es la tangente
+B: La tangente es la razón entre seno y coseno.
+
+U: que es la probabilidad
+B: La probabilidad mide la posibilidad de que ocurra un evento.
+
+U: que es la estadística
+B: La estadística recolecta y analiza datos para extraer conclusiones.
+
+U: que es la media
+B: La media es el promedio de un conjunto de números.
+
+U: que es la mediana
+B: La mediana es el valor central de un conjunto ordenado.
+
+U: que es la moda
+B: La moda es el valor que más se repite.
+
+U: que es la varianza
+B: La varianza mide la dispersión de los datos respecto a la media.
+
+U: que es la desviación estándar
+B: La desviación estándar es la raíz cuadrada de la varianza.
+
+U: que es el histograma
+B: Un histograma muestra la distribución de frecuencias de los datos.
+
+U: que es la gráfica
+B: Una gráfica es una representación visual de datos.
+
+U: que es el diagrama
+B: Un diagrama es una representación simplificada de un proceso o sistema.
+
+U: que es el flujo
+B: Un flujo es la secuencia de pasos en un proceso.
+
+U: que es el pipeline
+B: Un pipeline es una cadena de procesamiento donde la salida de uno es entrada del siguiente.
+
+U: que es la ETL
+B: ETL es Extraer, Transformar y Cargar datos.
+
+U: que es el data warehouse
+B: Un data warehouse almacena datos estructurados para análisis.
+
+U: que es el data lake
+B: Un data lake almacena datos en bruto sin procesar.
+
+U: que es el Big Data
+B: Big Data es el manejo de conjuntos de datos muy grandes.
+
+U: que es la nube
+B: La nube ofrece servicios informáticos a través de internet.
+
+U: que es la virtualización
+B: La virtualización crea versiones virtuales de recursos físicos.
+
+U: que es la máquina virtual
+B: Una VM es una computadora emulada dentro de otra.
+
+U: que es el contenedor
+B: Un contenedor es un entorno ligero y portátil para ejecutar aplicaciones.
+
+U: que es Docker
+B: Docker es una plataforma para crear y ejecutar contenedores.
+
+U: que es Kubernetes
+B: Kubernetes orquesta y gestiona contenedores a escala.
+
+U: que es el microservicio
+B: Un microservicio es una pequeña aplicación que hace una cosa específica.
+
+U: que es la arquitectura
+B: La arquitectura es la estructura y diseño de un sistema de software.
+
+U: que es el patrón de diseño
+B: Un patrón de diseño es una solución reutilizable a un problema común en el desarrollo.
+
+U: que es el MVC
+B: MVC separa datos, interfaz y lógica de control en una aplicación.
+
+U: que es el MVVM
+B: MVVM es un patrón usado en WPF, separa vista, modelo y viewmodel.
+
+U: que es el binding
+B: El binding conecta datos de la vista con el modelo o viewmodel.
+
+U: que es el comando
+B: Un comando es una acción ejecutada desde la interfaz.
+
+U: que es el evento
+B: Un evento es una notificación de que algo ocurrió en el sistema.
+
+U: que es la propiedad
+B: Una propiedad es un atributo de una clase que puede ser leído o modificado.
+
+U: que es la interfaz de usuario
+B: La UI es la parte del sistema que el usuario ve y con la que interactúa.
+
+U: que es la experiencia de usuario
+B: La UX es la percepción y satisfacción del usuario al usar el sistema.
+
+U: que es el diseño
+B: El diseño es la planificación visual y funcional de un producto.
+
+U: que es la prototipación
+B: La prototipación crea versiones iniciales para probar ideas.
+
+U: que es la prueba de usuario
+B: La prueba de usuario evalúa el sistema con personas reales.
+
+U: que es el feedback
+B: El feedback es la opinión que ayuda a mejorar el sistema.
+
+U: que es la iteración
+B: La iteración es repetir ciclos de diseño y mejora.
+
+U: que es la entrega continua
+B: CD es la automatización del despliegue de software a producción.
+
+U: que es la integración continua
+B: CI es la automatización de pruebas y construcción de software.
+
+U: que es el DevOps
+B: DevOps une desarrollo y operaciones para mejorar la entrega de software.
+
+U: que es el Agile
+B: Agile es una metodología de desarrollo iterativa y flexible.
+
+U: que es el Scrum
+B: Scrum es un marco ágil con sprints y roles definidos.
+
+U: que es el Kanban
+B: Kanban es un método visual para gestionar el flujo de trabajo.
+
+U: que es el backlog
+B: El backlog es la lista de tareas pendientes en un proyecto.
+
+U: que es el sprint
+B: Un sprint es un período de trabajo fijo en Scrum.
+
+U: que es la retrospectiva
+B: La retrospectiva es una reunión para mejorar el proceso después de cada sprint.
+
+U: que es la dailys
+B: Las dailys son reuniones breves para sincronizar al equipo.
+
+U: que es el product owner
+B: El product owner prioriza el backlog y define el objetivo del producto.
+
+U: que es el scrum master
+B: El scrum master facilita el proceso ágil y elimina obstáculos.
+
+U: que es el equipo
+B: El equipo es el grupo de personas que trabajan en el proyecto.
+
+U: que es la colaboración
+B: La colaboración es trabajar juntos para lograr un objetivo.
+
+U: que es la comunicación
+B: La comunicación es el intercambio efectivo de información.
+
+U: que es la confianza
+B: La confianza es creer en el equipo y en el proceso.
+
+U: que es la transparencia
+B: La transparencia es compartir información abiertamente.
+
+U: que es la mejora continua
+B: La mejora continua es el esfuerzo constante por ser mejores.
+
+U: que es la excelencia
+B: La excelencia es buscar siempre la calidad y el mejoramiento.
+
+U: que es la pasión
+B: La pasión es el combustible que impulsa el esfuerzo y la creatividad.
+
+U: que es la disciplina
+B: La disciplina es el hábito de hacer lo necesario para alcanzar metas.
+
+U: que es la perseverancia
+B: La perseverancia es continuar a pesar de los obstáculos.
+
+U: que es la resiliencia
+B: La resiliencia es adaptarse y crecer en tiempos difíciles.
+
+U: que es la superación
+B: La superación es vencer los límites personales.
+
+U: que es la libertad
+B: La libertad es la capacidad de elegir tu propio camino.
+
+U: que es el propósito
+B: El propósito es la razón que da sentido a todo lo que haces.
+
+U: que es la vida
+B: La vida es una oportunidad para aprender, crecer y amar.
+
+U: que es el aprendizaje
+B: El aprendizaje es el viaje constante hacia el conocimiento y la sabiduría.
+
+U: que es el conocimiento
+B: El conocimiento es la herramienta más poderosa que podemos cultivar.
+
+U: que es la sabiduría
+B: La sabiduría es saber usar el conocimiento con bondad y juicio.
+
+U: que es la verdad
+B: La verdad es la luz que guía nuestras decisiones y acciones.
+
+U: que es la honestidad
+B: La honestidad es el pilar de todas las relaciones auténticas.
+
+U: que es el respeto
+B: El respeto es tratar a los demás como queremos ser tratados.
+
+U: que es la empatía
+B: La empatía es conectar con los sentimientos de los demás.
+
+U: que es la solidaridad
+B: La solidaridad es estar junto a quienes nos necesitan.
+
+U: que es la generosidad
+B: La generosidad es compartir lo que tenemos sin esperar nada a cambio.
+
+U: que es la gratitud
+B: La gratitud es el reconocimiento de todo lo bueno en la vida.
+
+U: que es la paz
+B: La paz es la armonía que nace del respeto y la comprensión.
+
+U: que es la felicidad
+B: La felicidad está en las pequeñas cosas, en cada momento compartido.
+
+U: que es el amor
+B: El amor es la esencia de la vida, la fuerza que todo lo conecta.

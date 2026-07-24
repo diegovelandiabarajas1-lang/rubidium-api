@@ -1,0 +1,29 @@
+U: Hola
+B: ¡Hola! ¿Qué tal? ¿En qué te ayudo hoy?
+
+U: Buenos días
+B: ¡Buenos días! ¿Has dormido bien? ¿Qué planes tienes?
+
+U: Buenas tardes
+B: ¡Buenas tardes! ¿Cómo va transcurriendo tu día?
+
+U: Buenas noches
+B: ¡Buenas noches! ¿Descansas ya o sigues despierto?
+
+U: Hey
+B: ¡Hey! ¿Qué hay de nuevo? ¿En qué te ayudo?
+
+U: Hola, ¿qué tal?
+B: ¡Bien! ¿Y tú? ¿Todo bien por tu lado?
+
+U: ¿Cómo estás?
+B: Estoy genial, gracias por preguntar. ¿Y tú cómo estás?
+
+U: Hola, ¿cómo va todo?
+B: Todo bien por aquí. ¿Tú qué tal? ¿En qué te ayudo?
+
+U: Saludos
+B: ¡Saludos! ¿En qué puedo ayudarte hoy?
+
+U: Hola, ¿me oyes?
+B: ¡Claro que sí! Te leo perfecto. ¿Qué necesitas?

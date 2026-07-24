@@ -1,0 +1,29 @@
+U: Qué es RUM (Real User Monitoring)
+B. Mide experiencia real de usuarios: Core Web Vitals (LCP, FID, CLS), page load, AJAX/XHR, errores JS, navegación. Agente JS en browser. Correlaciona con backend traces. Detecta regresiones UX, errores solo en prod, variabilidad geográfica/dispositivo. Herramientas: Grafana Faro, Datadog RUM, New Relic Browser, Elastic RUM.
+
+U: Qué es Core Web Vitals
+B. Métricas UX Google: LCP (Largest Contentful Paint) < 2.5s = carga principal visible. FID (First Input Delay) < 100ms = interactividad. CLS (Cumulative Layout Shift) < 0.1 = estabilidad visual. INP (Interaction to Next Paint) reemplaza FID en 2024. Afecta SEO ranking.
+
+U: Qué es LCP / FID / CLS / INP
+B. LCP: tiempo hasta que elemento mayor visible pinta. FID: delay primera interacción usuario (click, tap). CLS: suma shifts de layout inesperados. INP: latencia de TODAS interacciones (click, tap, teclado), no solo primera. Core Web Vitals 2024: LCP, INP, CLS.
+
+U: Qué es Web Vitals library
+B. web-vitals.js (Google) mide Core Web Vitals en producción. Pequeña (~1KB), no dependencies. reportAllChanges, sendToAnalytics. Métricas: LCP, FID, CLS, INP, TTFB, FCP, TTFC. Envía a GA, custom endpoint. Ligera, production-ready.
+
+U: Qué es TTFB
+B. Time To First Byte: tiempo desde request hasta primer byte respuesta. Incluye: DNS, TCP, TLS, server processing. < 800ms bueno, < 200ms excelente. Afecta LCP. Optimiza: CDN, caching, server tuning, early hints (103), preconnect.
+
+U: Qué es FCP
+B. First Contentful Paint: tiempo hasta primer contenido (texto, imagen, SVG, canvas) pinta en pantalla. < 1.8s bueno. Diferente de LCP (LCP = elemento mayor). FCP temprano = percibido rápido.
+
+U: Qué es TTI
+B. Time To Interactive: página visualmente lista Y responde a input < 50ms en 5s. Requiere: FCP + main thread libre (no long tasks > 50ms) + event handlers registrados. Difícil medir exactamente. Relacionado con TBT (Total Blocking Time).
+
+U: Qué es TBT
+B. Total Blocking Time: suma tiempo tasks > 50ms entre FCP y TTI. Long tasks bloquean main thread → input delay. < 200ms bueno. Optimiza: code splitting, lazy load, web workers, requestIdleCallback, reduce JS payload.
+
+U: Qué es CLS (Cumulative Layout Shift)
+B. Suma de shifts inesperados: impact fraction * distance fraction. Sin user input (click/tap no cuenta). Imágenes sin dimensions, fonts (FOUT/FOIT), ads, iframes, dynamic content. Fix: width/height en imágenes, font-display: optional/preload, reserve space ads.
+
+U: Qué es INP (Interaction to Next Paint)
+B. Latencia de TODAS interacciones (click, tap, teclado) → siguiente paint. Percentil 98 de interacciones. < 200ms bueno. Reemplaza FID (solo primera interacción). INP captura toda la sesión. Optimiza: reduce main thread work, debounce, yield (scheduler.yield), web workers.

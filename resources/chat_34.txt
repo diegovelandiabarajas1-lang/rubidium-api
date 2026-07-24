@@ -1,0 +1,29 @@
+U: Qué es observabilidad
+B. Tres pilares: Logs (eventos discretos, structured JSON), Metrics (números agregados tiempo: counters, gauges, histograms), Traces (request end-to-end: trace → spans). Herramientas: Prometheus+Grafana (metrics), Loki (logs), Tempo/Jaeger (traces). OpenTelemetry estándar vendor-neutral.
+
+U: Qué es Prometheus
+B. Métricas time-series pull-based. Scrapea `/metrics` cada N seg. PromQL para queries. Alertmanager para alertas. Service discovery (K8s, Consul, file). No HA nativo (Thanos/Cortex/Mimir para HA). CNCF graduated. Pull = simple, no push gateway salvo batch jobs.
+
+U: Qué es PromQL
+B. Query language Prometheus. Selectors: `metric{label="value"}`. Operadores: `+ - * /`, `sum`, `rate()`, `increase()`, `histogram_quantile()`, `topk()`, `label_replace()`. Vector instantáneo vs range vector `[5m]`. Alertas: `expr: rate(http_errors[5m]) > 0.05`.
+
+U: Qué es Grafana
+B. Visualización y dashboards. Fuentes: Prometheus, Loki, Tempo, InfluxDB, PostgreSQL, etc. Alerting, variables, provisioning as code, plugins, comunidad enorme. Open source, SaaS (Grafana Cloud). Dashboard as JSON/YAML provisionable.
+
+U: Qué es Loki
+B. Log aggregation inspired by Prometheus. Indexa solo labels (no full-text), chunks comprimidos. Barato, rápido. LogQL: `{job="api"} |= "error" | json | level="error"`. Integración nativa Grafana. Tail, filter, aggregate. No full-text search como Elasticsearch.
+
+U: Qué es Tempo
+B. Distributed tracing backend para Grafana. Ingesta traces OpenTelemetry/Zipkin/Jaeger. Almacena en object storage (S3/GCS) + index Parquet. TraceQL para queries. Integrado en Grafana. Barato, escalable. Alternative a Jaeger.
+
+U: Qué es OpenTelemetry
+B. Estándar vendor-neutral para telemetría: traces, metrics, logs. SDKs multi-lenguaje, auto-instrumentation, collectors. Exporta a cualquier backend (Prometheus, Jaeger, Zipkin, Datadog, etc.). Estándar de facto. CNCF graduated. Unifica instrumentación.
+
+U: Qué es Alertmanager
+B. Maneja alertas Prometheus: grouping (agrupa similares), inhibition (suprime si otra alerta firing), silencing (mantenimiento), repeat_interval, receivers (email, Slack, PagerDuty, Opsgenie, webhook, webhook genérico). HA nativo (cluster). Config YAML. Silences via UI/API.
+
+U: Qué es SLO / SLI / SLA
+B. SLI = indicador (latencia p99, error rate, availability). SLO = objetivo interno (p99 < 200ms, 99.9% uptime). SLA = contrato con cliente (penalización si incumple). Error budget = 100% - SLO. Gasta budget en releases. Alinea dev+ops.
+
+U: Qué es error budget
+B. Inverso de SLO. SLO 99.9% uptime = 43.2 min downtime/mes permitidos. Si consumes budget rápido → freeze releases, focus reliability. Si sobra → libera features. Alinea incentivos dev (velocidad) + ops (estabilidad). Políticas: freeze deploy si < 10% budget.

@@ -1,0 +1,29 @@
+U: Qué es OpenPolicyAgent (OPA)
+B. Policy engine general-purpose. Lenguaje Rego (declarativo). Decouples policy de código. Input JSON → policy → decision JSON. Usos: K8s admission control, API authz, Terraform plan validation, microservices authz, CI gates. Wasm portable. Styra/Enterprise.
+
+U: Qué es Rego
+B. Lenguaje declarativo de OPA. Reglas: `package`, `default`, `rule { body }`, `rule if { body }`. Sets, comprehensions, functions, virtual documents. Data + input → decision. `allow { input.user == "admin" }`. Expressive, testable (`opa test`), performant (indexing, partial evaluation).
+
+U: Qué es Kyverno
+B. Policy engine nativo K8s (no OPA). Policies = K8s resources (CRDs): validate, mutate, generate, verify images. Lenguaje: YAML + JMESPath/CEL. Simpler que OPA para K8s. Validate (admission), mutate (inject labels/sidecars), generate (crea recursos), verify (cosign). CNCF incubating.
+
+U: Qué es Gatekeeper
+B. OPA-based admission controller para K8s. ConstraintTemplates (Rego) + Constraints (instancias). Audit (periódico), mutation (experimental). Library de constraints lista (K8s required labels, disallow privileged, etc.). CNCF graduated. Más poderoso, más complejo que Kyverno.
+
+U: Qué es Falco
+B. Runtime security para K8s/Linux. eBPF monitoriza syscalls → detecta anomalous behavior: shell en container, file write /etc, network connection unexpected, privilege escalation. Rules YAML (conditions, output, priority). Alertas: stdout, file, syslog, HTTP, gRPC, Slack. CNCF graduated. Sidecar o daemonset.
+
+U: Qué es Tracee
+B. Runtime security/forensics eBPF. Traces: exec, open, connect, mkdir, chmod, capability, seccomp, mount. Signatures (rules) detectan: crypto mining, reverse shell, privilege escalation, credential access. Output: JSON, table, Go template. Aqua Security. CNCF sandbox.
+
+U: Qué es Kube-bench
+B. CIS Kubernetes Benchmark automation. Checks: master/node config, etcd, control plane, policies, network, runtime. Output: PASS/FAIL/WARN con remediation. Aqua Security. CLI, container, K8s job. Automatiza compliance hardening.
+
+U: Qué es kube-hunter
+B. Penetration testing para K8s. Active hunting: escanea cluster, intenta exploit (anonymous access, privileged pods, hostPath, dashboard exposed, etc.). Report: vulnerabilities, severity, remediation. Passive mode (solo scan) o active (exploit). Aqua Security. Complementa kube-bench.
+
+U: Qué es Trivy
+B. Scanner unificado: vulnerabilidades (OS packages, lang packages), misconfig (IaC, K8s), secrets, licenses, SBOM. Targets: container images, filesystems, git repos, K8s clusters, VMs. Fast, simple, CI-friendly. `trivy image`, `trivy fs`, `trivy k8s`, `trivy repo`. Aqua Security. CNCF incubating.
+
+U: Qué es Grype / Syft
+B. Anchore tools. Syft: genera SBOM (SPDX, CycloneDX) de container image, dir, archivo. Grype: escanea SBOM/imagen/dir vs vulnerabilidades (NVD, GHSA, etc.). Rápidos, CLI simple, CI-friendly. `syft packages dir:./app`, `grype sbom:sbom.spdx.json`. Open source, Apache 2.

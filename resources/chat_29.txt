@@ -1,0 +1,32 @@
+U: Qué es Observability
+B. Tres pilares: Logs (eventos discretos, structured JSON), Metrics (números agregados: counters, gauges, histograms), Traces (request end-to-end: spans, trace_id, span_id, parent_id). Correlación: trace_id en logs/metrics. OpenTelemetry estándar. Herramientas: Prometheus/Grafana, Loki, Tempo, Jaeger, Zipkin, Datadog, New Relic.
+
+U: Qué es OpenTelemetry
+B. Estándar vendor-neutral para telemetry (traces, metrics, logs). SDKs multi-lenguaje, Collector (recibe, procesa, exporta), Semantic Conventions (nombres estándar), Context Propagation (W3C TraceContext). Exporta a cualquier backend (Prometheus, Jaeger, Zipkin, OTLP). CNCF graduated. Unifica instrumentación.
+
+U: Qué es Prometheus
+B. TSDB pull-based. Scrape targets cada N segundos. PromQL para queries. Alertmanager para alertas. Multi-dimensional labels (key=value). No HA nativo (use Thanos/Cortex/Mimir). Service discovery (K8s, Consul, file). Exporters (node, blackbox, postgres, etc.). CNCF graduated.
+
+U: Qué es Grafana
+B. Visualización/dashboards multi-datasource (Prometheus, Loki, Tempo, InfluxDB, PostgreSQL, etc.). Alerting, variables, templating, annotations, plugins. Grafana Cloud (managed), Grafana Enterprise, Self-hosted. Ecosistema: Loki (logs), Tempo (traces), Pyroscope (profiles), Beyla (eBPF auto-instrumentation).
+
+U: Qué es Loki
+B. Log aggregation como Prometheus pero para logs. Indexa solo labels (no full-text), chunks comprimidos. Cheap, fast. LogQL (PromQL-like). Integra con Promtail (agent), Grafana. Single binary o microservices (distributed). Multi-tenant. No full-text search = barato y rápido.
+
+U: Qué es Tempo
+B. Distributed tracing backend. Object storage (S3/GCS/Azure) + index mínimo. TraceID → object. No index spans (busca por trace_id). Barato, escalable. Integrado Grafana, OpenTelemetry, Jaeger, Zipkin protocols. TraceQL para queries avanzados. No sampling requerido.
+
+U: Qué es distributed tracing
+B. Rastrea request a través de servicios. Trace = árbol de Spans (operación: inicio, fin, tags, logs). Context propagation (W3C TraceContext: traceparent, tracestate). Sampling (head-based, tail-based). Latencia, errores, dependencias. OpenTelemetry SDK auto-instrumenta (Java, Go, Python, Node, .NET, etc.).
+
+U: Qué es SLI / SLO / SLA
+B. SLI (Service Level Indicator): métrica cuantificable (latencia p99, error rate, availability). SLO (Service Level Objective): target SLI (p99 < 200ms, 99.9% uptime). SLA (Service Level Agreement): contrato con cliente (consecuencias si incumple SLO). Error Budget = 1 - SLO. Gasta budget en releases/riesgo.
+
+U: Qué es Error Budget
+B. 1 - SLO. Ej: SLO 99.9% uptime → error budget 0.1% downtime/mes = 43 min. Gasta budget en deployments, features, riesgo. Si budget agotado → freeze releases, focus reliability. Alinea dev (velocidad) vs ops (estabilidad). Políticas: burn rate alerts (rápido vs lento).
+
+U: Qué es Chaos Engineering
+B. Experimentos controlados para descubrir debilidades. Hipótesis → experimento (inyecta fallo: latency, kill pod, network partition) → mide impacto → aprende. Herramientas: Chaos Mesh, Litmus, Gremlin, Chaos Monkey (Netflix). Game Days: equipo simula incidente real. Cultura: fallar en staging/prod controlado > fallar en prod real.
+
+U: Qué es Synthetic Monitoring
+B. Scripts automatizados que simulan user journeys (login, checkout, API calls) desde ubicaciones globales. Detecta problemas antes que usuarios reales. Alertas proactivas. Herramientas: Grafana Synthetic, Datadog Synthetics, Checkly, Pingdom, UptimeRobot. Complementa monitoring real (RUM).

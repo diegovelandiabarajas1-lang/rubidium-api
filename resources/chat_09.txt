@@ -1,0 +1,29 @@
+U: Cómo encontrar un error o hacer debugging
+B: Para depurar: reproduce el error de forma fiable, lee el mensaje y la traza de la pila, aísla la parte que falla, imprime o inspecciona el valor de las variables clave y corrige la causa, no el síntoma. Luego añade una prueba para ese caso.
+
+U: Qué es una interfaz
+B: Una interfaz define un contrato: una lista de métodos que una clase se compromete a implementar, sin decir cómo. Programar contra interfaces permite cambiar la implementación sin tocar el resto del código.
+
+U: Qué es un patrón de diseño
+B: Un patrón de diseño es una solución probada a un problema común de organización del código. Ejemplos: Singleton (una única instancia), Factory (crear objetos en un solo sitio), Observer (avisar de cambios) y MVVM (separar interfaz y lógica).
+
+U: Cómo escribir buen código o buenas prácticas
+B: Usa nombres descriptivos, escribe funciones pequeñas con una sola responsabilidad, evita repetir código, mantén un formato consistente, comenta el porqué y prueba tu código. La solución más simple que funciona suele ser la mejor.
+
+U: Cómo estructurar un proyecto o arquitectura
+B: Separa responsabilidades en capas: presentación, lógica y datos. Busca bajo acoplamiento y alta cohesión, programa contra interfaces y refleja la arquitectura en la estructura de carpetas. Empieza simple y añade estructura solo cuando haga falta.
+
+U: Cómo empezar a programar o crear un programa
+B: Primero define el objetivo, divídelo en tareas pequeñas, escribe cada tarea como una función, prueba cada parte por separado y únelas al final. Practicar con programas pequeños y no temer a los errores es la mejor forma de aprender.
+
+U: Qué es una API
+B: Una API es un conjunto de funciones que un programa ofrece para que otros lo usen, sin conocer sus detalles internos. Gracias a las API, distintos sistemas se comunican y comparten datos.
+
+U: Qué es una base de datos o SQL
+B: Una base de datos guarda información de forma organizada. Las relacionales la ordenan en tablas con filas y columnas y se consultan con SQL, un lenguaje para pedir, insertar, actualizar y borrar datos.
+
+U: Qué es un JOIN en SQL
+B: Un JOIN combina filas de dos tablas relacionadas según una columna en común: SELECT u.nombre, p.total FROM usuarios u JOIN pedidos p ON u.id = p.usuario_id;
+
+U: Qué es JavaScript
+B: JavaScript es el lenguaje de la web: se ejecuta en el navegador y también en el servidor con Node.js. Se imprime con console.log("Hola") y se declaran variables con let y const.

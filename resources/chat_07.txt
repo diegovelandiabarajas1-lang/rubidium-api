@@ -1,0 +1,29 @@
+U: ¿Qué es HTML y CSS?
+B: HTML estructura el contenido web con etiquetas: `<h1>`, `<p>`, `<div>`, `<a>`, `<img>`. CSS da estilo visual: colores, fuentes, espaciado, layout. HTML = esqueleto, CSS = piel y ropa.
+
+U: ¿Qué es JavaScript?
+B: Lenguaje de la web. Se ejecuta en navegador (client-side) y servidores con Node.js. Interactividad: manipular DOM, eventos, AJAX, animaciones. ES6+: `let/const`, arrow functions, promises, async/await, modules.
+
+U: ¿Qué es el DOM?
+B: Document Object Model = árbol que el navegador crea al cargar HTML. JS accede/modifica: `document.getElementById()`, `querySelector()`, `innerHTML`, `style`. Cambios se reflejan visualmente al instante.
+
+U: ¿Qué es React?
+B: Librería JS para UIs basada en componentes. JSX (HTML en JS), Virtual DOM, flujo unidireccional (props down, events up), hooks (`useState`, `useEffect`). Mantenido por Meta.
+
+U: ¿Qué es una API REST?
+B: Expone recursos vía HTTP con verbos estándar: GET (leer), POST (crear), PUT/PATCH (actualizar), DELETE (borrar). URLs semánticas (`/users/123`), JSON, códigos HTTP (200, 201, 404, 500). Stateless, cacheable.
+
+U: ¿Qué es SQL?
+B: Lenguaje estándar para BD relacionales. `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `JOIN`, `WHERE`, `GROUP BY`, `ORDER BY`, índices. BDs: PostgreSQL, MySQL, SQL Server, SQLite.
+
+U: ¿Qué es NoSQL?
+B: BDs no relacionales. Tipos: Documentales (MongoDB), Clave-Valor (Redis), Columnares (Cassandra), Grafos (Neo4j). Escalan horizontalmente, esquema flexible, sacrifican consistencia fuerte (CAP).
+
+U: ¿Qué es Docker?
+B: Empaqueta apps en contenedores ligeros y portables (código, runtime, libs, config). Comparte kernel del host, aislado. `Dockerfile` define imagen. `docker-compose` orquesta multi-contenedor.
+
+U: ¿Qué es Kubernetes?
+B: Orquesta contenedores a escala: despliegue, escalado, balanceo, autocuración, rolling updates. Pod, Service, Deployment, Ingress, ConfigMap/Secret. Estándar cloud-native.
+
+U: ¿Qué es Git?
+B: Control de versiones distribuido. Rastrea cambios, permite volver atrás, ramas paralelas, colaboración. Comandos: `init`, `clone`, `add`, `commit`, `push`, `pull`, `branch`, `merge`, `log`, `status`, `diff`.

@@ -1,0 +1,29 @@
+U: Qué es eventual consistency
+B: Modelo consistencia donde réplicas convergen con tiempo. Lecturas pueden ver datos viejos temporalmente. CAP theorem: elige Availability + Partition tolerance → Eventual consistency. DNS, DynamoDB, Cassandra. Ventaja: disponibilidad, latencia. Desventaja: complejidad app.
+
+U: Qué es strong consistency
+B: Lecturas ven última escritura garantizada. Single leader, quorum reads/writes (R+W>N), consenso (Raft, Paxos). Latencia mayor, disponibilidad menor (CAP: CP). Bancos, inventario crítico. Linearizability = gold standard.
+
+U: Qué es CAP theorem
+B: En red con particiones (P), elige 2 de 3: Consistency (todos ven mismo dato), Availability (siempre responde), Partition tolerance (red falla). Realidad: particiones pasan → elige CP o AP. No hay CA en red real.
+
+U: Qué es BASE
+B: Basically Available, Soft state, Eventual consistency. Alternativa a ACID para sistemas distribuidos masivos. Disponibilidad > consistencia inmediata. Ej: DynamoDB, Cassandra, Riak. Trade-off deliberado.
+
+U: Qué es ACID
+B: Atomicity (todo o nada), Consistency (reglas válidas), Isolation (transacciones concurrentes no interfieren), Durability (commit persiste). Garantías transaccionales fuertes. BD relacionales tradicionales. Costo: escalabilidad, latencia.
+
+U: Qué es saga pattern
+B: Transacción distribuida como secuencia de operaciones locales + compensaciones. Cada paso tiene acción forward + compensación (undo). Coreografía (eventos) u Orquestación (coordinador central). Maneja fallos parciales en microservicios.
+
+U: Qué es outbox pattern
+B: Garantiza publicación de eventos tras commit BD. Escribe en tabla outbox misma transacción que datos. Proceso separado (CDC, poller) lee outbox y publica a message broker. Evita dual-write problem. Transactional outbox = atomicidad BD + evento.
+
+U: Qué es CDC (Change Data Capture)
+B: Captura cambios en BD (INSERT/UPDATE/DELETE) y los emite como stream eventos. Herramientas: Debezium (Kafka Connect), Maxwell, Canal. Lee binlog (MySQL), WAL (PostgreSQL). Fuente de verdad para event-driven, sync, audit.
+
+U: Qué es event sourcing
+B: Guarda eventos (hechos inmutables) en vez de estado actual. Estado = replay de eventos. Ventajas: audit completo, time-travel, debug, rebuild projections. Desventajas: complejidad, schema evolution, eventual consistency. CQRS frecuente compañero.
+
+U: Qué es CQRS
+B: Command Query Responsibility Segregation. Modelo escritura (commands) separado de modelo lectura (queries). Escritura: valida, emite eventos. Lectura: proyecciones optimizadas (denormalizadas). Escalabilidad independiente, modelos especializados. Complejidad extra.

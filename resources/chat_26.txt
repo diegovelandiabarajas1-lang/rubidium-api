@@ -1,0 +1,29 @@
+U: Qué es Kafka
+B. Event streaming platform: log distribuido, particionado, replicado, ordenado por partición. Topics → partitions → segments. Producers → append, Consumers → read (offset management). Broker cluster (ZooKeeper/KRaft). High throughput, durable, replayable. Exactly-once semantics (idempotent producer + transactional consumer).
+
+U: Qué es partición en Kafka
+B. Unit of parallelism. Topic split en N particiones. Orden garantizado dentro de partición. Key → hash → partición (ordering por key). Replicación: leader + replicas (ISR). Mínimo 3 brokers, replication factor 3. Rebalance on consumer group rebalance.
+
+U: Qué es consumer group
+B. Consumers comparten subscripción. Cada partición asignada a 1 consumer en grupo. Rebalance al unirse/salir. Offset commit (auto/commitSync/commitAsync). Exactly-once: enable.idempotence + transactional.id + isolation.level=read_committed.
+
+U: Qué es Kafka Streams
+B. Stream processing library embebida en app Java/Scala. KStream (record stream), KTable (changelog stream → materialized view). Operaciones: map, filter, join, aggregate, windowing (tumbling, hopping, session). State stores (RocksDB) para estado local. Exactly-once, fault-tolerant, scalable.
+
+U: Qué es ksqlDB
+B. SQL para streaming sobre Kafka. CREATE STREAM/TABLE, SELECT, JOIN, WINDOW, EMIT CHANGES. Push queries (streaming), pull queries (lookup). Materialized views automáticas. Deploy sobre Kafka cluster. Streaming SQL sin Java/Scala.
+
+U: Qué es Debezium
+B. CDC platform sobre Kafka Connect. Conectores: MySQL, PostgreSQL, MongoDB, SQL Server, Oracle, Db2. Lee binlog/WAL/oplog → emite eventos change (create/update/delete) a Kafka topics. Schema evolution (Avro/Protobuf/JSON + Schema Registry). Base para CDC, replication, cache invalidation, audit.
+
+U: Qué es Schema Registry
+B. Almacena schemas (Avro, Protobuf, JSON Schema) con versioning. Valida compatibilidad (BACKWARD, FORWARD, FULL, NONE). Serializa/deserializa eficiente (schema ID en payload). Confluent Schema Registry, Apicurio. Evita breaking changes en producers/consumers.
+
+U: Qué es Avro
+B. Serialización binaria con schema. Schema en JSON, datos binarios compactos. Schema evolution: campos opcionales, default values, union types. Code generation multi-lenguaje. Usado en Kafka, Hadoop, RPC. Más compacto que JSON, schema adjunto.
+
+U: Qué es Protobuf vs Avro
+B. Protobuf: Google, .proto, código generado obligatorio, más compacto, gRPC nativo. Avro: schema en JSON, dynamic typing opcional, mejor schema evolution, Hadoop/Spark nativo. Protobuf para gRPC/microservicios, Avro para data lakes/analytics.
+
+U: Qué es JSON Schema
+B. Vocabulario para validar/describir JSON. Draft 2020-12 actual. $ref, definitions, allOf/anyOf/oneOf/not, if/then/else, format (email, uuid, date-time), pattern, min/max. OpenAPI 3.1 usa JSON Schema Draft 2020-12. Validación cliente/servidor, documentación, codegen.

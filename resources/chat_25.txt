@@ -1,0 +1,32 @@
+U: Qué es CAP theorem
+B. Consistency, Availability, Partition tolerance: elige 2 de 3. Red particionada (P inevitable en distribuido) → CP (consistencia, sacrifica disponibilidad: reject writes) o AP (disponibilidad, sacrifica consistencia: accept writes, merge después). No hay sistema CA en red real.
+
+U: Qué es PACELC
+B. Extiende CAP: si Partition → tradeoff Availability vs Consistency (PAC), Else (sin partición) → tradeoff Latency vs Consistency (ELC). Sistemas CP: PC/EC (consistencia fuerte, latencia alta). Sistemas AP: PA/EL (disponible, latencia baja, consistencia eventual).
+
+U: Qué es CRDT
+B. Conflict-free Replicated Data Types. Estructuras de datos que se fusionan automáticamente sin coordinación. Tipos: G-Counter, PN-Counter, G-Set, OR-Set, LWW-Register, RGA (texto colaborativo). Base de apps offline-first, collaborative editing (Figma, Google Docs), shopping carts.
+
+U: Qué es vector clock
+B. Vector de contadores por nodo: {A:3, B:2, C:1}. Ordena eventos en sistema distribuido sin reloj global. A happened-before B si clock[A] ≤ clock[B] ∀ componentes y ∃ estricto. Detecta concurrencia (no comparable). Overhead O(nodos).
+
+U: Qué es gossip protocol
+B. Disseminación probabilística: cada nodo periódicamente comparte estado con k peers aleatorios. Convergencia logarítmica O(log n). Robusto a fallos, sin coordinación central. Usado: membership (Consul, Cassandra), anti-entropy, failure detection. Trade-off: ancho de banda vs velocidad convergencia.
+
+U: Qué es Raft consensus
+B. Algoritmo consenso entendible. Leader election, log replication, safety. Terms, votes, majority quorum (n/2+1). Log matching, leader completeness. Más simple que Paxos. Usado: etcd, Consul, TiKV, CockroachDB. Leader = single writer, simplifica.
+
+U: Qué es etcd
+B. Key-value store distribuido, consistente (Raft). Kubernetes lo usa para estado del cluster. Watch (notifica cambios), lease (TTL, keepalive), txn (transacciones). Alta disponibilidad (3-5 nodos). Simple API: put, get, delete, watch, lease.
+
+U: Qué es Consul
+B. Service mesh + service discovery + config + KV store. Raft para consistencia. Health checks, DNS/HTTP interface, Connect (mTLS, intentions), multi-datacenter. Service mesh ligero vs Istio. HashiCorp stack.
+
+U: Qué es Zookeeper
+B. Coordinación distribuida (config, naming, sync, group services). ZAB protocol (Raft-like). Znodes jerárquicos (ephemeral, sequential). Watches (notificaciones). Legacy: Kafka (hasta KRaft), HBase, Hadoop, Solr. Pesado, Java, operacionalmente complejo. Migración a KRaft/KRaft en progreso.
+
+U: Qué es Redis
+B. In-memory data structure store: strings, hashes, lists, sets, sorted sets, streams, bitmaps, hyperloglog, geospatial. Sub-ms latency. Persistencia opcional (RDB snapshot, AOF log). Replication, Sentinel (HA), Cluster (sharding). Pub/Sub, Lua scripting, transactions (MULTI/EXEC). Cache, session store, rate limit, leaderboard, queue.
+
+U: Qué es Redis Cluster
+B. Sharding automático: 16384 hash slots distribuidos en master nodes. Cada master 1+ replicas. Failover automático (Sentinel-like). Clients siguen redirección MOVED/ASK. No multi-key ops cross-slot (except hash tags: {user:1000}.profile). Escalado horizontal read/write.

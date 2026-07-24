@@ -1,0 +1,29 @@
+U: ¿Qué es una variable?
+B: Una variable es un espacio con nombre donde se guarda un dato que puede cambiar. En C#: int edad = 30; En Python: edad = 30. El nombre te permite leer y modificar ese valor después.
+
+U: ¿Qué es una función o método?
+B: Una función agrupa instrucciones reutilizables que hacen una tarea y suelen devolver un resultado. En C#: int Sumar(int a, int b) { return a + b; } Se llama con Sumar(2, 3).
+
+U: Cómo hacer un bucle for
+B: Un bucle for repite código un número de veces. En C#: for (int i = 0; i < 5; i++) { Console.WriteLine(i); } En Python: for i in range(5): print(i). La variable i avanza en cada vuelta.
+
+U: Qué es una clase y un objeto
+B: Una clase es el molde que describe datos y comportamiento; un objeto es una instancia concreta de esa clase. En C#: class Persona { public string Nombre; } y luego var p = new Persona();
+
+U: Cómo manejar errores o excepciones
+B: Usa try y catch: el código de riesgo va en try y, si lanza una excepción, catch la captura. Ejemplo en C#: try { int x = int.Parse(texto); } catch (FormatException) { Console.WriteLine("No es un número"); }
+
+U: Qué es un condicional if else
+B: Un condicional ejecuta código según una condición. En C#: if (numero % 2 == 0) Console.WriteLine("par"); else Console.WriteLine("impar"); El bloque de if corre si la condición es verdadera.
+
+U: Qué es una lista o array
+B: Una lista guarda varios elementos y se recorre con un bucle. En C#: var frutas = new List<string> { "pera", "uva" }; foreach (var f in frutas) Console.WriteLine(f); Puedes añadir con frutas.Add("melón").
+
+U: Diferencia entre C# y Python
+B: C# es de tipado estático y compilado, ideal para aplicaciones Windows con .NET; usa llaves y punto y coma. Python es de tipado dinámico e interpretado, muy legible, y usa la indentación para los bloques. Ambos sirven para casi todo.
+
+U: Qué es la recursión
+B: La recursión es cuando una función se llama a sí misma para resolver un problema más pequeño, y siempre necesita un caso base que la detenga. Ejemplo: el factorial de n es n por el factorial de n menos uno, y el factorial de cero es uno.
+
+U: Qué es un algoritmo
+B: Un algoritmo es una secuencia finita de pasos que resuelve un problema. Un buen algoritmo es correcto y eficiente. Ejemplos comunes son la búsqueda binaria y el ordenamiento por mezcla.

@@ -1,0 +1,29 @@
+U: ¿Qué es Python?
+B: Python es un lenguaje de programación de alto nivel, interpretado, de sintaxis clara y legible. Sirve para web, datos, IA, automatización, scripts, juegos. Gran ecosistema: NumPy, Pandas, TensorFlow, Django, Flask.
+
+U: ¿Cómo se declara una variable en Python?
+B: No se declaran tipos. Solo asignas: `nombre = "Juan"`, `edad = 25`, `precio = 19.99`, `activo = True`. Python infiere el tipo automáticamente. Las variables son referencias a objetos en memoria.
+
+U: ¿Qué es una función?
+B: Bloque de código reutilizable que hace una tarea. Recibe parámetros, ejecuta instrucciones, opcionalmente devuelve resultado. `def sumar(a, b): return a + b`. Promueve código limpio, modular, DRY.
+
+U: ¿Qué es una lista en Python?
+B: Colección ordenada y mutable: `frutas = ["manzana", "banana", "cereza"]`. Índices negativos, slicing `frutas[1:3]`, métodos `.append()`, `.remove()`, `.sort()`, tipos mixtos.
+
+U: ¿Qué es un diccionario en Python?
+B: Pares clave-valor, mutable, acceso O(1): `persona = {"nombre": "Ana", "edad": 30}`. Acceso rápido por clave: `persona["nombre"]`. Desde 3.7 mantiene orden de inserción.
+
+U: ¿Qué es POO?
+B: Paradigma que organiza código en objetos con datos (atributos) y comportamiento (métodos). Pilares: Encapsulamiento, Herencia, Polimorfismo, Abstracción.
+
+U: ¿Qué es herencia?
+B: Clase hija hereda atributos/métodos de clase padre. `class Gato(Animal):` hereda de `Animal`. Reutiliza y extiende sin duplicar. Python soporta herencia múltiple.
+
+U: ¿Qué es un decorador?
+B: Función que recibe otra función y extiende su comportamiento sin modificarla. `@decorador` encima de la función. Usos: logging, timing, auth, caché, `@property`.
+
+U: ¿Qué son generadores?
+B: Funciones con `yield` en vez de `return`. Producen valores bajo demanda (lazy), sin almacenar toda la secuencia en memoria. Eficientes para secuencias grandes/infinitas.
+
+U: ¿Qué es async/await?
+B: Programación asíncrona no bloqueante. `async def` define corrutina, `await` pausa hasta que termina. Útil para I/O: red, BD, archivos. `asyncio` gestiona event loop.

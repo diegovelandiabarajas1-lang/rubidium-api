@@ -1,0 +1,32 @@
+U: Qué es Clean Architecture
+B. Capas concéntricas: Entities (reglas negocio puras) → Use Cases (orquesta reglas) → Interface Adapters (controllers, presenters, gateways) → Frameworks (DB, UI, Web, Devices). Dependency Rule: interno no conoce externo. Inversión de dependencias en límites. Testable, desacoplado, mantenible.
+
+U: Qué es Domain-Driven Design (DDD)
+B. Modela dominio complejo. Ubiquitous Language (lenguaje compartido dev+expertos). Bounded Contexts (límites semánticos). Entities (identidad), Value Objects (inmutables, igualdad por valor), Aggregates (consistencia transaccional), Domain Events, Repositories, Factories, Services. Strategic + Tactical design.
+
+U: Qué es Hexagonal Architecture (Ports & Adapters)
+B. App en centro, puertos (interfaces) en bordes, adaptadores (implementaciones) fuera. Primary ports (driving: API, CLI, tests) → App → Secondary ports (driven: DB, MQ, HTTP client) → Adapters (JPA, Kafka, HTTP client). Desacopla núcleo de infraestructura. Testable: mock ports.
+
+U: Qué es Onion Architecture
+B. Similar a Clean/Hexagonal. Capas: Domain Model (centro) → Domain Services → Application Services → Infrastructure (UI, DB, External). Dependency inversion: capas externas dependen de interfaces definidas en capas internas. Jeffrey Palermo 2008.
+
+U: Qué es CQRS + Event Sourcing
+B. CQRS separa read/write. Event Sourcing guarda eventos (no estado). Juntos: Commands → Aggregate valida → emite Eventos → Event Store → Proyecciones (Read Models) → Queries. Audit trail, temporal queries, rebuild read models. Complejidad: eventual consistency, event versioning, snapshots.
+
+U: Qué es Microservices vs Monolith
+B. Monolith: single deploy, shared DB, simple dev/test/deploy, scaling todo junto. Microservices: bounded contexts, independent deploy, polyglot, team autonomy, resilience, scaling granular. Costos: distributed system complexity (network, consistency, observability, deployment). Start monolith, extraer cuando duele.
+
+U: Qué es Modular Monolith
+B. Monolith físico, arquitectura modular interna. Módulos con límites claros (bounded contexts), comunicación in-process (interfaces, eventos internos), shared DB opcional (schemas separados). Ventajas: simple deploy, fuerte cohesión, fácil extraer a microservicio después. Shopify, GitHub usan variantes.
+
+U: Qué es API Gateway pattern
+B. Single entry point para clientes. Routing, auth, rate limiting, logging, caching, transformation, circuit breaker, request/response aggregation. Desacopla clientes de servicios internos. Backend for Frontend (BFF): gateway por cliente (web, mobile, partner). Kong, AWS API Gateway, Envoy, Spring Cloud Gateway.
+
+U: Qué es Service Mesh
+B. Capa infra para comunicación servicio-servicio. mTLS, observabilidad, traffic management, resilience. Sidecar proxy (Envoy) por pod. Control plane configura data plane. Istio, Linkerd, Consul Connect. Desacopla lógica red de lógica negocio.
+
+U: Qué es Circuit Breaker
+B. Evita cascada fallos. Estados: Closed (normal), Open (fallo rápido, rechaza llamadas), Half-Open (prueba si recuperó). Thresholds: failure rate, slow calls, min calls. Resilience4j, Hystrix (mantenimiento), Istio, Envoy. Fallback: cached response, default, error amable.
+
+U: Qué es Bulkhead Pattern
+B. Aísla recursos para que fallo en uno no afecte otros. Thread pools separados por servicio/dependencia, connection pools separados, rate limits por cliente. Si un downstream falla/lento, solo su bulkhead se satura, resto sigue. Complementa Circuit Breaker. Hystrix/Resilience4j thread pools, Kubernetes resource quotas.

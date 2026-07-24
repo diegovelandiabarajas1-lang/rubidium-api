@@ -1,0 +1,26 @@
+U: Qué es Chaos Engineering
+B. Experimentos controlados para descubrir debilidades. Hipótesis → experimento (inyecta fallo: latency, kill pod, network partition, clock skew) → mide impacto → aprende. Herramientas: Chaos Mesh, Litmus, Gremlin, Chaos Monkey (Netflix). Game Days: equipo simula incidente real. Cultura: fallar en staging/prod controlado > fallar en prod real.
+
+U: Qué es Synthetic Monitoring
+B. Scripts automatizados simulan user journeys (login, checkout, API) desde ubicaciones globales. Detecta problemas antes que usuarios reales. Alertas proactivas. Herramientas: Grafana Synthetic, Datadog Synthetics, Checkly, Pingdom, UptimeRobot. Complementa RUM (Real User Monitoring).
+
+U: Qué es RUM (Real User Monitoring)
+B. Mide experiencia real: Core Web Vitals (LCP, INP, CLS), page load, AJAX, errores JS, navegación. Agente JS en browser. Correlaciona con backend traces. Detecta regresiones UX, errores solo en prod, variabilidad geo/dispositivo. Herramientas: Grafana Faro, Datadog RUM, New Relic Browser.
+
+U: Qué es Game Day
+B. Simulación controlada de incidente mayor. Equipo completo: dev, ops, support, management. Escenario realista (caída DB, red particionada, deploy malo). Mide: MTTR, comunicación, runbooks, escalación. Post-mortem blameless. Cultura: practicar fallar para no fallar en serio.
+
+U: Qué es Runbook
+B. Procedimiento documentado para incidentes comunes. Pasos: diagnóstico → mitigación → resolución → post-mortem. Owner, severity, escalación, contactos, comandos exactos, links a dashboards/logs. Automatizable (runbook automation). Living document: actualiza tras cada incidente.
+
+U: Qué es Post-mortem / Incident Review
+B. Análisis blameless tras incidente. Qué pasó (timeline), por qué (root cause 5 whys), impacto, qué funcionó, qué no, action items (prevent, detect, mitigate). Due dates, owners. Compartido org-wide. Cultura: blameless = aprendemos, no castigamos. Google SRE book.
+
+U: Qué es On-call
+B. Rotación 24/7 de ingenieros responsables de producción. PagerDuty/Opsgenie/OpsGenie alerta. Runbooks a mano. Compensación (pager pay, tiempo compensatorio). Rotation sostenible (1 semana, max 2 alertas/noches). Handoff claro. Burnout prevention: max incidents/semana, recovery time.
+
+U: Qué es SRE (Site Reliability Engineering)
+B. Ingeniería confiabilidad a escala Google. SLO/SLI/SLA, error budgets, toil reduction (automatiza lo manual), observability, incident response, capacity planning, release engineering. "Class SRE implements DevOps". SRE = dev con foco reliability. 50% coding, 50% ops.
+
+U: Qué es Platform Engineering
+B. Construye Internal Developer Platform (IDP): self-service infra, CI/CD, templates, golden paths, docs, CLI. Abstracción sobre K8s/cloud. Reduce cognitive load devs. Team platform habilita team product. Backstage (Spotify) portal developer. "You build it, you run it" → "Platform builds it, you run it".

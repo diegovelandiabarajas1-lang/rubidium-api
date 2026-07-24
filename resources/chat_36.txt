@@ -1,0 +1,32 @@
+U: Qué es DORA metrics
+B. Four keys: Deployment Frequency (frecuencia deploy), Lead Time for Changes (commit → prod), Mean Time to Restore (MTTR), Change Failure Rate (% deploy causa incidente). Elite: multiple deploys/day, <1h lead, <1h MTTR, <15% failure. Mide delivery performance, no actividad. Accelerate book.
+
+U: Qué es SPACE framework
+B. Satisfaction, Performance, Activity, Communication, Efficiency. Holístico vs solo métricas output. Satisfaction (dev happiness), Performance (outcome quality), Activity (output count), Communication (collaboration), Efficiency (flow). Balance cuantitativo+cualitativo. Complementa DORA.
+
+U: Qué es DevEx (Developer Experience)
+B. Cómo se siente desarrollar: flow state, feedback loops, cognitive load, tooling, docs, onboarding. Métricas: time to first commit, build time, deploy friction, docs quality, support responsiveness. Mejora DevEx → productividad, retención, calidad. Platform team dueña.
+
+U: Qué es InnerSource
+B. Aplica prácticas open source interno: código visible, contribuciones bienvenidas, gobernanza ligera, meritocracia. Repos internos abiertos, PRs cross-team, mentoring, documentation pública. Rompe silos, reutiliza código, reduce duplicación. GitHub/GitLab interno.
+
+U: Qué es monorepo vs polyrepo
+B. Monorepo: single repo (Google, Meta, Microsoft). Ventajas: atomic commits, shared code fácil, refactoring cross-project, single CI. Desventajas: tooling complejo (Bazel, Nx, Turborepo), escala, permisos. Polyrepo: aislamiento, autonomía, simple. Hybrid: monorepo por dominio + polyrepo entre dominios.
+
+U: Qué es Trunk-Based Development
+B. Commits directos a main (trunk), ramas cortas (<1 día), feature flags para features incompletas. CI rápido obligatorio. Evita merge hell, integra continuo. Requiere: CI rápido, feature flags, code review rápido, tests rápidos. Google, Facebook lo usan.
+
+U: Qué es Feature Flags
+B. Toggle features en runtime sin deploy. Boolean, porcentaje, segmentos (beta users, canary). LaunchDarkly, Unleash, Flagsmith, GO Feature Flag, homegrown. Lifecycle: create → rollout gradual → cleanup (borra flag + código dead). Kill switch instantáneo.
+
+U: Qué es Canary Deployment
+B. Despliega nueva versión a % pequeño (1-5%) tráfico, monitora métricas (error rate, latency, business), escala gradual (10%, 25%, 50%, 100%) o rollback automático si SLOs rompen. Service mesh (Istio/Linkerd) o API Gateway (weights) o feature flag. Zero-downtime, risk reducido.
+
+U: Qué es Blue-Green Deployment
+B. Dos entornos idénticos: blue (actual), green (nuevo). Deploy en green, test, switch traffic (DNS, LB, router) atómico. Rollback instantáneo (switch back). Requiere 2x recursos, DB migrations compatibles backward. Cero downtime, rollback instantáneo.
+
+U: Qué es Rolling Deployment
+B. Actualiza instancias en oleadas: 1, luego 2, luego 4... Mantiene capacidad mínima. Kubernetes Deployment strategy: RollingUpdate (maxSurge, maxUnavailable). Simple, nativo K8s. Rollback: `kubectl rollout undo`. Menos riesgo que big bang, más lento que blue-green.
+
+U: Qué es Immutable Infrastructure
+B. Servers/infra nunca se modifican post-deploy. Cambio = nueva imagen/container/AMI → replace. Packer + Terraform/Ansible → golden image → deploy. Ventajas: consistencia, rollback trivial, audit, security (no drift), reproducibility. Desventaja: tiempo build, storage. Cloud-native nativo.

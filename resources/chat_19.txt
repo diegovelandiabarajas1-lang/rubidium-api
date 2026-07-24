@@ -1,0 +1,32 @@
+U: Qué es Tempo
+B: Distributed tracing backend para Grafana. Ingesta traces OpenTelemetry/Zipkin/Jaeger. Almacena en object storage (S3/GCS) + index en Parquet. TraceQL para queries. Integrado en Grafana. Barato, escalable.
+
+U: Qué es OpenTelemetry
+B: Estándar vendor-neutral para telemetría: traces, metrics, logs. SDKs multi-lenguaje, auto-instrumentation, collectors. Exporta a cualquier backend (Prometheus, Jaeger, Zipkin, Datadog, etc.). Estándar de facto.
+
+U: Qué es Jaeger
+B: Distributed tracing system. UI para ver traces, spans, dependencias, latencias, errores. Collector, query, ingester. Storage: Cassandra, Elasticsearch, Kafka. OpenTracing compatible. CNCF graduated.
+
+U: Qué es distributed tracing
+B: Rastrea request a través de múltiples servicios. Trace = árbol de spans. Span = unidad de trabajo (operación, timestamps, tags, logs). Context propagation (W3C TraceContext) pasa trace-id entre servicios. Identifica cuellos de botella, errores en cadena.
+
+U: Qué es SLO / SLI / SLA
+B: SLI = indicador (latencia p99, error rate, availability). SLO = objetivo interno (latencia p99 < 200ms, 99.9% uptime). SLA = contrato con cliente (penalización si incumple). Error budget = 100% - SLO. Gasta budget en releases.
+
+U: Qué es error budget
+B: Inverso de SLO. SLO 99.9% uptime = 43.2 min downtime/mes permitidos. Si consumes budget rápido → freeze releases, enfoca en fiabilidad. Si sobra → libera features. Alinea dev + ops.
+
+U: Qué es circuit breaker
+B: Patrón resiliencia: evita llamar a servicio que falla. Estados: Closed (normal), Open (falla rápido, no llama), Half-Open (prueba si recuperó). Librerías: Hystrix (legacy), Resilience4j, Polly (.NET), go-breaker. Evita cascade failures.
+
+U: Qué es retry con backoff
+B: Reintentar operación fallida con espera creciente: 1s, 2s, 4s, 8s... (exponential backoff). Jitter aleatorio evita thundering herd. Max retries, max delay. Solo errores transitorios (red, timeout, 5xx). No retry en 4xx (salvo 429).
+
+U: Qué es bulkhead pattern
+B: Aísla recursos críticos: pools de conexiones, threads, memoria por servicio/cliente. Falla de uno no afecta otros. Thread pool por cliente, connection pool por BD. Limita blast radius. Hystrix/Resilience4j lo implementan.
+
+U: Qué es timeout
+B: Límite máximo de espera para operación. Evita bloqueos infinitos. Connect timeout (establecer conexión), read timeout (recibir datos), idle timeout (sin actividad). Diferencia por operación: DB query 5s, HTTP call 10s, batch job 5min.
+
+U: Qué es idempotency
+B: Operación que produce mismo resultado aplicada 1 o N veces. GET, PUT, DELETE son idempotentes por diseño HTTP. POST no lo es. Implementa: cliente genera idempotency-key, servidor la guarda y deduplica. Clave para retries seguros.

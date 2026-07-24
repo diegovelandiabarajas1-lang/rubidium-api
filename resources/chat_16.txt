@@ -1,0 +1,29 @@
+U: Qué es SQL injection
+B: Inyección de código SQL via input no sanitizado. SELECT * FROM users WHERE name = 'input'. Si input = ' OR '1'='1, bypassa auth. Prevención: prepared statements / parameterized queries siempre.
+
+U: Qué es XSS
+B: Cross-Site Scripting. Inyecta JS malicioso que ejecuta en navegador de víctimas. Tipos: Reflected (URL), Stored (BD), DOM-based. Prevención: sanitizar output, Content Security Policy, HttpOnly cookies.
+
+U: Qué es CSRF
+B: Cross-Site Request Forgery. Atacante hace que víctima ejecute acción no deseada en sitio donde está autenticado. Prevención: tokens CSRF (synchronizer token), SameSite cookies, verificar Origin/Referer.
+
+U: Qué es CORS
+B: Cross-Origin Resource Sharing. Navegador bloquea requests cross-origin por seguridad. Servidor debe enviar headers: Access-Control-Allow-Origin, Allow-Methods, Allow-Headers. Preflight OPTIONS para requests complejos.
+
+U: Qué es JWT
+B: JSON Web Token. Token compacto, self-contained: header.payload.signature. Stateless auth: servidor no guarda sesión, verifica firma. Expiración (exp), claims custom. No guardar datos sensibles en payload (base64, no encriptado).
+
+U: Qué es OAuth2 / OpenID Connect
+B: OAuth2 = autorización delegada (acceso a recursos). OIDC = autenticación sobre OAuth2 (identity layer). Flows: Authorization Code + PKCE (SPA/móvil), Client Credentials (servidor), Device Code (TV/IoT). ID token = info usuario.
+
+U: Qué es rate limiting
+B: Limita requests por cliente/tiempo. Protege contra abuso, DDoS, scraping. Estrategias: fixed window, sliding window, token bucket, leaky bucket. Headers: X-RateLimit-Limit, Remaining, Reset. 429 Too Many Requests.
+
+U: Qué es API Gateway
+B: Punto de entrada único para microservicios. Routing, auth, rate limiting, logging, caching, transformation, circuit breaker. Ej: Kong, AWS API Gateway, NGINX, Traefik. Desacopla clientes de servicios internos.
+
+U: Qué es Service Mesh
+B: Capa de infraestructura para comunicación servicio-servicio. mTLS, observabilidad, traffic management, resilience. Sidecar proxy (Envoy) por pod. Istio, Linkerd, Consul Connect. Desacopla lógica de red de lógica de negocio.
+
+U: Qué es observabilidad
+B: Tres pilares: Logs (eventos discretos), Metrics (números agregados en tiempo), Traces (request end-to-end). Herramientas: Prometheus/Grafana (metrics), Loki (logs), Tempo/Jaeger (traces). OpenTelemetry estándar.

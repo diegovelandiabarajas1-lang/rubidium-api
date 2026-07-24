@@ -1,0 +1,29 @@
+U: Qué es DevSecOps
+B. Seguridad integrada en DevOps: shift-left (temprano), shift-right (runtime). SAST (code), DAST (running app), SCA (deps), Container scanning, IaC scanning, Secret scanning. Pipeline gates: fail build en critical/high. Runtime: Falco, Tracee (eBPF), admission controllers. Cultura: seguridad responsabilidad de todos.
+
+U: Qué es SAST
+B. Static Application Security Testing. Analiza código fuente/bytecode sin ejecutar. Detecta: SQLi, XSS, path traversal, hardcoded secrets, crypto débil, OWASP Top 10. Herramientas: SonarQube, CodeQL, Semgrep, Bandit, SpotBugs, Checkmarx, Veracode. Integra en IDE, PR, CI. False positives → tuning.
+
+U: Qué es DAST
+B. Dynamic Application Security Testing. Ataca app running (black-box). Crawlea, fuzzea inputs, detecta: XSS, SQLi, IDOR, SSRF, auth bypass. Herramientas: OWASP ZAP, Burp Suite, Nikto, Acunetix. Más lento, false positives, pero encuentra runtime issues (config, auth, session).
+
+U: Qué es SCA
+B. Software Composition Analysis. Escanea dependencias (package.json, pom.xml, go.mod, Cargo.lock, requirements.txt) vs vulnerabilidades conocidas (CVE, GHSA, NVD). Herramientas: Dependabot, Renovate, Snyk, OWASP Dependency-Check, Trivy, Grype. Auto-PR para updates. Licencia compliance (GPL, MIT, Apache).
+
+U: Qué es Container Scanning
+B. Escanea imagen Docker: base image vulnerabilities, misconfigs (root user, exposed ports, secrets), malware, licenses. Trivy, Grype, Syft, Clair, Anchore, Docker Scout. CI gate: fail en HIGH/CRITICAL. Base images distroless/alpine reducen superficie. SBOM (SBOM: Software Bill of Materials) generado.
+
+U: Qué es IaC Scanning
+B. Escanea Terraform, CloudFormation, Kubernetes YAML, Helm, ARM, Bicep vs policies: security, compliance, cost, best practices. Checkov, tfsec, Terrascan, KICS, OPA/Rego, cfn-nag. CI gate. Drift detection (actual vs desired). Policy as code (OPA/Rego).
+
+U: Qué es Secret Scanning
+B. Detecta secrets en código, historial git, logs, artifacts, CI vars: API keys, passwords, tokens, certs, private keys. GitHub secret scanning, GitLab, TruffleHog, Gitleaks, detect-secrets. Pre-commit hook, CI, push protection (GitHub). Rotación inmediata si leaked. Prevención: .gitignore, env vars, secret managers.
+
+U: Qué es SBOM
+B. Software Bill of Materials: lista completa de componentes (directos + transitivos) con versiones, licenses, hashes. Formatos: SPDX, CycloneDX. Genera: Syft, Trivy, cdxgen. Usos: vulnerability response (log4j), license compliance, supply chain security (EO 14028). NTIA minimum elements.
+
+U: Qué es SLSA
+B. Supply-chain Levels for Software Artifacts. Framework seguridad supply chain. Niveles 1-4: 1) build scripted, 2) hosted build, 3) hardened build (hermetic, reproducible), 4) reproducible + two-party review. Provenance (attestation) firmada. Protege contra tampering, dependency confusion, build compromise.
+
+U: Qué es Sigstore / cosign
+B. Firma y verifica artifacts (containers, binaries, SBOMs) sin gestionar claves. Keyless: OIDC identity (GitHub, Google, Microsoft) → short-lived cert → firma → transparency log (Rekor). cosign CLI: `cosign sign`, `cosign verify`. GitHub Actions: `sigstore/cosign-installer`. Adoption creciente.

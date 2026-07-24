@@ -1,0 +1,32 @@
+U: Qué es reactive programming
+B: Programación con flujos de datos asíncronos y propagación de cambio. Streams (Observables) emiten valores en el tiempo. Operadores: map, filter, flatMap, combineLatest, debounce. Backpressure maneja productor rápido / consumidor lento. RxJS, Reactor, RxJava, RxSwift.
+
+U: Qué es backpressure
+B: Mecanismo para que consumidor lento controle ritmo del productor rápido. Sin él: buffer overflow, OOM, latencia. Estrategias: buffer (riesgo OOM), drop (pierde datos), error (falla rápido), pull-based (consumidor pide). Reactive Streams spec define protocol.
+
+U: Qué es Project Reactor
+B: Reactive library para JVM (Java, Kotlin). Flux (0..N), Mono (0..1). Operadores ricos, backpressure nativo, scheduler pool, debugging. Spring WebFlux usa Reactor. No-blocking, event-loop (Netty). Functional style.
+
+U: Qué es RxJS
+B: Reactive Extensions para JavaScript/TypeScript. Observable, Observer, Subscription, Operators. Angular lo usa internamente. RxJS 7: mejor typing, menor bundle, nuevos operadores. RxJS 8 en camino. Core de Angular, NestJS, muchas libs.
+
+U: Qué es virtual thread (Java 21+)
+B. Thread ligero gestionado por JVM, no OS. Millones posibles vs miles de platform threads. Bloqueo barato: parked virtual thread no bloquea OS thread. Structured concurrency (JEP 453). Migración gradual: Executors.newVirtualThreadPerTaskExecutor(). Cambia juego para high-concurrency I/O.
+
+U: Qué es structured concurrency
+B. Trata grupos de tareas concurrentes como unidad única. Fallo de una → cancela otras. Scope define lifetime. Evita leaked threads, orphaned tasks. Java 21 (JEP 453), Kotlin coroutines, Python asyncio TaskGroup, Go errgroup. Mejora observabilidad, cancelación, error handling.
+
+U: Qué es Kotlin coroutines
+B. Concurrencia ligera en Kotlin. suspend functions, coroutineScope, launch, async/await, Flow (streams). Structured concurrency nativa. Dispatchers: IO, Default, Main, Unconfined. Interop con Java, Reactor, RxJava. Android estándar, backend (Ktor, Spring).
+
+U: Qué es async/await en Python
+B. async def define corrutina, await pausa hasta que awaitable completa. asyncio event loop gestiona. asyncio.gather() paraleliza, asyncio.wait_for() timeout, asyncio.to_thread() offload bloqueante. Python 3.11+: task groups, exception groups, mejor performance.
+
+U: Qué es Go goroutines
+B. Concurrencia ligera nativa en Go. go func() inicia goroutine. Canales (chan) para comunicación/sincronización: "Do not communicate by sharing memory; share memory by communicating". Scheduler M:N (M OS threads, N goroutines). Preemptivo cooperativo.
+
+U: Qué es Rust async
+B. Futures zero-cost, poll-based (no runtime obligatorio). .await pausa future. Runtimes: tokio (full-featured), async-std, smol. Pin<&mut Future> para self-referential. Send + Sync bounds. Ecosistema maduro: tokio, axum, tonic, sqlx.
+
+U: Qué es WebAssembly (Wasm)
+B. Bytecode portátil, seguro, rápido para web y más allá. Compila C/C++/Rust/Go → .wasm. Ejecuta en sandbox (capability-based security). WASI (System Interface) para fuera del navegador: servidor, edge, plugins, blockchain. 1.0 (2019), 2.0 (GC, threads, SIMD) en camino.

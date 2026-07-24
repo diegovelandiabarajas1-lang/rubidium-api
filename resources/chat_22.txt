@@ -1,0 +1,32 @@
+U: Qué es GraphQL
+B: Query language para APIs. Cliente pide exactamente lo que necesita: query { user(id:1) { name, posts { title } } }. Single endpoint, schema fuertemente tipado, introspección. Resuelve over-fetching/under-fetching de REST. Apollo, Relay, graphql-js, Strawberry (Python), gqlgen (Go).
+
+U: Qué es gRPC
+B. RPC framework alto rendimiento. Protocol Buffers (proto3) para serialización binaria. HTTP/2 multiplexado. Código generado: cliente/servidor type-safe. 4 tipos: Unary, Server streaming, Client streaming, Bidirectional streaming. Interceptors, deadlines, cancellation. gRPC-Web para navegadores.
+
+U: Qué es Protobuf
+B. Protocol Buffers: serialización binaria, schema-defined, versionado. .proto define mensajes. Genera código: Java, Go, Python, C++, C#, JS, Rust, etc. Compacto, rápido, evolucionable (field numbers, optional/required/removed). gRPC lo usa por defecto.
+
+U: Qué es REST vs GraphQL vs gRPC
+B. REST: HTTP verbs, recursos, caching nativo, simple, over/under-fetching. GraphQL: query flexible, single endpoint, introspection, complejidad backend. gRPC: performance, streaming, contracts estrictos, no browser-native. Elige según: público/privado, performance, team, clients.
+
+U: Qué es OpenAPI / Swagger
+B. Spec para documentar REST APIs. YAML/JSON describe endpoints, schemas, auth, ejemplos. Genera docs (Swagger UI), clientes SDK, tests, mock servers. OpenAPI 3.1 = JSON Schema dialect. Herramientas: Swagger Editor, Redoc, openapi-generator.
+
+U: Qué es AsyncAPI
+B. OpenAPI para async/event-driven: Kafka, RabbitMQ, MQTT, WebSocket, gRPC streaming. Describe channels, messages, schemas, bindings por protocolo. Genera docs, clientes, validación. Complementa OpenAPI para async.
+
+U: Qué es API Gateway
+B. Punto de entrada único para microservicios: routing, auth, rate limit, caching, logging, transform, SSL termination. Kong, Kong Ingress, AWS API Gateway, Azure APIM, Traefik, Envoy, KrakenD. Offload cross-cutting concerns.
+
+U: Qué es Service Mesh
+B. Capa infraestructura para comunicación service-to-service: mTLS, traffic management, observabilidad, resiliencia. Sidecar proxy (Envoy) por pod. Control plane (Istio, Linkerd, Consul Connect) configura data plane. Zero-trust network, canary, retry, timeout, circuit breaker.
+
+U: Qué es Istio vs Linkerd
+B. Istio: feature-rich, complex, multi-cluster, VM integration, WASM extensions, grande comunidad. Linkerd: simple, ligero, Rust data plane, solo K8s, zero-config mTLS, menos features. Linkerd para simplicidad, Istio para poder/control.
+
+U: Qué es eBPF
+B. Extended Berkeley Packet Filter: ejecuta programas sandboxed en kernel Linux sin modificar kernel. Observabilidad (bpftrace, bcc), networking (Cilium), seguridad (tetragon), performance (perf). Programa C compilado a bytecode, verificado, JIT. Revoluciona observabilidad sin instrumentar código.
+
+U: Qué es Cilium
+B. CNI + Service Mesh + Network Policy + Load Balancer usando eBPF. L7 policy (HTTP/gRPC/Kafka), transparente encryption, cluster mesh, Hubble observabilidad. Reemplaza kube-proxy, kube-dns, CNI, Service Mesh. eBPF = performance + visibilidad. CNCF graduated.

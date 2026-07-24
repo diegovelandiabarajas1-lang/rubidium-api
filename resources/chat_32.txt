@@ -1,0 +1,29 @@
+U: Qué es testing pyramid
+B. Unit tests (base, muchos, rápidos, aislados) → Integration tests (medios, interacciones componentes/DB/API) → E2E tests (cima, pocos, lentos, user flows reales). 70/20/10 aprox. Unit: Jest, Vitest, pytest, JUnit. Integration: Testcontainers, Spring @SpringBootTest. E2E: Playwright, Cypress, Selenium.
+
+U: Qué es unit test
+B. Prueba función/clase aislada. Dependencias mockeadas. Rápido (<10ms), determinista, independiente. Given-When-Then / Arrange-Act-Assert. Cubre happy path, edge cases, errores. Nombra: `shouldReturnSum_whenTwoPositiveNumbers`. Cobertura ≠ calidad.
+
+U: Qué es integration test
+B. Prueba interacción entre componentes reales: DB (Testcontainers), HTTP client, message broker, filesystem. Lento (segundos), flaky posible. Verifica contratos, migraciones, wiring. Menos que unit, más que E2E. Testcontainers = BD real en container efímero.
+
+U: Qué es E2E test
+B. Simula usuario real: navegador (Playwright, Cypress) o API completa. Flujo crítico: login → compra → confirmación. Lento (minutos), frágil, costoso. Pocos, críticos: happy paths + 1 edge. CI: paraleliza, retry flaky, artifacts (video, trace, screenshot).
+
+U: Qué es TDD
+B. Test-Driven Development: Red (test falla) → Green (código mínimo pasa) → Refactor (limpia, tests verdes). Ciclo corto (minutos). Piensa diseño antes de implementar. Tests como especificación viva. No = test after. Disciplina, no herramienta.
+
+U: Qué es BDD
+B. Behavior-Driven Development. Given-When-Then en lenguaje natural (Gherkin). Colaboración dev+QA+PO. Living documentation. Ejemplo: `Given usuario logueado When añade al carrito Then ve producto en carrito`. Herramientas: Cucumber, SpecFlow, Behave, pytest-bdd. Puente técnico-negocio.
+
+U: Qué es mutation testing
+B. Modifica código (mutantes: cambia > por <, + por -, true/false) y corre tests. Si tests fallan → mutante muerto (bueno). Si pasan → mutante sobrevive (test insuficiente). Métrica: mutation score = killed/total. Herramientas: Stryker (JS/TS), PIT (Java), mutmut (Python). Lento, CI nightly.
+
+U: Qué es contract testing
+B. Verifica compatibilidad consumer-provider sin deploy conjunto. Consumer define contrato (Pact), provider verifica. Pact Broker comparte contratos. Evita integration tests frágiles, deploy independientes. Consumer-driven contracts. Pact (JS, JVM, Go, .NET, Ruby, Python, etc.).
+
+U: Qué es property-based testing
+B. Genera inputs aleatorios, verifica propiedades invariantes siempre ciertas. Ej: `reverse(reverse(x)) == x`, `sort(x) ordenado`, `len(x+y) == len(x)+len(y)`. QuickCheck (Haskell), Hypothesis (Python), jqwik (Java), fast-check (JS). Encuentra edge cases humanos no piensan.
+
+U: Qué es snapshot testing
+B. Guarda output serializado (JSON, HTML, AST) y compara en runs futuros. Jest: `expect(tree).toMatchSnapshot()`. Útil UI, AST, config. Riesgo: updates ciegos (`-u`), snapshots grandes, false positives. Úsalo para outputs estables, no para lógica de negocio.

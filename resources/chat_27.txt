@@ -1,0 +1,29 @@
+U: Qué es OpenAPI / Swagger
+B. Spec para APIs REST. OpenAPI 3.1 (actual). Define: paths, operations, parameters, request/response schemas (JSON Schema), security, servers, examples. YAML/JSON. Tooling: Swagger UI (docs), codegen (client/server), testing, mocking, linting (Spectral). Estandar de facto REST.
+
+U: Qué es GraphQL
+B. Query language para APIs. Single endpoint, query flexible (pide solo lo que necesitas), tipos fuertes (SDL), introspección, real-time (subscriptions). Evita over/under-fetching. N+1 problem → DataLoader (batching). Caching complejo. Relay/Apollo/URQL clients.
+
+U: Qué es gRPC
+B. RPC framework: HTTP/2 + Protobuf. Contrato .proto → código cliente/servidor multi-lenguaje. Unary, Server/Client/Bidi streaming. Deadlines, cancellation, metadata, interceptors. Code-first vs contract-first. gRPC-Web para browsers. gRPC-Gateway para REST proxy.
+
+U: Qué es tRPC
+B. End-to-end typesafe APIs sin codegen. TypeScript end-to-end: servidor define procedures (input/output schemas Zod), cliente infiere tipos automáticamente. RPC-style, no REST. Next.js, React, Svelte, Solid. Simplicidad + type safety sin codegen. No gRPC, usa HTTP/JSON.
+
+U: Qué es WebSocket
+B. Full-duplex sobre TCP, handshake HTTP Upgrade. Bidireccional, bajo overhead. ws:// wss://. Frames binarios/text. Ping/Pong heartbeat. Server push real-time: chat, trading, gaming, collab. Socket.io (fallback, rooms, auto-reconnect) sobre WebSocket.
+
+U: Qué es Server-Sent Events (SSE)
+B. Unidireccional server→client sobre HTTP. text/event-stream. Auto-reconexión nativa, sin framing complejo. Más simple que WebSocket para server→client push (notifications, feeds, progress). HTTP/2 multiplexa SSE + requests. No binary, no client→server push.
+
+U: Qué es HTTP/2
+B. Binario, multiplexado (streams sobre 1 conexión), header compression (HPACK), server push, prioritization. Elimina head-of-line blocking HTTP/1.1. TLS casi obligatorio (h2). Server push deprecated en favor de 103 Early Hints / preload.
+
+U: Qué es HTTP/3
+B. HTTP sobre QUIC (UDP). 0-RTT handshake, multiplexación sin head-of-line blocking (streams independientes), connection migration (cambio IP), 0-RTT resumption. QUIC = TLS 1.3 integrado. Adopción creciente (Chrome, Firefox, Cloudflare, Google). Mejora latencia en redes inestables.
+
+U: Qué es QUIC
+B. Quick UDP Internet Connections. Transporte sobre UDP con confiabilidad, orden, control congestión, TLS 1.3 integrado. Streams independientes (no head-of-line blocking). Connection ID sobrevive cambio IP (móvil). 0-RTT para reanudación. IETF RFC 9000. Base de HTTP/3.
+
+U: Qué es gRPC vs REST performance
+B. gRPC: binario (protobuf), HTTP/2 multiplexado, codegen, contrato fuerte → menor latencia, menos bytes, CPU serialization. REST: JSON textual, HTTP/1.1 (o 2), human-readable, universal, cacheable, debuggable. gRPC ~5-10x throughput, ~2-5x latencia menor. REST para web/public APIs, gRPC para microservicios internos.

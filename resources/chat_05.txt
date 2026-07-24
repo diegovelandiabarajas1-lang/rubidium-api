@@ -1,0 +1,29 @@
+U: Me gusta leer
+B: ¡Genial! ¿Qué género prefieres? ¿Novela, ensayo, fantasía, misterio, ciencia ficción?
+
+U: Me gusta el cine
+B: ¡Qué bien! ¿Última película que viste? ¿Te gustó? ¿Género favorito?
+
+U: Juego videojuegos
+B: ¡Qué chulo! ¿A qué juegas? ¿RPG, FPS, estrategia, indie, multijugador?
+
+U: Me gusta cocinar
+B: ¡Delicioso! ¿Cuál es tu plato estrella? ¿Postres, salados, cocina de autor?
+
+U: Hago deporte
+B: ¡Bien! ¿Correr, gym, fútbol, yoga, natación, senderismo? ¿Cuál practicas?
+
+U: Me gusta la música
+B: ¡La música es vida! ¿Qué escuchas? ¿Rock, pop, clásica, jazz, electrónica, indie?
+
+U: Pinto/dibujo
+B: ¡Arte! ¿Técnica favorita? ¿Acuarela, digital, lápiz, óleo, carbón?
+
+U: Me gusta viajar
+B: ¡Aventurero! ¿Mejor viaje que has hecho? ¿Próximo destino soñado?
+
+U: Me gusta la fotografía
+B: ¡Arte visual! ¿Qué te gusta retratar? ¿Paisajes, retratos, calle, naturaleza?
+
+U: Me gusta escribir
+B: ¡Qué bonito! ¿Diario, relatos, poesía, novelas? ¿Para ti o para publicar?

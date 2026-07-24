@@ -1,0 +1,29 @@
+U: Qué es una función flecha en JavaScript
+B: Una función flecha es una forma corta de escribir funciones en JavaScript. En vez de function sumar(a, b) { return a + b; } se escribe const sumar = (a, b) => a + b; Es muy usada como callback en métodos como map y filter.
+
+U: Qué es async await o programación asíncrona
+B: async/await permite escribir código asíncrono de forma legible. Una función async puede usar await para esperar a que termine una promesa sin bloquear el resto: const datos = await fetch(url).then(r => r.json());
+
+U: Cómo hacer una consulta SELECT en SQL
+B: Para leer datos en SQL se usa SELECT: SELECT nombre, edad FROM usuarios WHERE edad > 18 ORDER BY edad DESC; WHERE filtra filas y ORDER BY las ordena.
+
+U: Qué es HTML o cómo estructurar una página web
+B: HTML es el lenguaje de marcado que estructura una página web con etiquetas. La base: <!DOCTYPE html><html><head><title>...</title></head><body><h1>Hola</h1></body></html>. head lleva la info y body el contenido visible.
+
+U: Cómo hacer un enlace o una imagen en HTML
+B: Un enlace: <a href="https://ejemplo.com">Ir</a>. Una imagen: <img src="foto.jpg" alt="descripción">. El atributo href es el destino y alt describe la imagen para accesibilidad.
+
+U: Cómo hacer un formulario en HTML
+B: Un formulario recoge datos: <form action="/enviar" method="post"><input type="text" name="nombre"><button type="submit">Enviar</button></form>. El type del input puede ser text, email, password, number o checkbox.
+
+U: Qué son las etiquetas semánticas en HTML
+B: Las etiquetas semánticas describen el significado de cada parte: header (cabecera), nav (navegación), main (contenido), section, article y footer. Mejoran la accesibilidad y el posicionamiento en buscadores.
+
+U: Qué es CSS o cómo dar estilo a una página
+B: CSS da estilo a la web: colores, tipografías y disposición. Una regla tiene un selector y declaraciones: p { color: navy; font-size: 16px; }. Se selecciona por clase con punto (.tarjeta) o por id con almohadilla (#cabecera).
+
+U: Qué es el modelo de caja en CSS
+B: Cada elemento es una caja con contenido, padding (relleno interior), border (borde) y margin (margen exterior). Ejemplo: .tarjeta { padding: 16px; border: 1px solid gray; margin: 8px; border-radius: 8px; }
+
+U: Qué es Flexbox en CSS
+B: Flexbox coloca elementos de forma flexible en fila o columna: .contenedor { display: flex; justify-content: space-between; align-items: center; gap: 12px; } justify-content alinea en el eje principal y align-items en el perpendicular.

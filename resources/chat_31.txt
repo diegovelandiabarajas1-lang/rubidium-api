@@ -1,0 +1,29 @@
+U: Qué es bundle splitting
+B. Divide JS en chunks: vendor (librerías, cache largo), app (código propio, cache corto), rutas (lazy load por página). Webpack/Rollup/Vite: splitChunks, dynamic import(). Reduce initial bundle, mejora TTI, cachea vendors separados.
+
+U: Qué es code splitting
+B. Carga código bajo demanda. Dynamic import(): `const module = await import('./heavy.js')`. React: `React.lazy(() => import('./Page'))` + `<Suspense>`. Vue: `defineAsyncComponent`. Angular: `loadChildren: () => import(...)`. Reduce bundle inicial, mejora FCP/TTI.
+
+U: Qué es tree shaking
+B. Elimina dead code (exportados no usados). Requiere ES modules (import/export), sideEffects: false en package.json, mode: production. Webpack/Rollup/Vite/ESBuild lo hacen. Bundlers modernos: muy agresivos. Verifica con bundle analyzer (webpack-bundle-analyzer, rollup-plugin-visualizer).
+
+U: Qué es lazy loading images
+B. `loading="lazy"` en `<img>` / `<iframe>`. Navegador difiere carga hasta near viewport. `loading="eager"` para above-fold. Native, sin JS. `loading="lazy"` + `width`/`height` evita CLS. IntersectionObserver polyfill para old browsers (raro hoy).
+
+U: Qué es preload / prefetch / preconnect
+B. `<link rel="preload" as="script" href="...">`: prioridad alta, misma página. `<link rel="prefetch" href="...">`: baja prioridad, navegación futura. `<link rel="preconnect" href="https://cdn.example.com">`: DNS+TCP+TLS temprano. `dns-prefetch` solo DNS. Resource hints mejoran TTFB/LCP.
+
+U: Qué es Service Worker
+B. Script background, intercepta fetch, cachea recursos, offline-first, push notifications, background sync. Workbox (Google) simplifica: precacheManifest, runtimeCaching (stale-while-revalidate, network-first, cache-first). PWA requirements: manifest, SW, HTTPS, icons.
+
+U: Qué es PWA (Progressive Web App)
+B. Web app con: Manifest (name, icons, start_url, display), Service Worker (offline, cache), HTTPS, Responsive, Installable (beforeinstallprompt), Fast (Core Web Vitals). Instalable como app nativa. Service Worker: cache-first (static), network-first (API), stale-while-revalidate (assets).
+
+U: Qué es Vite
+B. Build tool moderno: dev server ESM nativo (instant HMR), build con Rollup (producción). Config simple, tree-shaking, code-splitting, CSS code-splitting, CSS modules, PostCSS, TypeScript, JSX, WASM. Plugin ecosystem. Reemplaza CRA, webpack para proyectos nuevos. Muy rápido.
+
+U: Qué es esbuild
+B. Bundler Go ultra-rápido (paralelismo nativo, sin overhead JS). 10-100x webpack. Bundling, minify, tree-shaking, code-splitting, TS/JSX transpile. Vite usa esbuild en dev, Rollup en build. Turbopack (Rust, Next.js 13+) compite. Esbuild no hace type-check (usa tsc --noEmit aparte).
+
+U: Qué es Turbopack
+B. Bundler Rust (Next.js 13+). Incremental computation: solo recompila afectados. Rust + incremental = dev server ultra-rápido. Turbopack != Webpack (nuevo engine). Compatible con webpack loaders (parcial). Beta, solo Next.js por ahora. Vercel detrás.

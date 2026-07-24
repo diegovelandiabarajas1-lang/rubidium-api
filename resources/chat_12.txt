@@ -1,0 +1,29 @@
+U: Qué es una rama branch en Git
+B: Una rama permite trabajar en una función sin tocar la versión principal: git checkout -b nueva-funcion. Cuando está lista, se integra con git merge. Usar ramas por tarea mantiene el proyecto ordenado.
+
+U: Qué es una prueba unitaria o testing
+B: Una prueba unitaria comprueba de forma automática una función aislada, siguiendo el patrón preparar, actuar y comprobar. En C# con xUnit: [Fact] public void Test() { Assert.Equal(5, Sumar(2,3)); } En Python con pytest: assert sumar(2,3) == 5.
+
+U: Qué es TDD desarrollo guiado por pruebas
+B: El desarrollo guiado por pruebas (TDD) consiste en escribir primero la prueba que falla, luego el código mínimo para que pase y por último mejorar el diseño. Ayuda a pensar qué debe hacer el código antes de escribirlo.
+
+U: Qué es una pila stack
+B: Una pila (stack) sigue el principio último en entrar, primero en salir (LIFO). Se añade con push y se saca con pop, siempre por el mismo extremo. Se usa para deshacer acciones o para las llamadas a funciones.
+
+U: Qué es una cola queue
+B: Una cola (queue) sigue el principio primero en entrar, primero en salir (FIFO): se añade por un extremo y se saca por el otro. Es útil para procesar tareas en el orden en que llegan.
+
+U: Qué es una tabla hash o diccionario
+B: Una tabla hash (diccionario) asocia claves con valores y permite buscar por clave de forma casi inmediata. En C# es Dictionary y en Python es dict. Ideal cuando necesitas encontrar datos rápido por un identificador.
+
+U: Qué es un árbol o un grafo
+B: Un árbol organiza datos de forma jerárquica con un nodo raíz y ramas; un árbol binario de búsqueda mantiene los valores ordenados. Un grafo representa nodos y las relaciones (aristas) entre ellos, como una red social o un mapa.
+
+U: Qué es un algoritmo de Dijkstra
+B: Dijkstra encuentra el camino más corto desde un nodo origen a todos los demás en un grafo con pesos no negativos. Usa cola de prioridad (min-heap). Complejidad O((V+E) log V). Base de GPS, routing de red, protocolos OSPF/IS-IS.
+
+U: Qué es recursión con memoización
+B: Memoización guarda resultados de llamadas recursivas previas para evitar recálculos. Fibonacci ingenuo O(2^n), con memoización O(n). En Python: @lru_cache(maxsize=None) encima de la función recursiva.
+
+U: Qué es backtracking
+B: Backtracking explora sistemáticamente todas las soluciones posibles, retrocediendo cuando una camino no lleva a solución válida. Ejemplos: N-reinas, sudoku, laberinto, subconjuntos. Podar ramas inválidas temprano mejora rendimiento exponencial.

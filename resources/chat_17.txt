@@ -1,0 +1,29 @@
+U: Qué es Docker
+B: Empaqueta apps en contenedores ligeros y portables (código, runtime, librerías, config). Contenedor comparte kernel del host pero está aislado. Dockerfile define imagen. docker-compose orquesta multi-contenedor. Resuelve "funciona en mi máquina".
+
+U: Qué es Kubernetes
+B: Orquesta contenedores a escala: despliegue, escalado, balanceo, autocuración, rolling updates. Pod (unidad mínima), Service (red), Deployment (gestión), Ingress (entrada), ConfigMap/Secret (config). Estándar cloud-native.
+
+U: Qué es un Pod en K8s
+B: Unidad mínima deployable. 1+ contenedores que comparten red (localhost), almacenamiento (volumes), ciclo de vida. Efímero: muere, se recrea. Sidecar pattern: contenedor principal + sidecar (logging, proxy, init).
+
+U: Qué es un Service en K8s
+B: Abstracción de red estable para conjunto de Pods. Tipos: ClusterIP (interno), NodePort (puerto en nodo), LoadBalancer (cloud LB), ExternalName (DNS). Selector selecciona Pods por labels. Descubrimiento de servicios via DNS: servicio.namespace.svc.cluster.local.
+
+U: Qué es Helm
+B: Gestor de paquetes para K8s. Charts = plantillas YAML parametrizables. helm install mi-app ./chart --set replicaCount=3. Versiona, comparte, gestiona dependencias de apps K8s complejas.
+
+U: Qué es CI/CD pipeline
+B: Automatización: code → test → build → deploy. CI: integra código frecuentemente, corre tests. CD: despliega a staging/prod automático o con aprobación. GitHub Actions, GitLab CI, Jenkins, ArgoCD, Flux. Reduce errores, acelera entregas.
+
+U: Qué es GitOps
+B: Estado deseado del cluster declarado en Git (manifests). Controlador (ArgoCD, Flux) sincroniza cluster con Git continuamente. Single source of truth, audit trail, rollback = git revert. Declarativo, auditable, seguro.
+
+U: Qué es Infrastructure as Code
+B: Infraestructura definida en código (Terraform, Pulumi, Bicep, CloudFormation). Versionable, revisable, reproducible, auditable. Idempotente: aplicar múltiples veces = mismo estado. Plan → Apply → State file.
+
+U: Qué es Terraform
+B: IaC declarativo, multi-cloud (AWS, Azure, GCP, etc.). HCL language. State file rastrea recursos reales. Plan muestra cambios antes de apply. Módulos reutilizables. Registry de providers y módulos comunitarios.
+
+U: Qué es Ansible
+B: Automatización sin agente (agentless), push-based via SSH. Playbooks YAML: tasks, roles, handlers, variables. Idempotente por diseño (módulos). Inventario define hosts/grupos. Simple, legible, amplio módulos (cloud, net, db, etc.).

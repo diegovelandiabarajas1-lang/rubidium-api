@@ -1,0 +1,32 @@
+U: Qué es CI/CD
+B. Continuous Integration / Continuous Deployment. CI: merge frecuente → build → test → artifact. CD: deploy automático (Continuous Deployment) o con aprobación (Continuous Delivery). Pipeline: code → test → build → scan → deploy staging → smoke test → deploy prod. GitHub Actions, GitLab CI, Jenkins, CircleCI, Azure Pipelines.
+
+U: Qué es GitHub Actions
+B. CI/CD nativo GitHub. Workflows YAML en `.github/workflows/`. Triggers: push, PR, schedule, manual, webhook. Jobs paralelos, matrix strategy (OS, versión), caching, artifacts, environments, secrets, concurrency, reusable workflows. Marketplace actions reutilizables. Self-hosted runners opción.
+
+U: Qué es GitLab CI
+B. CI/CD integrado en GitLab. `.gitlab-ci.yml`. Pipelines: stages (build, test, deploy), jobs, rules/only/except, variables, cache, artifacts, environments, deployments, DAST/SAST/dependency scanning integrado. Auto DevOps (auto-detecta, configura). Runners shared/self-hosted. Kubernetes integration nativo.
+
+U: Qué es Jenkins
+B. Servidor CI/CD clásico, extensible (plugins 1800+). Pipeline as Code (Jenkinsfile DSL Groovy). Master + agents. Blue Ocean UI. Complejo, mantenimiento alto, pero muy flexible. Pipeline libraries compartidas. Gradual migration a GitHub Actions/GitLab CI común.
+
+U: Qué es ArgoCD
+B. GitOps continuous delivery para Kubernetes. Observa repo Git, sincroniza cluster automáticamente. UI: diff, history, rollback, health, RBAC, SSO. Auto-sync o manual. Multi-cluster, multi-tenant. Helm, Kustomize, Ksonnet, Jsonnet, plain YAML. CNCF graduated.
+
+U: Qué es Flux
+B. GitOps toolkit para K8s. Componentes: source-controller, kustomize-controller, helm-controller, notification-controller. GitRepository + Kustomization/HelmRelease. Multi-tenant, multi-cluster. No UI (CLI + CRDs). Weaveworks. CNCF graduated. Ligero, Kubernetes-native.
+
+U: Qué es Helm
+B. Package manager Kubernetes. Charts: templates YAML + values.yaml + Chart.yaml + schemas. `helm install mi-app ./chart --set replicaCount=3`. Releases, rollback, history, dependencies, hooks (pre-install, post-upgrade). Helm 3: sin Tiller, client-only. Artifact Hub / repositorios.
+
+U: Qué es Kustomize
+B. Personaliza manifests sin templates. Base + overlays (dev, staging, prod). Patches estratégicos, commonLabels, images, replicas, configMapGenerator, secretGenerator. Nativo en kubectl (`kubectl apply -k`). Declarativo, sin lógica de template. A menudo combinado: Helm chart → Kustomize overlay.
+
+U: Qué es Terraform vs Pulumi
+B. Terraform: HCL declarativo, state file, providers multi-cloud, plan/apply, modules, registry. Pulumi: lenguajes reales (TS, Python, Go, C#, Java, YAML), mismo engine, loops/conditionals/funciones nativas, testing, IDE support, packages. Mismo provider engine. Pulumi = IaC con superpoderes de lenguaje.
+
+U: Qué es Ansible
+B. Automatización sin agente (SSH/WinRM). Playbooks YAML: plays → tasks → modules. Idempotente por diseño. Inventory (hosts/groups), variables, roles, handlers, templates (Jinja2), vault (secrets). Agentless, simple, legible. Red Hat. Módulos: cloud, net, db, files, packaging, users, etc.
+
+U: Qué es Packer
+B. Crea imágenes de máquina (AMI, VMDK, Docker, etc.) desde config. Builders (AWS, Azure, GCP, VMware, QEMU, Docker), Provisioners (shell, Ansible, Chef, Puppet, file, PowerShell), Post-processors. Immutable infrastructure: build once, deploy many. HashiCorp. Golden images reproducibles.

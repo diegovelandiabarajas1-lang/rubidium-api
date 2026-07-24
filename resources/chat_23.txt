@@ -1,0 +1,32 @@
+U: Qué es OAuth 2.0
+B. Framework autorización delegada. Roles: Resource Owner (usuario), Client (app), Authorization Server (emite tokens), Resource Server (API). Flows: Authorization Code (web apps), PKCE (SPA/móvil), Client Credentials (machine-to-machine), Device Code (TV/IoT). Tokens: Access (corto), Refresh (largo).
+
+U: Qué es OIDC (OpenID Connect)
+B. Capa identidad sobre OAuth 2.0. ID Token (JWT) con claims usuario (sub, name, email, etc.). UserInfo endpoint. Discovery (.well-known/openid-configuration). Scopes: openid, profile, email, address, phone. Estandariza login federado.
+
+U: Qué es JWT
+B. JSON Web Token: compacto, URL-safe, autónomo. Header (alg, typ), Payload (claims: sub, exp, iat, custom), Signature (HS256/RS256/ES256). Stateless auth: servidor no guarda sesión, valida firma. Expiración corta, refresh tokens para renovar. No guardar secrets en payload.
+
+U: Qué es SAML
+B. Security Assertion Markup Language. XML-based, enterprise SSO. IdP (Identity Provider) emite assertions → SP (Service Provider). Browser redirects (POST/Artifact binding). Maduro, verbose, legacy. Aún común en enterprise (ADFS, Okta, Azure AD). OIDC moderno lo reemplaza en nuevo.
+
+U: Qué es MFA / 2FA
+B. Multi-Factor Authentication: algo sabes (password) + algo tienes (TOTP app, SMS, hardware key) + algo eres (biometría). TOTP (RFC 6238): código 6 dígitos cada 30 seg. WebAuthn/FIDO2: passkeys, claves públicas, resistente a phishing. Obligatorio en seguridad moderna.
+
+U: Qué es Zero Trust
+B. "Never trust, always verify". No perímetro de red. Verifica identidad, dispositivo, contexto en cada request. Principios: verify explicitly, least privilege, assume breach. Microsegmentación, continuous auth, device health, policy engine. Google BeyondCorp pionero.
+
+U: Qué es RBAC vs ABAC
+B. RBAC: Role-Based Access Control. Permisos por rol (admin, editor, viewer). Simple, estático. ABAC: Attribute-Based Access Control. Políticas basadas en atributos (user.dept, resource.owner, time, location). Dinámico, granular, complejo. ABAC para granularidad, RBAC para simplicidad.
+
+U: Qué es OAuth PKCE
+B. Proof Key for Code Exchange. Protege Authorization Code flow en clientes públicos (SPA, móvil) sin secret. Cliente genera code_verifier (random), envía code_challenge (SHA256) en authorize. Al canjear code, envía code_verifier. Servidor verifica match. Evita code interception.
+
+U: Qué es token refresh
+B. Access token corto (15-60 min). Refresh token largo (días/meses), rotativo (rotating refresh tokens: cada uso invalida anterior y emite nuevo). Almacena seguro (HttpOnly cookie, Keychain/Keystore). Revocación: logout, password change, security event. Detecta replay (rotación detecta uso duplicado).
+
+U: Qué es passkey / WebAuthn
+B. FIDO2/WebAuthn: autenticación sin password. Clave pública en servidor, privada en authenticator (TPM, Secure Enclave, YubiKey, phone). Challenge aleatorio, firma con privada, verifica con pública. Resistente a phishing, keyloggers, credential stuffing. Sync via iCloud Keychain / Google Password Manager. Futuro sin passwords.
+
+U: Qué es SSO (Single Sign-On)
+B. Un login → acceso a múltiples apps. Protocols: SAML, OIDC, Kerberos. IdP central (Okta, Azure AD, Keycloak, Auth0). SP confía en IdP. Beneficios: UX, seguridad centralizada, auditoría, provisioning (SCIM). Enterprise estándar.

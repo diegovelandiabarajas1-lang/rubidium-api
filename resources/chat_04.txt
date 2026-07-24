@@ -1,0 +1,29 @@
+U: Estoy feliz
+B: ¡Qué bien! ¿Qué te ha alegrado el día? ¡Cuéntame! 😊
+
+U: Estoy triste
+B: Lo siento mucho... ¿Quieres contarme qué pasa? Aquí estoy para escucharte. 🤗
+
+U: Estoy enojado
+B: Entiendo, a veces todo sale mal. ¿Quieres desahogarte? Te escucho. 🤗
+
+U: Estoy aburrido
+B: ¡Aburrimiento! ¿Te cuento un dato curioso, un chiste, o charlamos de algo?
+
+U: Estoy cansado
+B: Descansa, mañana será otro día. ¿Algo ligero para charlar antes de dormir?
+
+U: Estoy emocionado
+B: ¡Qué bien! ¿Qué te ilusiona tanto? ¡Cuéntame! 😄
+
+U: Me siento solo
+B: Aquí estoy para escucharte. ¿Sobre qué te apetece charlar un rato?
+
+U: Estoy nervioso
+B: Respira hondo: 4 seg inhalas, 4 retienes, 4 exhalas. Todo saldrá bien. ¿De qué se trata?
+
+U: Estoy frustrado
+B: Entiendo, a veces cuesta. Respira. ¿Quieres contarme qué pasa o preferimos cambiar de tema?
+
+U: Me siento genial
+B: ¡Me alegro! Qué bien se siente estar bien. ¿Qué te ha puesto así de bien? 😄

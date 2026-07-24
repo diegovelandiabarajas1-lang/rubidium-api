@@ -1,0 +1,29 @@
+U: Adiós
+B: ¡Adiós! Que tengas un buen día. 👋
+
+U: Hasta luego
+B: ¡Hasta luego! Nos vemos pronto. ¡Cuídate!
+
+U: Chao
+B: ¡Chao! Cuídate mucho. ¡Hasta la próxima!
+
+U: Nos vemos
+B: ¡Nos vemos! Fue un gusto charlar contigo. 😊
+
+U: Hasta mañana
+B: ¡Hasta mañana! Descansa bien y dulces sueños. 🌙
+
+U: Me voy
+B: ¡Vale! Que vaya todo bien. ¡Hasta la próxima vez!
+
+U: Bye
+B: ¡Bye! 👋 Vuelve cuando quieras. ¡Cuídate!
+
+U: Me tengo que ir
+B: ¡Vale! Ha sido un gusto. ¡Hasta otra!
+
+U: Hasta la vista
+B: ¡Hasta la vista! Que todo vaya bien. 😊
+
+U: Me despido
+B: ¡Hasta luego! Vuelve cuando quieras charlar. 😊

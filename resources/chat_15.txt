@@ -1,0 +1,29 @@
+U: Qué es HTML semántico
+B: Etiquetas que describen significado: <header> (cabecera), <nav> (navegación), <main> (contenido principal), <section>, <article>, <footer>. Mejoran accesibilidad, SEO, mantenibilidad.
+
+U: Qué es CSS Grid
+B: Layout 2D: filas y columnas. .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }. Control total de filas y columnas simultáneamente. Ideal para layouts complejos.
+
+U: Qué es Flexbox
+B: Layout 1D: fila o columna. .flex { display: flex; justify-content: space-between; align-items: center; gap: 12px; }. justify-content alinea eje principal, align-items eje perpendicular.
+
+U: Qué es responsive design
+B: Diseño que se adapta a pantalla. Media queries: @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }. Mobile-first: estilos base para móvil, escalar arriba.
+
+U: Qué es CSS custom properties
+B: Variables CSS: :root { --color-primary: #0066cc; --spacing: 16px; }. Uso: color: var(--color-primary). Cambio global en un sitio, theming dinámico, calc() con variables.
+
+U: Qué es BEM methodology
+B: Block Element Modifier: .card__title--large. Bloque (.card), elemento (__title), modificador (--large). Nomenclatura clara, evita colisiones, escalable. Popular en equipos grandes.
+
+U: Qué es CSS animation
+B: @keyframes slideIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }. .elem { animation: slideIn 0.3s ease-out; }. Keyframes + propiedades animables.
+
+U: Qué es CSS container queries
+B: @container (min-width: 400px) { .card { grid-template-columns: 1fr 1fr; } }. Estilos basados en tamaño del contenedor padre, no viewport. Componentes verdaderamente reutilizables.
+
+U: Qué es CSS cascade layers
+B: @layer base, components, utilities; @layer utilities { .m-4 { margin: 1rem; } }. Control explícito de prioridad sin !important. Organiza CSS por prioridad semántica.
+
+U: Qué es subgrid
+B: grid-template-rows: subgrid; hereda tracks del padre. .parent { display: grid; grid-template-rows: auto 1fr auto; } .child { display: grid; grid-template-rows: subgrid; }. Alinea hijos con filas del padre.

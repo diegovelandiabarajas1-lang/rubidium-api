@@ -1,0 +1,29 @@
+U: Qué es RAG
+B: Retrieval-Augmented Generation. Combina recuperación (busca docs relevantes en base vectorial con embeddings) + generación (LLM usa contexto recuperado). Reduce alucinaciones, actualiza conocimiento sin reentrenar, cita fuentes.
+
+U: Qué es RLHF
+B: Reinforcement Learning from Human Feedback. 1) Humano ranktea outputs. 2) Entrena reward model. 3) PPO optimiza modelo vs reward. Alinea modelo con preferencias humanas: útil, seguro, honesto.
+
+U: Qué son embeddings
+B: Vectores densos que representan significado semántico. Palabras/frases similares → vectores cercanos (coseno). king - man + woman ≈ queen. Usados en búsqueda semántica, clustering, clasificación, RAG.
+
+U: Qué es LoRA
+B: Low-Rank Adaptation. Fine-tuning eficiente: añade matrices de bajo rango (r << d) a capas preentrenadas. Solo entrena LoRA (pocos parámetros), congela resto. QLoRA: LoRA + cuantización 4-bit para GPUs pequeñas.
+
+U: Qué es cuantización
+B: Reduce precisión de pesos (FP32 → INT8/INT4). Modelo más pequeño, inferencia más rápida, menos VRAM. Post-training quantization vs Quantization-Aware Training. Trade-off: precisión vs eficiencia.
+
+U: Qué es prompt engineering
+B: Diseñar prompts para obtener mejores respuestas. Técnicas: few-shot (ejemplos), chain-of-thought (razonamiento paso a paso), role prompting (persona), structured output (JSON), negative constraints (no hagas X).
+
+U: Qué es chain-of-thought
+B: Fuerza al modelo a razonar paso a paso antes de responder. "Paso a paso:" o "Piensa antes de responder". Mejora drásticamente razonamiento matemático, lógico, multi-paso. Zero-shot CoT: "Pensemos paso a paso."
+
+U: Qué es few-shot prompting
+B: Incluye ejemplos (shots) en el prompt para guiar al modelo. Formato: Input: X, Output: Y repetido K veces. El modelo aprende patrón in-context sin actualizar pesos. Más shots = mejor, pero más tokens.
+
+U: Qué es temperatura en LLM
+B: Controla aleatoriedad en sampling. Temp=0: determinista (argmax). Temp>1: más aleatorio/creativo. Temp<1: más conservador/focused. Típico: 0.7-0.9 para chat, 0.1-0.3 para factual/code.
+
+U: Qué es top-k / top-p sampling
+B: Top-k: muestrea solo de los k tokens más probables. Top-p (nucleus): muestrea del conjunto más pequeño cuya probabilidad acumulada ≥ p. Top-p más adaptativo. Combinados: top-k=50, top-p=0.9 típicos.

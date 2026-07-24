@@ -1,0 +1,29 @@
+U: Qué es CSS Grid
+B: Grid organiza el contenido en una cuadrícula: .galeria { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; } Aquí se crean tres columnas iguales.
+
+U: Cómo hacer una página responsive con media queries
+B: El diseño responsive adapta la página al tamaño de pantalla con media queries: @media (max-width: 600px) { .galeria { grid-template-columns: 1fr; } } En pantallas estrechas la galería pasa a una columna.
+
+U: Qué es una comprensión de listas en Python
+B: Una comprensión de listas crea listas de forma compacta: cuadrados = [n*n for n in range(10)] o con filtro pares = [n for n in numeros if n % 2 == 0]. También hay comprensiones de diccionario y de conjunto.
+
+U: Qué es una función lambda en Python
+B: Una lambda es una función anónima de una sola expresión: doblar = lambda x: x * 2. Se usa mucho como clave en sorted, map y filter, por ejemplo sorted(datos, key=lambda p: p.edad).
+
+U: Qué es un generador o yield en Python
+B: Un generador produce valores de uno en uno con yield, sin construir toda la lista en memoria: def contar(n): i=0; while i<n: yield i; i+=1. Es eficiente para secuencias grandes o infinitas.
+
+U: Qué es un decorador en Python
+B: Un decorador envuelve una función para añadirle comportamiento sin modificarla. Se aplica con @nombre encima de la función. Se usan para medir tiempos, registrar llamadas o controlar el acceso.
+
+U: Qué es una f-string en Python
+B: Una f-string permite insertar variables dentro de una cadena poniendo una f delante: nombre = "Ana"; print(f"Hola, {nombre}"). Es la forma moderna y legible de formatear texto en Python.
+
+U: Qué es un entorno virtual venv en Python
+B: Un entorno virtual aísla las dependencias de un proyecto. Se crea con python -m venv env y se activa antes de instalar paquetes con pip install, así cada proyecto tiene sus propias versiones.
+
+U: Qué es Git o control de versiones
+B: Git es un sistema de control de versiones: guarda el historial de cambios, permite volver atrás y facilita el trabajo en equipo. Se empieza con git init y se revisa el estado con git status.
+
+U: Cómo hacer un commit en Git
+B: Para guardar cambios en Git: primero git add archivo para prepararlos, y luego git commit -m "Describe el cambio" para confirmarlos. Con git log ves el historial y con git push subes los cambios al remoto.

@@ -1,0 +1,29 @@
+U: Qué es Terraform state
+B: Archivo (terraform.tfstate) que mapea configuración → recursos reales. Permite planificar cambios, detectar drift. Remoto (S3 + DynamoDB locking) para equipos. Sensible: puede contener secrets. Nunca commitear.
+
+U: Qué es módulo Terraform
+B: Código reutilizable encapsulado. input variables, outputs, resources. source = "./modules/vpc" o "registry.terraform.io/.../vpc". Versiones semver. DRY, consistencia, testing aislado. Registry público: registry.terraform.io.
+
+U: Qué es Pulumi
+B: IaC con lenguajes reales: TypeScript, Python, Go, C#, Java, YAML. Mismo engine que Terraform, pero lenguajes completos: loops, conditionals, functions, packages, testing, IDE support. Comparte providers Terraform.
+
+U: Qué es ArgoCD
+B: GitOps continuous delivery para K8s. Observa repo Git, sincroniza cluster automáticamente. UI: diff, history, rollback, health, RBAC. Auto-sync o manual. Multi-cluster, multi-tenant. Proyecto CNCF graduated.
+
+U: Qué es Flux
+B: GitOps toolkit para K8s. Componentes: source-controller, kustomize-controller, helm-controller, notification-controller. GitRepository + Kustomization/HelmRelease. Multi-tenant, multi-cluster. CNCF graduated.
+
+U: Qué es Kustomize
+B: Personaliza manifests YAML sin templates. Bases + overlays (dev, staging, prod). Patches estratégicos, commonLabels, images, replicas, configMapGenerator. Nativo en kubectl (kubectl apply -k). Declarativo, sin lógica de template.
+
+U: Qué es Helm vs Kustomize
+B: Helm: templates + values, charts versionados, releases, rollback, hooks. Kustomize: sin templates, patches YAML, nativo kubectl, overlays. Helm mejor para packaging/distribución. Kustomize mejor para personalización por entorno. A menudo juntos: Helm chart → Kustomize overlay.
+
+U: Qué es Prometheus
+B: Métricas time-series pull-based. Scrapea /metrics cada N seg. PromQL para queries. Alertmanager para alertas. Service discovery (K8s, Consul, file). No HA nativo (usar Thanos/Cortex/Mimir). CNCF graduated.
+
+U: Qué es Grafana
+B: Visualización y dashboards. Fuentes: Prometheus, Loki, Tempo, InfluxDB, PostgreSQL, etc. Alerting, variables, provisioning as code. Plugins, comunidad enorme. Open source, SaaS disponible.
+
+U: Qué es Loki
+B: Log aggregation inspired by Prometheus. Indexa solo labels (no full-text), chunks comprimidos. Barato, rápido. LogQL para queries. Integración nativa Grafana. Tail, filter, aggregate. No full-text search como Elasticsearch.

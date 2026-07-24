@@ -1,166 +1,299 @@
-import math
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 import numpy as np
+import pickle
+import os
+import time
 from typing import Optional, List, Dict, Tuple
 
 
-class CausalSelfAttention(nn.Module):
-    def __init__(self, d_model: int, n_head: int, block_size: int,
-                 sliding_window: int = 0, sparse_topk: int = 0):
-        super().__init__()
+class AutogradTensor:
+    def __init__(self, data: np.ndarray, requires_grad: bool = False):
+        self.data = data.astype(np.float32) if data.dtype != np.float32 else data
+        self.grad: Optional[np.ndarray] = None
+        self.requires_grad = requires_grad
+        self._backward = None
+        self._children = []
+
+    def backward(self, grad: Optional[np.ndarray] = None):
+        if grad is None:
+            grad = np.ones_like(self.data)
+        if self.grad is None:
+            self.grad = grad
+        else:
+            self.grad += grad
+        if self._backward is not None:
+            self._backward(grad)
+
+    def __add__(self, other):
+        if not isinstance(other, AutogradTensor):
+            other = AutogradTensor(np.array(other))
+        out = AutogradTensor(self.data + other.data, requires_grad=self.requires_grad or other.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad)
+            if other.requires_grad:
+                other.backward(grad)
+        out._backward = backward
+        out._children = [self, other]
+        return out
+
+    def __radd__(self, other):
+        return self.__add__(other)
+
+    def __sub__(self, other):
+        if not isinstance(other, AutogradTensor):
+            other = AutogradTensor(np.array(other))
+        out = AutogradTensor(self.data - other.data, requires_grad=self.requires_grad or other.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad)
+            if other.requires_grad:
+                other.backward(-grad)
+        out._backward = backward
+        out._children = [self, other]
+        return out
+
+    def __mul__(self, other):
+        if not isinstance(other, AutogradTensor):
+            other = AutogradTensor(np.array(other))
+        out = AutogradTensor(self.data * other.data, requires_grad=self.requires_grad or other.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad * other.data)
+            if other.requires_grad:
+                other.backward(grad * self.data)
+        out._backward = backward
+        out._children = [self, other]
+        return out
+
+    def __rmul__(self, other):
+        return self.__mul__(other)
+
+    def __truediv__(self, other):
+        if not isinstance(other, AutogradTensor):
+            other = AutogradTensor(np.array(other))
+        out = AutogradTensor(self.data / other.data, requires_grad=self.requires_grad or other.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad / other.data)
+            if other.requires_grad:
+                other.backward(-grad * self.data / (other.data ** 2))
+        out._backward = backward
+        out._children = [self, other]
+        return out
+
+    def __matmul__(self, other):
+        if not isinstance(other, AutogradTensor):
+            other = AutogradTensor(np.array(other))
+        out = AutogradTensor(self.data @ other.data, requires_grad=self.requires_grad or other.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad @ other.data.T)
+            if other.requires_grad:
+                other.backward(self.data.T @ grad)
+        out._backward = backward
+        out._children = [self, other]
+        return out
+
+    def sum(self, axis=None, keepdims=False):
+        out = AutogradTensor(self.data.sum(axis=axis, keepdims=keepdims), requires_grad=self.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                if axis is not None:
+                    grad = np.expand_dims(grad, axis=axis)
+                self.backward(np.broadcast_to(grad, self.data.shape))
+        out._backward = backward
+        out._children = [self]
+        return out
+
+    def mean(self, axis=None, keepdims=False):
+        n = self.data.size if axis is None else self.data.shape[axis]
+        return self.sum(axis=axis, keepdims=keepdims) / n
+
+    def exp(self):
+        out = AutogradTensor(np.exp(self.data), requires_grad=self.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad * out.data)
+        out._backward = backward
+        out._children = [self]
+        return out
+
+    def log(self):
+        out = AutogradTensor(np.log(self.data + 1e-8), requires_grad=self.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad / self.data)
+        out._backward = backward
+        out._children = [self]
+        return out
+
+    def relu(self):
+        out = AutogradTensor(np.maximum(0, self.data), requires_grad=self.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad * (self.data > 0).astype(np.float32))
+        out._backward = backward
+        out._children = [self]
+        return out
+
+    def reshape(self, shape):
+        out = AutogradTensor(self.data.reshape(shape), requires_grad=self.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                self.backward(grad.reshape(self.data.shape))
+        out._backward = backward
+        out._children = [self]
+        return out
+
+    def transpose(self, *axes):
+        out = AutogradTensor(self.data.transpose(*axes), requires_grad=self.requires_grad)
+        def backward(grad):
+            if self.requires_grad:
+                if axes:
+                    inv_axes = [0] * len(axes)
+                    for i, a in enumerate(axes):
+                        inv_axes[a] = i
+                    self.backward(grad.transpose(*inv_axes))
+                else:
+                    self.backward(grad.T)
+        out._backward = backward
+        out._children = [self]
+        return out
+
+    @property
+    def T(self):
+        return self.transpose()
+
+    def __repr__(self):
+        return f"AutogradTensor(shape={self.data.shape}, requires_grad={self.requires_grad})"
+
+
+def softmax(x: AutogradTensor, axis=-1):
+    e = np.exp(x.data - x.data.max(axis=axis, keepdims=True))
+    s = e.sum(axis=axis, keepdims=True)
+    out = AutogradTensor(e / s, requires_grad=x.requires_grad)
+    def backward(grad):
+        if x.requires_grad:
+            out_grad = grad * out.data
+            x.backward(out_grad - out_grad.sum(axis=axis, keepdims=True) * out.data)
+    out._backward = backward
+    out._children = [x]
+    return out
+
+
+def layer_norm(x: AutogradTensor, weight: AutogradTensor, bias: AutogradTensor, eps=1e-5):
+    mean = x.data.mean(axis=-1, keepdims=True)
+    var = x.data.var(axis=-1, keepdims=True)
+    x_norm = (x.data - mean) / np.sqrt(var + eps)
+    out = AutogradTensor(weight.data * x_norm + bias.data, requires_grad=True)
+    def backward(grad):
+        if weight.requires_grad:
+            weight.backward(grad * x_norm)
+        if bias.requires_grad:
+            bias.backward(grad)
+        if x.requires_grad:
+            x.backward(grad * weight.data / np.sqrt(var + eps))
+    out._backward = backward
+    out._children = [x, weight, bias]
+    return out
+
+
+class Linear:
+    def __init__(self, in_features: int, out_features: int):
+        scale = np.sqrt(2.0 / in_features)
+        self.weight = AutogradTensor(np.random.randn(in_features, out_features).astype(np.float32) * scale, requires_grad=True)
+        self.bias = AutogradTensor(np.zeros(out_features, dtype=np.float32), requires_grad=True)
+
+    def __call__(self, x: AutogradTensor) -> AutogradTensor:
+        return x @ self.weight + self.bias
+
+    def parameters(self) -> List[AutogradTensor]:
+        return [self.weight, self.bias]
+
+
+class Embedding:
+    def __init__(self, num_embeddings: int, embedding_dim: int):
+        self.weight = AutogradTensor(np.random.randn(num_embeddings, embedding_dim).astype(np.float32) * 0.02, requires_grad=True)
+
+    def __call__(self, x: np.ndarray) -> AutogradTensor:
+        return AutogradTensor(self.weight.data[x], requires_grad=False)
+
+    def parameters(self) -> List[AutogradTensor]:
+        return [self.weight]
+
+
+class MultiHeadAttention:
+    def __init__(self, d_model: int, n_head: int, block_size: int):
         assert d_model % n_head == 0
         self.d_model = d_model
         self.n_head = n_head
         self.head_dim = d_model // n_head
         self.block_size = block_size
-        self.sliding_window = sliding_window
-        self.sparse_topk = sparse_topk
 
-        self.wq = nn.Linear(d_model, d_model, bias=False)
-        self.wk = nn.Linear(d_model, d_model, bias=False)
-        self.wv = nn.Linear(d_model, d_model, bias=False)
-        self.wo = nn.Linear(d_model, d_model, bias=False)
+        self.wq = Linear(d_model, d_model)
+        self.wk = Linear(d_model, d_model)
+        self.wv = Linear(d_model, d_model)
+        self.wo = Linear(d_model, d_model)
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        B, L, D = x.shape
-        Q = self.wq(x).view(B, L, self.n_head, self.head_dim).transpose(1, 2)
-        K = self.wk(x).view(B, L, self.n_head, self.head_dim).transpose(1, 2)
-        V = self.wv(x).view(B, L, self.n_head, self.head_dim).transpose(1, 2)
+        mask = np.triu(np.ones((block_size, block_size), dtype=np.float32), diagonal=1) * -1e9
+        self.mask = mask
 
-        scale = 1.0 / math.sqrt(self.head_dim)
-        att = torch.matmul(Q, K.transpose(-2, -1)) * scale
+    def __call__(self, x: AutogradTensor) -> AutogradTensor:
+        B, L, D = x.data.shape
+        q = self.wq(x).reshape((B, L, self.n_head, self.head_dim)).transpose((0, 2, 1, 3))
+        k = self.wk(x).reshape((B, L, self.n_head, self.head_dim)).transpose((0, 2, 1, 3))
+        v = self.wv(x).reshape((B, L, self.n_head, self.head_dim)).transpose((0, 2, 1, 3))
 
-        if self.sliding_window > 0:
-            mask = torch.ones(L, L, device=x.device, dtype=torch.bool).tril()
-            window_mask = (torch.arange(L, device=x.device).unsqueeze(1) -
-                           torch.arange(L, device=x.device).unsqueeze(0))
-            window_mask = (window_mask >= 0) & (window_mask < self.sliding_window)
-            mask = mask & window_mask
-            att = att.masked_fill(~mask.unsqueeze(0).unsqueeze(0), float("-inf"))
-        else:
-            causal = torch.triu(torch.ones(L, L, device=x.device, dtype=torch.bool), diagonal=1)
-            att = att.masked_fill(causal.unsqueeze(0).unsqueeze(0), float("-inf"))
+        scale = 1.0 / np.sqrt(self.head_dim)
+        att = (q @ k.transpose((0, 1, 3, 2))) * scale
 
-        if self.sparse_topk > 0 and self.sparse_topk < L:
-            topk_vals, _ = torch.topk(att, self.sparse_topk, dim=-1)
-            threshold = topk_vals[..., -1:]
-            att = torch.where(att < threshold, float("-inf"), att)
+        mask = AutogradTensor(self.mask[:L, :L], requires_grad=False)
+        att = att + mask
 
-        att = F.softmax(att, dim=-1)
-        y = torch.matmul(att, V).transpose(1, 2).contiguous().view(B, L, D)
-        return self.wo(y)
+        att = softmax(att, axis=-1)
+        out = att @ v
+        out = out.transpose((0, 2, 1, 3)).reshape((B, L, D))
+        return self.wo(out)
+
+    def parameters(self) -> List[AutogradTensor]:
+        return self.wq.parameters() + self.wk.parameters() + self.wv.parameters() + self.wo.parameters()
 
 
-class MLP(nn.Module):
+class FeedForward:
     def __init__(self, d_model: int, d_ff: int):
-        super().__init__()
-        self.w1 = nn.Linear(d_model, d_ff, bias=True)
-        self.w2 = nn.Linear(d_ff, d_model, bias=True)
+        self.w1 = Linear(d_model, d_ff)
+        self.w2 = Linear(d_ff, d_model)
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        return self.w2(F.relu(self.w1(x)))
+    def __call__(self, x: AutogradTensor) -> AutogradTensor:
+        return self.w2(self.w1(x).relu())
+
+    def parameters(self) -> List[AutogradTensor]:
+        return self.w1.parameters() + self.w2.parameters()
 
 
-class TransformerBlock(nn.Module):
-    def __init__(self, d_model: int, n_head: int, d_ff: int, block_size: int,
-                 sliding_window: int = 0, sparse_topk: int = 0):
-        super().__init__()
-        self.ln1 = nn.LayerNorm(d_model)
-        self.attn = CausalSelfAttention(d_model, n_head, block_size, sliding_window, sparse_topk)
-        self.ln2 = nn.LayerNorm(d_model)
-        self.mlp = MLP(d_model, d_ff)
+class TransformerBlock:
+    def __init__(self, d_model: int, n_head: int, d_ff: int, block_size: int):
+        self.ln1_w = AutogradTensor(np.ones(d_model, dtype=np.float32), requires_grad=True)
+        self.ln1_b = AutogradTensor(np.zeros(d_model, dtype=np.float32), requires_grad=True)
+        self.attn = MultiHeadAttention(d_model, n_head, block_size)
+        self.ln2_w = AutogradTensor(np.ones(d_model, dtype=np.float32), requires_grad=True)
+        self.ln2_b = AutogradTensor(np.zeros(d_model, dtype=np.float32), requires_grad=True)
+        self.mlp = FeedForward(d_model, d_ff)
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        x = x + self.attn(self.ln1(x))
-        x = x + self.mlp(self.ln2(x))
+    def __call__(self, x: AutogradTensor) -> AutogradTensor:
+        x = x + self.attn(layer_norm(x, self.ln1_w, self.ln1_b))
+        x = x + self.mlp(layer_norm(x, self.ln2_w, self.ln2_b))
         return x
 
+    def parameters(self) -> List[AutogradTensor]:
+        return [self.ln1_w, self.ln1_b, self.ln2_w, self.ln2_b] + self.attn.parameters() + self.mlp.parameters()
 
-class TransformerModel(nn.Module):
-    def __init__(self, vocab_size: int, block_size: int = 128, d_model: int = 512,
-                 n_head: int = 8, n_layer: int = 8, d_ff: int = 2048,
-                 sliding_window: int = 0, sparse_topk: int = 0):
-        super().__init__()
-        self.block_size = block_size
-        self.d_model = d_model
+
+class NumpyTransformer:
+    def __init__(self, vocab_size: int = 256, block_size: int = 128, d_model: int = 128,
+                 n_head: int = 4, n_layer: int = 4, d_ff: int = 512,
+                 max_steps: int = 1000, learning_rate: float = 3e-4):
         self.vocab_size = vocab_size
-
-        self.token_embedding = nn.Embedding(vocab_size, d_model)
-        self.pos_embedding = nn.Parameter(torch.randn(1, block_size, d_model) * 0.02)
-
-        self.layers = nn.ModuleList([
-            TransformerBlock(d_model, n_head, d_ff, block_size, sliding_window, sparse_topk)
-            for _ in range(n_layer)
-        ])
-        self.ln_f = nn.LayerNorm(d_model)
-        self.lm_head = nn.Linear(d_model, vocab_size, bias=True)
-
-        self.apply(self._init_weights)
-
-    def _init_weights(self, module):
-        if isinstance(module, (nn.Linear, nn.Embedding)):
-            module.weight.data.normal_(mean=0.0, std=0.02)
-            if isinstance(module, nn.Linear) and module.bias is not None:
-                module.bias.data.zero_()
-        elif isinstance(module, nn.LayerNorm):
-            module.bias.data.zero_()
-            module.weight.data.fill_(1.0)
-
-    def forward(self, idx: torch.Tensor, targets: Optional[torch.Tensor] = None,
-                return_logits: bool = False):
-        B, L = idx.shape
-        assert L <= self.block_size, f"Cannot forward sequence of length {L} > block_size {self.block_size}"
-
-        tok_emb = self.token_embedding(idx)
-        pos_emb = self.pos_embedding[:, :L, :]
-        x = tok_emb + pos_emb
-
-        for layer in self.layers:
-            x = layer(x)
-
-        x = self.ln_f(x)
-        logits = self.lm_head(x)
-
-        if return_logits:
-            return logits
-
-        if targets is not None:
-            loss = F.cross_entropy(
-                logits.view(-1, self.vocab_size),
-                targets.view(-1),
-                ignore_index=-1
-            )
-            return logits, loss
-
-        return logits
-
-    @torch.no_grad()
-    def generate(self, idx: torch.Tensor, max_new_tokens: int,
-                 temperature: float = 0.8, top_k: int = 20) -> torch.Tensor:
-        for _ in range(max_new_tokens):
-            idx_cond = idx[:, -self.block_size:]
-            logits = self(idx_cond, return_logits=True)
-            logits = logits[:, -1, :] / max(temperature, 0.05)
-
-            if top_k > 0:
-                v, _ = torch.topk(logits, min(top_k, logits.size(-1)))
-                logits[logits < v[:, -1:]] = float("-inf")
-
-            probs = F.softmax(logits, dim=-1)
-            next_idx = torch.multinomial(probs, num_samples=1)
-            idx = torch.cat((idx, next_idx), dim=1)
-
-        return idx
-
-
-class PyTorchTransformer:
-    def __init__(self, block_size: int = 128, d_model: int = 512, n_head: int = 8,
-                 n_layer: int = 8, d_ff: int = 2048, max_steps: int = 6000,
-                 learning_rate: float = 1e-4, neg_samples: int = 0,
-                 warmup_steps: int = 200, sliding_window: int = 0,
-                 sparse_topk: int = 0, device: str = "cpu"):
         self.block_size = block_size
         self.d_model = d_model
         self.n_head = n_head
@@ -168,31 +301,47 @@ class PyTorchTransformer:
         self.d_ff = d_ff
         self.max_steps = max_steps
         self.learning_rate = learning_rate
-        self.warmup_steps = warmup_steps
-        self.sliding_window = sliding_window
-        self.sparse_topk = sparse_topk
-        self.device = torch.device(device if torch.cuda.is_available() and device == "cuda" else "cpu")
 
-        self.tokenizer = None
-        self.vocab_size = 0
-        self.model: Optional[TransformerModel] = None
-        self.optimizer = None
-        self.scheduler = None
-        self.corpus: List[str] = []
+        self.token_embedding = Embedding(vocab_size, d_model)
+        self.pos_embedding = AutogradTensor(np.random.randn(1, block_size, d_model).astype(np.float32) * 0.02, requires_grad=True)
+        self.layers = [TransformerBlock(d_model, n_head, d_ff, block_size) for _ in range(n_layer)]
+        self.ln_f_w = AutogradTensor(np.ones(d_model, dtype=np.float32), requires_grad=True)
+        self.ln_f_b = AutogradTensor(np.zeros(d_model, dtype=np.float32), requires_grad=True)
+        self.lm_head = Linear(d_model, vocab_size)
+
+        self._char_to_id = {chr(i): i for i in range(256)}
+        self._id_to_char = {i: chr(i) for i in range(256)}
         self.is_trained = False
-        self._char_to_id: Dict[str, int] = {}
-        self._id_to_char: List[str] = []
+        self.corpus: List[str] = []
 
-    def get_embeddings(self):
-        from text_similarity import WordEmbeddings
-        emb = WordEmbeddings()
-        if self.model is not None:
-            emb.dimension = self.d_model
-            weights = self.model.token_embedding.weight.detach().cpu().numpy()
-            for token_id in range(min(100, self.vocab_size)):
-                token = self._id_to_char[token_id] if token_id < len(self._id_to_char) else f"<{token_id}>"
-                emb._vectors[token.lower()] = weights[token_id]
-        return emb
+    def _all_params(self) -> List[AutogradTensor]:
+        params = [self.pos_embedding, self.ln_f_w, self.ln_f_b]
+        params += self.token_embedding.parameters()
+        params += self.lm_head.parameters()
+        for layer in self.layers:
+            params += layer.parameters()
+        return params
+
+    def forward(self, x: np.ndarray) -> AutogradTensor:
+        B, L = x.shape
+        tok_emb = self.token_embedding(x)
+        pos_emb = AutogradTensor(self.pos_embedding.data[:, :L, :], requires_grad=False)
+        h = tok_emb + pos_emb
+        for layer in self.layers:
+            h = layer(h)
+        h = layer_norm(h, self.ln_f_w, self.ln_f_b)
+        logits = self.lm_head(h)
+        return logits
+
+    def loss(self, logits: AutogradTensor, targets: np.ndarray) -> AutogradTensor:
+        B, L, V = logits.data.shape
+        logits_flat = logits.reshape((B * L, V))
+        targets_flat = targets.reshape(B * L)
+        probs = softmax(logits_flat, axis=-1)
+        log_probs = probs.log()
+        indices = np.arange(B * L)
+        loss_val = -log_probs.data[indices, targets_flat].mean()
+        return AutogradTensor(np.array(loss_val), requires_grad=True)
 
     def train(self, text: str):
         if text and text.strip():
@@ -203,106 +352,87 @@ class PyTorchTransformer:
             return
 
         full_text = "\n".join(self.corpus)
+        chars = sorted(list(set(full_text)))
+        self._char_to_id = {ch: i for i, ch in enumerate(chars)}
+        self._id_to_char = {i: ch for i, ch in enumerate(chars)}
+        self.vocab_size = len(chars)
 
-        if self.tokenizer is not None and self.tokenizer.vocab_size > 0:
-            self.vocab_size = self.tokenizer.vocab_size
-            all_tokens = self.tokenizer.encode(full_text)
-            data = torch.tensor(all_tokens, dtype=torch.long, device=self.device)
-        else:
-            chars = sorted(list(set(full_text)))
-            self._char_to_id = {ch: i for i, ch in enumerate(chars)}
-            self._id_to_char = chars
-            self.vocab_size = len(chars)
-            data = torch.tensor([self._char_to_id.get(c, 0) for c in full_text],
-                                dtype=torch.long, device=self.device)
+        self.token_embedding = Embedding(self.vocab_size, self.d_model)
+        self.lm_head = Linear(self.d_model, self.vocab_size)
 
+        data = np.array([self._char_to_id.get(c, 0) for c in full_text], dtype=np.int32)
         if len(data) < self.block_size + 2:
             return
 
-        self.model = TransformerModel(
-            vocab_size=self.vocab_size,
-            block_size=self.block_size,
-            d_model=self.d_model,
-            n_head=self.n_head,
-            n_layer=self.n_layer,
-            d_ff=self.d_ff,
-            sliding_window=self.sliding_window,
-            sparse_topk=self.sparse_topk
-        ).to(self.device)
-
-        self.optimizer = torch.optim.AdamW(self.model.parameters(),
-                                           lr=self.learning_rate, betas=(0.9, 0.999))
-        self.scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
-            self.optimizer, T_max=self.max_steps, eta_min=self.learning_rate * 0.1
-        )
+        params = self._all_params()
+        m = [np.zeros_like(p.data) for p in params]
+        v = [np.zeros_like(p.data) for p in params]
+        beta1, beta2, eps = 0.9, 0.999, 1e-8
 
         n = len(data)
         smooth_loss = float("inf")
 
         for step in range(1, self.max_steps + 1):
-            start = torch.randint(0, n - self.block_size - 1, (1,)).item()
-            x = data[start:start + self.block_size].unsqueeze(0)
-            y = data[start + 1:start + self.block_size + 1].unsqueeze(0)
+            start = np.random.randint(0, n - self.block_size - 1)
+            x = data[start:start + self.block_size].reshape(1, -1)
+            y = data[start + 1:start + self.block_size + 1].reshape(1, -1)
 
-            self.optimizer.zero_grad()
-            _, loss = self.model(x, targets=y)
+            logits = self.forward(x)
+            loss = self.loss(logits, y)
+
+            for p in params:
+                if p.grad is not None:
+                    p.grad = None
             loss.backward()
-            torch.nn.utils.clip_grad_norm_(self.model.parameters(), 5.0)
-            self.optimizer.step()
 
-            if self.warmup_steps > 0 and step <= self.warmup_steps:
-                for pg in self.optimizer.param_groups:
-                    pg["lr"] = self.learning_rate * step / self.warmup_steps
-            else:
-                self.scheduler.step()
+            lr = self.learning_rate
+            if step < self.max_steps // 10:
+                lr = self.learning_rate * step / (self.max_steps // 10)
 
-            if torch.isnan(loss) or torch.isinf(loss):
-                if step == 1:
-                    smooth_loss = loss.item()
-                continue
+            for i, p in enumerate(params):
+                if p.grad is not None:
+                    g = np.clip(p.grad, -5.0, 5.0)
+                    m[i] = beta1 * m[i] + (1 - beta1) * g
+                    v[i] = beta2 * v[i] + (1 - beta2) * g ** 2
+                    m_hat = m[i] / (1 - beta1 ** step)
+                    v_hat = v[i] / (1 - beta2 ** step)
+                    p.data -= lr * m_hat / (np.sqrt(v_hat) + eps)
 
-            lv = loss.item()
+            lv = loss.data.item() if loss.data.size == 1 else float(loss.data)
             smooth_loss = lv if step == 1 else 0.98 * smooth_loss + 0.02 * lv
 
             if step % 100 == 0 or step == self.max_steps:
-                print(f"Step {step}/{self.max_steps}, loss: {smooth_loss:.4f}, lr: {self.optimizer.param_groups[0]['lr']:.6f}")
+                print(f"Step {step}/{self.max_steps}, loss: {smooth_loss:.4f}")
 
         self.is_trained = True
 
-    @torch.no_grad()
-    def generate(self, seed: str, max_chars: int = 200,
-                 temperature: float = 0.8, top_k: int = 20) -> str:
-        if not self.is_trained or self.model is None:
+    def generate(self, seed: str, max_chars: int = 200, temperature: float = 0.8, top_k: int = 20) -> str:
+        if not self.is_trained:
             return ""
 
-        try:
-            if self.tokenizer is not None:
-                ids = self.tokenizer.encode(seed)
-                if not ids:
-                    ids = [0]
-            else:
-                ids = [self._char_to_id.get(c, self._char_to_id.get(" ", 0)) for c in seed]
-                if not ids:
-                    ids = [self._char_to_id.get(" ", 0)]
+        ids = [self._char_to_id.get(c, 0) for c in seed]
+        if not ids:
+            ids = [0]
 
-            idx = torch.tensor([ids], dtype=torch.long, device=self.device)
-            idx_out = self.model.generate(idx, max_chars, temperature, top_k)
+        for _ in range(max_chars):
+            ids_trimmed = ids[-self.block_size:]
+            x = np.array([ids_trimmed], dtype=np.int32)
+            logits = self.forward(x)
+            logits = logits.data[0, -1, :] / max(temperature, 0.05)
 
-            out_ids = idx_out[0].tolist()
-            if self.tokenizer is not None:
-                result = self.tokenizer.decode(out_ids)
-            else:
-                result = "".join(self._id_to_char[i] if i < len(self._id_to_char) else "?" for i in out_ids)
+            if top_k > 0:
+                topk_vals = np.sort(logits)[-top_k:]
+                logits[logits < topk_vals[0]] = -1e9
 
-            return result.replace("\n", " ").strip()
-        except Exception:
-            return ""
+            exp_logits = np.exp(logits - logits.max())
+            probs = exp_logits / exp_logits.sum()
+            next_id = np.random.choice(len(probs), p=probs)
+            ids.append(next_id)
+
+        return "".join(self._id_to_char.get(i, "?") for i in ids).replace("\n", " ").strip()
 
     def save(self, path: str):
-        if self.model is None:
-            return
-        torch.save({
-            "model_state": self.model.state_dict(),
+        state = {
             "vocab_size": self.vocab_size,
             "block_size": self.block_size,
             "d_model": self.d_model,
@@ -311,29 +441,77 @@ class PyTorchTransformer:
             "d_ff": self.d_ff,
             "char_to_id": self._char_to_id,
             "id_to_char": self._id_to_char,
-        }, path)
+            "token_emb": self.token_embedding.weight.data,
+            "pos_emb": self.pos_embedding.data,
+            "ln_f_w": self.ln_f_w.data,
+            "ln_f_b": self.ln_f_b.data,
+            "lm_w": self.lm_head.weight.data,
+            "lm_b": self.lm_head.bias.data,
+            "layers": [],
+        }
+        for layer in self.layers:
+            layer_state = {
+                "ln1_w": layer.ln1_w.data,
+                "ln1_b": layer.ln1_b.data,
+                "ln2_w": layer.ln2_w.data,
+                "ln2_b": layer.ln2_b.data,
+                "attn_wq_w": layer.attn.wq.weight.data,
+                "attn_wq_b": layer.attn.wq.bias.data,
+                "attn_wk_w": layer.attn.wk.weight.data,
+                "attn_wk_b": layer.attn.wk.bias.data,
+                "attn_wv_w": layer.attn.wv.weight.data,
+                "attn_wv_b": layer.attn.wv.bias.data,
+                "attn_wo_w": layer.attn.wo.weight.data,
+                "attn_wo_b": layer.attn.wo.bias.data,
+                "ff_w1_w": layer.mlp.w1.weight.data,
+                "ff_w1_b": layer.mlp.w1.bias.data,
+                "ff_w2_w": layer.mlp.w2.weight.data,
+                "ff_w2_b": layer.mlp.w2.bias.data,
+            }
+            state["layers"].append(layer_state)
+        with open(path, "wb") as f:
+            pickle.dump(state, f)
 
     def load(self, path: str):
-        checkpoint = torch.load(path, map_location=self.device)
-        self.vocab_size = checkpoint["vocab_size"]
-        self.block_size = checkpoint["block_size"]
-        self.d_model = checkpoint["d_model"]
-        self.n_head = checkpoint["n_head"]
-        self.n_layer = checkpoint["n_layer"]
-        self.d_ff = checkpoint["d_ff"]
-        self._char_to_id = checkpoint["char_to_id"]
-        self._id_to_char = checkpoint["id_to_char"]
+        with open(path, "rb") as f:
+            state = pickle.load(f)
+        self.vocab_size = state["vocab_size"]
+        self.block_size = state["block_size"]
+        self.d_model = state["d_model"]
+        self.n_head = state["n_head"]
+        self.n_layer = state["n_layer"]
+        self.d_ff = state["d_ff"]
+        self._char_to_id = state["char_to_id"]
+        self._id_to_char = state["id_to_char"]
 
-        self.model = TransformerModel(
-            vocab_size=self.vocab_size,
-            block_size=self.block_size,
-            d_model=self.d_model,
-            n_head=self.n_head,
-            n_layer=self.n_layer,
-            d_ff=self.d_ff,
-            sliding_window=self.sliding_window,
-            sparse_topk=self.sparse_topk
-        ).to(self.device)
-        self.model.load_state_dict(checkpoint["model_state"])
-        self.model.eval()
+        self.token_embedding = Embedding(self.vocab_size, self.d_model)
+        self.token_embedding.weight.data = state["token_emb"]
+        self.pos_embedding = AutogradTensor(state["pos_emb"], requires_grad=True)
+        self.ln_f_w = AutogradTensor(state["ln_f_w"], requires_grad=True)
+        self.ln_f_b = AutogradTensor(state["ln_f_b"], requires_grad=True)
+        self.lm_head = Linear(self.d_model, self.vocab_size)
+        self.lm_head.weight.data = state["lm_w"]
+        self.lm_head.bias.data = state["lm_b"]
+
+        self.layers = []
+        for layer_state in state["layers"]:
+            block = TransformerBlock(self.d_model, self.n_head, self.d_ff, self.block_size)
+            block.ln1_w.data = layer_state["ln1_w"]
+            block.ln1_b.data = layer_state["ln1_b"]
+            block.ln2_w.data = layer_state["ln2_w"]
+            block.ln2_b.data = layer_state["ln2_b"]
+            block.attn.wq.weight.data = layer_state["attn_wq_w"]
+            block.attn.wq.bias.data = layer_state["attn_wq_b"]
+            block.attn.wk.weight.data = layer_state["attn_wk_w"]
+            block.attn.wk.bias.data = layer_state["attn_wk_b"]
+            block.attn.wv.weight.data = layer_state["attn_wv_w"]
+            block.attn.wv.bias.data = layer_state["attn_wv_b"]
+            block.attn.wo.weight.data = layer_state["attn_wo_w"]
+            block.attn.wo.bias.data = layer_state["attn_wo_b"]
+            block.mlp.w1.weight.data = layer_state["ff_w1_w"]
+            block.mlp.w1.bias.data = layer_state["ff_w1_b"]
+            block.mlp.w2.weight.data = layer_state["ff_w2_w"]
+            block.mlp.w2.bias.data = layer_state["ff_w2_b"]
+            self.layers.append(block)
+
         self.is_trained = True

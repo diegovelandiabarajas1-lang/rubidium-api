@@ -1,14 +1,13 @@
 import os
-import torch
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from transformer import PyTorchTransformer
+from transformer import NumpyTransformer
 
-MODEL_PATH = "model.pth"
+MODEL_PATH = "model.pkl"
 
-app = FastAPI(title="Rubidium API - Transformer Generator", version="1.0.0")
+app = FastAPI(title="Rubidium API - Transformer Generator", version="2.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -18,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-transformer: PyTorchTransformer = None
+transformer: NumpyTransformer = None
 
 
 class GenerateRequest(BaseModel):
@@ -35,27 +34,25 @@ class GenerateResponse(BaseModel):
 class TrainRequest(BaseModel):
     corpus: str = ""
     block_size: int = 128
-    d_model: int = 512
-    n_head: int = 8
-    n_layer: int = 8
-    d_ff: int = 2048
-    max_steps: int = 6000
-    learning_rate: float = 1e-4
-    tokenizer_type: str = "BPE"
-    tokenizer_vocab_size: int = 4096
+    d_model: int = 128
+    n_head: int = 4
+    n_layer: int = 4
+    d_ff: int = 512
+    max_steps: int = 1000
+    learning_rate: float = 3e-4
     use_resources: bool = True
 
 
 class StateResponse(BaseModel):
     is_trained: bool
     vocab_size: int
-    device: str
+    model_size: str
 
 
 def load_corpus_from_resources() -> str:
     texts = []
     if os.path.isdir("resources"):
-        for fname in os.listdir("resources"):
+        for fname in sorted(os.listdir("resources")):
             if fname.endswith(".txt"):
                 path = os.path.join("resources", fname)
                 try:
@@ -71,9 +68,9 @@ def startup():
     global transformer
     if os.path.exists(MODEL_PATH):
         try:
-            transformer = PyTorchTransformer()
+            transformer = NumpyTransformer()
             transformer.load(MODEL_PATH)
-            print(f"Model loaded from {MODEL_PATH} on {transformer.device}")
+            print(f"Model loaded from {MODEL_PATH} (vocab={transformer.vocab_size})")
             return
         except Exception as e:
             print(f"Could not load model: {e}")
@@ -81,14 +78,13 @@ def startup():
     corpus = load_corpus_from_resources()
     if corpus.strip():
         print("No saved model found. Auto-training from resources...")
-        from tokenizers import TokenizerFactory, TokenizerConfig, TokenizerType
-        transformer = PyTorchTransformer(max_steps=6000)
-        tokenizer = TokenizerFactory.create(TokenizerConfig(type=TokenizerType.BPE, vocab_size=4096, add_special_tokens=True))
-        transformer.tokenizer = tokenizer
+        transformer = NumpyTransformer(
+            block_size=128, d_model=128, n_head=4, n_layer=4, d_ff=512,
+            max_steps=500, learning_rate=3e-4
+        )
         lines = [l.strip() for l in corpus.split("\n") if l.strip()]
         for line in lines:
             transformer.train(line)
-        tokenizer.train(lines, 4096)
         transformer.fit()
         if transformer.is_trained:
             transformer.save(MODEL_PATH)
@@ -97,36 +93,26 @@ def startup():
 
 @app.get("/")
 def root():
-    return {"service": "Rubidium API", "status": "running"}
+    return {"service": "Rubidium API", "version": "2.0", "engine": "numpy", "status": "running"}
 
 
 @app.get("/state", response_model=StateResponse)
 def get_state():
     global transformer
     if transformer is None or not transformer.is_trained:
-        return StateResponse(is_trained=False, vocab_size=0, device="cpu")
+        return StateResponse(is_trained=False, vocab_size=0, model_size="none")
+    params = sum(p.data.size for p in transformer._all_params())
     return StateResponse(
         is_trained=True,
         vocab_size=transformer.vocab_size,
-        device=str(transformer.device)
+        model_size=f"{params/1000:.1f}K params"
     )
 
 
 @app.post("/train")
 def train(req: TrainRequest):
     global transformer
-    from tokenizers import TokenizerFactory, TokenizerConfig, TokenizerType
-
-    tokenizer_type_map = {
-        "BPE": TokenizerType.BPE,
-        "Unigram": TokenizerType.Unigram,
-        "WordPiece": TokenizerType.WordPiece,
-        "SentencePieceBPE": TokenizerType.SentencePieceBPE,
-        "SentencePieceUnigram": TokenizerType.SentencePieceUnigram,
-        "DynamicVocabulary": TokenizerType.DynamicVocabulary,
-    }
-
-    transformer = PyTorchTransformer(
+    transformer = NumpyTransformer(
         block_size=req.block_size,
         d_model=req.d_model,
         n_head=req.n_head,
@@ -136,15 +122,6 @@ def train(req: TrainRequest):
         learning_rate=req.learning_rate,
     )
 
-    tokenizer_config = TokenizerConfig(
-        type=tokenizer_type_map.get(req.tokenizer_type, TokenizerType.BPE),
-        vocab_size=req.tokenizer_vocab_size,
-        add_special_tokens=True,
-    )
-    from tokenizers import TokenizerFactory
-    tokenizer = TokenizerFactory.create(tokenizer_config)
-    transformer.tokenizer = tokenizer
-
     corpus_text = req.corpus if not req.use_resources else load_corpus_from_resources()
     if not corpus_text.strip():
         corpus_text = req.corpus
@@ -153,7 +130,6 @@ def train(req: TrainRequest):
     for line in lines:
         transformer.train(line)
 
-    tokenizer.train(lines, req.tokenizer_vocab_size)
     transformer.fit()
 
     if transformer.is_trained:
@@ -192,13 +168,12 @@ def load():
     global transformer
     if not os.path.exists(MODEL_PATH):
         raise HTTPException(status_code=400, detail="No saved model found")
-    transformer = PyTorchTransformer()
+    transformer = NumpyTransformer()
     transformer.load(MODEL_PATH)
     return {"status": "loaded", "vocab_size": transformer.vocab_size}
 
 
 if __name__ == "__main__":
     import uvicorn
-    import os
     port = int(os.environ.get("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=port)

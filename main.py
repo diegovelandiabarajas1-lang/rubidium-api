@@ -74,8 +74,25 @@ def startup():
             transformer = PyTorchTransformer()
             transformer.load(MODEL_PATH)
             print(f"Model loaded from {MODEL_PATH} on {transformer.device}")
+            return
         except Exception as e:
             print(f"Could not load model: {e}")
+
+    corpus = load_corpus_from_resources()
+    if corpus.strip():
+        print("No saved model found. Auto-training from resources...")
+        from tokenizers import TokenizerFactory, TokenizerConfig, TokenizerType
+        transformer = PyTorchTransformer(max_steps=6000)
+        tokenizer = TokenizerFactory.create(TokenizerConfig(type=TokenizerType.BPE, vocab_size=4096, add_special_tokens=True))
+        transformer.tokenizer = tokenizer
+        lines = [l.strip() for l in corpus.split("\n") if l.strip()]
+        for line in lines:
+            transformer.train(line)
+        tokenizer.train(lines, 4096)
+        transformer.fit()
+        if transformer.is_trained:
+            transformer.save(MODEL_PATH)
+            print("Auto-training complete and model saved.")
 
 
 @app.get("/")

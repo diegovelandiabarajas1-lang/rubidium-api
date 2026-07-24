@@ -1,2 +1,5 @@
 torch
+fastapi
+uvicorn
+pydantic
 gradio>=4.0.0

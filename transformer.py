@@ -229,6 +229,7 @@ class MultiHeadAttention:
         self.n_head = n_head
         self.head_dim = d_model // n_head
         self.block_size = block_size
+        self._scale = 1.0 / np.sqrt(self.head_dim)
 
         self.wq = Linear(d_model, d_model)
         self.wk = Linear(d_model, d_model)
@@ -260,20 +261,18 @@ class MultiHeadAttention:
 
     def forward_numpy(self, x: np.ndarray) -> np.ndarray:
         B, L, D = x.shape
-        q = x @ self.wq.weight.data + self.wq.bias.data
-        k = x @ self.wk.weight.data + self.wk.bias.data
-        v = x @ self.wv.weight.data + self.wv.bias.data
-        q = q.reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
-        k = k.reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
-        v = v.reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
-        scale = 1.0 / np.sqrt(self.head_dim)
+        wq, wk, wv, wo = self.wq.weight.data, self.wk.weight.data, self.wv.weight.data, self.wo.weight.data
+        bq, bk, bv, bo = self.wq.bias.data, self.wk.bias.data, self.wv.bias.data, self.wo.bias.data
+        q = (x @ wq + bq).reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
+        k = (x @ wk + bk).reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
+        v = (x @ wv + bv).reshape(B, L, self.n_head, self.head_dim).transpose(0, 2, 1, 3)
+        scale = self._scale
         att = (q @ k.transpose(0, 1, 3, 2)) * scale
         att = att + self.mask[:L, :L]
         att = np.exp(att - att.max(axis=-1, keepdims=True))
         att = att / (att.sum(axis=-1, keepdims=True) + 1e-8)
-        out = att @ v
-        out = out.transpose(0, 2, 1, 3).reshape(B, L, D)
-        return out @ self.wo.weight.data + self.wo.bias.data
+        out = (att @ v).transpose(0, 2, 1, 3).reshape(B, L, D)
+        return out @ wo + bo
 
 
 class FeedForward:
@@ -344,6 +343,8 @@ class NumpyTransformer:
         self._id_to_char = {i: chr(i) for i in range(256)}
         self.is_trained = False
         self.corpus: List[str] = []
+        self._layers = self.layers
+        self._inv_sqrt_var = 1.0 / np.sqrt(self.d_model)
 
     def _all_params(self) -> List[AutogradTensor]:
         params = [self.pos_embedding, self.ln_f_w, self.ln_f_b]
@@ -436,17 +437,20 @@ class NumpyTransformer:
                 print(f"Step {step}/{self.max_steps}, loss: {smooth_loss:.4f}")
 
         self.is_trained = True
+        self._layers = self.layers
+        self._inv_sqrt_var = 1.0 / np.sqrt(self.d_model)
 
     def forward_numpy(self, x: np.ndarray) -> np.ndarray:
         B, L = x.shape
         tok_emb = self.token_embedding.weight.data[x]
         pos_emb = self.pos_embedding.data[:, :L, :]
         h = tok_emb + pos_emb
-        for layer in self.layers:
-            h = layer.forward_numpy(h)
+        _layers = self._layers
+        for i in range(len(_layers)):
+            h = _layers[i].forward_numpy(h)
         mean = h.mean(axis=-1, keepdims=True)
         var = h.var(axis=-1, keepdims=True)
-        h = (h - mean) / np.sqrt(var + 1e-5)
+        h = (h - mean) * self._inv_sqrt_var
         h = self.ln_f_w.data * h + self.ln_f_b.data
         return h @ self.lm_head.weight.data + self.lm_head.bias.data
 
@@ -458,22 +462,26 @@ class NumpyTransformer:
         if not ids:
             ids = [0]
 
+        temp = max(temperature, 0.05)
+        _id_to_char = self._id_to_char
+        vocab = len(_id_to_char)
+        _forward = self.forward_numpy
+
         for _ in range(max_chars):
             ids_trimmed = ids[-self.block_size:]
             x = np.array([ids_trimmed], dtype=np.int32)
-            logits = self.forward_numpy(x)
-            logits = logits[0, -1, :] / max(temperature, 0.05)
+            logits = _forward(x)[0, -1, :] / temp
 
-            if top_k > 0:
-                topk_vals = np.sort(logits)[-top_k:]
-                logits[logits < topk_vals[0]] = -1e9
+            if top_k > 0 and top_k < vocab:
+                topk_vals = np.partition(logits, -top_k)[-top_k:]
+                logits[logits < topk_vals.min()] = -1e9
 
             exp_logits = np.exp(logits - logits.max())
             probs = exp_logits / exp_logits.sum()
-            next_id = np.random.choice(len(probs), p=probs)
+            next_id = int(np.random.choice(vocab, p=probs))
             ids.append(next_id)
 
-        return "".join(self._id_to_char.get(i, "?") for i in ids).replace("\n", " ").strip()
+        return "".join(_id_to_char.get(i, "?") for i in ids).replace("\n", " ").strip()
 
     def save(self, path: str):
         state = {
@@ -559,3 +567,5 @@ class NumpyTransformer:
             self.layers.append(block)
 
         self.is_trained = True
+        self._layers = self.layers
+        self._inv_sqrt_var = 1.0 / np.sqrt(self.d_model)

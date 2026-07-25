@@ -1,4 +1,5 @@
 import os
+import hashlib
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -18,6 +19,10 @@ app.add_middleware(
 )
 
 transformer: NumpyTransformer = None
+
+# Response cache: key -> (text, timestamp)
+_response_cache: dict = {}
+_CACHE_MAX = 200
 
 
 class GenerateRequest(BaseModel):
@@ -105,7 +110,8 @@ def get_state():
     return {
         "is_trained": True,
         "vocab_size": transformer.vocab_size,
-        "model_size": f"{params/1000:.1f}K params"
+        "model_size": f"{params/1000:.1f}K params",
+        "cache_size": len(_response_cache)
     }
 
 
@@ -145,12 +151,23 @@ def generate(req: GenerateRequest):
     if transformer is None or not transformer.is_trained:
         raise HTTPException(status_code=400, detail="Model not trained")
 
+    # Check cache
+    cache_key = hashlib.md5(f"{req.seed}|{req.max_chars}|{req.temperature}|{req.top_k}".encode()).hexdigest()
+    if cache_key in _response_cache:
+        return GenerateResponse(text=_response_cache[cache_key])
+
     text = transformer.generate(
         seed=req.seed,
         max_chars=req.max_chars,
         temperature=req.temperature,
         top_k=req.top_k
     )
+
+    # Store in cache (evict oldest if full)
+    if len(_response_cache) >= _CACHE_MAX:
+        _response_cache.pop(next(iter(_response_cache)))
+    _response_cache[cache_key] = text
+
     return GenerateResponse(text=text)
 
 
@@ -170,7 +187,15 @@ def load():
         raise HTTPException(status_code=400, detail="No saved model found")
     transformer = NumpyTransformer()
     transformer.load(MODEL_PATH)
+    _response_cache.clear()
     return {"status": "loaded", "vocab_size": transformer.vocab_size}
+
+
+@app.post("/clear-cache")
+def clear_cache():
+    count = len(_response_cache)
+    _response_cache.clear()
+    return {"status": "cleared", "entries_removed": count}
 
 
 if __name__ == "__main__":

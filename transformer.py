@@ -4,6 +4,13 @@ import os
 import time
 from typing import Optional, List, Dict, Tuple
 
+try:
+    import rubidium_core
+    HAS_RUST = True
+    print("Rubidium Core (Rust) loaded - available for large models")
+except ImportError:
+    HAS_RUST = False
+
 
 class AutogradTensor:
     def __init__(self, data: np.ndarray, requires_grad: bool = False):

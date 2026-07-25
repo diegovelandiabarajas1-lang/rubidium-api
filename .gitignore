@@ -9,3 +9,5 @@ build/
 *.suo
 train_local.py
 train_small.py
+rubidium-core/target/
+*.whl

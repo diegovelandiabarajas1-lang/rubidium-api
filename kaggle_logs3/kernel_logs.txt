@@ -1,0 +1,7 @@
+﻿kaggle : 'charmap' codec can't encode characters in position 3070-3108: character maps to <undefined>
+En línea: 3 Carácter: 1
++ kaggle kernels logs diegovelandiabarajas/rubidium-pytorch-train 2>&1  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('charmap' codec... to <undefined>:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

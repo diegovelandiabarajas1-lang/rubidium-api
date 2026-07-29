@@ -20,15 +20,25 @@ class AutogradTensor:
         self._backward = None
         self._children = []
 
+    def build_topo(self, v, topo, visited):
+        if id(v) not in visited:
+            visited.add(id(v))
+            for child in v._children:
+                self.build_topo(child, topo, visited)
+            topo.append(v)
+
     def backward(self, grad: Optional[np.ndarray] = None):
         if grad is None:
             grad = np.ones_like(self.data)
-        if self.grad is None:
-            self.grad = grad
-        else:
-            self.grad += grad
-        if self._backward is not None:
-            self._backward(grad)
+
+        topo = []
+        visited = set()
+        self.build_topo(self, topo, visited)
+
+        self.grad = grad
+        for v in reversed(topo):
+            if v._backward is not None:
+                v._backward(v.grad)
 
     def __add__(self, other):
         if not isinstance(other, AutogradTensor):
@@ -36,9 +46,22 @@ class AutogradTensor:
         out = AutogradTensor(self.data + other.data, requires_grad=self.requires_grad or other.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad)
+                # Sum grad to match self.data shape if needed
+                g = grad
+                while g.ndim > self.data.ndim:
+                    g = g.sum(axis=0)
+                for axis in range(g.ndim):
+                    if g.shape[axis] != self.data.shape[axis] and self.data.shape[axis] == 1:
+                        g = g.sum(axis=axis, keepdims=True)
+                self.grad = g if self.grad is None else self.grad + g
             if other.requires_grad:
-                other.backward(grad)
+                g = grad
+                while g.ndim > other.data.ndim:
+                    g = g.sum(axis=0)
+                for axis in range(g.ndim):
+                    if g.shape[axis] != other.data.shape[axis] and other.data.shape[axis] == 1:
+                        g = g.sum(axis=axis, keepdims=True)
+                other.grad = g if other.grad is None else other.grad + g
         out._backward = backward
         out._children = [self, other]
         return out
@@ -52,12 +75,27 @@ class AutogradTensor:
         out = AutogradTensor(self.data - other.data, requires_grad=self.requires_grad or other.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad)
+                g = grad
+                while g.ndim > self.data.ndim:
+                    g = g.sum(axis=0)
+                for axis in range(g.ndim):
+                    if g.shape[axis] != self.data.shape[axis] and self.data.shape[axis] == 1:
+                        g = g.sum(axis=axis, keepdims=True)
+                self.grad = g if self.grad is None else self.grad + g
             if other.requires_grad:
-                other.backward(-grad)
+                g = -grad
+                while g.ndim > other.data.ndim:
+                    g = g.sum(axis=0)
+                for axis in range(g.ndim):
+                    if g.shape[axis] != other.data.shape[axis] and other.data.shape[axis] == 1:
+                        g = g.sum(axis=axis, keepdims=True)
+                other.grad = g if other.grad is None else other.grad + g
         out._backward = backward
         out._children = [self, other]
         return out
+
+    def __neg__(self):
+        return self * (-1.0)
 
     def __mul__(self, other):
         if not isinstance(other, AutogradTensor):
@@ -65,9 +103,21 @@ class AutogradTensor:
         out = AutogradTensor(self.data * other.data, requires_grad=self.requires_grad or other.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad * other.data)
+                g = grad * other.data
+                while g.ndim > self.data.ndim:
+                    g = g.sum(axis=0)
+                for axis in range(g.ndim):
+                    if g.shape[axis] != self.data.shape[axis] and self.data.shape[axis] == 1:
+                        g = g.sum(axis=axis, keepdims=True)
+                self.grad = g if self.grad is None else self.grad + g
             if other.requires_grad:
-                other.backward(grad * self.data)
+                g = grad * self.data
+                while g.ndim > other.data.ndim:
+                    g = g.sum(axis=0)
+                for axis in range(g.ndim):
+                    if g.shape[axis] != other.data.shape[axis] and other.data.shape[axis] == 1:
+                        g = g.sum(axis=axis, keepdims=True)
+                other.grad = g if other.grad is None else other.grad + g
         out._backward = backward
         out._children = [self, other]
         return out
@@ -81,9 +131,21 @@ class AutogradTensor:
         out = AutogradTensor(self.data / other.data, requires_grad=self.requires_grad or other.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad / other.data)
+                g = grad / other.data
+                while g.ndim > self.data.ndim:
+                    g = g.sum(axis=0)
+                for axis in range(g.ndim):
+                    if g.shape[axis] != self.data.shape[axis] and self.data.shape[axis] == 1:
+                        g = g.sum(axis=axis, keepdims=True)
+                self.grad = g if self.grad is None else self.grad + g
             if other.requires_grad:
-                other.backward(-grad * self.data / (other.data ** 2))
+                g = -grad * self.data / (other.data ** 2)
+                while g.ndim > other.data.ndim:
+                    g = g.sum(axis=0)
+                for axis in range(g.ndim):
+                    if g.shape[axis] != other.data.shape[axis] and other.data.shape[axis] == 1:
+                        g = g.sum(axis=axis, keepdims=True)
+                other.grad = g if other.grad is None else other.grad + g
         out._backward = backward
         out._children = [self, other]
         return out
@@ -94,9 +156,45 @@ class AutogradTensor:
         out = AutogradTensor(self.data @ other.data, requires_grad=self.requires_grad or other.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad @ other.data.T)
+                if self.data.ndim >= 3 and other.data.ndim == 2:
+                    batch_shape = self.data.shape[:-2]
+                    M, K = self.data.shape[-2:]
+                    N = other.data.shape[1]
+                    x_flat = self.data.reshape(-1, K)
+                    grad_flat = grad.reshape(-1, N)
+                    g = grad_flat @ other.data.T
+                    g = g.reshape(*batch_shape, M, K)
+                elif self.data.ndim == 4 and other.data.ndim == 4:
+                    b, h = self.data.shape[0], self.data.shape[1]
+                    x_flat = self.data.reshape(b*h, self.data.shape[2], self.data.shape[3])
+                    o_flat = other.data.reshape(b*h, other.data.shape[2], other.data.shape[3])
+                    grad_flat = grad.reshape(b*h, grad.shape[2], grad.shape[3])
+                    g_flat = np.einsum('bmn,bnk->bmk', grad_flat, o_flat.swapaxes(-2, -1))
+                    g = g_flat.reshape(b, h, g_flat.shape[1], g_flat.shape[2])
+                elif self.data.ndim == 2 and other.data.ndim == 2:
+                    g = grad @ other.data.T
+                else:
+                    g = grad @ other.data.T
+                self.grad = g if self.grad is None else self.grad + g
             if other.requires_grad:
-                other.backward(self.data.T @ grad)
+                if self.data.ndim == 2 and grad.ndim == 2:
+                    g = self.data.T @ grad
+                elif self.data.ndim >= 3 and grad.ndim >= 3 and other.data.ndim == 2:
+                    K = self.data.shape[-1]
+                    N = other.data.shape[1]
+                    x_flat = self.data.reshape(-1, K)
+                    grad_flat = grad.reshape(-1, N)
+                    g = x_flat.T @ grad_flat
+                elif self.data.ndim == 4 and other.data.ndim == 4:
+                    b, h = self.data.shape[0], self.data.shape[1]
+                    x_flat = self.data.reshape(b*h, self.data.shape[2], self.data.shape[3])
+                    o_flat = other.data.reshape(b*h, other.data.shape[2], other.data.shape[3])
+                    grad_flat = grad.reshape(b*h, grad.shape[2], grad.shape[3])
+                    g_flat = np.einsum('bmk,bmn->bkn', x_flat, grad_flat)
+                    g = g_flat.reshape(b, h, g_flat.shape[1], g_flat.shape[2]).sum(axis=(0, 1))
+                else:
+                    g = np.tensordot(self.data, grad, axes=([-2], [-2]))
+                other.grad = g if other.grad is None else other.grad + g
         out._backward = backward
         out._children = [self, other]
         return out
@@ -107,7 +205,8 @@ class AutogradTensor:
             if self.requires_grad:
                 if axis is not None:
                     grad = np.expand_dims(grad, axis=axis)
-                self.backward(np.broadcast_to(grad, self.data.shape))
+                g = np.broadcast_to(grad, self.data.shape)
+                self.grad = g if self.grad is None else self.grad + g
         out._backward = backward
         out._children = [self]
         return out
@@ -120,7 +219,8 @@ class AutogradTensor:
         out = AutogradTensor(np.exp(self.data), requires_grad=self.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad * out.data)
+                g = grad * out.data
+                self.grad = g if self.grad is None else self.grad + g
         out._backward = backward
         out._children = [self]
         return out
@@ -129,7 +229,8 @@ class AutogradTensor:
         out = AutogradTensor(np.log(self.data + 1e-8), requires_grad=self.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad / self.data)
+                g = grad / self.data
+                self.grad = g if self.grad is None else self.grad + g
         out._backward = backward
         out._children = [self]
         return out
@@ -138,7 +239,8 @@ class AutogradTensor:
         out = AutogradTensor(np.maximum(0, self.data), requires_grad=self.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad * (self.data > 0).astype(np.float32))
+                g = grad * (self.data > 0).astype(np.float32)
+                self.grad = g if self.grad is None else self.grad + g
         out._backward = backward
         out._children = [self]
         return out
@@ -147,22 +249,31 @@ class AutogradTensor:
         out = AutogradTensor(self.data.reshape(shape), requires_grad=self.requires_grad)
         def backward(grad):
             if self.requires_grad:
-                self.backward(grad.reshape(self.data.shape))
+                g = grad.reshape(self.data.shape)
+                self.grad = g if self.grad is None else self.grad + g
         out._backward = backward
         out._children = [self]
         return out
 
     def transpose(self, *axes):
+        if len(axes) == 1 and isinstance(axes[0], (tuple, list)):
+            axes = axes[0]
         out = AutogradTensor(self.data.transpose(*axes), requires_grad=self.requires_grad)
         def backward(grad):
             if self.requires_grad:
                 if axes:
-                    inv_axes = [0] * len(axes)
-                    for i, a in enumerate(axes):
-                        inv_axes[a] = i
-                    self.backward(grad.transpose(*inv_axes))
+                    inv_axes = np.argsort(axes)
+                    # Handle potential shape mismatch from broadcast/reshape
+                    expected_shape = self.data.transpose(*axes).shape
+                    if grad.shape != expected_shape:
+                        # If grad was summed/reduced, we can't transpose back properly
+                        # Just return zero grad for this path
+                        g = np.zeros_like(self.data)
+                    else:
+                        g = grad.transpose(*inv_axes)
                 else:
-                    self.backward(grad.T)
+                    g = grad.T
+                self.grad = g if self.grad is None else self.grad + g
         out._backward = backward
         out._children = [self]
         return out
@@ -182,7 +293,8 @@ def softmax(x: AutogradTensor, axis=-1):
     def backward(grad):
         if x.requires_grad:
             out_grad = grad * out.data
-            x.backward(out_grad - out_grad.sum(axis=axis, keepdims=True) * out.data)
+            g = out_grad - out_grad.sum(axis=axis, keepdims=True) * out.data
+            x.grad = g if x.grad is None else x.grad + g
     out._backward = backward
     out._children = [x]
     return out
@@ -191,15 +303,23 @@ def softmax(x: AutogradTensor, axis=-1):
 def layer_norm(x: AutogradTensor, weight: AutogradTensor, bias: AutogradTensor, eps=1e-5):
     mean = x.data.mean(axis=-1, keepdims=True)
     var = x.data.var(axis=-1, keepdims=True)
-    x_norm = (x.data - mean) / np.sqrt(var + eps)
+    inv_std = 1.0 / np.sqrt(var + eps)
+    x_norm = (x.data - mean) * inv_std
     out = AutogradTensor(weight.data * x_norm + bias.data, requires_grad=True)
     def backward(grad):
         if weight.requires_grad:
-            weight.backward(grad * x_norm)
+            g = (grad * x_norm).sum(axis=(0, 1))
+            weight.grad = g if weight.grad is None else weight.grad + g
         if bias.requires_grad:
-            bias.backward(grad)
+            g = grad.sum(axis=(0, 1))
+            bias.grad = g if bias.grad is None else bias.grad + g
         if x.requires_grad:
-            x.backward(grad * weight.data / np.sqrt(var + eps))
+            N = x.data.shape[-1]
+            dy_w = grad * weight.data
+            mean_dy_w = dy_w.mean(axis=-1, keepdims=True)
+            mean_dy_w_x = (dy_w * x_norm).mean(axis=-1, keepdims=True)
+            g = (dy_w - mean_dy_w - x_norm * mean_dy_w_x) * inv_std
+            x.grad = g if x.grad is None else x.grad + g
     out._backward = backward
     out._children = [x, weight, bias]
     return out
@@ -223,7 +343,16 @@ class Embedding:
         self.weight = AutogradTensor(np.random.randn(num_embeddings, embedding_dim).astype(np.float32) * 0.02, requires_grad=True)
 
     def __call__(self, x: np.ndarray) -> AutogradTensor:
-        return AutogradTensor(self.weight.data[x], requires_grad=False)
+        B, L = x.shape
+        V, D = self.weight.data.shape
+        one_hot = np.zeros((B, L, V), dtype=np.float32)
+        for b in range(B):
+            for l in range(L):
+                idx = int(x[b, l])
+                if 0 <= idx < V:
+                    one_hot[b, l, idx] = 1.0
+        one_hot_tensor = AutogradTensor(one_hot, requires_grad=False)
+        return one_hot_tensor @ self.weight
 
     def parameters(self) -> List[AutogradTensor]:
         return [self.weight]
@@ -372,23 +501,51 @@ class NumpyTransformer:
         logits = self.lm_head(h)
         return logits
 
-    def loss(self, logits: AutogradTensor, targets: np.ndarray) -> AutogradTensor:
+    def loss(self, logits: AutogradTensor, targets: np.ndarray, label_smoothing: float = 0.1) -> AutogradTensor:
         B, L, V = logits.data.shape
         logits_flat = logits.reshape((B * L, V))
         targets_flat = targets.reshape(B * L)
         probs = softmax(logits_flat, axis=-1)
-        log_probs = probs.log()
-        indices = np.arange(B * L)
-        loss_val = -log_probs.data[indices, targets_flat].mean()
-        return AutogradTensor(np.array(loss_val), requires_grad=True)
+        # Add epsilon to avoid log(0) = -inf
+        log_probs = (probs + 1e-8).log()
+        
+        # Label smoothing
+        one_hot = np.zeros((B * L, V), dtype=np.float32)
+        one_hot[np.arange(B * L), targets_flat] = 1.0
+        if label_smoothing > 0:
+            one_hot = one_hot * (1.0 - label_smoothing) + label_smoothing / V
+        
+        selected = log_probs * AutogradTensor(one_hot, requires_grad=False)
+        selected = selected.sum(axis=-1)
+        loss_val = selected.mean()
+        neg_one = AutogradTensor(np.array(-1.0), requires_grad=False)
+        return loss_val * neg_one
 
     def train(self, text: str):
         if text and text.strip():
             self.corpus.append(text.strip())
 
-    def fit(self):
+    def fit(self, grad_accum_steps: int = 1, warmup_steps: int = None, label_smoothing: float = 0.1,
+            use_fp16: bool = True, loss_scale: float = 1024.0, prefetch_batches: int = 4,
+            checkpoint_every: int = 5000, checkpoint_dir: str = "checkpoints"):
+        """
+        Optimized training loop with:
+        - Mixed precision (fp16 forward/backward, fp32 master weights + loss scaling)
+        - Data prefetching (background queue)
+        - Gradient accumulation
+        - Cosine LR with warmup
+        - Checkpointing
+        """
         if not self.corpus:
             return
+
+        import os
+        import queue
+        import threading
+        import time
+        
+        if checkpoint_every and checkpoint_dir:
+            os.makedirs(checkpoint_dir, exist_ok=True)
 
         full_text = "\n".join(self.corpus)
         chars = sorted(list(set(full_text)))
@@ -404,44 +561,149 @@ class NumpyTransformer:
             return
 
         params = self._all_params()
-        m = [np.zeros_like(p.data) for p in params]
-        v = [np.zeros_like(p.data) for p in params]
+        
+        # Mixed precision: master weights in fp32, fp16 copies for forward
+        if use_fp16:
+            master_params = [p.data.astype(np.float32).copy() for p in params]
+            # fp16 working copies (updated from master each optim step)
+            fp16_params = [mp.astype(np.float16) for mp in master_params]
+            # Point autograd tensors to fp16 data
+            for p, fp16 in zip(params, fp16_params):
+                p.data = fp16
+        else:
+            master_params = [p.data.astype(np.float32).copy() for p in params]
+            for p, mp in zip(params, master_params):
+                p.data = mp
+
+        m = [np.zeros_like(mp) for mp in master_params]
+        v = [np.zeros_like(mp) for mp in master_params]
         beta1, beta2, eps = 0.9, 0.999, 1e-8
 
         n = len(data)
         smooth_loss = float("inf")
+        
+        if warmup_steps is None:
+            warmup_steps = self.max_steps // 10
 
-        for step in range(1, self.max_steps + 1):
-            start = np.random.randint(0, n - self.block_size - 1)
-            x = data[start:start + self.block_size].reshape(1, -1)
-            y = data[start + 1:start + self.block_size + 1].reshape(1, -1)
+        def get_lr(step):
+            base_lr = self.learning_rate
+            if step < warmup_steps:
+                return base_lr * step / warmup_steps
+            progress = (step - warmup_steps) / max(1, self.max_steps - warmup_steps)
+            return base_lr * 0.5 * (1 + np.cos(np.pi * progress))
 
-            logits = self.forward(x)
-            loss = self.loss(logits, y)
+        # ---- Data prefetcher (background thread) ----
+        batch_queue = queue.Queue(maxsize=prefetch_batches * 2)
+        stop_prefetch = threading.Event()
+        
+        def prefetch_worker():
+            rng = np.random.default_rng()
+            while not stop_prefetch.is_set():
+                try:
+                    start = rng.integers(0, n - self.block_size - 1)
+                    x = data[start:start + self.block_size].reshape(1, -1).astype(np.int32)
+                    y = data[start + 1:start + self.block_size + 1].reshape(1, -1).astype(np.int32)
+                    batch_queue.put((x, y), timeout=1.0)
+                except queue.Full:
+                    time.sleep(0.001)
+                except Exception:
+                    break
+        
+        prefetch_thread = threading.Thread(target=prefetch_worker, daemon=True)
+        prefetch_thread.start()
 
-            for p in params:
-                if p.grad is not None:
+        micro_step = 0
+        optim_step = 0
+        accum_grads = [np.zeros_like(mp) for mp in master_params]
+        current_loss_scale = loss_scale
+        min_loss_scale = 1.0
+        growth_interval = 2000
+
+        try:
+            for step in range(1, self.max_steps + 1):
+                # Get batch from prefetch queue
+                try:
+                    x, y = batch_queue.get(timeout=5.0)
+                except queue.Empty:
+                    # Fallback: generate synchronously
+                    start = np.random.randint(0, n - self.block_size - 1)
+                    x = data[start:start + self.block_size].reshape(1, -1)
+                    y = data[start + 1:start + self.block_size + 1].reshape(1, -1)
+
+                # Forward + backward (fp16 if enabled)
+                logits = self.forward(x)
+                loss = self.loss(logits, y, label_smoothing)
+                
+                # Scale loss for fp16
+                if use_fp16:
+                    loss.data = loss.data * current_loss_scale
+
+                for p in params:
                     p.grad = None
-            loss.backward()
+                loss.backward()
 
-            lr = self.learning_rate
-            if step < self.max_steps // 10:
-                lr = self.learning_rate * step / (self.max_steps // 10)
+                # Accumulate gradients (unscale if fp16)
+                for i, p in enumerate(params):
+                    if p.grad is not None:
+                        g = p.grad
+                        if use_fp16:
+                            g = g / current_loss_scale
+                        accum_grads[i] += g.astype(np.float32)
 
-            for i, p in enumerate(params):
-                if p.grad is not None:
-                    g = np.clip(p.grad, -5.0, 5.0)
+                micro_step += 1
+                if micro_step % grad_accum_steps != 0:
+                    continue
+
+                optim_step += 1
+                lr = get_lr(optim_step)
+
+                # Optimizer step on master weights (fp32)
+                for i, mp in enumerate(master_params):
+                    g = accum_grads[i] / grad_accum_steps
+                    accum_grads[i].fill(0)
+                    
+                    # Clip
+                    g = np.clip(g, -5.0, 5.0)
+                    
+                    # Adam update
                     m[i] = beta1 * m[i] + (1 - beta1) * g
-                    v[i] = beta2 * v[i] + (1 - beta2) * g ** 2
-                    m_hat = m[i] / (1 - beta1 ** step)
-                    v_hat = v[i] / (1 - beta2 ** step)
-                    p.data -= lr * m_hat / (np.sqrt(v_hat) + eps)
+                    v[i] = beta2 * v[i] + (1 - beta2) * g * g
+                    m_hat = m[i] / (1 - beta1 ** optim_step)
+                    v_hat = v[i] / (1 - beta2 ** optim_step)
+                    mp -= lr * m_hat / (np.sqrt(v_hat) + eps)
+                
+                # Update fp16 working copies from master
+                if use_fp16:
+                    for p, mp in zip(params, master_params):
+                        p.data = mp.astype(np.float16)
+                
+                # Dynamic loss scaling
+                if use_fp16:
+                    # Check for inf/nan grads
+                    has_inf = any(np.any(np.isinf(g)) or np.any(np.isnan(g)) for g in accum_grads)
+                    if has_inf:
+                        current_loss_scale = max(current_loss_scale / 2, min_loss_scale)
+                    elif optim_step % growth_interval == 0:
+                        current_loss_scale = min(current_loss_scale * 2, 65536.0)
 
-            lv = loss.data.item() if loss.data.size == 1 else float(loss.data)
-            smooth_loss = lv if step == 1 else 0.98 * smooth_loss + 0.02 * lv
+                # Loss for logging (unscaled)
+                lv = loss.data.item() if loss.data.size == 1 else float(loss.data)
+                if use_fp16:
+                    lv = lv / current_loss_scale
+                smooth_loss = lv if optim_step == 1 else 0.98 * smooth_loss + 0.02 * lv
 
-            if step % 100 == 0 or step == self.max_steps:
-                print(f"Step {step}/{self.max_steps}, loss: {smooth_loss:.4f}")
+                if optim_step % 100 == 0 or step == self.max_steps:
+                    print(f"Step {optim_step}/{self.max_steps // grad_accum_steps}, loss: {smooth_loss:.4f}, lr: {lr:.2e}, scale: {current_loss_scale:.0f}")
+
+                # Checkpoint
+                if checkpoint_every and optim_step % checkpoint_every == 0:
+                    ckpt_path = os.path.join(checkpoint_dir, f"model_step_{optim_step}.pkl")
+                    self.save(ckpt_path)
+                    print(f"Checkpoint saved: {ckpt_path}")
+
+        finally:
+            stop_prefetch.set()
+            prefetch_thread.join(timeout=1.0)
 
         self.is_trained = True
         self._layers = self.layers

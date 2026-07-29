@@ -1,0 +1,2 @@
+Pattern test: 'a b aabaa   aca ccac'
+ABC test: 'abcc   a   baaab acacac'

@@ -6,6 +6,14 @@ from pydantic import BaseModel
 
 from transformer import NumpyTransformer
 
+try:
+    import rubidium_core
+    HAS_RUST = True
+    print("Rubidium Core (Rust) loaded - inference acceleration available")
+except ImportError:
+    HAS_RUST = False
+    print("Rubidium Core not available - using Python inference")
+
 MODEL_PATH = "model.pkl"
 
 app = FastAPI(title="Rubidium API - Transformer Generator", version="2.0.0")
@@ -19,6 +27,7 @@ app.add_middleware(
 )
 
 transformer: NumpyTransformer = None
+rust_model = None  # rubidium_core.RubidiumModel for fast inference
 
 # Response cache: key -> (text, timestamp)
 _response_cache: dict = {}
@@ -70,12 +79,22 @@ def load_corpus_from_resources() -> str:
 
 @app.on_event("startup")
 def startup():
-    global transformer
+    global transformer, rust_model
     if os.path.exists(MODEL_PATH):
         try:
             transformer = NumpyTransformer()
             transformer.load(MODEL_PATH)
             print(f"Model loaded from {MODEL_PATH} (vocab={transformer.vocab_size})")
+
+            # Try loading into Rust for fast inference
+            if HAS_RUST:
+                try:
+                    rust_model = rubidium_core.RubidiumModel()
+                    rust_model.load_from_pickle(os.path.abspath(MODEL_PATH))
+                    print("Rust inference engine loaded successfully")
+                except Exception as e:
+                    print(f"Rust model load failed, using Python: {e}")
+                    rust_model = None
             return
         except Exception as e:
             print(f"Could not load model: {e}")
@@ -98,12 +117,13 @@ def startup():
 
 @app.get("/")
 def root():
-    return {"service": "Rubidium API", "version": "2.0", "engine": "numpy", "status": "running"}
+    engine = "rust" if rust_model is not None else "numpy"
+    return {"service": "Rubidium API", "version": "2.0", "engine": engine, "status": "running"}
 
 
 @app.get("/state")
 def get_state():
-    global transformer
+    global transformer, rust_model
     if transformer is None or not transformer.is_trained:
         return {"is_trained": False, "vocab_size": 0, "model_size": "none"}
     params = sum(p.data.size for p in transformer._all_params())
@@ -111,6 +131,7 @@ def get_state():
         "is_trained": True,
         "vocab_size": transformer.vocab_size,
         "model_size": f"{params/1000:.1f}K params",
+        "engine": "rust" if rust_model is not None else "numpy",
         "cache_size": len(_response_cache)
     }
 
@@ -147,7 +168,7 @@ def train(req: TrainRequest):
 
 @app.post("/generate", response_model=GenerateResponse)
 def generate(req: GenerateRequest):
-    global transformer
+    global transformer, rust_model
     if transformer is None or not transformer.is_trained:
         raise HTTPException(status_code=400, detail="Model not trained")
 
@@ -156,12 +177,30 @@ def generate(req: GenerateRequest):
     if cache_key in _response_cache:
         return GenerateResponse(text=_response_cache[cache_key])
 
-    text = transformer.generate(
-        seed=req.seed,
-        max_chars=req.max_chars,
-        temperature=req.temperature,
-        top_k=req.top_k
-    )
+    # Use Rust inference if available (much faster)
+    if rust_model is not None:
+        try:
+            text = rust_model.generate(
+                seed=req.seed,
+                max_chars=req.max_chars,
+                temperature=req.temperature,
+                top_k=req.top_k
+            )
+        except Exception as e:
+            # Fall back to Python
+            text = transformer.generate(
+                seed=req.seed,
+                max_chars=req.max_chars,
+                temperature=req.temperature,
+                top_k=req.top_k
+            )
+    else:
+        text = transformer.generate(
+            seed=req.seed,
+            max_chars=req.max_chars,
+            temperature=req.temperature,
+            top_k=req.top_k
+        )
 
     # Store in cache (evict oldest if full)
     if len(_response_cache) >= _CACHE_MAX:
@@ -182,12 +221,21 @@ def save():
 
 @app.post("/load")
 def load():
-    global transformer
+    global transformer, rust_model
     if not os.path.exists(MODEL_PATH):
         raise HTTPException(status_code=400, detail="No saved model found")
     transformer = NumpyTransformer()
     transformer.load(MODEL_PATH)
     _response_cache.clear()
+
+    # Try loading into Rust
+    if HAS_RUST:
+        try:
+            rust_model = rubidium_core.RubidiumModel()
+            rust_model.load_from_pickle(os.path.abspath(MODEL_PATH))
+        except Exception:
+            rust_model = None
+
     return {"status": "loaded", "vocab_size": transformer.vocab_size}
 
 

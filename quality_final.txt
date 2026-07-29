@@ -1,0 +1,6 @@
+Model: 845.2K params, vocab=138
+[0.40s] Hola -> Holap(1Te…😊óp≤Lű​B🤗🤗w:jű@péóC8v@j¡pVéó​Su’@😊éFhLsüN≤∀S1”S🤗1≠űv…jL1pé…óspN≠űRűR’Vpűeé
+[0.44s] Buenos dias -> Buenos diasusÍCî«aa“…@úó«“é…ósÚ{…Sn…rÍî∀“S1 |@∀🤗N≠^és‘èűuós∀n∀>v@s8ó≥»{0​na^ű🤗​j8H’sy🤗8F…≥ó
+[0.45s] Quien eres -> Quien eres33oY​iHa3;🤗sC(Hp{üó33∃óÍ∃é%p∀¡%u%”Yúó1@é🤗é🤗Yjé(»🤗🤗»ün3🤗​8”0🤗J(ú🤗upéYs≤sNja@Íó🤗3»
+[0.48s] Que puedes hacer -> Que puedes hacer≤​('(Ss…6#≤(ap'óuu1Úû3/3'óCÚºpû33H%NésN¿8ó≤​nsep%»¡1ó%p3%e«/@3+'óeü🤗hnC0(1∀sj(u%
+[0.44s] Como estas -> Como estasüN6s…​3CnnFYYy…D+“e…p∀űá≥uyr…pr…o🤗ó@1Hn​Nóf@y∀😊óű…’r…ű3“1Új>ój​¡B​≥‘🤗pu s​rS∀jév

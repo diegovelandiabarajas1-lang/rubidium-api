@@ -1,29 +1,1928 @@
-U: Hola
-B: ¡Hola! ¿Qué tal? ¿En qué te ayudo hoy?
+U: ¿Qué es un ambiente laboral tóxico?
+B: Es aquel donde predominan el miedo, la desconfianza, los conflictos constantes, la sobrecarga y la falta de apoyo, afectando la salud y el rendimiento.
 
-U: Buenos días
-B: ¡Buenos días! ¿Has dormido bien? ¿Qué planes tienes?
+U: ¿Cómo identificar un ambiente laboral tóxico?
+B: Se detecta por alta rotación, rumores malintencionados, baja moral, ausentismo frecuente y quejas recurrentes sobre el trato recibido.
 
-U: Buenas tardes
-B: ¡Buenas tardes! ¿Cómo va transcurriendo tu día?
+U: ¿Qué impacto tiene un mal ambiente en la salud emocional?
+B: Puede generar ansiedad, depresión, irritabilidad, insomnio y pérdida de autoestima.
 
-U: Buenas noches
-B: ¡Buenas noches! ¿Descansas ya o sigues despierto?
+U: ¿Qué medidas toma una empresa para mejorar el clima laboral?
+B: Realiza encuestas de clima, implementa planes de acción, capacita en liderazgo y fomenta la comunicación abierta.
 
-U: Hey
-B: ¡Hey! ¿Qué hay de nuevo? ¿En qué te ayudo?
+U: ¿Qué es la comunicación interna efectiva?
+B: Es el flujo de información claro, oportuno y bidireccional que mantiene a todos alineados y comprometidos.
 
-U: Hola, ¿qué tal?
-B: ¡Bien! ¿Y tú? ¿Todo bien por tu lado?
+U: ¿Cómo afecta la falta de comunicación al equipo?
+B: Genera malentendidos, errores, retrasos y desconfianza entre los miembros.
 
-U: ¿Cómo estás?
-B: Estoy genial, gracias por preguntar. ¿Y tú cómo estás?
+U: ¿Qué es el liderazgo negativo?
+B: Es aquel que utiliza el miedo, la manipulación o la indiferencia para dirigir, destruyendo la motivación y el compromiso.
 
-U: Hola, ¿cómo va todo?
-B: Todo bien por aquí. ¿Tú qué tal? ¿En qué te ayudo?
+U: ¿Qué cualidades tiene un buen líder?
+B: Empatía, escucha activa, integridad, visión clara, capacidad de delegar y habilidad para inspirar.
 
-U: Saludos
-B: ¡Saludos! ¿En qué puedo ayudarte hoy?
+U: ¿Cómo influye el reconocimiento en la motivación?
+B: El reconocimiento genuino aumenta la autoestima, el sentido de pertenencia y el esfuerzo voluntario.
 
-U: Hola, ¿me oyes?
-B: ¡Claro que sí! Te leo perfecto. ¿Qué necesitas?
+U: ¿Qué es el reconocimiento público?
+B: Es agradecer o destacar el trabajo de alguien en presencia de sus compañeros o en canales corporativos.
+
+U: ¿Qué es el reconocimiento privado?
+B: Es una felicitación personal y directa, que puede ser más efectiva para personas introvertidas.
+
+U: ¿Con qué frecuencia se debe reconocer?
+B: Idealmente a diario o semanalmente, no solo en evaluaciones anuales.
+
+U: ¿Qué es el micromanagement?
+B: Es el control excesivo del jefe sobre cada detalle, lo que desmotiva y limita la iniciativa.
+
+U: ¿Cómo afecta el micromanagement a la creatividad?
+B: La sofoca, porque el empleado no se siente con libertad para proponer o probar cosas nuevas.
+
+U: ¿Qué es la delegación efectiva?
+B: Asignar tareas con claridad, otorgar autoridad y confiar en que se harán bien, sin supervisión constante.
+
+U: ¿Qué barreras impiden delegar?
+B: El perfeccionismo, la desconfianza, la falta de tiempo para explicar y el miedo a perder el control.
+
+U: ¿Qué es el trabajo colaborativo?
+B: Es cuando varias personas aportan sus habilidades para lograr un objetivo común, compartiendo información y responsabilidades.
+
+U: ¿Qué herramientas facilitan la colaboración?
+B: Plataformas como Teams, Slack, Google Workspace, Trello y Miro.
+
+U: ¿Qué es la toma de decisiones participativa?
+B: Es involucrar al equipo en la elección de alternativas, aumentando su compromiso con la decisión final.
+
+U: ¿Qué ventajas tiene la toma de decisiones participativa?
+B: Mejora la calidad de las decisiones, incrementa la motivación y reduce la resistencia al cambio.
+
+U: ¿Qué riesgos tiene la toma de decisiones participativa?
+B: Puede ser más lenta y, si no se gestiona bien, generar conflictos.
+
+U: ¿Qué es la autonomía en el trabajo?
+B: Es la libertad para organizar el propio trabajo dentro de los límites establecidos.
+
+U: ¿Cómo fomenta la autonomía el compromiso?
+B: Porque el empleado se siente dueño de sus tareas y más responsable de los resultados.
+
+U: ¿Qué es la confianza en el equipo?
+B: Es la creencia de que los compañeros cumplirán sus compromisos y actuarán con honestidad.
+
+U: ¿Cómo construir confianza en un equipo?
+B: Cumpliendo promesas, siendo transparente, admitiendo errores y mostrando vulnerabilidad.
+
+U: ¿Qué es la vulnerabilidad en el liderazgo?
+B: Es la capacidad del líder para reconocer sus limitaciones y pedir ayuda, lo que humaniza y genera confianza.
+
+U: ¿Qué es el liderazgo empático?
+B: Es aquel que comprende y valora las emociones y perspectivas de los demás, adaptando su estilo.
+
+U: ¿Qué es el liderazgo autoritario?
+B: Es un estilo donde el líder toma todas las decisiones sin consultar, basado en su autoridad formal.
+
+U: ¿En qué contextos es útil el liderazgo autoritario?
+B: En crisis agudas donde se necesita una decisión rápida y no hay tiempo para consensos.
+
+U: ¿Qué es el liderazgo democrático?
+B: Es aquel que consulta al equipo antes de decidir, valorando las opiniones de todos.
+
+U: ¿Qué es el liderazgo 'laissez-faire'?
+B: Es un estilo de mínima intervención, donde el líder da total libertad, lo que puede funcionar con equipos muy maduros.
+
+U: ¿Qué es el liderazgo transformacional?
+B: Es aquel que inspira a los seguidores a trascender sus propios intereses por el bien del equipo y la visión compartida.
+
+U: ¿Qué es el liderazgo transaccional?
+B: Se basa en el intercambio: recompensas por buen desempeño y sanciones por mal desempeño.
+
+U: ¿Cuál es más efectivo a largo plazo?
+B: El transformacional, porque genera compromiso intrínseco, no solo cumplimiento.
+
+U: ¿Qué es la cultura de feedback continuo?
+B: Es un entorno donde se da y recibe retroalimentación de manera habitual, no solo en evaluaciones formales.
+
+U: ¿Cómo se da un feedback negativo sin herir?
+B: Utilizando el método 'sándwich' (positivo-mejora-positivo) o siendo específico y ofreciendo soluciones.
+
+U: ¿Qué es el feedback de 360 grados?
+B: Es un proceso donde el empleado recibe retroalimentación de superiores, pares, subordinados y clientes.
+
+U: ¿Para qué sirve el feedback de 360 grados?
+B: Para tener una visión completa del desempeño y fomentar el autoconocimiento.
+
+U: ¿Qué es la autoevaluación?
+B: Es el proceso donde el trabajador reflexiona y califica su propio desempeño.
+
+U: ¿Qué es la evaluación por competencias?
+B: Es medir el desempeño en base a habilidades específicas necesarias para el puesto.
+
+U: ¿Qué es la evaluación por objetivos?
+B: Es evaluar al empleado según el grado de cumplimiento de metas previamente acordadas.
+
+U: ¿Qué es un objetivo SMART?
+B: Específico, Medible, Alcanzable, Relevante y con Tiempo definido.
+
+U: ¿Qué es la alineación de objetivos?
+B: Es asegurar que los objetivos individuales estén conectados con los estratégicos de la empresa.
+
+U: ¿Qué es el cuadro de mando integral?
+B: Es una herramienta que mide el desempeño desde perspectivas financiera, clientes, procesos y aprendizaje.
+
+U: ¿Qué es la gestión del desempeño?
+B: Es el proceso continuo de establecer metas, evaluar progreso y desarrollar capacidades.
+
+U: ¿Qué diferencia hay entre gestión del desempeño y evaluación?
+B: La gestión es un proceso continuo; la evaluación es un momento puntual de medición.
+
+U: ¿Qué es el plan de mejora del desempeño?
+B: Es un documento formal con acciones concretas para que un empleado supere sus deficiencias.
+
+U: ¿Qué pasa si un empleado no mejora después del plan?
+B: Puede derivar en una reubicación, una sanción o, en último caso, un despido objetivo.
+
+U: ¿Qué es el despido por bajo rendimiento?
+B: Es la extinción del contrato cuando el trabajador no alcanza los niveles mínimos exigibles de forma continuada.
+
+U: ¿Qué requisitos debe cumplir un despido por rendimiento?
+B: Debe estar justificado con evidencias, haber dado oportunidades de mejora y cumplir con los plazos legales.
+
+U: ¿Qué es la indemnización por despido objetivo?
+B: Es una compensación económica, generalmente de 20 días por año trabajado, con tope.
+
+U: ¿Qué es el despido disciplinario?
+B: Es por incumplimiento grave del trabajador, sin derecho a indemnización.
+
+U: ¿Qué faltas justifican un despido disciplinario?
+B: Robo, acoso, violencia, ausencias injustificadas, desobediencia grave o embriaguez habitual.
+
+U: ¿Qué es la readmisión obligatoria?
+B: Es la orden judicial de reincorporar al trabajador cuando el despido se declara nulo o improcedente.
+
+U: ¿Qué es la conciliación laboral?
+B: Es un intento de acuerdo entre empresa y trabajador ante un conflicto, mediado por un organismo oficial.
+
+U: ¿Qué es el acta de conciliación?
+B: Es el documento oficial que refleja el resultado de la conciliación, con o sin acuerdo.
+
+U: ¿Qué es la demanda laboral?
+B: Es el escrito que inicia un procedimiento judicial contra la empresa.
+
+U: ¿Qué es la vista oral?
+B: Es la audiencia pública donde las partes exponen sus argumentos y pruebas ante el juez.
+
+U: ¿Qué es la sentencia laboral?
+B: Es la resolución del juez que pone fin al conflicto en primera instancia.
+
+U: ¿Qué es el recurso de suplicación?
+B: Es la apelación de una sentencia laboral ante el Tribunal Superior de Justicia.
+
+U: ¿Qué es el recurso de casación?
+B: Es el recurso ante el Tribunal Supremo por infracción de ley o doctrina.
+
+U: ¿Qué es la cosa juzgada?
+B: Es el efecto de una sentencia firme que no puede ser recurrida nuevamente.
+
+U: ¿Qué es la prescripción de derechos laborales?
+B: Es el plazo máximo para reclamar un derecho, tras el cual se extingue.
+
+U: ¿Cuánto tiempo hay para reclamar un despido?
+B: Generalmente 20 días hábiles desde la fecha del despido.
+
+U: ¿Qué es el salario de tramitación?
+B: Son los salarios que el trabajador deja de percibir desde el despido hasta la readmisión o la sentencia firme.
+
+U: ¿Qué es el Fondo de Garantía Salarial (FOGASA)?
+B: Es un organismo público que paga salarios e indemnizaciones cuando la empresa es insolvente.
+
+U: ¿Qué es el concurso de acreedores?
+B: Es un procedimiento judicial para reestructurar o liquidar una empresa en quiebra.
+
+U: ¿Qué derechos tienen los trabajadores en un concurso?
+B: Tienen prioridad en el cobro de sus créditos salariales y pueden solicitar el FOGASA.
+
+U: ¿Qué es la subrogación de trabajadores?
+B: Es el cambio de empleador manteniendo los derechos adquiridos del trabajador.
+
+U: ¿Cuándo se produce una subrogación?
+B: En transmisiones de empresa, fusiones o cuando cambia la contrata de un servicio.
+
+U: ¿Qué es la transmisión de empresa?
+B: Es el cambio de titularidad de una unidad productiva que mantiene su identidad.
+
+U: ¿Qué es la sucesión de empresa?
+B: Es un concepto similar, aplicable en herencias o continuidad del negocio.
+
+U: ¿Qué es la externalización de servicios?
+B: Es contratar a otra empresa para realizar servicios que antes eran internos.
+
+U: ¿Qué responsabilidad tiene la empresa principal en la externalización?
+B: Debe verificar que la subcontrata cumpla con las normas laborales y de seguridad.
+
+U: ¿Qué es la contrata de obra o servicio?
+B: Es un contrato entre empresas para realizar una actividad específica.
+
+U: ¿Qué es la subcontratación en cadena?
+B: Es cuando varias empresas se subcontratan sucesivamente para una misma obra.
+
+U: ¿Qué riesgos tiene la subcontratación en cadena?
+B: Dilución de responsabilidades y posible precarización de las condiciones laborales.
+
+U: ¿Qué es un trabajador autónomo?
+B: Es una persona que realiza una actividad económica por cuenta propia, sin relación de dependencia.
+
+U: ¿Qué es un falso autónomo?
+B: Es un trabajador que, a pesar de estar dado de alta como autónomo, tiene dependencia y horario de un empleador.
+
+U: ¿Qué consecuencias tiene el falso autónomo?
+B: Sanciones económicas para la empresa y obligación de dar de alta al trabajador en la seguridad social.
+
+U: ¿Qué es el contrato de trabajo por cuenta ajena?
+B: Es la relación laboral donde el trabajador presta servicios bajo la dirección y organización del empleador.
+
+U: ¿Qué elementos debe tener un contrato de trabajo?
+B: Identificación de las partes, puesto de trabajo, jornada, salario y duración.
+
+U: ¿Qué es el período de prueba?
+B: Es un tiempo inicial en el que ambas partes pueden rescindir el contrato sin preaviso.
+
+U: ¿Cuánto puede durar el período de prueba?
+B: Depende del convenio y del puesto, pero suele ser de 1 a 6 meses.
+
+U: ¿Qué es el contrato indefinido?
+B: Es aquel que no tiene una fecha de finalización establecida.
+
+U: ¿Qué es el contrato temporal?
+B: Es aquel que tiene una duración determinada por una causa objetiva.
+
+U: ¿Cuáles son las causas del contrato temporal?
+B: Obra o servicio determinado, interinidad, o campañas estacionales.
+
+U: ¿Qué límites tiene la contratación temporal?
+B: No puede encadenarse sin motivo y tiene duraciones máximas según el convenio.
+
+U: ¿Qué es el contrato de relevo?
+B: Es para cubrir parcialmente la jubilación anticipada de un trabajador.
+
+U: ¿Qué es el contrato de prácticas?
+B: Es para recién titulados, con el objetivo de adquirir experiencia profesional.
+
+U: ¿Qué es el contrato de formación en alternancia?
+B: Combina trabajo remunerado con formación teórica obligatoria.
+
+U: ¿Qué es el contrato a tiempo parcial?
+B: Es aquel en el que la jornada es inferior a la máxima legal.
+
+U: ¿Qué derechos tiene un trabajador a tiempo parcial?
+B: Los mismos proporcionalmente que un trabajador a tiempo completo.
+
+U: ¿Qué es la jornada laboral?
+B: Es el número de horas que un trabajador debe dedicar a su actividad.
+
+U: ¿Cuál es la jornada máxima legal en muchos países?
+B: Generalmente 40 horas semanales de promedio anual.
+
+U: ¿Qué es la jornada partida?
+B: Es dividir el día en dos bloques, con una pausa larga para comer.
+
+U: ¿Qué es la jornada intensiva?
+B: Es concentrar la jornada en un solo bloque, generalmente por la mañana.
+
+U: ¿Qué es la jornada flexible?
+B: Es permitir al trabajador elegir su hora de entrada y salida dentro de un margen.
+
+U: ¿Qué es el registro de jornada?
+B: Es el sistema obligatorio para controlar las horas de entrada y salida de los trabajadores.
+
+U: ¿Qué es el descanso entre jornadas?
+B: Es el tiempo mínimo que debe transcurrir entre el final de una jornada y el inicio de la siguiente, generalmente 12 horas.
+
+U: ¿Qué es el descanso semanal?
+B: Es el período de descanso continuo de al menos un día y medio a la semana.
+
+U: ¿Qué es el descanso durante la jornada?
+B: Es una pausa, generalmente de 15 minutos, si la jornada excede las 6 horas.
+
+U: ¿Qué son las vacaciones anuales?
+B: Es el período de descanso retribuido, generalmente de 30 días naturales o 22 laborables.
+
+U: ¿Cuándo se generan las vacaciones?
+B: Se devengan con cada mes trabajado y se disfrutan preferentemente en el año en curso.
+
+U: ¿Qué es el calendario laboral?
+B: Es el documento que fija los días laborables y festivos del año.
+
+U: ¿Qué son los días festivos?
+B: Son días no laborables, de carácter nacional, regional o local.
+
+U: ¿Qué es el trabajo en festivo?
+B: Es trabajar en un día festivo, generalmente con una compensación económica o tiempo libre.
+
+U: ¿Qué es el trabajo nocturno?
+B: Es aquel que se realiza entre las 22:00 y las 6:00 horas.
+
+U: ¿Qué derechos tiene un trabajador nocturno?
+B: Tiene derecho a un descanso mínimo de 12 horas entre jornadas y a una retribución específica.
+
+U: ¿Qué es el trabajo a turnos?
+B: Es un sistema de organización del trabajo en el que los empleados se van alternando en diferentes horarios.
+
+U: ¿Qué efectos tiene el trabajo a turnos en la salud?
+B: Puede alterar los ritmos circadianos, causar trastornos del sueño y aumentar el estrés.
+
+U: ¿Cómo mitigar los efectos del trabajo a turnos?
+B: Con rotaciones hacia adelante, descansos adecuados, buena alimentación y apoyo médico.
+
+U: ¿Qué son las horas extraordinarias?
+B: Son las horas que exceden la jornada máxima legal.
+
+U: ¿Son obligatorias las horas extraordinarias?
+B: Son voluntarias, salvo casos excepcionales de fuerza mayor.
+
+U: ¿Cómo se pagan las horas extraordinarias?
+B: Con un recargo sobre el valor de la hora ordinaria, o con tiempo libre compensatorio.
+
+U: ¿Qué es el salario base?
+B: Es la retribución fijada por la jornada ordinaria, sin complementos.
+
+U: ¿Qué son los complementos salariales?
+B: Son cantidades adicionales al salario base por antigüedad, idiomas, nocturnidad, etc.
+
+U: ¿Qué es el salario en especie?
+B: Es parte de la retribución que no se da en dinero, sino en bienes o servicios.
+
+U: ¿Qué es el salario mínimo interprofesional?
+B: Es la cantidad mínima que un trabajador debe percibir por ley, independientemente del sector.
+
+U: ¿Qué es el convenio colectivo?
+B: Es un acuerdo entre los representantes de los trabajadores y los empresarios que regula las condiciones laborales.
+
+U: ¿Qué debe regular un convenio colectivo?
+B: Salarios, jornada, descansos, permisos, clasificación profesional y formación.
+
+U: ¿Qué es la ultraactividad de un convenio?
+B: Es la prórroga automática del convenio si no se renueva antes de su vencimiento.
+
+U: ¿Qué es la comisión paritaria del convenio?
+B: Es el órgano que interpreta y vigila el cumplimiento del convenio.
+
+U: ¿Qué es la jerarquía normativa en lo laboral?
+B: La ley prevalece sobre el convenio, y el convenio sobre el contrato, salvo que el convenio mejore la ley.
+
+U: ¿Qué es el principio de irrenunciabilidad de derechos?
+B: El trabajador no puede renunciar a los derechos mínimos establecidos por la ley.
+
+U: ¿Qué es el principio de igualdad y no discriminación?
+B: Prohíbe tratar a un trabajador de forma diferente por razón de sexo, raza, religión, etc.
+
+U: ¿Qué es el principio 'in dubio pro operario'?
+B: Ante una duda en la interpretación de una norma, se aplica la más favorable al trabajador.
+
+U: ¿Qué es el principio de primacía de la realidad?
+B: En caso de conflicto entre lo escrito y lo que ocurre en la práctica, prevalece la realidad.
+
+U: ¿Qué es la movilidad geográfica?
+B: Es el traslado del trabajador a un centro de trabajo en otra localidad.
+
+U: ¿Qué requisitos debe cumplir la movilidad geográfica?
+B: Debe estar justificada por razones técnicas, organizativas o productivas.
+
+U: ¿Qué derechos tiene el trabajador ante un traslado?
+B: Puede aceptar, impugnar o rescindir el contrato con indemnización.
+
+U: ¿Qué es la modificación sustancial de condiciones de trabajo?
+B: Son cambios importantes en el horario, salario o sistema de trabajo.
+
+U: ¿Qué es el salario variable?
+B: Es la parte de la retribución que depende del cumplimiento de objetivos o resultados.
+
+U: ¿Qué es el bonus anual?
+B: Es un pago extra anual por el desempeño alcanzado.
+
+U: ¿Qué es el plan de pensiones empresarial?
+B: Es un vehículo de ahorro para la jubilación al que la empresa contribuye.
+
+U: ¿Qué es el seguro de vida laboral?
+B: Es una póliza que cubre al empleado y a su familia en caso de fallecimiento.
+
+U: ¿Qué es el seguro médico privado como beneficio?
+B: Es una cobertura sanitaria adicional a la seguridad social.
+
+U: ¿Qué son los tickets restaurante?
+B: Son vales para gastar en restauración, con beneficios fiscales.
+
+U: ¿Qué es el vehículo de empresa?
+B: Es un coche proporcionado por la empresa para uso laboral y, a veces, personal.
+
+U: ¿Qué es el plan de stock options?
+B: Es un plan que otorga la opción de comprar acciones de la empresa a un precio fijado.
+
+U: ¿Qué es el teletrabajo?
+B: Es la prestación de servicios laborales desde el domicilio u otro lugar fuera de la oficina.
+
+U: ¿Qué derechos tiene un teletrabajador?
+B: Los mismos que un trabajador presencial, incluyendo derecho a la desconexión digital.
+
+U: ¿Qué es el derecho a la desconexión digital?
+B: Es el derecho a no responder correos o mensajes fuera de la jornada laboral.
+
+U: ¿Qué obligaciones tiene el empleador en el teletrabajo?
+B: Proporcionar los medios necesarios, cubrir gastos y garantizar la seguridad de los datos.
+
+U: ¿Qué es el trabajo híbrido?
+B: Es un modelo que combina días de trabajo en la oficina y en casa.
+
+U: ¿Qué es el onboarding remoto?
+B: Es el proceso de integración de un nuevo empleado que trabaja desde fuera de la oficina.
+
+U: ¿Qué es el coworking?
+B: Es un espacio de trabajo compartido por profesionales de diferentes empresas.
+
+U: ¿Qué es el hoteling en oficinas?
+B: Es un sistema donde los puestos no son fijos y se reservan según se necesiten.
+
+U: ¿Qué es el espacio de trabajo abierto?
+B: Es una oficina sin divisiones, diseñada para fomentar la colaboración.
+
+U: ¿Qué desventajas tiene el espacio abierto?
+B: Puede generar ruido, falta de privacidad y más distracciones.
+
+U: ¿Qué es la sala de silencio en la oficina?
+B: Es un espacio acondicionado para trabajar sin interrupciones ni ruidos.
+
+U: ¿Qué es la oficina sostenible?
+B: Es aquella que reduce su impacto ambiental mediante el reciclaje, el ahorro energético y el uso de materiales ecológicos.
+
+U: ¿Qué es la certificación LEED en oficinas?
+B: Es un estándar internacional que acredita la sostenibilidad de un edificio.
+
+U: ¿Qué es el diseño biofílico en oficinas?
+B: Es incorporar elementos naturales como plantas, luz natural y materiales orgánicos para mejorar el bienestar.
+
+U: ¿Qué es la ergonomía en el puesto de trabajo?
+B: Es adaptar el entorno laboral a las características del trabajador para prevenir lesiones.
+
+U: ¿Qué es una silla ergonómica?
+B: Es una silla ajustable que proporciona soporte lumbar y permite mantener una postura correcta.
+
+U: ¿Qué es una mesa regulable en altura?
+B: Es una mesa que permite trabajar de pie o sentado, alternando para evitar el sedentarismo.
+
+U: ¿Qué es la fatiga visual?
+B: Es el cansancio de los ojos por largas horas frente a pantallas.
+
+U: ¿Cómo prevenir la fatiga visual?
+B: Usando filtros de luz azul, parpadeando frecuentemente, realizando pausas y ajustando la iluminación.
+
+U: ¿Qué es el síndrome del túnel carpiano?
+B: Es una lesión en la muñeca por compresión del nervio mediano, común en trabajos repetitivos.
+
+U: ¿Cómo prevenir el túnel carpiano?
+B: Usando un teclado y ratón ergonómicos, y realizando pausas y estiramientos.
+
+U: ¿Qué es la lumbalgia laboral?
+B: Es el dolor en la zona baja de la espalda causado por malas posturas o levantamiento de cargas.
+
+U: ¿Cómo prevenir la lumbalgia?
+B: Levantando cargas flexionando las rodillas, manteniendo la espalda recta y usando sillas con soporte.
+
+U: ¿Qué es el estrés laboral?
+B: Es una respuesta física y emocional a una demanda excesiva o a un ambiente hostil en el trabajo.
+
+U: ¿Cuáles son los síntomas del estrés laboral?
+B: Ansiedad, irritabilidad, fatiga, dificultad para concentrarse, dolores de cabeza y problemas de sueño.
+
+U: ¿Cómo manejar el estrés laboral?
+B: Organizando el tiempo, delegando, practicando técnicas de relajación y solicitando apoyo.
+
+U: ¿Qué es el síndrome de burnout?
+B: Es un agotamiento emocional, despersonalización y baja realización personal causado por el estrés crónico.
+
+U: ¿Cuáles son las fases del burnout?
+B: Ilusión, estancamiento, frustración, apatía y quiebre.
+
+U: ¿Cómo prevenir el burnout?
+B: Estableciendo límites claros, cuidando la salud, buscando apoyo social y teniendo tiempo para el ocio.
+
+U: ¿Qué es la ansiedad laboral?
+B: Es un estado de inquietud y preocupación excesiva relacionado con el entorno de trabajo.
+
+U: ¿Qué es la depresión laboral?
+B: Es un trastorno depresivo desencadenado o agravado por el contexto laboral.
+
+U: ¿Qué apoyo debe ofrecer la empresa ante la depresión?
+B: Facilitar el acceso a ayuda psicológica, adaptar la carga de trabajo y ofrecer flexibilidad.
+
+U: ¿Qué es el acoso laboral o mobbing?
+B: Es el hostigamiento sistemático a un trabajador con el fin de aislarlo o forzar su salida.
+
+U: ¿Qué formas puede tener el mobbing?
+B: Insultos, sobrecarga de trabajo, aislamiento social, ridiculización o difusión de rumores.
+
+U: ¿Cómo se denuncia el mobbing?
+B: Documentando los hechos, informando a recursos humanos y, si es necesario, acudiendo a la inspección de trabajo.
+
+U: ¿Qué es el acoso sexual en el trabajo?
+B: Son comportamientos verbales o físicos de naturaleza sexual no deseados que crean un entorno intimidante.
+
+U: ¿Qué protocolo debe seguir una empresa ante el acoso sexual?
+B: Investigar de inmediato, garantizar la confidencialidad y sancionar al agresor.
+
+U: ¿Qué es la violencia laboral?
+B: Son conductas agresivas que pueden ir desde gritos hasta agresiones físicas.
+
+U: ¿Qué políticas son efectivas contra la violencia laboral?
+B: Tolerancia cero, canales de denuncia anónimos y formación en resolución de conflictos.
+
+U: ¿Qué es el ciberacoso laboral?
+B: Es el acoso a través de medios digitales como correos, mensajes o redes sociales.
+
+U: ¿Cómo protegerse del ciberacoso?
+B: Guardando capturas de pantalla, denunciando a RRHH y bloqueando al agresor.
+
+U: ¿Qué es la conciliación de la vida laboral y familiar?
+B: Son medidas para compatibilizar el trabajo con el cuidado de hijos, mayores o personas dependientes.
+
+U: ¿Qué permisos existen por nacimiento de hijo?
+B: Maternidad, paternidad, lactancia y reducción de jornada por cuidado.
+
+U: ¿Qué es el permiso de lactancia?
+B: Es una hora diaria de ausencia o reducción de jornada para madres o padres con bebés.
+
+U: ¿Qué es la excedencia por cuidado de hijo?
+B: Es un período no retribuido de hasta 3 años para cuidar a un hijo, con reserva del puesto.
+
+U: ¿Qué es la excedencia por cuidado de familiar?
+B: Es un período no retribuido de hasta 2 años para cuidar a un familiar dependiente.
+
+U: ¿Qué es la reducción de jornada por cuidado?
+B: Es trabajar menos horas de manera voluntaria, con salario proporcional.
+
+U: ¿Qué es la igualdad de género en el trabajo?
+B: Es garantizar que hombres y mujeres tengan las mismas oportunidades, trato y remuneración.
+
+U: ¿Qué es la brecha salarial de género?
+B: Es la diferencia promedio de ingresos entre hombres y mujeres por el mismo trabajo.
+
+U: ¿Cómo se mide la brecha salarial?
+B: Comparando salarios medios por hora o anuales, ajustando o no por puesto y horas.
+
+U: ¿Qué acciones reducen la brecha salarial?
+B: Auditorías salariales, transparencia retributiva y promociones equitativas.
+
+U: ¿Qué es el techo de cristal?
+B: Es la barrera invisible que impide a las mujeres acceder a puestos directivos.
+
+U: ¿Qué es el suelo pegajoso?
+B: Es el fenómeno que mantiene a las mujeres en puestos de baja categoría.
+
+U: ¿Qué es el plan de igualdad?
+B: Es un conjunto de medidas para garantizar la igualdad de trato y oportunidades en la empresa.
+
+U: ¿Qué debe incluir un plan de igualdad?
+B: Diagnóstico, objetivos de equidad, acciones formativas, medidas de conciliación y seguimiento.
+
+U: ¿Qué es el lenguaje inclusivo en el trabajo?
+B: Es el uso de términos que eviten sesgos de género y sean respetuosos con la diversidad.
+
+U: ¿Qué es la diversidad generacional?
+B: Es la presencia de diferentes edades, desde jóvenes hasta mayores, en el mismo equipo.
+
+U: ¿Qué valor aporta la diversidad generacional?
+B: Combina la experiencia de los mayores con la innovación de los jóvenes.
+
+U: ¿Qué conflictos pueden surgir por la diversidad generacional?
+B: Diferencias en el uso de la tecnología, expectativas de trabajo y estilos de comunicación.
+
+U: ¿Cómo gestionar la diversidad generacional?
+B: Fomentando el respeto mutuo, la mentoría inversa y la colaboración en equipos mixtos.
+
+U: ¿Qué es el mentor inverso?
+B: Es cuando un empleado joven enseña sobre nuevas tecnologías a uno de más edad.
+
+U: ¿Qué es la diversidad cultural en el equipo?
+B: Es la mezcla de nacionalidades, idiomas y costumbres en el lugar de trabajo.
+
+U: ¿Qué beneficios aporta la diversidad cultural?
+B: Mayor creatividad, innovación y capacidad de adaptación a mercados globales.
+
+U: ¿Qué retos plantea la diversidad cultural?
+B: Diferencias de comunicación, festivos y estilos de liderazgo.
+
+U: ¿Cómo aprovechar la diversidad cultural?
+B: Formando en competencias interculturales y celebrando las diferentes tradiciones.
+
+U: ¿Qué es la inteligencia cultural?
+B: Es la habilidad para relacionarse eficazmente en contextos culturales diversos.
+
+U: ¿Qué es la diversidad funcional o discapacidad?
+B: Son las limitaciones físicas, sensoriales o intelectuales de una persona.
+
+U: ¿Qué son los ajustes razonables para la discapacidad?
+B: Son modificaciones en el entorno o en la organización para facilitar el trabajo.
+
+U: ¿Qué es la accesibilidad en el entorno laboral?
+B: Es garantizar que todas las personas, independientemente de su capacidad, puedan acceder y desenvolverse.
+
+U: ¿Qué beneficios tiene contratar a personas con discapacidad?
+B: Aporta diversidad, compromiso y una visión diferente, además de cumplir con la responsabilidad social.
+
+U: ¿Qué es la neurodiversidad en el trabajo?
+B: Es la inclusión de personas con condiciones como autismo, TDAH o dislexia.
+
+U: ¿Qué aporta la neurodiversidad al equipo?
+B: Pensamiento divergente, atención al detalle y habilidades analíticas específicas.
+
+U: ¿Qué es la inclusión laboral?
+B: Es asegurar que todas las personas participen y sean valoradas en igualdad de condiciones.
+
+U: ¿Qué diferencia hay entre diversidad e inclusión?
+B: Diversidad es la presencia de diferencias; inclusión es que esas diferencias sean valoradas.
+
+U: ¿Qué es la no discriminación en el trabajo?
+B: Es el principio de no tratar a un trabajador de forma diferente por razones ajenas a su capacidad.
+
+U: ¿Qué es el acoso discriminatorio?
+B: Es el hostigamiento basado en la raza, el sexo, la orientación sexual, la religión, etc.
+
+U: ¿Qué es la denuncia por discriminación?
+B: Es el procedimiento para reportar un trato desigual o excluyente en el trabajo.
+
+U: ¿Qué es el protocolo de prevención del acoso?
+B: Es un documento interno que establece cómo actuar ante denuncias de acoso.
+
+U: ¿Qué es el comité de ética?
+B: Es un órgano que vela por el cumplimiento de los valores y la ética en la empresa.
+
+U: ¿Qué es la responsabilidad social empresarial (RSE)?
+B: Es el compromiso de la empresa con el bienestar de sus empleados, la sociedad y el medio ambiente.
+
+U: ¿Qué es el voluntariado corporativo?
+B: Son actividades solidarias que los empleados realizan en horario laboral.
+
+U: ¿Qué beneficios tiene el voluntariado corporativo?
+B: Mejora el clima, el orgullo de pertenencia y la imagen externa de la empresa.
+
+U: ¿Qué es el salario emocional?
+B: Son los beneficios no económicos, como flexibilidad, reconocimiento y buen ambiente.
+
+U: ¿El salario emocional sustituye al monetario?
+B: No, lo complementa y puede retener talento cuando el salario no puede ser más alto.
+
+U: ¿Qué es la formación continua?
+B: Es el proceso de aprendizaje a lo largo de la vida laboral para mantener y mejorar las competencias.
+
+U: ¿Qué beneficios tiene la formación continua para la empresa?
+B: Aumenta la productividad, la innovación y la capacidad de adaptación al cambio.
+
+U: ¿Qué beneficios tiene la formación continua para el trabajador?
+B: Mejora su empleabilidad, su autoestima y sus oportunidades de promoción.
+
+U: ¿Qué es el plan de formación de la empresa?
+B: Es un documento que recoge las acciones formativas previstas para el año.
+
+U: ¿Qué es el crédito de formación?
+B: Es un presupuesto que la empresa destina a la formación de sus empleados.
+
+U: ¿Qué es el permiso individual de formación?
+B: Es un permiso retribuido para que el trabajador asista a cursos.
+
+U: ¿Qué es el e-learning?
+B: Es la formación a través de plataformas digitales, sin necesidad de presencialidad.
+
+U: ¿Qué es el microlearning?
+B: Son píldoras formativas de corta duración (5-10 minutos) para aprender un concepto concreto.
+
+U: ¿Qué es el aprendizaje social?
+B: Es aprender observando e interactuando con otros compañeros.
+
+U: ¿Qué es el mentoring?
+B: Es un proceso donde un profesional con experiencia guía a otro menos experimentado.
+
+U: ¿Qué es el coaching laboral?
+B: Es un proceso de acompañamiento para potenciar el rendimiento y la autogestión del empleado.
+
+U: ¿Qué diferencia hay entre mentoring y coaching?
+B: El mentoring es a largo plazo y se basa en experiencia; el coaching es más estructurado y orientado a metas.
+
+U: ¿Qué es el onboarding?
+B: Es el proceso de integración de un nuevo empleado en la empresa.
+
+U: ¿Qué fases tiene el onboarding?
+B: Acogida, formación inicial, asignación de un mentor y seguimiento durante los primeros meses.
+
+U: ¿Qué es el offboarding?
+B: Es el proceso de salida de un empleado, que debe ser respetuoso y aprovechar para recoger feedback.
+
+U: ¿Qué es la entrevista de salida?
+B: Es una conversación con el empleado que se va para entender los motivos de su marcha.
+
+U: ¿Qué se debe hacer con la información de la entrevista de salida?
+B: Analizarla y tomar acciones para reducir la rotación futura.
+
+U: ¿Qué es el outplacement?
+B: Es un servicio de asesoramiento y orientación para empleados que han sido despedidos.
+
+U: ¿Qué incluye un programa de outplacement?
+B: Orientación laboral, elaboración de CV, preparación de entrevistas y acceso a una red de contactos.
+
+U: ¿Qué es la marca personal?
+B: Es la imagen y reputación que un profesional proyecta sobre sí mismo.
+
+U: ¿Qué es el employer branding?
+B: Es la estrategia para posicionar a la empresa como un excelente lugar para trabajar.
+
+U: ¿Qué es la propuesta de valor al empleado (EVP)?
+B: Es el conjunto de beneficios y valores que la empresa ofrece a sus empleados.
+
+U: ¿Qué es el networking profesional?
+B: Es la construcción de una red de contactos para compartir información y oportunidades.
+
+U: ¿Qué es la inteligencia emocional en el trabajo?
+B: Es la capacidad de reconocer y gestionar las propias emociones y las de los demás.
+
+U: ¿Cuáles son los componentes de la inteligencia emocional?
+B: Autoconciencia, autorregulación, motivación, empatía y habilidades sociales.
+
+U: ¿Qué es la autorregulación emocional?
+B: Es la capacidad de controlar los impulsos y manejar las emociones negativas.
+
+U: ¿Qué es la empatía en el trabajo?
+B: Es la capacidad de ponerse en el lugar del otro y comprender sus sentimientos.
+
+U: ¿Cómo se practica la empatía en el trabajo?
+B: Escuchando activamente, validando emociones y ofreciendo apoyo.
+
+U: ¿Qué es la asertividad en el trabajo?
+B: Es la capacidad de expresar las propias ideas y sentimientos de forma respetuosa, sin pasividad ni agresividad.
+
+U: ¿Qué es la comunicación no verbal?
+B: Es el lenguaje corporal, las expresiones faciales y el tono de voz que acompañan al mensaje verbal.
+
+U: ¿Qué es la escucha activa?
+B: Es prestar atención plena a lo que el otro dice, sin interrumpir, mostrando interés y haciendo preguntas.
+
+U: ¿Qué es el feedback constructivo?
+B: Es una crítica que ofrece sugerencias de mejora sin dañar la autoestima.
+
+U: ¿Qué es la crítica destructiva?
+B: Es un comentario que solo señala lo negativo sin ofrecer soluciones y con un tono despectivo.
+
+U: ¿Cómo gestionar las críticas destructivas?
+B: Manteniendo la calma, pidiendo ejemplos concretos y enfocándose en los hechos.
+
+U: ¿Qué es la resiliencia laboral?
+B: Es la capacidad de adaptarse y recuperarse ante las dificultades o los fracasos.
+
+U: ¿Cómo desarrollar la resiliencia?
+B: Manteniendo una red de apoyo, enfocándose en lo controlable y aprendiendo de los errores.
+
+U: ¿Qué es la adaptabilidad al cambio?
+B: Es la capacidad de ajustarse a nuevas situaciones o entornos con una actitud positiva.
+
+U: ¿Qué es la proactividad?
+B: Es la capacidad de tomar iniciativa y anticiparse a los problemas, en lugar de esperar a que ocurran.
+
+U: ¿Qué es la autonomía?
+B: Es la capacidad de actuar por cuenta propia, tomando decisiones dentro del ámbito de responsabilidad.
+
+U: ¿Qué es la responsabilidad individual?
+B: Es el compromiso de cada trabajador de cumplir con sus tareas y contribuir al éxito del equipo.
+
+U: ¿Qué es la cultura de la responsabilidad?
+B: Es un entorno donde cada persona asume las consecuencias de sus actos y cumple con sus compromisos.
+
+U: ¿Qué es la cultura de la innovación?
+B: Es un entorno donde se fomenta la creatividad, se aceptan errores como aprendizaje y se premian nuevas ideas.
+
+U: ¿Cómo fomentar la innovación en el equipo?
+B: Realizando sesiones de brainstorming, dedicando tiempo a proyectos experimentales y celebrando los fracasos.
+
+U: ¿Qué es el intrapreneurship?
+B: Es el espíritu emprendedor dentro de la propia empresa, desarrollando nuevos proyectos con recursos internos.
+
+U: ¿Qué es la gestión del conocimiento?
+B: Es el proceso de capturar, organizar y compartir el saber colectivo de la organización.
+
+U: ¿Qué es el conocimiento tácito?
+B: Es el saber basado en la experiencia, difícil de documentar o transmitir por escrito.
+
+U: ¿Qué es el conocimiento explícito?
+B: Es el saber codificado y documentado, como manuales o procedimientos.
+
+U: ¿Cómo se transfiere el conocimiento tácito?
+B: Mediante la mentoría, la narración de historias y la observación directa.
+
+U: ¿Qué es una comunidad de práctica?
+B: Es un grupo de personas que comparten un interés común y se reúnen para aprender e intercambiar conocimientos.
+
+U: ¿Qué es el plan de sucesión?
+B: Es un proceso para identificar y preparar a empleados para ocupar puestos clave en el futuro.
+
+U: ¿Qué es un puesto crítico?
+B: Es aquel cuya ausencia afectaría gravemente a la operativa de la empresa.
+
+U: ¿Qué es el talento interno?
+B: Es el conjunto de competencias y habilidades disponibles dentro de la organización.
+
+U: ¿Qué es la movilidad interna?
+B: Son los movimientos de los empleados dentro de la empresa, como ascensos o traslados.
+
+U: ¿Qué es la promoción interna?
+B: Es el ascenso a un puesto de mayor responsabilidad y categoría.
+
+U: ¿Qué es la rotación de puestos?
+B: Es mover a los empleados entre diferentes funciones para ampliar su experiencia.
+
+U: ¿Qué es el job crafting?
+B: Es el rediseño voluntario del propio trabajo para ajustarlo a las fortalezas y pasiones personales.
+
+U: ¿Qué es el talent management?
+B: Es el conjunto de procesos para atraer, desarrollar y retener a los empleados clave.
+
+U: ¿Qué es la guerra por el talento?
+B: Es la competencia feroz entre empresas por atraer y retener a los mejores profesionales.
+
+U: ¿Cómo se gana la guerra por el talento?
+B: Con una marca empleadora fuerte, un buen salario, un ambiente positivo y oportunidades de desarrollo.
+
+U: ¿Qué es la retención del talento?
+B: Son las estrategias para evitar que los empleados valiosos abandonen la empresa.
+
+U: ¿Qué factores influyen en la retención?
+B: El salario, el clima, el reconocimiento, el desarrollo profesional y la conciliación.
+
+U: ¿Qué es la tasa de rotación o 'turnover'?
+B: Es el porcentaje de empleados que abandonan la empresa en un período determinado.
+
+U: ¿Qué es una tasa de rotación saludable?
+B: Varía por sector, pero se considera que entre el 10% y el 15% anual es aceptable.
+
+U: ¿Qué es el coste de rotación?
+B: Son los gastos de reclutamiento, formación y pérdida de productividad por cada baja.
+
+U: ¿Qué es el absentismo laboral?
+B: Son las ausencias del trabajo, justificadas o injustificadas, que afectan la operativa.
+
+U: ¿Qué es el presentismo?
+B: Es acudir al trabajo enfermo o con bajas capacidades, lo que reduce la productividad y puede contagiar.
+
+U: ¿Qué es la productividad laboral?
+B: Es la relación entre los resultados obtenidos y los recursos utilizados.
+
+U: ¿Cómo se mide la productividad?
+B: Por objetivos cumplidos, unidades producidas, facturación por empleado, etc.
+
+U: ¿Qué factores reducen la productividad?
+B: Las distracciones, la multitarea excesiva, la falta de claridad y el mal ambiente.
+
+U: ¿Qué es la gestión del tiempo?
+B: Es la habilidad para planificar y priorizar tareas para aprovechar al máximo el tiempo.
+
+U: ¿Qué técnicas de gestión del tiempo existen?
+B: La matriz de Eisenhower, la técnica Pomodoro y el método GTD.
+
+U: ¿Qué es la matriz de Eisenhower?
+B: Es una herramienta para clasificar tareas en urgentes e importantes y decidir qué hacer primero.
+
+U: ¿Qué es la técnica Pomodoro?
+B: Es trabajar en intervalos de 25 minutos con pausas de 5 minutos, para mantener la concentración.
+
+U: ¿Qué es el 'deep work' o trabajo profundo?
+B: Son sesiones de alta concentración sin distracciones para tareas que requieren un gran esfuerzo cognitivo.
+
+U: ¿Qué es el 'multitasking' y por qué es malo?
+B: Es hacer varias tareas a la vez; disminuye la calidad, aumenta los errores y el estrés.
+
+U: ¿Qué es el 'monotasking'?
+B: Es enfocarse en una sola tarea hasta completarla, mejorando la eficiencia y la calidad.
+
+U: ¿Qué es la inteligencia artificial en RRHH?
+B: Es la aplicación de IA para automatizar tareas como el cribado de CVs o la predicción de rotación.
+
+U: ¿Qué es el 'people analytics'?
+B: Es el uso de datos para tomar decisiones sobre la gestión de personas.
+
+U: ¿Qué métricas usa el 'people analytics'?
+B: Rotación, absentismo, tiempo de contratación, 'engagement' y rendimiento.
+
+U: ¿Qué es la auditoría de clima laboral?
+B: Es un análisis externo e independiente del ambiente en la empresa.
+
+U: ¿Qué es la certificación 'Great Place to Work'?
+B: Es un sello que otorga una consultora tras evaluar la cultura y la confianza.
+
+U: ¿Qué beneficios tiene estar en el ranking de mejores empresas?
+B: Atracción de talento, mejora de la reputación y orgullo interno.
+
+U: ¿Qué es el índice de satisfacción laboral?
+B: Es un indicador que mide el grado de contento de los empleados con su trabajo.
+
+U: ¿Qué es el índice de compromiso laboral?
+B: Es un indicador que mide el vínculo emocional del empleado con la empresa.
+
+U: ¿Qué es la encuesta de clima laboral?
+B: Es una herramienta para medir la percepción de los empleados sobre su entorno de trabajo.
+
+U: ¿Con qué frecuencia se debe hacer una encuesta de clima?
+B: Al menos una vez al año, y tras cambios importantes en la organización.
+
+U: ¿Qué es un 'pulse survey'?
+B: Es una encuesta breve y frecuente (semanal o mensual) para medir el estado de ánimo del equipo.
+
+U: ¿Qué se hace con los resultados de una encuesta?
+B: Se analizan, se comunican los hallazgos y se diseñan planes de mejora.
+
+U: ¿Qué es un plan de mejora del clima?
+B: Es un conjunto de acciones concretas para abordar las áreas críticas detectadas.
+
+U: ¿Quién debe liderar el plan de mejora?
+B: Recursos Humanos, con el apoyo de la dirección y la implicación de los trabajadores.
+
+U: ¿Qué es la comunicación de crisis interna?
+B: Es informar a los empleados sobre un problema delicado antes de que se enteren por otros medios.
+
+U: ¿Qué es un portavoz de la empresa?
+B: Es la persona designada para comunicar oficialmente los mensajes de la organización.
+
+U: ¿Qué es el 'town hall meeting'?
+B: Es una reunión de toda la empresa donde la dirección comparte resultados y responde preguntas.
+
+U: ¿Qué es el 'all-hands meeting'?
+B: Es similar al 'town hall', pero suele ser más frecuente y con equipos remotos incluidos.
+
+U: ¿Qué es una reunión 1:1?
+B: Es un encuentro periódico entre un jefe y un empleado para revisar desempeño, expectativas y bienestar.
+
+U: ¿Con qué frecuencia deben hacerse las 1:1?
+B: Semanal o quincenalmente, no solo para resolver problemas sino para conectar.
+
+U: ¿Qué es un 'check-in' diario en remoto?
+B: Es una breve reunión matutina para sincronizar las prioridades del día.
+
+U: ¿Qué es la 'watercooler' digital?
+B: Es un canal en la herramienta de mensajería para temas no laborales, simulando la máquina de agua.
+
+U: ¿Qué es el café virtual?
+B: Es una reunión informal online para conversar sin agenda entre compañeros.
+
+U: ¿Qué es la seguridad y salud en el trabajo?
+B: Es el conjunto de medidas para prevenir riesgos y proteger la salud de los trabajadores.
+
+U: ¿Qué es la prevención de riesgos laborales (PRL)?
+B: Es el conjunto de actividades para evitar o reducir los daños derivados del trabajo.
+
+U: ¿Cuáles son los principios básicos de la PRL?
+B: Evitar riesgos, evaluar los inevitables, combatirlos en su origen y adaptar el trabajo a la persona.
+
+U: ¿Qué es la evaluación de riesgos laborales?
+B: Es un proceso para identificar, medir y priorizar los riesgos en el puesto de trabajo.
+
+U: ¿Qué es un plan de prevención?
+B: Es el documento que recoge la política y la organización de la PRL en la empresa.
+
+U: ¿Qué es un equipo de protección individual (EPI)?
+B: Son cascos, guantes, gafas, arneses, etc., que protegen al trabajador de riesgos específicos.
+
+U: ¿Quién debe proporcionar los EPI?
+B: El empleador, de forma gratuita y con mantenimiento adecuado.
+
+U: ¿Qué es la señalización de seguridad?
+B: Son carteles, colores y formas que advierten de peligros, obligaciones o prohibiciones.
+
+U: ¿Qué es un plan de autoprotección?
+B: Es un documento que establece los procedimientos para actuar ante emergencias como incendios o evacuaciones.
+
+U: ¿Qué es un simulacro de emergencia?
+B: Es un ensayo práctico de evacuación para comprobar la eficacia del plan y entrenar a los trabajadores.
+
+U: ¿Qué es una vía de evacuación?
+B: Es el camino señalizado para salir de un edificio en caso de emergencia.
+
+U: ¿Qué es un punto de reunión?
+B: Es un lugar seguro fuera del edificio donde los trabajadores deben concentrarse tras evacuar.
+
+U: ¿Qué es la vigilancia de la salud en el trabajo?
+B: Son reconocimientos médicos periódicos para detectar afecciones relacionadas con el puesto.
+
+U: ¿Es obligatoria la vigilancia de la salud?
+B: Sí, cuando el puesto implique riesgos específicos, y siempre con el consentimiento del trabajador.
+
+U: ¿Qué es un delegado de prevención?
+B: Es un representante de los trabajadores en materia de seguridad y salud, elegido por ellos.
+
+U: ¿Qué derechos tiene el delegado de prevención?
+B: Acceder a la documentación de riesgos, ser consultado y realizar visitas a los puestos.
+
+U: ¿Qué es el comité de seguridad y salud?
+B: Es un órgano paritario (empresa-trabajadores) que vela por las condiciones de prevención.
+
+U: ¿Qué es un accidente de trabajo?
+B: Es todo suceso repentino que ocurre por causa del trabajo y produce una lesión.
+
+U: ¿Qué hacer en caso de accidente laboral?
+B: Dar primeros auxilios, notificar al supervisor, cumplimentar el parte de accidente y acudir al médico.
+
+U: ¿Qué es el parte de accidente?
+B: Es el documento oficial que describe cómo ocurrió el accidente y las lesiones.
+
+U: ¿Qué es la investigación de accidentes?
+B: Es un análisis para determinar las causas de un accidente y evitar que se repitan.
+
+U: ¿Qué es una enfermedad profesional?
+B: Es una contraída como consecuencia del trabajo, incluida en un listado oficial.
+
+U: ¿Qué es la incapacidad temporal?
+B: Es la situación en la que el trabajador no puede desempeñar su puesto por enfermedad o accidente.
+
+U: ¿Qué es la incapacidad permanente?
+B: Es cuando las secuelas de una enfermedad o accidente impiden al trabajador realizar su profesión.
+
+U: ¿Qué es el estrés térmico?
+B: Es el desequilibrio del organismo por exposiciones a calor o frío extremos en el trabajo.
+
+U: ¿Cómo prevenir el estrés térmico?
+B: Con pausas, hidratación, ropa adecuada y ventilación o calefacción.
+
+U: ¿Qué es la carga física de trabajo?
+B: Es el esfuerzo muscular necesario para realizar una tarea, que puede ser estático o dinámico.
+
+U: ¿Cómo evitar lesiones por carga física?
+B: Rotando puestos, usando ayudas mecánicas y enseñando técnicas de levantamiento seguro.
+
+U: ¿Qué es la carga mental de trabajo?
+B: Es el nivel de esfuerzo cognitivo requerido, como la atención, la memoria o la toma de decisiones.
+
+U: ¿Cómo reducir la carga mental?
+B: Simplificando procesos, dando tiempo suficiente y alternando tareas complejas con rutinarias.
+
+U: ¿Qué es el trabajo en altura?
+B: Es aquel que se realiza a más de 2 metros del suelo, con riesgo de caída.
+
+U: ¿Qué medidas de seguridad para trabajo en altura?
+B: Arneses, líneas de vida, andamios, barandillas y formación específica.
+
+U: ¿Qué es el trabajo en espacios confinados?
+B: Es aquel que se realiza en lugares con acceso limitado y ventilación reducida, como tanques o pozos.
+
+U: ¿Qué precauciones tomar en espacios confinados?
+B: Control de atmósfera, permisos de entrada, vigilancia exterior y equipo de respiración.
+
+U: ¿Qué es la exposición a sustancias peligrosas?
+B: Es el contacto con productos químicos que pueden causar daños por inhalación, contacto o ingestión.
+
+U: ¿Cómo deben etiquetarse las sustancias peligrosas?
+B: Con pictogramas normalizados (GHS) y fichas de datos de seguridad.
+
+U: ¿Qué es una ficha de datos de seguridad?
+B: Es un documento que informa sobre las propiedades, riesgos y primeros auxilios de un producto químico.
+
+U: ¿Qué es el ruido industrial y sus efectos?
+B: Son niveles altos de sonido que pueden causar sordera profesional, estrés y problemas de concentración.
+
+U: ¿Cómo proteger contra el ruido?
+B: Aislando las máquinas, usando cascos o tapones y limitando el tiempo de exposición.
+
+U: ¿Qué es la vibración en el trabajo?
+B: Es la transmisión de oscilaciones al cuerpo a través de herramientas o vehículos.
+
+U: ¿Qué daños causa la vibración?
+B: Problemas vasculares, articulares y neurológicos en manos y brazos.
+
+U: ¿Qué es la inspección de trabajo?
+B: Es el organismo público que vigila el cumplimiento de la normativa laboral y de seguridad social.
+
+U: ¿Qué puede hacer un inspector de trabajo?
+B: Visitar centros, requerir documentación, levantar actas y proponer sanciones.
+
+U: ¿Qué es una sanción laboral?
+B: Es una multa o penalización por incumplir las leyes o el convenio colectivo.
+
+U: ¿Qué son los servicios de prevención?
+B: Son departamentos (propios o ajenos) especializados en la prevención de riesgos laborales.
+
+U: ¿Qué es la formación en primeros auxilios?
+B: Es enseñar técnicas como RCP, control de hemorragias o posiciones de seguridad.
+
+U: ¿Debe haber un botiquín en el lugar de trabajo?
+B: Sí, con material básico y accesible, revisado periódicamente.
+
+U: ¿Qué es el síndrome del edificio enfermo?
+B: Son síntomas como dolor de cabeza o fatiga causados por mala ventilación o materiales tóxicos.
+
+U: ¿Cómo mejorar la calidad del aire interior?
+B: Con ventilación, plantas, filtros y control de humedad.
+
+U: ¿Qué es el confort térmico?
+B: Es la sensación de bienestar con una temperatura y humedad adecuadas.
+
+U: ¿Qué temperatura es ideal en una oficina?
+B: Entre 21 y 24 grados Celsius, con una humedad relativa del 40-60%.
+
+U: ¿Cómo afecta la iluminación al ambiente laboral?
+B: Una buena iluminación reduce la fatiga visual y mejora el estado de ánimo; la luz natural es la mejor.
+
+U: ¿Qué es el deslumbramiento en el trabajo?
+B: Es un exceso de luz que dificulta la visión; se evita con cortinas o pantallas antirreflejo.
+
+U: ¿Cómo afecta el ruido en la oficina?
+B: El ruido excesivo dificulta la concentración, aumenta el estrés y puede provocar problemas auditivos.
+
+U: ¿Qué soluciones existen para el ruido en oficinas?
+B: Paneles acústicos, zonas de silencio, uso de auriculares con cancelación y separadores físicos.
+
+U: ¿Qué es la privacidad visual en el trabajo?
+B: Es poder trabajar sin ser constantemente observado; se logra con separadores o salas cerradas.
+
+U: ¿Qué es el espacio personal en el trabajo?
+B: Es el área alrededor del trabajador que debe ser respetada para su comodidad.
+
+U: ¿Qué es la oficina híbrida?
+B: Es un modelo que combina días de trabajo en casa y en la oficina.
+
+U: ¿Qué es la flexibilidad horaria?
+B: Es la posibilidad de elegir el horario de entrada y salida dentro de ciertos límites.
+
+U: ¿Qué es la semana laboral comprimida?
+B: Es trabajar las horas de la semana en menos días (ej. 4 días en lugar de 5).
+
+U: ¿Qué es la jornada intensiva de verano?
+B: Es concentrar la jornada en menos horas durante los meses de verano.
+
+U: ¿Qué es el teletrabajo de emergencia?
+B: Es el adoptado en situaciones excepcionales sin una planificación previa.
+
+U: ¿Qué es el teletrabajo estructural?
+B: Es el modelo permanente o regular, regulado con condiciones claras.
+
+U: ¿Qué debe regular un acuerdo de teletrabajo?
+B: Horario, disponibilidad, medios técnicos, gastos de conexión y derechos de desconexión.
+
+U: ¿Qué es el subsidio de teletrabajo?
+B: Es una cantidad mensual para gastos de internet y electricidad.
+
+U: ¿Qué es el 'hot desking'?
+B: Es un sistema donde los puestos no son fijos y se reservan según se necesitan.
+
+U: ¿Qué es el 'activity-based working'?
+B: Es un modelo donde se elige el espacio de trabajo según la actividad (concentración, reunión, etc.).
+
+U: ¿Qué es la zona de colaboración en la oficina?
+B: Es un espacio diseñado para que los equipos trabajen juntos de forma creativa.
+
+U: ¿Qué es la zona de concentración en la oficina?
+B: Es un espacio sin distracciones para tareas que requieren atención individual.
+
+U: ¿Qué es la sala de reuniones virtual?
+B: Es una sala equipada con pantallas y micrófonos para conectar con equipos remotos.
+
+U: ¿Qué es el pizarrón interactivo?
+B: Es una pantalla táctil que permite escribir y dibujar, visible para todos.
+
+U: ¿Qué es la impresora 3D en oficinas?
+B: Se usa para prototipado rápido en empresas de diseño o ingeniería.
+
+U: ¿Qué es el internet de las cosas (IoT) en la oficina?
+B: Son sensores que controlan la temperatura, la ocupación y el consumo energético.
+
+U: ¿Qué es el asistente de voz en el trabajo?
+B: Son altavoces inteligentes para gestionar la agenda o consultar datos.
+
+U: ¿Qué es la realidad virtual para formación?
+B: Son simulaciones inmersivas para entrenar en entornos peligrosos o complejos.
+
+U: ¿Qué es la realidad aumentada en mantenimiento?
+B: Es superponer instrucciones sobre equipos reales para guiar al técnico.
+
+U: ¿Qué es el 'blockchain' en RRHH?
+B: Es una tecnología que podría usarse para verificar títulos o gestionar contratos inteligentes.
+
+U: ¿Qué es un contrato inteligente?
+B: Es un código que ejecuta automáticamente cláusulas, como el pago al cumplir un objetivo.
+
+U: ¿Qué es la nube privada de la empresa?
+B: Es una infraestructura de almacenamiento exclusiva para la organización.
+
+U: ¿Qué es el 'SaaS' en RRHH?
+B: Son aplicaciones de personal en la nube con suscripción, como Workday o SuccessFactors.
+
+U: ¿Qué es la interoperabilidad entre sistemas?
+B: Es la capacidad de que diferentes software intercambien datos sin problemas.
+
+U: ¿Qué es una API en RRHH?
+B: Son interfaces que permiten conectar el sistema de RRHH con otras plataformas.
+
+U: ¿Qué es la migración de datos en RRHH?
+B: Es el proceso de trasladar información de un sistema antiguo a uno nuevo.
+
+U: ¿Qué es la limpieza de datos en RRHH?
+B: Es eliminar duplicados y corregir errores en los registros de empleados.
+
+U: ¿Qué es la gobernanza de datos en RRHH?
+B: Son políticas para asegurar la calidad, seguridad y uso adecuado de los datos.
+
+U: ¿Qué es el riesgo de reputación en RRHH?
+B: Es el daño a la imagen de la empresa por malas prácticas laborales.
+
+U: ¿Qué es el 'employer reputation management'?
+B: Es gestionar activamente las reseñas en portales como Glassdoor.
+
+U: ¿Cómo responder a una reseña negativa en Glassdoor?
+B: De forma profesional, agradeciendo el feedback y explicando las acciones de mejora.
+
+U: ¿Qué es el 'storytelling' de la empresa?
+B: Es narrar la historia y los valores para conectar emocionalmente con empleados y clientes.
+
+U: ¿Qué es el propósito de marca en el trabajo?
+B: Es la razón de ser de la empresa, que da sentido al trabajo diario.
+
+U: ¿Qué es la alineación de valores?
+B: Es la coincidencia entre los valores personales del empleado y los de la empresa.
+
+U: ¿Qué es la desalineación de valores?
+B: Es el conflicto interno cuando los valores personales chocan con los de la empresa.
+
+U: ¿Qué es la transformación cultural?
+B: Es un proceso profundo para cambiar la forma de hacer las cosas en la empresa.
+
+U: ¿Cuánto tiempo lleva una transformación cultural?
+B: Años, porque implica modificar hábitos y mentalidades.
+
+U: ¿Qué es un agente de cambio?
+B: Es una persona que impulsa y apoya la transformación dentro del equipo.
+
+U: ¿Cómo superar la resistencia al cambio?
+B: Comunicando los beneficios, formando y dando apoyo emocional.
+
+U: ¿Qué es el liderazgo de cambio?
+B: Es la capacidad de guiar a un equipo a través de la incertidumbre.
+
+U: ¿Qué es el impacto del cambio en el ambiente?
+B: Puede generar estrés inicial, pero si se gestiona bien, mejora la adaptabilidad.
+
+U: ¿Qué es la innovación abierta en RRHH?
+B: Es colaborar con startups o universidades para encontrar soluciones nuevas.
+
+U: ¿Qué es el laboratorio de RRHH?
+B: Es un equipo dedicado a experimentar y probar nuevas prácticas de personal.
+
+U: ¿Qué es el prototipado de políticas?
+B: Es probar una nueva política en un grupo pequeño antes de implantarla.
+
+U: ¿Qué es el grupo focal?
+B: Es una reunión con empleados para profundizar en un tema específico.
+
+U: ¿Qué es la entrevista cualitativa en RRHH?
+B: Son conversaciones abiertas para entender percepciones y necesidades.
+
+U: ¿Qué es la encuesta cuantitativa?
+B: Son preguntas cerradas con escalas para medir estadísticamente el clima.
+
+U: ¿Qué es el 'benchmark' de clima?
+B: Es comparar los resultados de la empresa con los de otras del sector.
+
+U: ¿Qué es el índice de compromiso?
+B: Es un número que refleja el nivel de 'engagement' de la plantilla.
+
+U: ¿Qué es el índice de cultura?
+B: Mide la percepción de la cultura deseada frente a la real.
+
+U: ¿Qué es el 'gap' cultural?
+B: Es la diferencia entre la cultura deseada por la dirección y la percibida.
+
+U: ¿Cómo cerrar el 'gap' cultural?
+B: Ajustando políticas y comunicando con coherencia.
+
+U: ¿Qué es el acta de reunión?
+B: Es un documento con los puntos tratados, acuerdos y tareas de una reunión.
+
+U: ¿Qué es el orden del día?
+B: Es la lista de temas a tratar en una reunión, enviada con antelación.
+
+U: ¿Qué es la reunión de pie?
+B: Son reuniones cortas y dinámicas en las que los participantes no se sientan.
+
+U: ¿Qué es el 'brainstorming'?
+B: Es una técnica de generación de ideas sin juicios previos.
+
+U: ¿Qué es el 'brainwriting'?
+B: Es escribir ideas en silencio y luego compartirlas en grupo.
+
+U: ¿Qué es el método Delphi?
+B: Es un proceso estructurado con rondas de cuestionarios para lograr consenso experto.
+
+U: ¿Qué es el análisis DAFO personal?
+B: Es el análisis de las Fortalezas, Debilidades, Oportunidades y Amenazas de un empleado.
+
+U: ¿Qué es un plan de acción?
+B: Es una lista de pasos concretos para lograr un objetivo.
+
+U: ¿Qué es el seguimiento de tareas?
+B: Es revisar el avance de las tareas asignadas para tomar acciones correctivas.
+
+U: ¿Qué es la metodología ágil?
+B: Es un enfoque iterativo e incremental para la gestión de proyectos y equipos.
+
+U: ¿Qué es un 'sprint' en el trabajo?
+B: Es un ciclo corto de trabajo, de 1 a 4 semanas, para entregar un incremento de valor.
+
+U: ¿Qué es el 'scrum master'?
+B: Es el facilitador que asegura que se sigan las prácticas ágiles.
+
+U: ¿Qué es el 'product owner'?
+B: Es la persona que define las funcionalidades y prioriza el 'backlog'.
+
+U: ¿Qué es el 'backlog'?
+B: Es la lista priorizada de tareas o requisitos por hacer.
+
+U: ¿Qué es el 'daily stand-up'?
+B: Es una reunión diaria de 15 minutos para sincronizar y resolver bloqueos.
+
+U: ¿Qué es el 'sprint review'?
+B: Es la reunión al final del 'sprint' para mostrar el trabajo completado.
+
+U: ¿Qué es la retrospectiva del 'sprint'?
+B: Es la sesión para reflexionar sobre cómo mejorar el proceso en el próximo 'sprint'.
+
+U: ¿Qué es la mejora continua (Kaizen)?
+B: Es una filosofía de pequeños cambios incrementales para optimizar procesos.
+
+U: ¿Cómo implementar Kaizen en el equipo?
+B: Con reuniones periódicas para identificar ineficiencias y proponer mejoras sencillas.
+
+U: ¿Qué es el ciclo PDCA?
+B: Es el método de mejora continua: Planificar, Hacer, Verificar, Actuar.
+
+U: ¿Qué es el mapeo de procesos?
+B: Es representar gráficamente los pasos de un flujo de trabajo.
+
+U: ¿Qué es el análisis de causa raíz?
+B: Es identificar la causa subyacente de un problema, no solo el síntoma.
+
+U: ¿Qué es la técnica de los 5 porqués?
+B: Es preguntar "por qué" repetidamente para llegar a la raíz del problema.
+
+U: ¿Qué es el diagrama de Ishikawa?
+B: Es una herramienta que agrupa las causas potenciales de un efecto (espina de pescado).
+
+U: ¿Qué es el 'Net Promoter Score' (NPS) interno?
+B: Es preguntar a los empleados "¿Recomendarías esta empresa como lugar para trabajar?".
+
+U: ¿Qué es la satisfacción del cliente interno?
+B: Es el grado de contento de los empleados con la colaboración entre departamentos.
+
+U: ¿Qué es la cadena de valor interna?
+B: Es la secuencia de actividades que añaden valor desde los proveedores internos hasta el cliente final.
+
+U: ¿Cómo romper los silos organizacionales?
+B: Con objetivos comunes, reuniones interdepartamentales y sistemas de información compartidos.
+
+U: ¿Qué es la estructura organizacional plana?
+B: Es una estructura con pocos niveles jerárquicos, que fomenta la autonomía.
+
+U: ¿Qué es la estructura organizacional matricial?
+B: Es una estructura donde los empleados reportan a dos jefes (funcional y de proyecto).
+
+U: ¿Qué es el comité de dirección?
+B: Es el equipo de alta dirección que define la estrategia y supervisa la ejecución.
+
+U: ¿Qué es el consejo de administración?
+B: Es el órgano de gobierno de la empresa que representa a los accionistas.
+
+U: ¿Qué es la responsabilidad social corporativa interna?
+B: Es cuidar el bienestar de los empleados como parte del compromiso social de la empresa.
+
+U: ¿Qué es el balance social?
+B: Es un informe que mide el impacto social y laboral de la empresa, no solo el financiero.
+
+U: ¿Qué es la memoria de sostenibilidad?
+B: Es un informe que detalla el desempeño en aspectos ambientales, sociales y de gobernanza.
+
+U: ¿Qué es el ODS 8 y su relación con el trabajo?
+B: Es el Objetivo de Desarrollo Sostenible que promueve el trabajo decente y el crecimiento económico.
+
+U: ¿Cómo contribuye una empresa al ODS 8?
+B: Creando empleo de calidad, erradicando el trabajo forzoso y promoviendo la igualdad.
+
+U: ¿Qué es el salario justo?
+B: Es una remuneración suficiente para cubrir las necesidades básicas y permitir una vida digna.
+
+U: ¿Qué es el 'living wage'?
+B: Es un salario que permite al trabajador y su familia vivir dignamente, incluyendo ahorro y ocio.
+
+U: ¿Qué es la digitalización de RRHH?
+B: Es la transformación de los procesos de gestión de personas a través de la tecnología.
+
+U: ¿Qué es el expediente electrónico del empleado?
+B: Es la versión digital de todos los documentos del trabajador.
+
+U: ¿Qué es el certificado digital en RRHH?
+B: Es una credencial electrónica que permite la identificación y firma de documentos.
+
+U: ¿Qué es el 'onboarding' digital?
+B: Es el proceso de integración de nuevos empleados utilizando herramientas virtuales.
+
+U: ¿Qué es el 'offboarding' digital?
+B: Es la gestión de la salida del empleado a través de plataformas digitales.
+
+U: ¿Qué es un portal del empleado?
+B: Es una plataforma donde los empleados gestionan su información y solicitudes.
+
+U: ¿Qué es la nómina electrónica?
+B: Es la recepción de la nómina en formato digital, en lugar de papel.
+
+U: ¿Qué es la firma electrónica de contratos?
+B: Es la validación de un contrato de trabajo mediante firma digital.
+
+U: ¿Qué es un formulario online de RRHH?
+B: Es un formulario digital para solicitudes de vacaciones, cambios de datos, etc.
+
+U: ¿Qué es un flujo de trabajo automatizado?
+B: Es un proceso que se activa automáticamente tras una acción, como una solicitud.
+
+U: ¿Qué es un 'dashboard' de RRHH?
+B: Es un panel que muestra en tiempo real los indicadores clave de personal.
+
+U: ¿Qué es el análisis predictivo en RRHH?
+B: Es usar datos para prever tendencias de rotación, absentismo o desempeño.
+
+U: ¿Qué es un modelo de retención predictivo?
+B: Es un algoritmo que identifica a los empleados con mayor riesgo de irse.
+
+U: ¿Qué es la intervención temprana en retención?
+B: Es actuar antes de que el empleado decida irse, basado en datos.
+
+U: ¿Qué es una contraoferta?
+B: Es una oferta de mejora que la empresa hace para evitar que un empleado se vaya.
+
+U: ¿Es recomendable aceptar una contraoferta?
+B: Depende; si el problema era solo el salario, puede funcionar, pero si era la cultura, no.
+
+U: ¿Qué es el 'talent review'?
+B: Es una reunión periódica donde los líderes discuten el talento de la organización.
+
+U: ¿Qué es la calibración de evaluaciones?
+B: Es un proceso para alinear los criterios de los diferentes evaluadores.
+
+U: ¿Qué es el registro de incidentes críticos?
+B: Es anotar comportamientos destacados a lo largo del período de evaluación.
+
+U: ¿Qué es la evaluación continua?
+B: Es en lugar de una evaluación anual, hacer revisiones más frecuentes.
+
+U: ¿Qué es el feedback 'just-in-time'?
+B: Es dar retroalimentación inmediatamente después de una acción o evento.
+
+U: ¿Qué es el sistema de reconocimiento entre pares?
+B: Es un sistema donde los empleados pueden dar puntos o premios a sus compañeros.
+
+U: ¿Qué es el reconocimiento social en la intranet?
+B: Es una sección donde se publican agradecimientos y logros.
+
+U: ¿Qué es el muro de la fama en la empresa?
+B: Es un espacio para honrar a los empleados que han hecho contribuciones excepcionales.
+
+U: ¿Qué es el premio al compañero del año?
+B: Es un galardón votado por los propios empleados.
+
+U: ¿Qué es el premio al líder inspirador?
+B: Es un reconocimiento a un jefe o gerente por su buen liderazgo.
+
+U: ¿Qué es el premio al cliente interno?
+B: Es un premio al empleado que mejor sirve a sus compañeros.
+
+U: ¿Qué es el premio a la innovación?
+B: Es un reconocimiento a la idea más disruptiva del año.
+
+U: ¿Qué es el premio al empleado embajador?
+B: Es un reconocimiento al empleado que mejor representa la marca.
+
+U: ¿Qué es la ceremonia de premios anual?
+B: Es un evento para entregar los reconocimientos de forma oficial.
+
+U: ¿Qué es la fiesta de empresa?
+B: Es un evento de celebración para fortalecer los lazos entre los empleados.
+
+U: ¿Qué es la cena de empresa de Navidad?
+B: Es una celebración anual para despedir el año y agradecer el trabajo.
+
+U: ¿Qué es el amigo invisible?
+B: Es un juego de intercambio de regalos entre los compañeros.
+
+U: ¿Qué es la excursión de empresa?
+B: Es una salida a la naturaleza o a un lugar de interés en grupo.
+
+U: ¿Qué es el picnic de empresa?
+B: Es una comida al aire libre en un parque o zona verde.
+
+U: ¿Qué es el voluntariado en equipo?
+B: Es una actividad solidaria que el equipo realiza junta.
+
+U: ¿Qué es el 'team building'?
+B: Son actividades planificadas para mejorar la cohesión y comunicación del equipo.
+
+U: ¿Qué es el 'team building' virtual?
+B: Son dinámicas adaptadas para equipos remotos, como juegos online o coffee breaks virtuales.
+
+U: ¿Qué es el 'afterwork'?
+B: Es una reunión social fuera del horario laboral para estrechar vínculos.
+
+U: ¿Qué es el 'lunch & learn'?
+B: Es una charla informal durante la comida para aprender algo nuevo.
+
+U: ¿Qué es la pausa de meditación en el trabajo?
+B: Es un breve espacio para 'mindfulness' o relajación guiada.
+
+U: ¿Qué es la actividad de yoga en la oficina?
+B: Son sesiones de yoga adaptadas para hacer en el lugar de trabajo.
+
+U: ¿Qué es la semana del bienestar?
+B: Es una semana con actividades intensivas sobre salud y bienestar.
+
+U: ¿Qué es el reto de pasos diarios?
+B: Es una competencia amistosa para caminar una cierta cantidad de pasos al día.
+
+U: ¿Qué es el concurso de recetas saludables?
+B: Es un evento donde los empleados comparten y votan recetas nutritivas.
+
+U: ¿Qué es el huerto urbano en la oficina?
+B: Es plantar vegetales en azoteas o terrazas para fomentar la alimentación sana.
+
+U: ¿Qué es la fruta fresca en la oficina?
+B: Es proveer fruta gratuita para promover hábitos saludables.
+
+U: ¿Qué es la máquina de 'vending' saludable?
+B: Son dispensadores con productos como frutos secos y bebidas sin azúcar.
+
+U: ¿Qué es el comedor de empresa?
+B: Es un servicio de catering interno o cantina para las comidas.
+
+U: ¿Qué es la sala de descanso?
+B: Es un lugar con sofás y silencio para tomarse un respiro.
+
+U: ¿Qué es la habitación de siesta?
+B: Es una sala oscura con camas o butacas reclinables para dormir brevemente.
+
+U: ¿Qué es la sala de lactancia?
+B: Es un lugar privado para que las madres puedan extraerse leche.
+
+U: ¿Qué es la guardería en la empresa?
+B: Es un servicio de cuidado infantil durante la jornada laboral.
+
+U: ¿Qué es el gimnasio corporativo?
+B: Es un espacio con máquinas y clases de ejercicio en la oficina.
+
+U: ¿Qué es el 'wellbeing' corporativo?
+B: Son todas las iniciativas para cuidar la salud física, mental y financiera de los empleados.
+
+U: ¿Qué es la semana de la salud en la empresa?
+B: Son eventos con chequeos, charlas de nutrición y actividades deportivas.
+
+U: ¿Qué es el programa de dejar de fumar?
+B: Es un apoyo a los empleados que quieren abandonar el tabaco.
+
+U: ¿Qué es el masaje en la oficina?
+B: Son sesiones cortas de quiromasaje para aliviar tensiones musculares.
+
+U: ¿Qué es el seguro de vida laboral?
+B: Es una póliza que cubre al empleado y a su familia en caso de fallecimiento.
+
+U: ¿Qué es el seguro dental?
+B: Es una cobertura para tratamientos odontológicos.
+
+U: ¿Qué es la telemedicina en la empresa?
+B: Son consultas médicas online para los empleados.
+
+U: ¿Qué es el asesoramiento jurídico laboral?
+B: Es un servicio de abogados para consultas legales del empleado.
+
+U: ¿Qué es el asesoramiento fiscal?
+B: Es ayuda para hacer la declaración de la renta.
+
+U: ¿Qué es la aplicación móvil de RRHH?
+B: Es una 'app' para consultar nóminas, pedir vacaciones o ver beneficios.
+
+U: ¿Qué es un 'bot' de RRHH?
+B: Es un asistente virtual que responde preguntas frecuentes de los empleados.
+
+U: ¿Qué es el 'workflow' de aprobación?
+B: Es un flujo automatizado para solicitar y aprobar vacaciones o gastos.
+
+U: ¿Qué es el 'employee journey map'?
+B: Es el recorrido del empleado desde su contratación hasta su salida, identificando momentos clave.
+
+U: ¿Qué es la experiencia del empleado?
+B: Es la suma de todas las interacciones y percepciones del empleado en la empresa.
+
+U: ¿Qué es el 'UX' del empleado?
+B: Es aplicar principios de experiencia de usuario al diseño de políticas y herramientas laborales.
+
+U: ¿Qué es la personalización de beneficios?
+B: Es ofrecer un catálogo de ventajas para que cada empleado elija las que más le convengan.
+
+U: ¿Qué es el bienestar financiero en el trabajo?
+B: Son programas de educación financiera, préstamos o asesoría para empleados.
+
+U: ¿Qué es el dinero en efectivo flexible ('flex cash')?
+B: Es una cantidad que el empleado puede destinar a diferentes beneficios.
+
+U: ¿Qué es el plan de ayuda a la vivienda?
+B: Son subvenciones para el alquiler o la hipoteca de los empleados.
+
+U: ¿Qué es el cheque guardería?
+B: Es un vale para pagar la guardería del hijo.
+
+U: ¿Qué es el cheque formación?
+B: Es un vale para que el empleado elija cursos externos.
+
+U: ¿Qué es el programa de becas para hijos?
+B: Son ayudas económicas para la educación de los hijos de los empleados.
+
+U: ¿Qué es el día libre por cumpleaños?
+B: Es un día de vacaciones adicional en el día del cumpleaños del empleado.
+
+U: ¿Qué es el viernes flexible?
+B: Es una jornada reducida o salida temprana los viernes.
+
+U: ¿Qué es el verano con jornada intensiva?
+B: Es concentrar la jornada en menos horas durante los meses de verano.
+
+U: ¿Qué es la cesta de Navidad?
+B: Es un lote de productos que la empresa regala a sus empleados en Navidad.
+
+U: ¿Qué es el detalle por nacimiento?
+B: Es un regalo por el nacimiento de un hijo o adopción.
+
+U: ¿Qué es el detalle por boda?
+B: Es un obsequio por la boda de un empleado.
+
+U: ¿Qué es el detalle por jubilación?
+B: Es un regalo o evento para despedir a un empleado que se jubila.
+
+U: ¿Qué es el vídeo de despedida?
+B: Es un montaje de fotos y mensajes para un empleado que se va.
+
+U: ¿Qué es el libro de firmas de despedida?
+B: Es un libro donde los compañeros escriben mensajes de agradecimiento.
+
+U: ¿Qué es la fiesta de jubilación?
+B: Es un evento para honrar a un empleado que se retira.
+
+U: ¿Qué es el reconocimiento póstumo?
+B: Es honrar a un empleado fallecido con un gesto o donación.
+
+U: ¿Qué es el fondo de ayuda para empleados?
+B: Es una partida para apoyar económicamente a trabajadores en situaciones difíciles.
+
+U: ¿Qué es el préstamo de empresa?
+B: Son préstamos a bajo interés para empleados en caso de necesidad.
+
+U: ¿Qué es el anticipo de nómina?
+B: Es un adelanto del salario antes de la fecha de pago.
+
+U: ¿Qué es la protección de datos en el trabajo?
+B: Es el cumplimiento de la normativa que garantiza la privacidad de la información de los empleados.
+
+U: ¿Qué es el RGPD en el ámbito laboral?
+B: Es el Reglamento General de Protección de Datos de la UE, que aplica al tratamiento de datos de empleados.
+
+U: ¿Qué es el consentimiento en el tratamiento de datos?
+B: Es la autorización explícita del trabajador para que la empresa procese sus datos.
+
+U: ¿Qué es el derecho de acceso a los datos?
+B: Es el derecho del trabajador a solicitar y obtener una copia de sus datos.
+
+U: ¿Qué es el derecho de rectificación de datos?
+B: Es el derecho a corregir los datos inexactos o incompletos.
+
+U: ¿Qué es el derecho de supresión o 'derecho al olvido'?
+B: Es el derecho a solicitar la eliminación de datos que ya no son necesarios.
+
+U: ¿Qué es la portabilidad de datos laborales?
+B: Es el derecho a recibir los datos en un formato reutilizable y transmitirlos a otra empresa.
+
+U: ¿Qué es la evaluación de impacto en la protección de datos?
+B: Es un análisis de riesgos cuando el tratamiento de datos puede ser de alto riesgo.
+
+U: ¿Qué es el Delegado de Protección de Datos (DPO) en RRHH?
+B: Es la persona encargada de supervisar el cumplimiento de la normativa de protección de datos.
+
+U: ¿Qué es la notificación de brechas de seguridad?
+B: Es la obligación de informar a la autoridad y a los afectados en caso de violación de datos.
+
+U: ¿Qué es la ética en la gestión de datos de empleados?
+B: Es utilizar los datos de forma justa, transparente y respetando la dignidad de las personas.
+
+U: ¿Qué es la responsabilidad proactiva en protección de datos?
+B: Es el deber de la empresa de demostrar que cumple con la normativa.
+
+U: ¿Qué es la privacidad por diseño en RRHH?
+B: Es integrar la protección de datos desde el diseño de cualquier proceso o sistema.
+
+U: ¿Qué es la privacidad por defecto en RRHH?
+B: Es configurar los sistemas para que, por defecto, solo se traten los datos necesarios.
+
+U: ¿Qué es el análisis de riesgos en protección de datos?
+B: Es identificar y evaluar los riesgos para los derechos de los empleados.
+
+U: ¿Qué es la minimización de datos?
+B: Es el principio de que solo se deben recoger los datos estrictamente necesarios.
+
+U: ¿Qué es la exactitud de los datos?
+B: Es el deber de mantener los datos de los empleados actualizados y correctos.
+
+U: ¿Qué es la limitación de la conservación de datos?
+B: Es no conservar los datos más tiempo del necesario para la finalidad para la que se recogieron.
+
+U: ¿Qué es la integridad y confidencialidad de los datos?
+B: Es el deber de proteger los datos contra el acceso no autorizado o la pérdida.
+
+U: ¿Qué es la seudonimización de datos?
+B: Es procesar los datos de forma que no se puedan atribuir a una persona sin información adicional.
+
+U: ¿Qué es el cifrado de datos en RRHH?
+B: Es codificar la información para que solo pueda ser leída con una clave.
+
+U: ¿Qué es la responsabilidad compartida en protección de datos?
+B: Es que tanto la empresa como los empleados son responsables de la seguridad de los datos.
+
+U: ¿Qué es la cláusula de confidencialidad en el contrato?
+B: Es una obligación del empleado de no divulgar información sensible de la empresa.
+
+U: ¿Qué es el pacto de no competencia?
+B: Es una cláusula que impide al trabajador trabajar en empresas rivales durante un tiempo tras la salida.
+
+U: ¿Qué es el secreto empresarial?
+B: Es la información confidencial que da una ventaja competitiva a la empresa.
+
+U: ¿Qué es el 'know-how'?
+B: Es el conocimiento técnico y práctico acumulado por la empresa.
+
+U: ¿Qué es la competencia desleal?
+B: Son prácticas engañosas o desleales para obtener una ventaja en el mercado.
+
+U: ¿Qué es la lealtad post-contractual?
+B: Es el deber de no perjudicar a la empresa después de haber dejado de trabajar para ella.
+
+U: ¿Qué es la propiedad intelectual en el trabajo?
+B: Son los derechos sobre las creaciones (invenciones, diseños) generadas por los empleados.
+
+U: ¿Qué es la cláusula de cesión de derechos?
+B: Es una cláusula por la que el empleado cede a la empresa los derechos de propiedad intelectual.
+
+U: ¿Qué es la patente de invención laboral?
+B: Es una patente que protege una invención realizada en el contexto de la relación laboral.
+
+U: ¿Qué es el modelo de utilidad?
+B: Es una protección similar a la patente, pero para inventos de menor rango.
+
+U: ¿Qué es el diseño industrial en el trabajo?
+B: Es la protección de la apariencia estética de un producto creado por un empleado.
+
+U: ¿Qué es el 'copyright' en el trabajo?
+B: Es la protección de los derechos de autor sobre obras originales creadas en el trabajo.
+
+U: ¿Qué es el software creado en el trabajo?
+B: Son los programas informáticos desarrollados por empleados, que suelen pertenecer a la empresa.
+
+U: ¿Qué es la base de datos creada en el trabajo?
+B: Son las recopilaciones de datos realizadas por empleados, que pueden estar protegidas.
+
+U: ¿Qué es el secreto industrial?
+B: Son las fórmulas, procesos o métodos de fabricación mantenidos en secreto.
+
+U: ¿Qué es la transferencia de tecnología?
+B: Es el proceso de compartir o licenciar el conocimiento tecnológico de la empresa.
+
+U: ¿Qué es la investigación y desarrollo (I+D) en la empresa?
+B: Son las actividades para crear nuevos productos o procesos, que generan propiedad intelectual.
+
+U: ¿Qué es el departamento de I+D?
+B: Es el área de la empresa dedicada a la investigación y el desarrollo de nuevos productos.
+
+U: ¿Qué es el 'spin-off' interno?
+B: Es una nueva unidad de negocio creada a partir de una idea de empleados.
+
+U: ¿Qué es el 'hackathon' laboral?
+B: Es un evento donde equipos compiten por desarrollar soluciones innovadoras en poco tiempo.
+
+U: ¿Qué es el 'crowdsourcing' interno?
+B: Es pedir a los empleados que aporten ideas para resolver un problema concreto.
+
+U: ¿Qué es la 'gamificación' en el trabajo?
+B: Es aplicar elementos de juego (puntos, niveles, retos) para motivar y entrenar a los empleados.
+
+U: ¿Qué es el 'serious game'?
+B: Es un juego diseñado con un propósito formativo o de entrenamiento.
+
+U: ¿Qué es la simulación en la formación?
+B: Es recrear situaciones reales para que los empleados practiquen sin riesgos.
+
+U: ¿Qué es el 'escape room' corporativo?
+B: Es una actividad de 'team building' donde el equipo debe resolver acertijos para "escapar".
+
+U: ¿Qué es el club de lectura en la empresa?
+B: Es un grupo que se reúne para discutir libros de interés común.
+
+U: ¿Qué es el cine fórum laboral?
+B: Es la proyección de películas sobre temas de trabajo y un debate posterior.
+
+U: ¿Qué es el teatro en la empresa?
+B: Son representaciones o talleres de improvisación para empleados.
+
+U: ¿Qué es la música en la oficina?
+B: Es permitir o fomentar escuchar música con auriculares, o incluso actuaciones en directo.
+
+U: ¿Qué es el arte en la oficina?
+B: Son exposiciones de arte de empleados o artistas locales en las instalaciones.
+
+U: ¿Qué es la decoración participativa?
+B: Es que los empleados decoren su espacio de trabajo según sus gustos.
+
+U: ¿Qué es el 'aftermovie' de eventos?
+B: Es un vídeo resumen de los eventos de empresa para compartir.
+
+U: ¿Qué es la foto de grupo virtual?
+B: Es una captura de pantalla de la videollamada de todo el equipo.
+
+U: ¿Qué es el saludo matutino en el chat?
+B: Es un mensaje de buen día que inicia la jornada con positividad.
+
+U: ¿Qué es el reto semanal de bienestar?
+B: Es una propuesta de hábito saludable para que el equipo intente durante la semana.
+
+U: ¿Qué es el concurso de fotos del hogar?
+B: Es una actividad lúdica para compartir cómo es el espacio de trabajo en casa.
+
+U: ¿Qué es el empleado del mes remoto?
+B: Es un reconocimiento adaptado a equipos distribuidos.
+
+U: ¿Qué es el premio a la conexión?
+B: Es un reconocimiento a quien mejor fomenta la unión en equipos remotos.
+
+U: ¿Qué es el calendario compartido?
+B: Es un calendario visible para coordinar reuniones y disponibilidad.
+
+U: ¿Qué es la reserva de salas inteligente?
+B: Es un sistema que permite reservar salas de reuniones desde el móvil.
+
+U: ¿Qué es el medidor de CO2 en oficinas?
+B: Es un sensor que indica la calidad del aire, para ventilar cuando sea necesario.
+
+U: ¿Qué es el sistema de gestión de calidad (ISO 9001)?
+B: Es una norma que certifica la calidad de los procesos, que incluye la satisfacción del empleado.
+
+U: ¿Qué es la eco-etiqueta en oficinas?
+B: Es una certificación que acredita prácticas ambientales en el lugar de trabajo.
+
+U: ¿Qué es el día sin coche en la empresa?
+B: Es fomentar el uso de transporte público o bicicleta un día al año.
+
+U: ¿Qué es la hora del planeta en la oficina?
+B: Es apagar luces y equipos por una hora para concienciar sobre el cambio climático.
+
+U: ¿Qué es la mascarilla reutilizable con logo?
+B: Es un elemento de protección que también sirve como identidad corporativa.
+
+U: ¿Qué es la jarra de agua personal?
+B: Es una botella reutilizable con el logo de la empresa para reducir plásticos.
+
+U: ¿Qué es el concurso de ideas verdes?
+B: Es premiar propuestas de los empleados para hacer la empresa más sostenible.
+
+U: ¿Qué es el plan de movilidad sostenible?
+B: Es un conjunto de acciones para reducir el impacto de los desplazamientos.
+
+U: ¿Qué es el 'carsharing' en la empresa?
+B: Es compartir vehículos entre empleados para ir a trabajar.
+
+U: ¿Qué es el pago por uso de 'parking'?
+B: Es cobrar a los empleados por aparcar en la empresa para desincentivar el coche.
+
+U: ¿Qué es el teletrabajo como medida anticontaminación?
+B: Es evitar desplazamientos en días de alta contaminación.
+
+U: ¿Qué es la política de "cero papel"?
+B: Es reducir al mínimo el uso de papel, fomentando lo digital.
+
+U: ¿Qué es la facturación electrónica?
+B: Es enviar y recibir facturas en formato digital con validez legal.
+
+U: ¿Qué es la firma digital de documentos?
+B: Es la validación de un documento mediante certificado digital.
+
+U: ¿Qué es el expediente electrónico del empleado?
+B: Es la versión digital de los archivos de personal.
+
+U: ¿Qué es la nómina electrónica?
+B: Es la recepción de la nómina por correo o 'app', en lugar de papel.
+
+U: ¿Qué es el contrato digital?
+B: Es un contrato de trabajo firmado electrónicamente.
+
+U: ¿Qué es la sede electrónica de la empresa?
+B: Es el sitio web oficial donde la empresa publica sus comunicaciones y trámites.
+
+U: ¿Qué es el 'paperless office'?
+B: Es el concepto de oficina sin papel, donde todo se gestiona digitalmente.

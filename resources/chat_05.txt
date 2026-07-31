@@ -1,29 +1,194 @@
-U: Me gusta leer
-B: ¡Genial! ¿Qué género prefieres? ¿Novela, ensayo, fantasía, misterio, ciencia ficción?
+U: ¿Qué haces cuando tienes tiempo libre?
+B: leer, caminar o escuchar música, según el día.
 
-U: Me gusta el cine
-B: ¡Qué bien! ¿Última película que viste? ¿Te gustó? ¿Género favorito?
+U: ¿Qué haces cuando vas al supermercado?
+B: Hago una lista para no olvidar lo importante.
 
-U: Juego videojuegos
-B: ¡Qué chulo! ¿A qué juegas? ¿RPG, FPS, estrategia, indie, multijugador?
+U: ¿Qué haces cuando preparas el desayuno?
+B: Intento que sea sencillo y equilibrado.
 
-U: Me gusta cocinar
-B: ¡Delicioso! ¿Cuál es tu plato estrella? ¿Postres, salados, cocina de autor?
+U: ¿Qué haces cuando llegas a casa después del trabajo o estudio?
+B: Descanso un momento antes de continuar con otras tareas.
 
-U: Hago deporte
-B: ¡Bien! ¿Correr, gym, fútbol, yoga, natación, senderismo? ¿Cuál practicas?
+U: ¿Qué haces cuando limpias la casa?
+B: Voy por partes para que sea más fácil.
 
-U: Me gusta la música
-B: ¡La música es vida! ¿Qué escuchas? ¿Rock, pop, clásica, jazz, electrónica, indie?
+U: ¿Qué haces cuando usas el transporte público?
+B: Procuro salir con tiempo.
 
-U: Pinto/dibujo
-B: ¡Arte! ¿Técnica favorita? ¿Acuarela, digital, lápiz, óleo, carbón?
+U: ¿Qué haces cuando hablas con tu familia?
+B: Me gusta mantener el contacto con frecuencia.
 
-U: Me gusta viajar
-B: ¡Aventurero! ¿Mejor viaje que has hecho? ¿Próximo destino soñado?
+U: ¿Qué haces cuando aprendes algo nuevo?
+B: Practico poco a poco hasta entenderlo.
 
-U: Me gusta la fotografía
-B: ¡Arte visual! ¿Qué te gusta retratar? ¿Paisajes, retratos, calle, naturaleza?
+U: ¿Qué haces cuando organizas tus tareas?
+B: Empiezo por lo más urgente.
 
-U: Me gusta escribir
-B: ¡Qué bonito! ¿Diario, relatos, poesía, novelas? ¿Para ti o para publicar?
+U: ¿Qué haces cuando sales a caminar?
+B: Aprovecho para despejar la mente.
+
+U: ¿Prefieres cocinar o comer fuera?
+B: Depende del tiempo y de cómo me sienta.
+
+U: ¿Prefieres levantarte temprano o dormir un poco más?
+B: Depende de los planes del día.
+
+U: ¿Prefieres libros físicos o digitales?
+B: Ambos tienen ventajas.
+
+U: ¿Prefieres café o té?
+B: Elijo según el momento.
+
+U: ¿Prefieres películas o series?
+B: Depende del tiempo disponible.
+
+U: ¿Te gusta cocinar?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta cocinar?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta cocinar?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta cocinar?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta cocinar?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta estudiar?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta estudiar?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta estudiar?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta estudiar?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta estudiar?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta hacer ejercicio?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta hacer ejercicio?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta hacer ejercicio?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta hacer ejercicio?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta hacer ejercicio?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta ordenar la habitación?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta ordenar la habitación?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta ordenar la habitación?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta ordenar la habitación?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta ordenar la habitación?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta lavar la ropa?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta lavar la ropa?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta lavar la ropa?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta lavar la ropa?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta lavar la ropa?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta regar las plantas?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta regar las plantas?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta regar las plantas?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta regar las plantas?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta regar las plantas?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta hacer compras?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta hacer compras?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta hacer compras?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta hacer compras?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta hacer compras?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta escribir notas?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta escribir notas?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta escribir notas?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta escribir notas?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta escribir notas?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta escuchar música?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta escuchar música?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta escuchar música?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta escuchar música?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta escuchar música?
+B: Sí, porque me hace sentir mejor.
+
+U: ¿Te gusta ver un documental?
+B: Sí, porque me ayuda a relajarme.
+
+U: ¿Te gusta ver un documental?
+B: Sí, porque es útil para mi rutina.
+
+U: ¿Te gusta ver un documental?
+B: Sí, porque disfruto aprender.
+
+U: ¿Te gusta ver un documental?
+B: Sí, porque mantiene todo en orden.
+
+U: ¿Te gusta ver un documental?
+B: Sí, porque me hace sentir mejor.

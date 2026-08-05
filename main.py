@@ -1,8 +1,10 @@
 import os
 import hashlib
+from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from typing import Optional, List
 
 from transformer import NumpyTransformer
 
@@ -14,9 +16,19 @@ except ImportError:
     HAS_RUST = False
     print("Rubidium Core not available - using Python inference")
 
-MODEL_PATH = "model.pkl"
+# Local LLM engine
+try:
+    from llm_engine import LLMEngine, EngineType, list_available_models
+    HAS_LLM_ENGINE = True
+    print("LLM Engine available")
+except ImportError:
+    HAS_LLM_ENGINE = False
+    print("LLM Engine not available")
 
-app = FastAPI(title="Rubidium API - Transformer Generator", version="2.0.0")
+MODEL_PATH = "model.pkl"
+LLM_MODEL_ID = "qwen2.5-1.5b-instruct-q4"
+
+app = FastAPI(title="Rubidium API - Transformer Generator", version="2.1.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -27,7 +39,8 @@ app.add_middleware(
 )
 
 transformer: NumpyTransformer = None
-rust_model = None  # rubidium_core.RubidiumModel for fast inference
+rust_model = None
+llm_engine: Optional[LLMEngine] = None
 
 # Response cache: key -> (text, timestamp)
 _response_cache: dict = {}
@@ -41,8 +54,25 @@ class GenerateRequest(BaseModel):
     top_k: int = 20
 
 
+class LLMGenerateRequest(BaseModel):
+    prompt: str = ""
+    max_tokens: int = 2048
+    temperature: float = 0.7
+    top_p: float = 0.9
+    top_k: int = 40
+    repeat_penalty: float = 1.1
+    stop: Optional[List[str]] = None
+    stream: bool = False
+
+
 class GenerateResponse(BaseModel):
     text: str
+
+
+class LLMGenerateResponse(BaseModel):
+    text: str
+    engine: str
+    model: str
 
 
 class TrainRequest(BaseModel):
@@ -79,7 +109,7 @@ def load_corpus_from_resources() -> str:
 
 @app.on_event("startup")
 def startup():
-    global transformer, rust_model
+    global transformer, rust_model, llm_engine
     if os.path.exists(MODEL_PATH):
         try:
             transformer = NumpyTransformer()
@@ -95,6 +125,18 @@ def startup():
                 except Exception as e:
                     print(f"Rust model load failed, using Python: {e}")
                     rust_model = None
+
+            # Initialize local LLM engine
+            if HAS_LLM_ENGINE:
+                try:
+                    llm_engine = LLMEngine.from_config(
+                        Path("models") / f"{LLM_MODEL_ID}.json",
+                        engine_type=EngineType.AUTO,
+                    )
+                    print(f"Local LLM engine loaded: {llm_engine.engine_name} ({llm_engine.model_config.name})")
+                except Exception as e:
+                    print(f"LLM engine load failed: {e}")
+                    llm_engine = None
             return
         except Exception as e:
             print(f"Could not load model: {e}")
@@ -118,22 +160,35 @@ def startup():
 @app.get("/")
 def root():
     engine = "rust" if rust_model is not None else "numpy"
-    return {"service": "Rubidium API", "version": "2.0", "engine": engine, "status": "running"}
+    llm_info = ""
+    if llm_engine and llm_engine.is_available():
+        llm_info = f" + {llm_engine.engine_name}"
+    return {
+        "service": "Rubidium API",
+        "version": "2.1.0",
+        "engine": engine + llm_info,
+        "status": "running"
+    }
 
 
 @app.get("/state")
 def get_state():
-    global transformer, rust_model
+    global transformer, rust_model, llm_engine
     if transformer is None or not transformer.is_trained:
         return {"is_trained": False, "vocab_size": 0, "model_size": "none"}
     params = sum(p.data.size for p in transformer._all_params())
-    return {
+    state = {
         "is_trained": True,
         "vocab_size": transformer.vocab_size,
         "model_size": f"{params/1000:.1f}K params",
         "engine": "rust" if rust_model is not None else "numpy",
         "cache_size": len(_response_cache)
     }
+    if llm_engine and llm_engine.is_available():
+        state["llm_engine"] = llm_engine.engine_name
+        state["llm_model"] = llm_engine.model_config.name
+        state["llm_model_id"] = llm_engine.model_config.model_id
+    return state
 
 
 @app.post("/train")
@@ -208,6 +263,66 @@ def generate(req: GenerateRequest):
     _response_cache[cache_key] = text
 
     return GenerateResponse(text=text)
+
+
+@app.post("/llm/generate", response_model=LLMGenerateResponse)
+def llm_generate(req: LLMGenerateRequest):
+    global llm_engine
+    if llm_engine is None or not llm_engine.is_available():
+        raise HTTPException(status_code=503, detail="Local LLM engine not available. Download model first.")
+
+    try:
+        text = llm_engine.generate(req.prompt, **req.model_dump(exclude={"prompt", "stream"}))
+        return LLMGenerateResponse(
+            text=text,
+            engine=llm_engine.engine_name,
+            model=llm_engine.model_config.name
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"LLM generation failed: {e}")
+
+
+@app.get("/llm/models")
+def llm_list_models():
+    if not HAS_LLM_ENGINE:
+        raise HTTPException(status_code=503, detail="LLM engine not available")
+    return {"models": list_available_models()}
+
+
+@app.post("/llm/load")
+def llm_load(model_id: str = LLM_MODEL_ID, engine_type: str = "auto"):
+    global llm_engine
+    if not HAS_LLM_ENGINE:
+        raise HTTPException(status_code=503, detail="LLM engine not available")
+
+    try:
+        et = EngineType(engine_type.upper().replace(".", "_"))
+    except ValueError:
+        raise HTTPException(status_code=400, detail=f"Invalid engine type: {engine_type}")
+
+    config_path = Path("models") / f"{model_id}.json"
+    if not config_path.exists():
+        raise HTTPException(status_code=404, detail=f"Model config not found: {model_id}")
+
+    try:
+        llm_engine = LLMEngine.from_config(config_path, engine_type=et)
+        return {
+            "status": "loaded",
+            "engine": llm_engine.engine_name,
+            "model": llm_engine.model_config.name,
+            "model_id": model_id
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to load model: {e}")
+
+
+@app.post("/llm/unload")
+def llm_unload():
+    global llm_engine
+    if llm_engine:
+        llm_engine.unload()
+        llm_engine = None
+    return {"status": "unloaded"}
 
 
 @app.post("/save")

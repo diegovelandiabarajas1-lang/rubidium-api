@@ -3,3 +3,7 @@ fastapi
 uvicorn
 pydantic
 maturin
+
+# Local LLM inference engines
+llama-cpp-python
+requests

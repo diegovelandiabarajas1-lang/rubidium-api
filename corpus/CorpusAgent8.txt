@@ -1,0 +1,105 @@
+U: ¿Quién dirigió la película Titanic? / B: James Cameron, el maestro de los blockbuster épicos.
+U: ¿De qué trata la saga de Star Wars? / B: La lucha entre la luz y la oscuridad en una galaxia muy lejana.
+U: ¿Quién compuso la banda sonora de Jurassic Park? / B: John Williams, el genio de las melodías inolvidables del cine.
+U: ¿Qué consola de videojuegos lanzó Nintendo en 2017? / B: La Nintendo Switch, revolucionando el juego en casa y en movimiento.
+U: ¿Quién canta Bohemian Rhapsody? / B: Queen, con Freddie Mercury liderando esa obra maestra de 6 minutos.
+U: ¿En qué año se estrenó la primera película de Harry Potter? / B: En 2001, cuando Daniel Radcliffe tenía 11 años y el mundo mágico cobró vida.
+U: ¿Qué banda interpretó Hotel California? / B: Eagles, con ese solo de guitarra que todo músico sueña con tocar.
+U: ¿Quién es el creador de Minecraft? / B: Markus Notch Persson, el sueco que nos enseñó que construir bloques puede ser adictivo.
+U: ¿Qué serie de Netflix se volvió viral en 2020? / B: Squid Game, donde juegos de niños se convirtieron en algo oscuro y fascinante.
+U: ¿Quién compuso la música de la saga Harry Potter? / B: John Williams creó ese mágico tema que te transporta al mundo de los magos.
+U: ¿Qué película ganó el primer Oscar a Mejor Película Animada? / B: Shrek en 2002, porque ser verde y ogro resultó ser ganador.
+U: ¿Quién interpreta a Iron Man en el MCU? / B: Robert Downey Jr., quien se convirtió en el padre del Universo Cinematográfico.
+U: ¿De qué país es el grupo BTS? / B: De Corea del Sur, los reyes del K-pop que conquistaron el mundo entero.
+U: ¿Qué videojuego popularizó el battle royale? / B: Fortnite, el fenómeno que hizo que todos bailaran emotes en todas partes.
+U: ¿Quién escribió Cien Años de Soledad? / B: Gabriel García Márquez, el Nobel colombiano que nos regaló Macondo.
+U: ¿Qué serie tiene un personaje llamado Walter White? / B: Breaking Bad, donde un profesor de química se convirtió en el villano más querido.
+U: ¿Quién canta Shape of You? / B: Ed Sheeran, el británico que hizo que todos quisiéramos bailar.
+U: ¿Qué película de Pixar trata sobre emociones? / B: Inside Out, la genialidad de hacernos identificar con Joy, Tristeza y compañía.
+U: ¿En qué saga aparece el Halcón Milenario? / B: En Star Wars, la nave más famosa de la galaxia.
+U: ¿Quién es el creador de The Legend of Zelda? / B: Shigeru Miyamoto, el genio japonés que nos regaló aventuras épicas desde 1986.
+U: ¿Qué banda tocó en el descanso del Super Bowl 2022? / B: Dr. Dre, Snoop Dogg, Eminem, Mary J. Blige y Kendrick Lamar.
+U: ¿Quién protagoniza El Padrino? / B: Marlon Brando como Don Vito Corleone, con esa voz grave que todos imitan.
+U: ¿Qué anime es el más vendido de la historia? / B: Dragon Ball, la saga que nos enseñó que gritar aumenta tu poder.
+U: ¿Qué juego de cartas coleccionables sigue siendo popular desde 1993? / B: Magic: The Gathering, estrategia y suerte en batallas épicas.
+U: ¿Quién dirigió Pulp Fiction? / B: Quentin Tarantino, el maestro del diálogo retorcido y las referencias culturales.
+U: ¿Qué serie de HBO trata sobre androides en un parque temático? / B: Westworld, donde los robots decidieron no ser juguetes más.
+U: ¿Quién canta Despacito? / B: Luis Fonsi featuring Daddy Yankee, el tema que cruzó fronteras y rompió récords.
+U: ¿Qué consola fue la rival de la Sega Genesis? / B: La Super Nintendo, la guerra de consolas que definió una generación.
+U: ¿Quién interpretó a Joker en The Dark Knight? / B: Heath Ledger, cuya actuación póstuma nos dejó boquiabiertos.
+U: ¿Qué banda de rock británica cantó Hey Jude? / B: The Beatles, la banda que cambió la música para siempre.
+U: ¿Qué serie de anime trata sobre piratas que buscan el One Piece? / B: One Piece, la aventura más larga del mar con más de 20 años.
+U: ¿Quién compuso La Marcha Imperial? / B: John Williams, el compositor del villano más musical de la historia.
+U: ¿Qué videojuego tiene a Master Chief? / B: Halo, la franquicia que definió los shooters en consola.
+U: ¿Quién es el director de Inception? / B: Christopher Nolan, el mago del cine que hace fascinantes las pesadillas.
+U: ¿Qué serie está basada en los libros de George R.R. Martin? / B: Juego de Tronos, dragones, traiciones y finales polémicos.
+U: ¿Quién canta Viva la Vida? / B: Coldplay, la banda que nos hizo cantar con la mano en el corazón.
+U: ¿Qué película ganó el Oscar a Mejor Película en 2020? / B: Nomadland, la historia sobre la América olvidada.
+U: ¿Quién creó Mickey Mouse? / B: Walt Disney y Ub Iwerks, el ratón más reconocido del entretenimiento.
+U: ¿Qué juego de pelea tiene a Scorpion y Sub-Zero? / B: Mortal Kombat, donde FINISH HIM se volvió parte del vocabulario popular.
+U: ¿Qué banda lanzó Stairway to Heaven? / B: Led Zeppelin, con un inicio suave que estalla en un final épico.
+U: ¿Qué serie de Netflix trata sobre un club de literatura femenino? / B: Dead to Me, con Christina Applegate y Linda Cardellini en un dúo brillante.
+U: ¿Quién dirigió Avatar 2009? / B: James Cameron, rompiendo récords y revolucionando los efectos especiales.
+U: ¿Qué consola popularizó los juegos en CD? / B: La PlayStation original de Sony, que cambió la industria para siempre.
+U: ¿Quién compuso la música de Gladiator? / B: Hans Zimmer y Lisa Gerrard, te hacen sentir como un gladiador.
+U: ¿Qué serie tiene a Eleven como personaje principal? / B: Stranger Things, donde los 80s, monstruos y amistad se combinan.
+U: ¿Quién interpreta a Darth Vader? / B: David Prowse con la voz de James Earl Jones, terror y presencia perfectos.
+U: ¿Qué videojuego revolucionó los mundos abiertos en 2011? / B: The Elder Scrolls V: Skyrim, horas sin hacer la misión principal.
+U: ¿Quién canta Rolling in the Deep? / B: Adele, la voz que te rompe el corazón y te reconstruye.
+U: ¿Qué película de Disney trata sobre un genio en una lámpara? / B: Aladdín, un pobre huérfano que gana el amor con ayuda de un genio cómico.
+U: ¿Qué serie tiene episodios dirigidos por The Duffer Brothers? / B: Stranger Things, revivió el horror de los 80s para nueva generación.
+U: ¿Quién es el creador de Minecraft oficialmente? / B: Markus Notch Persson, el programador que construyó un imperio con bloques.
+U: ¿Qué banda de metal lanzó Enter Sandman? / B: Metallica, el tema que hace balancear la cabeza hasta a tus abuelos.
+U: ¿Qué película tiene la famosa escena del avión en tormenta? / B: La Tormenta Perfecta, escenas que te dejan sin aire.
+U: ¿Quién compuso la música de El Señor de los Anillos? / B: Howard Shore, su obra te transporta a la Tierra Media.
+U: ¿Qué juego de survival horror es el más vendido de la historia? / B: Resident Evil, definió el género y nos enseñó a temer zombies.
+U: ¿Quién es el creador de One Piece? / B: Eiichiro Oda, lleva más de 20 años contando la historia de Luffy.
+U: ¿Qué serie ganó más Emmy que cualquier otra? / B: Game of Thrones con 59 victorias, aunque su final dividió opiniones.
+U: ¿Quién canta Shape of My Heart? / B: Sting, el ex-líder de The Police con una voz inolvidable.
+U: ¿Qué película tiene el diálogo Soy tu padre? / B: The Empire Strikes Back, la revelación más impactante de la historia del cine.
+U: ¿Qué consola lanzó Sony en 2020? / B: La PlayStation 5, diseño futurista y cargas ultrarrápidas.
+U: ¿Quién dirigió Matrix 1999? / B: Las hermanas Wachowski, nos hicieron cuestionar la realidad con píldoras de colores.
+U: ¿Qué banda de pop lanzó Shake It Off? / B: Taylor Swift, la reina del pop que transforma experiencias en éxitos.
+U: ¿Qué serie trata sobre la familia Simpson? / B: Los Simpson, la serie animada más longeva de la televisión.
+U: ¿Quién interpretó a Terminator? / B: Arnold Schwarzenegger, el gobernador que se convirtió en ícono de la ciencia ficción.
+U: ¿Qué videojuego tiene a Mario y Luigi? / B: Super Mario Bros, el juego que salvó la industria en los 80.
+U: ¿Quién canta Smells Like Teen Spirit? / B: Nirvana, con Kurt Cobain liderando el movimiento grunge.
+U: ¿Qué saga de películas trata sobre dinosaurios? / B: Jurassic Park, la ciencia fue demasiado lejos y los dinosaurios volvieron.
+U: ¿Qué serie de Netflix se rodó en Colombia? / B: Narcos, la historia del narcotráfico que mantuvo al mundo en suspenso.
+U: ¿Quién compuso la música de Inception? / B: Hans Zimmer, con ese BRRRAAAM que todos intentan reproducir.
+U: ¿Qué juego tiene personajes como Link y Zelda? / B: The Legend of Zelda, enseñó la importancia de explorar cada rincón.
+U: ¿Quién es el creador de Dragon Ball? / B: Akira Toriyama, el genio que nos regaló Goku y las bolas de dragón.
+U: ¿Qué banda tocó en Woodstock 1969? / B: Jimi Hendrix, Janis Joplin, The Who y muchos más.
+U: ¿Qué película tiene el famoso baile de John Travolta? / B: Grease, donde el pelo graso y el cuero se convirtieron en tendencia.
+U: ¿Quién dirigió Parasitos? / B: Bong Joon-ho, rompió barreras en Hollywood desde Corea del Sur.
+U: ¿Qué serie trata sobre un asesor político llamado Frank Underwood? / B: House of Cards, drama político que mostró el lado oscuro del poder.
+U: ¿Quién canta Bad Guy? / B: Billie Eilish, la joven que conquistó el mundo con estilo oscuro y minimalista.
+U: ¿Qué videojuego fue fenómeno de realidad aumentada en 2016? / B: Pokémon Go, nos hizo salir a caminar persiguiendo criaturas virtuales.
+U: ¿Qué saga tiene a Jason Bourne? / B: La saga Bourne, Matt Damon descubrió que era un agente con problemas de memoria.
+U: ¿Quién interpreta a Wolverine? / B: Hugh Jackman, dedicó 17 años al papel de mutante favorito.
+U: ¿Qué banda de rock lanzó Smells Like Teen Spirit? / B: Nirvana, estandarte de la generación X y el grunge.
+U: ¿Qué serie ganó mejor serie en los Emmy 2023? / B: The Bear, la serie de cocina que te deja con ganas de comer y gritar.
+U: ¿Quién compuso la música de Titanic? / B: James Horner, My Heart Will Go On se grabó en nuestra memoria.
+U: ¿Qué consola fue la primera en vender más de 100 millones? / B: La PlayStation 2, la reina de las consolas con la mayor biblioteca.
+U: ¿Quién es el creador de The Simpsons? / B: Matt Groening, el genio de la familia amarilla más famosa del mundo.
+U: ¿Qué banda de K-pop tiene a Jungkook? / B: BTS, el fenómeno global que demostró que el K-pop conquista todo.
+U: ¿Qué película de Disney trata sobre magia colombiana? / B: Encanto, donde la familia Madrigal nos enseñó que todos somos especiales.
+U: ¿Quién dirigió El Padrino? / B: Francis Ford Coppola, convirtió una novela en una de las mejores películas de la historia.
+U: ¿Qué serie trata sobre un profesor que se convierte en Narcos? / B: Breaking Bad, la transformación de Walter White de profesor a villano.
+U: ¿Quién canta Happy? / B: Pharrell Williams, la canción imposible de no tararear.
+U: ¿Qué videojuego popularizó el modo creativo en 2018? / B: Fortnite, no solo battle royale sino plataforma de creación masiva.
+U: ¿Qué saga tiene a Katniss Everdeen? / B: Los Juegos del Hambre, una adolescente que se convierte en símbolo de rebelión.
+U: ¿Quién compuso la música de Star Wars? / B: John Williams, maestro de fanfarrias épicas y melodías inolvidables.
+U: ¿Qué banda de rock tiene a Bono como vocalista? / B: U2, la banda irlandesa en la cima del rock mundial.
+U: ¿Qué serie de HBO trata sobre zombies? / B: The Walking Dead, sobrevivir es un arte y cada episodio te pone los nervios de punta.
+U: ¿Quién interpretó a Neo en Matrix? / B: Keanu Reeves, el actor más querido de Internet que eligió la píldora roja.
+U: ¿Qué consola competía contra la Game Boy? / B: La Sega Game Gear, tenía color pero no pudo contra Nintendo.
+U: ¿Qué banda lanzó Imagine? / B: John Lennon, el Beatle soñador que nos regaló himno de paz universal.
+U: ¿Qué serie trata sobre un psicópata encantador? / B: Dexter, el asesino más simpático que trabajaba analizando sangre.
+U: ¿Quién dirigió Pulp Fiction otra vez? / B: Quentin Tarantino, rey del diálogo y los tiempos no lineales.
+U: ¿Qué videojuego tiene a Kratos matando dioses? / B: God of War, spartano convertido en padre más intenso de los videojuegos.
+U: ¿Quién canta Shake It Off otra vez? / B: Taylor Swift, convirtió el desamor en éxitos multimillonarios.
+U: ¿Qué consola lanzó Microsoft en 2001? / B: La Xbox original, con Halo que cambió los shooters.
+U: ¿Quién interpreta a Thor en el MCU? / B: Chris Hemsworth, el dios del gym y del martillo.
+U: ¿Qué banda tiene a Mick Jagger? / B: The Rolling Stones, rebeldes que siguen tocando después de 60 años.
+U: ¿Qué serie tiene a Tyrion Lannister? / B: Game of Thrones, el personaje más inteligente también era el más ingenioso.

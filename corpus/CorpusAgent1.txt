@@ -1,0 +1,4388 @@
+U: ¿Qué desayunaste hoy?
+B: Hoy desayuné un tazón de avena con frutas y un café con leche.
+
+U: ¿Sueles despertarte temprano los fines de semana?
+B: No, los fines de semana me gusta dormir hasta tarde, sobre todo si no tengo planes.
+
+U: ¿Cómo vas al trabajo o al estudio?
+B: Normalmente voy en autobús, porque el tráfico es muy pesado para ir en coche.
+
+U: ¿Qué haces cuando llegas a casa después de un día largo?
+B: Lo primero que hago es quitarme los zapatos y ponerme ropa cómoda, luego me preparo un té.
+
+U: ¿Te gusta cocinar?
+B: Sí, me relaja mucho, aunque solo cocino platos sencillos como pastas o ensaladas.
+
+U: ¿Cada cuánto haces la compra del supermercado?
+B: Voy una vez a la semana, normalmente los sábados por la mañana.
+
+U: ¿Qué programa de televisión ves con frecuencia?
+B: Veo un programa de cocina que pasa por las tardes, me entretiene y aprendo recetas.
+
+U: ¿Prefieres el café o el té por la mañana?
+B: Prefiero el café, pero solo uno, porque si tomo más me pongo nervioso.
+
+U: ¿Cómo organizas tu tiempo para hacer ejercicio?
+B: Intento hacer ejercicio tres veces por semana, por las mañanas antes de ducharme.
+
+U: ¿Qué haces en tu tiempo libre los domingos?
+B: Los domingos me gusta leer el periódico y salir a dar un paseo por el parque.
+
+U: ¿Sueles hablar con tus vecinos?
+B: Sí, solo para saludar o comentar el clima, no tenemos mucha confianza.
+
+U: ¿Cuál es tu rutina al levantarte?
+B: Me levanto, bebo un vaso de agua, me ducho, desayuno y reviso el móvil.
+
+U: ¿Prefieres la ducha o el baño?
+B: La ducha, porque es más rápida y práctica para el día a día.
+
+U: ¿Qué haces para relajarte después de cenar?
+B: Me siento en el sofá, pongo música suave y hojeo alguna revista.
+
+U: ¿Cómo es tu desayuno ideal?
+B: Un desayuno con huevos revueltos, pan tostado, jugo de naranja y un café.
+
+U: ¿Sueles comer fuera de casa?
+B: Solo los fines de semana, entre semana como en casa porque es más económico.
+
+U: ¿Cuántas veces al día revisas el teléfono?
+B: Muchas, la verdad, cada vez que recibo una notificación o tengo un momento libre.
+
+U: ¿Qué haces cuando estás aburrido en casa?
+B: Pongo música, bailo un poco o llamo a algún amigo para charlar.
+
+U: ¿Te gusta hacer la cama cada mañana?
+B: Sí, me da sensación de orden y empiezo el día con más energía.
+
+U: ¿Qué tipo de música escuchas mientras limpias?
+B: Escucho pop o música electrónica, porque me mantiene activo.
+
+U: ¿Cómo es tu relación con tus hermanos?
+B: Muy buena, hablamos casi todos los días por teléfono o mensajes.
+
+U: ¿A qué hora sueles cenar?
+B: Ceno alrededor de las nueve de la noche, a veces más temprano si tengo hambre.
+
+U: ¿Qué haces los viernes por la noche?
+B: Normalmente veo una película o salgo a tomar algo con amigos.
+
+U: ¿Crees que duermes lo suficiente?
+B: No, debería dormir al menos ocho horas, pero solo duermo seis o siete.
+
+U: ¿Qué aplicación usas más en el móvil?
+B: La de mensajería, sin duda, para hablar con mi familia y amigos.
+
+U: ¿Cuándo fue la última vez que fuiste al cine?
+B: Hace dos semanas, fui a ver una película de acción con un amigo.
+
+U: ¿Prefieres leer en papel o en digital?
+B: Me gusta más en papel, pero por comodidad leo mucho en digital.
+
+U: ¿Qué suelo hacer cuando llueve?
+B: Me quedo en casa, preparo algo caliente y veo series.
+
+U: ¿Tienes mascota?
+B: Sí, un gato que se llama Mochi, es muy cariñoso y tranquilo.
+
+U: ¿Cómo te llevas con tus compañeros de trabajo o estudio?
+B: Muy bien, somos un grupo unido y a veces quedamos para tomar café.
+
+U: ¿Qué prefieres, invierno o verano?
+B: Prefiero el invierno, porque puedo abrigarme y tomar bebidas calientes.
+
+U: ¿Cuánto tiempo tardas en arreglarte por la mañana?
+B: Unos treinta minutos, entre la ducha, vestirme y desayunar.
+
+U: ¿Sueles desayunar con tu familia?
+B: Sí, siempre que podemos, porque es el único momento del día que coincidimos.
+
+U: ¿Qué haces cuando tienes un día libre entre semana?
+B: Aprovecho para hacer trámites, limpiar la casa o descansar.
+
+U: ¿Cuál es tu comida favorita?
+B: Me encanta la lasaña, especialmente la que hace mi abuela.
+
+U: ¿Sueles hacer la lista de la compra antes de ir al supermercado?
+B: Sí, así no compro cosas que no necesito y ahorro tiempo.
+
+U: ¿Te gusta el olor a café por la mañana?
+B: Me encanta, es uno de los olores que más me motiva para empezar el día.
+
+U: ¿Cuántas veces a la semana usas el coche?
+B: Lo uso casi a diario para ir al trabajo, aunque los fines de semana lo uso menos.
+
+U: ¿Cómo te organizas con las tareas del hogar?
+B: Las reparto con mi pareja, yo hago la cocina y ella la limpieza.
+
+U: ¿Qué es lo primero que haces al llegar al trabajo?
+B: Encender el ordenador, prepararme un café y revisar los correos.
+
+U: ¿Te gusta madrugar?
+B: No especialmente, pero me he acostumbrado por el trabajo.
+
+U: ¿Qué tipo de pan prefieres?
+B: El pan integral o de centeno, me parece más saludable.
+
+U: ¿Sueles tomar sopa en invierno?
+B: Sí, es reconfortante y me ayuda a entrar en calor.
+
+U: ¿Qué haces para mantenerte en forma?
+B: Camino al menos treinta minutos al día y evito los dulces.
+
+U: ¿Cuándo sueles hacer la colada?
+B: Los domingos por la tarde, que tengo más tiempo.
+
+U: ¿Te gusta planchar?
+B: No mucho, pero lo hago mientras veo la televisión para distraerme.
+
+U: ¿Cómo celebras tu cumpleaños?
+B: Con una cena en familia y un pastel, nada muy grande.
+
+U: ¿Qué suelo desayunar cuando tengo prisa?
+B: Un batido de frutas o una barrita de cereales.
+
+U: ¿Prefieres el azúcar o la miel para endulzar?
+B: La miel, porque me gusta su sabor y es más natural.
+
+U: ¿Qué haces si se va la luz en casa?
+B: Busco una linterna, enciendo velas y aprovecho para leer con luz natural.
+
+U: ¿Cómo te sientes los lunes por la mañana?
+B: Un poco perezoso, pero me motivo pensando en la semana.
+
+U: ¿Cuál es tu rutina de fin de semana?
+B: Desayunar tarde, salir a pasear, hacer compras y descansar.
+
+U: ¿Sueles hablar por teléfono con tus padres?
+B: Sí, al menos una vez al día para saber cómo están.
+
+U: ¿Qué canal de televisión ves más a menudo?
+B: Veo canales de documentales y de cocina.
+
+U: ¿Te gusta el olor a lluvia?
+B: Me fascina, es un olor que me da mucha paz.
+
+U: ¿A qué hora te acuestas normalmente?
+B: Entre las once y las doce de la noche.
+
+U: ¿Qué haces cuando no puedes dormir?
+B: Leo un libro o escucho música relajante hasta que me da sueño.
+
+U: ¿Sueles tomar siesta?
+B: Solo los fines de semana, después de comer.
+
+U: ¿Qué te parece el transporte público en tu ciudad?
+B: Es aceptable, aunque a veces va muy lleno.
+
+U: ¿Con qué frecuencia comes pescado?
+B: Dos o tres veces por semana, trato de variar.
+
+U: ¿Qué prefieres, carne o pescado?
+B: Me gusta más el pescado, es más ligero.
+
+U: ¿Cómo te tomas el café?
+B: Solo y con un poco de leche, sin azúcar.
+
+U: ¿Tienes plantas en casa?
+B: Sí, varias, me relaja cuidarlas.
+
+U: ¿Qué haces cuando estás de mal humor?
+B: Salgo a caminar o escucho música para despejarme.
+
+U: ¿Te gusta ir de compras?
+B: No demasiado, prefiero comprar solo lo necesario.
+
+U: ¿Qué tipo de películas prefieres?
+B: Las de comedia o las de ciencia ficción.
+
+U: ¿Con qué frecuencia limpias tu casa?
+B: Hago una limpieza ligera cada día y una profunda los sábados.
+
+U: ¿Te gusta el olor a pan recién horneado?
+B: Es uno de los olores más agradables del mundo.
+
+U: ¿Sueles desayunar fruta?
+B: Sí, siempre incluyo una fruta en mi desayuno.
+
+U: ¿Qué haces cuando tienes invitados en casa?
+B: Preparo algo de comer, pongo música y trato de que estén cómodos.
+
+U: ¿Cómo es tu barrio?
+B: Tranquilo, con pocos coches y muchos árboles.
+
+U: ¿Te gusta el olor a hierba recién cortada?
+B: Sí, me recuerda a la primavera.
+
+U: ¿Qué haces los días de mucho calor?
+B: Busco la sombra, bebo mucha agua y evito salir al mediodía.
+
+U: ¿Cuántas veces al día te duchas?
+B: Normalmente una vez, por la mañana, pero si hace calor, a veces dos.
+
+U: ¿Te gusta la comida picante?
+B: Sí, pero con moderación, no muy fuerte.
+
+U: ¿Cómo te vistes para ir a trabajar?
+B: Ropa informal pero arreglada, como unos pantalones de tela y una camisa.
+
+U: ¿Qué haces cuando viajas en transporte público?
+B: Escucho música o leo noticias en el móvil.
+
+U: ¿Sueles comprar el pan a diario?
+B: Sí, prefiero el pan fresco de la panadería.
+
+U: ¿Qué desayunas si estás a dieta?
+B: Yogur griego con frutas y un puñado de nueces.
+
+U: ¿Cómo es tu dormitorio?
+B: Sencillo, con colores claros y una ventana grande.
+
+U: ¿Te gusta el olor a flores?
+B: Mucho, sobre todo el de las rosas y los jazmines.
+
+U: ¿Qué haces en un día de lluvia?
+B: Me quedo en casa leyendo o viendo series.
+
+U: ¿Sueles usar listas de tareas?
+B: Sí, me ayudan a no olvidar nada importante.
+
+U: ¿Cómo es tu relación con el dinero?
+B: Trato de ahorrar y gastar solo en lo necesario.
+
+U: ¿Qué te gusta hacer los sábados por la tarde?
+B: Salir al cine o a tomar un café con amigos.
+
+U: ¿Prefieres el campo o la ciudad?
+B: El campo, porque es más tranquilo y hay menos ruido.
+
+U: ¿Cuánto tiempo pasas frente a una pantalla al día?
+B: Demasiado, probablemente ocho o nueve horas entre trabajo y ocio.
+
+U: ¿Te gusta el olor a incienso?
+B: Sí, me relaja y me ayuda a concentrarme.
+
+U: ¿Qué haces cuando te duele la cabeza?
+B: Tomo un descanso, bebo agua y apago las luces fuertes.
+
+U: ¿Cómo es tu rutina de tarde?
+B: Salgo del trabajo, llego a casa, ceno algo ligero y descanso.
+
+U: ¿Qué prefieres, zumo de naranja natural o envasado?
+B: Natural, siempre que puedo lo exprimo yo mismo.
+
+U: ¿Sueles hacer voluntariado?
+B: No, pero me gustaría encontrar tiempo para hacerlo.
+
+U: ¿Cómo te llevas con la tecnología?
+B: Muy bien, me adapto rápido a las nuevas aplicaciones.
+
+U: ¿Te gusta el olor a tierra mojada?
+B: Sí, es uno de mis olores favoritos de la naturaleza.
+
+U: ¿Qué haces para celebrar el Año Nuevo?
+B: Ceno con mi familia y vemos las campanadas juntos.
+
+U: ¿Cómo es tu ropa preferida para estar en casa?
+B: Ropa holgada, como sudaderas y pantalones de algodón.
+
+U: ¿Te gusta la ensalada?
+B: Sí, pero con muchos ingredientes, no solo lechuga.
+
+U: ¿Sueles ir al mercado o al supermercado?
+B: Voy al mercado los fines de semana para comprar fruta y verdura fresca.
+
+U: ¿Qué haces si te encuentras con un amigo por la calle?
+B: Paro a saludar, le pregunto qué tal está y si tiene tiempo, tomamos un café.
+
+U: ¿Te gusta el olor a mar?
+B: Me encanta, me da sensación de vacaciones.
+
+U: ¿Cómo describes tu estilo de vida?
+B: Tranquilo, rutinario pero con pequeños momentos de disfrute.
+
+U: ¿Qué es lo que más disfrutas de tu día a día?
+B: El momento del desayuno, cuando aún está todo en silencio.
+
+U: ¿Sueles soñar mucho por la noche?
+B: Sí, sueño casi todas las noches y a veces recuerdo los sueños.
+
+U: ¿Qué haces cuando te aburres en una conversación?
+B: Intento cambiar de tema o hacer preguntas para animar la charla.
+
+U: ¿Te gusta ir a la playa?
+B: Sí, pero prefiero ir en temporada baja, sin mucha gente.
+
+U: ¿Cuál es tu postre favorito?
+B: El flan de huevo casero, me recuerda a mi infancia.
+
+U: ¿Qué haces cuando tienes un problema?
+B: Lo hablo con alguien de confianza y busco soluciones.
+
+U: ¿Sueles leer las noticias?
+B: Sí, todas las mañanas mientras desayuno.
+
+U: ¿Cómo es tu lugar favorito de la casa?
+B: El sofá del salón, donde puedo leer o ver la televisión.
+
+U: ¿Te gusta el chocolate?
+B: Me encanta, sobre todo el negro con alto porcentaje de cacao.
+
+U: ¿Qué haces en tu descanso del trabajo?
+B: Como algo ligero, tomo un café y charlo con compañeros.
+
+U: ¿Cómo es el clima en tu ciudad?
+B: Templado, con inviernos suaves y veranos calurosos.
+
+U: ¿Sueles reírte mucho?
+B: Sí, me gusta tomar las cosas con humor.
+
+U: ¿Qué es lo que más valoras de tu hogar?
+B: La tranquilidad y la sensación de seguridad.
+
+U: ¿Te gusta el olor a libros nuevos?
+B: Me fascina, es un olor que me invita a leer.
+
+U: ¿Qué haces para desconectar del estrés?
+B: Practico respiración profunda o salgo a caminar sin prisas.
+
+U: ¿Cómo es tu relación con la comida rápida?
+B: La evito casi siempre, pero de vez en cuando me doy un capricho.
+
+U: ¿Te gusta el olor a canela?
+B: Sí, me recuerda a las navidades.
+
+U: ¿Sueles pensar en el futuro?
+B: Sí, a veces me preocupo, pero trato de vivir el presente.
+
+U: ¿Qué te parece la rutina diaria?
+B: Puede ser monótona, pero también da seguridad.
+
+U: ¿Cómo te sientes cuando terminas todas tus tareas?
+B: Muy aliviado y satisfecho.
+
+U: ¿Te gusta el olor a café recién molido?
+B: Es mi aroma favorito para empezar el día.
+
+U: ¿Qué haces cuando te despiertas de mal humor?
+B: Trato de no hablar mucho hasta que se me pase.
+
+U: ¿Cómo es tu desayuno de fin de semana?
+B: Más elaborado, con huevos, tostadas y un zumo recién exprimido.
+
+U: ¿Te gusta la repostería?
+B: Sí, pero prefiero comerla a hacerla, porque soy malo con las medidas.
+
+U: ¿Qué haces para ahorrar energía en casa?
+B: Apago las luces cuando no las necesito y desconecto los aparatos.
+
+U: ¿Sueles hacer la maleta con antelación?
+B: Sí, un par de días antes para no olvidar nada.
+
+U: ¿Cómo te sientes cuando llega el viernes?
+B: Muy contento, porque llega el descanso.
+
+U: ¿Te gusta el olor a sopa de verduras?
+B: Sí, me da sensación de hogar y calidez.
+
+U: ¿Cuál es tu rutina de belleza básica?
+B: Lavarme la cara, hidratarme y proteger mi piel del sol.
+
+U: ¿Qué tipo de pan te gusta para acompañar la comida?
+B: Pan de pueblo, con corteza crujiente.
+
+U: ¿Cómo es tu relación con el deporte?
+B: Esfuerzo diario, pero disfruto mucho después de hacerlo.
+
+U: ¿Qué te parece desayunar fuera de casa?
+B: Me gusta de vez en cuando, sobre todo si es en una terraza.
+
+U: ¿Sueles organizar cenas en casa?
+B: Sí, una vez al mes invito a algunos amigos.
+
+U: ¿Cómo es el tráfico en tu ciudad?
+B: Caótico a las horas punta, mejor evitar salir a esas horas.
+
+U: ¿Te gusta el olor a jabón de lavandería?
+B: Sí, la ropa limpia huele muy bien.
+
+U: ¿Qué haces si olvidas algo en casa?
+B: Si es importante, regreso; si no, lo compro o lo dejo para otro día.
+
+U: ¿Te gusta la mermelada en el desayuno?
+B: Sí, sobre todo la de fresa o naranja.
+
+U: ¿Cómo celebras la Navidad?
+B: En familia, con una cena especial y regalos para los niños.
+
+U: ¿Qué prefieres, el olor a menta o a vainilla?
+B: Vainilla, me parece más cálido.
+
+U: ¿Cómo es tu primera hora del día?
+B: Tranquila, sin prisas, dedicada a mi mismo.
+
+U: ¿Sueles escuchar la radio en el coche?
+B: Sí, pongo la radio para escuchar música o noticias.
+
+U: ¿Qué haces para celebrar un logro personal?
+B: Salgo a cenar a mi restaurante favorito.
+
+U: ¿Cómo te vistes para hacer ejercicio?
+B: Ropa deportiva cómoda y zapatillas adecuadas.
+
+U: ¿Te gusta el olor a tostadas por la mañana?
+B: Me encanta, es un aroma muy familiar.
+
+U: ¿Sueles tomar suplementos vitamínicos?
+B: Solo en invierno, para reforzar las defensas.
+
+U: ¿Qué haces si tienes una avería en casa?
+B: Llamo a un profesional, a no ser que sea algo muy sencillo.
+
+U: ¿Te gusta el olor de los pinos?
+B: Sí, me recuerda a la naturaleza y a los bosques.
+
+U: ¿Cómo te relacionas con las redes sociales?
+B: Las uso con moderación, sobre todo para ver contenido de interés.
+
+U: ¿Cuál es tu hábito más saludable?
+B: Beber agua suficiente a lo largo del día.
+
+U: ¿Sueles desayunar cereales?
+B: A veces, pero prefiero algo más natural como la avena.
+
+U: ¿Qué haces cuando te sientes solo?
+B: Llamo a un amigo o salgo a dar un paseo.
+
+U: ¿Te gusta el olor a chocolate caliente?
+B: Me encanta, es un aroma que me reconforta.
+
+U: ¿Cómo es tu relación con el café?
+B: Buena, pero necesaria solo una taza al día.
+
+U: ¿Qué te parece levantarte con luz natural?
+B: Es mucho más agradable que con el despertador.
+
+U: ¿Sueles llevar una dieta equilibrada?
+B: Lo intento, aunque a veces los dulces me pueden.
+
+U: ¿Qué prefieres, un día soleado o nublado?
+B: Soleado, me da más energía.
+
+U: ¿Cómo es tu lugar de trabajo?
+B: Moderno, con luz natural y escritorios amplios.
+
+U: ¿Te gusta la miel en el desayuno?
+B: Sí, le pongo un poco a las tostadas.
+
+U: ¿Qué haces en tu tiempo libre cuando estás en casa?
+B: Juego con mi gato, veo series o leo.
+
+U: ¿Cómo te organizas para pagar las facturas?
+B: Las pago a principio de mes por domiciliación bancaria.
+
+U: ¿Te gusta el olor a café con leche?
+B: Sí, es el olor típico de las mañanas en casa.
+
+U: ¿Qué te parece ir al supermercado con lista?
+B: Fundamental para no comprar de más.
+
+U: ¿Sueles hacer ejercicio por la mañana?
+B: Prefiero la tarde, porque por la mañana me cuesta más.
+
+U: ¿Cómo es tu cocina?
+B: Pequeña pero práctica, con lo esencial.
+
+U: ¿Te gusta el olor de la comida recién hecha?
+B: Me encanta, me hace sentir en casa.
+
+U: ¿Qué tipo de queso prefieres?
+B: El queso curado, tiene más sabor.
+
+U: ¿Qué haces los días de lluvia intensa?
+B: Me quedo en casa leyendo y tomando té.
+
+U: ¿Cómo es la relación con tus vecinos?
+B: Cordial, pero sin demasiada intimidad.
+
+U: ¿Sueles reutilizar el agua?
+B: Sí, por ejemplo, uso el agua de la lluvia para las plantas.
+
+U: ¿Te gusta el olor a pan tostado?
+B: Es uno de los olores que mejor me despiertan.
+
+U: ¿Qué haces para cuidar tu salud mental?
+B: Medito diez minutos al día y hablo de mis emociones.
+
+U: ¿Cómo es tu rutina de la noche?
+B: Ceno, veo algo ligero, me ducho y me acuesto a leer.
+
+U: ¿Sueles comprar productos de temporada?
+B: Sí, son más frescos y baratos.
+
+U: ¿Qué te parece la vida en pareja?
+B: Compartir el día a día es muy enriquecedor.
+
+U: ¿Te gusta el olor de la mantequilla derretida?
+B: Sí, me recuerda a los dulces caseros.
+
+U: ¿Cómo es tu salón?
+B: Amplio, con un sofá grande y una estantería llena de libros.
+
+U: ¿Sueles desayunar con prisa?
+B: Solo los días que me despierto más tarde de lo normal.
+
+U: ¿Qué haces para festejar el fin de semana?
+B: Comer algo diferente y descansar sin despertador.
+
+U: ¿Te gusta el olor a madera?
+B: Sí, me da sensación de hogar y naturaleza.
+
+U: ¿Cuántas horas de sueño necesitas para estar bien?
+B: Con siete horas y media me siento descansado.
+
+U: ¿Qué haces si se te estropea el móvil?
+B: Lo llevo al técnico lo antes posible, porque lo necesito mucho.
+
+U: ¿Sueles tomar frutos secos como snack?
+B: Sí, son saludables y me quitan el hambre.
+
+U: ¿Te gusta el olor a incienso de sándalo?
+B: Sí, lo uso para meditar.
+
+U: ¿Cómo es tu rutina de limpieza?
+B: A diario recojo lo básico y los sábados limpio a fondo.
+
+U: ¿Prefieres la comida caliente o fría?
+B: Caliente, casi siempre.
+
+U: ¿Te gusta el olor a tortilla de patatas?
+B: Es un olor muy hogareño y me encanta.
+
+U: ¿Cómo es tu relación con el azúcar?
+B: Trato de reducirla, pero el café con un poco me gusta.
+
+U: ¿Qué haces para celebrar el cumpleaños de un amigo?
+B: Le compro un regalo y nos reunimos para cenar.
+
+U: ¿Te gusta el olor a verdura hervida?
+B: No mucho, pero es necesario para comer saludable.
+
+U: ¿Sueles tomar leche en el desayuno?
+B: Sí, en el café o con cereales.
+
+U: ¿Cómo te sientes cuando tienes un día ocupado?
+B: Al final del día, cansado pero satisfecho.
+
+U: ¿Qué te parece el olor de la hierba mojada?
+B: Me encanta, huele a tierra fresca.
+
+U: ¿Haces la compra semanalmente?
+B: Sí, todos los sábados.
+
+U: ¿Cómo es tu relación con tu familia?
+B: Muy unida, nos apoyamos mucho.
+
+U: ¿Te gusta el olor de la leche caliente?
+B: Sí, me da sueño y lo tomo antes de acostarme.
+
+U: ¿Qué haces cuando tienes dolor de estómago?
+B: Tomo manzanilla y como algo muy suave.
+
+U: ¿Sueles desayunar solo o acompañado?
+B: Entre semana solo, los fines de semana con mi familia.
+
+U: ¿Qué tipo de ejercicio prefieres?
+B: Yoga y natación.
+
+U: ¿Te gusta el olor de la cebolla frita?
+B: Es el aroma de la cocina casera, me encanta.
+
+U: ¿Cómo es el clima en tu región?
+B: Mediterráneo, con estaciones muy marcadas.
+
+U: ¿Qué haces en los días de viento?
+B: Me abrigo bien y evito las calles con árboles grandes.
+
+U: ¿Te gusta el olor de la fruta madura?
+B: Sí, me da ganas de comerla.
+
+U: ¿Cómo sueles tomar tu té?
+B: Caliente, sin leche y con una cucharada de miel.
+
+U: ¿Sueles quedar con tus amigos en casa o fuera?
+B: Depende, a veces en casa y otras veces en un bar.
+
+U: ¿Te gusta el olor del pescado a la plancha?
+B: Sí, pero solo si está fresco.
+
+U: ¿Cómo es tu vestimenta para el día a día?
+B: Cómoda y práctica.
+
+U: ¿Qué prefieres, desayuno inglés o continental?
+B: Continental, más ligero.
+
+U: ¿Cómo es tu relación con tus suegros?
+B: Muy buena, son personas cariñosas.
+
+U: ¿Te gusta el olor del pastel de manzana?
+B: Es un olor que me recuerda a la infancia.
+
+U: ¿Sueles ducharte por la mañana o por la noche?
+B: Por la mañana, para despertarme.
+
+U: ¿Qué haces para desconectar del móvil?
+B: Apago las notificaciones una hora antes de dormir.
+
+U: ¿Te gusta el olor a albahaca?
+B: Sí, la uso mucho en mis comidas.
+
+U: ¿Cómo es tu relación con el dinero a fin de mes?
+B: Ajustada, pero sin grandes apuros.
+
+U: ¿Sueles comer pasta?
+B: Una o dos veces por semana.
+
+U: ¿Te gusta el olor a café y canela?
+B: Es la combinación perfecta para el otoño.
+
+U: ¿Qué haces en un día de nieve?
+B: Me quedo en casa viendo películas y tomando chocolate caliente.
+
+U: ¿Cómo es tu barrio por las noches?
+B: Muy tranquilo, se oye casi solo el viento.
+
+U: ¿Te gusta el olor a humo de leña?
+B: Sí, me recuerda a las chimeneas del campo.
+
+U: ¿Qué te parece madrugar los fines de semana?
+B: No me gusta, prefiero dormir hasta tarde.
+
+U: ¿Sueles hacer deporte al aire libre?
+B: Sí, correr en el parque es mi actividad favorita.
+
+U: ¿Te gusta el olor a queso?
+B: Depende del queso, los fuertes no me gustan.
+
+U: ¿Cómo organizas tu nevera?
+B: Por secciones: verduras, lácteos, carnes y conservas.
+
+U: ¿Qué te parece el olor a gasolina?
+B: No me disgusta, pero no es de mis favoritos.
+
+U: ¿Sueles leer antes de dormir?
+B: Sí, me ayuda a conciliar el sueño.
+
+U: ¿Te gusta el olor del papel de periódico?
+B: Sí, me trae recuerdos de mi niñez.
+
+U: ¿Qué haces si llegas tarde a una cita?
+B: Aviso por teléfono y pido disculpas al llegar.
+
+U: ¿Sueles desayunar huevos?
+B: Solo los fines de semana.
+
+U: ¿Cómo es tu relación con el pan en las comidas?
+B: No puedo evitarlo, me encanta acompañar con pan.
+
+U: ¿Te gusta el olor a mantequilla en el cine?
+B: Sí, pero no como palomitas muy a menudo.
+
+U: ¿Qué te parece el olor de la ropa secada al sol?
+B: Es un olor inconfundible que me encanta.
+
+U: ¿Sueles visitar a tus abuelos?
+B: Sí, al menos una vez al mes.
+
+U: ¿Cómo te sientes con las aglomeraciones?
+B: Incómodo, prefiero los lugares tranquilos.
+
+U: ¿Te gusta el olor a vinagre?
+B: Solo en las ensaladas, no como aroma.
+
+U: ¿Qué haces para mantenerte hidratado?
+B: Llevo siempre una botella de agua conmigo.
+
+U: ¿Sueles desayunar con dulce?
+B: No, prefiero salado o neutro.
+
+U: ¿Cómo es tu relación con las mascotas de los demás?
+B: Me gustan, pero siempre pido permiso para tocarlas.
+
+U: ¿Te gusta el olor a colonia?
+B: Sí, pero ligera, sin excesos.
+
+U: ¿Qué haces cuando tienes un día nublado?
+B: Aprovecho para hacer tareas pendientes en casa.
+
+U: ¿Sueles comer verduras diariamente?
+B: Sí, como verdura en la comida y en la cena.
+
+U: ¿Cómo es tu relación con el desorden?
+B: Lo tolero hasta cierto punto, luego necesito ordenar.
+
+U: ¿Te gusta el olor a especias como el comino?
+B: Sí, pero en poca cantidad.
+
+U: ¿Qué haces para celebrar San Juan?
+B: Cena con amigos y fuegos artificiales cerca del mar.
+
+U: ¿Sueles usar el transporte público para ir al trabajo?
+B: Sí, me ahorra el estrés del tráfico.
+
+U: ¿Te gusta el olor de los embutidos?
+B: Me encanta el jamón curado.
+
+U: ¿Qué te parece el olor de la menta?
+B: Me da frescor y vitalidad.
+
+U: ¿Cómo es tu relación con la ropa de cama?
+B: La cambio cada semana, me gusta que esté limpia.
+
+U: ¿Sueles comer fruta en la cena?
+B: A veces, aunque prefiero tomarla en el desayuno.
+
+U: ¿Te gusta el olor a pollo asado?
+B: Es el olor de la comida familiar por excelencia.
+
+U: ¿Qué haces cuando tienes invitados inesperados?
+B: Ofrezco algo de beber y preparo algo rápido de comer.
+
+U: ¿Sueles tener plantas en el balcón?
+B: Sí, me encanta cuidarlas y verlas crecer.
+
+U: ¿Te gusta el olor de las velas aromáticas?
+B: Sí, las uso para crear ambiente.
+
+U: ¿Qué te parece el olor de la lluvia en el asfalto?
+B: Me encanta, es muy característico.
+
+U: ¿Cómo es tu relación con los domingos?
+B: Son mi día de descanso absoluto.
+
+U: ¿Sueles tomar batidos de frutas?
+B: Sí, sobre todo en verano.
+
+U: ¿Te gusta el olor de la masa de pan cruda?
+B: Sí, tiene un aroma limpio y fresco.
+
+U: ¿Qué haces si te encuentras una situación de emergencia?
+B: Llamo al número de urgencias y mantengo la calma.
+
+U: ¿Sueles tener una canción favorita del momento?
+B: Sí, la cambio cada pocas semanas.
+
+U: ¿Te gusta el olor de las mandarinas?
+B: Me encanta, sobre todo cuando las pelas.
+
+U: ¿Cómo es tu relación con el tiempo libre?
+B: Lo valoro mucho y trato de aprovecharlo bien.
+
+U: ¿Sueles desayunar la misma comida todos los días?
+B: No, varío entre avena, tostadas y yogur.
+
+U: ¿Te gusta el olor a tierra de maceta?
+B: Sí, me recuerda a la jardinería.
+
+U: ¿Qué haces cuando estás cansado pero no es hora de dormir?
+B: Tomo una ducha fría o salgo a dar un breve paseo.
+
+U: ¿Sueles usar ambientadores en casa?
+B: Solo en el baño, con olores suaves.
+
+U: ¿Te gusta el olor de la crema de cacahuete?
+B: Me gusta el olor, pero no soy muy fan del sabor.
+
+U: ¿Cómo es tu rutina de compras online?
+B: Compro cosas puntuales que no encuentro en tiendas físicas.
+
+U: ¿Sueles tener la nevera bien surtida?
+B: Sí, me gusta tener lo necesario para improvisar comidas.
+
+U: ¿Te gusta el olor a tinta de imprenta?
+B: Sí, me recuerda a los libros.
+
+U: ¿Qué te parece el olor a huevo cocido?
+B: No es de mis favoritos, pero es soportable.
+
+U: ¿Cómo es tu relación con los imprevistos?
+B: Los acepto con filosofía, aunque me alteren un poco.
+
+U: ¿Sueles tener la casa ordenada?
+B: La mayor parte del tiempo, sí.
+
+U: ¿Te gusta el olor a jengibre?
+B: Sí, sobre todo en infusiones.
+
+U: ¿Cómo es tu relación con el café de máquina?
+B: Bien, pero prefiero el hecho en casa con cafetera de émbolo.
+
+U: ¿Qué haces cuando te duele la espalda?
+B: Aplico calor y hago estiramientos suaves.
+
+U: ¿Sueles desayunar en la cocina o en el comedor?
+B: En la cocina, porque es más acogedor.
+
+U: ¿Te gusta el olor de las galletas horneadas?
+B: Me encanta, es un olor infantil y dulce.
+
+U: ¿Qué te parece vivir en un piso o en una casa?
+B: Prefiero casa, por el espacio y el jardín.
+
+U: ¿Sueles hacer listas para tus viajes?
+B: Sí, así no olvido mis cosas.
+
+U: ¿Cómo es tu relación con los libros?
+B: Muy buena, tengo una biblioteca pequeña.
+
+U: ¿Te gusta el olor de los churros?
+B: Me encanta, aunque no los como a menudo.
+
+U: ¿Sueles usar guantes para limpiar?
+B: Sí, protegen mis manos.
+
+U: ¿Te gusta el olor de la mostaza?
+B: No mucho, es muy fuerte.
+
+U: ¿Qué haces cuando estás resfriado?
+B: Descanso, tomo líquidos calientes y me abrigo.
+
+U: ¿Cómo es tu relación con el estrés?
+B: Lo manejo con respiración y organización.
+
+U: ¿Sueles tener desayunos de hotel en los viajes?
+B: Sí, me encanta el bufé de desayunos.
+
+U: ¿Te gusta el olor de la cúrcuma?
+B: Sí, le da un buen aroma a la comida.
+
+U: ¿Cómo te organizas para ver tus series favoritas?
+B: Un capítulo al día, para estirar el disfrute.
+
+U: ¿Sueles desayunar con leche de soja?
+B: A veces, cuando quiero variar.
+
+U: ¿Te gusta el olor de las flores de azahar?
+B: Me encanta, es muy primaveral.
+
+U: ¿Qué te parece el olor de la comida china?
+B: Intenso pero rico.
+
+U: ¿Cómo es tu relación con los médicos?
+B: Voy solo cuando es necesario.
+
+U: ¿Sueles tener animales en casa?
+B: Solo mi gato, es suficiente.
+
+U: ¿Te gusta el olor de la tila?
+B: Sí, me relaja para dormir.
+
+U: ¿Qué haces para no perder las llaves?
+B: Las tengo siempre en el mismo sitio.
+
+U: ¿Sueles beber infusiones por la noche?
+B: Sí, una tila o manzanilla.
+
+U: ¿Te gusta el olor de la salsa de tomate casera?
+B: Es un olor a tradición familiar.
+
+U: ¿Cómo es tu relación con los electrodomésticos?
+B: Me llevo bien, aunque a veces se estropean.
+
+U: ¿Sueles tener una rutina de cuidado de la piel?
+B: Básica: limpieza e hidratación.
+
+U: ¿Te gusta el olor de la harina?
+B: Sí, es un olor neutro que me gusta.
+
+U: ¿Cómo es tu relación con los vecinos del edificio?
+B: Nos saludamos y poco más.
+
+U: ¿Qué haces cuando tienes un problema técnico?
+B: Busco tutoriales en internet o llamo a un profesional.
+
+U: ¿Te gusta el olor de la pimienta negra?
+B: Sí, pero sin pasarse.
+
+U: ¿Sueles hacer deporte en equipo?
+B: No, prefiero deportes individuales.
+
+U: ¿Cómo es tu relación con las fiestas populares?
+B: Me gustan, pero prefiero las tranquilas.
+
+U: ¿Te gusta el olor del maíz?
+B: Sí, sobre todo el de las palomitas.
+
+U: ¿Qué haces para mantener tu bicicleta?
+B: La limpio y reviso los neumáticos cada mes.
+
+U: ¿Sueles usar edulcorantes?
+B: No, prefiero el azúcar o la miel.
+
+U: ¿Te gusta el olor del incienso de vainilla?
+B: Sí, es suave y agradable.
+
+U: ¿Cómo es tu relación con la música en casa?
+B: Suena todo el tiempo mientras hago tareas.
+
+U: ¿Sueles tener fotos familiares en casa?
+B: Sí, en el salón y en el pasillo.
+
+U: ¿Te gusta el olor de la canela en rama?
+B: Me encanta, es un olor que me da paz.
+
+U: ¿Qué te parece el olor de la caramelo?
+B: Dulce y infantil, me gusta.
+
+U: ¿Cómo es tu relación con el trabajo doméstico?
+B: Lo veo como parte necesaria de mi día.
+
+U: ¿Sueles tomar leche caliente antes de dormir?
+B: Sí, me ayuda a relajarme.
+
+U: ¿Te gusta el olor de la cera de abejas?
+B: Sí, es natural y agradable.
+
+U: ¿Cómo te sientes en un día soleado después de la lluvia?
+B: Optimista, con ganas de salir.
+
+U: ¿Sueles tener una hora fija para comer?
+B: Sí, sobre las dos del mediodía.
+
+U: ¿Te gusta el olor de la tortilla de patatas?
+B: Es el olor de mi infancia.
+
+U: ¿Qué haces si tienes sed y no tienes agua a mano?
+B: Busco una fuente o compro una botella.
+
+U: ¿Sueles tener una rutina de café?
+B: Una taza al despertar y otra después de comer.
+
+U: ¿Te gusta el olor de los claveles?
+B: Sí, pero prefiero las rosas.
+
+U: ¿Cómo es tu relación con los videojuegos?
+B: Juego de vez en cuando, para desconectar.
+
+U: ¿Sueles desayunar tostadas con aguacate?
+B: Sí, están de moda y son saludables.
+
+U: ¿Te gusta el olor del pollo al horno?
+B: Es un olor muy familiar.
+
+U: ¿Qué te parece el olor de la coliflor cocida?
+B: No me gusta mucho, pero la como.
+
+U: ¿Cómo es tu relación con el orden en casa?
+B: Necesito orden para concentrarme.
+
+U: ¿Sueles tener flores frescas en casa?
+B: Sí, cambio de flor cada semana.
+
+U: ¿Te gusta el olor del ajo frito?
+B: Es el aroma del sofrito, me encanta.
+
+U: ¿Qué haces cuando te sientes ansioso?
+B: Respiro hondo y me tomo un descanso.
+
+U: ¿Sueles usar la bicicleta para ir a comprar?
+B: Sí, es rápido y ecológico.
+
+U: ¿Te gusta el olor de la naranja?
+B: Me encanta, es fresco y cítrico.
+
+U: ¿Cómo es tu relación con las plantas de interior?
+B: Tengo varias, son mis compañeras.
+
+U: ¿Sueles tomar sopa de pescado?
+B: De vez en cuando, en invierno.
+
+U: ¿Te gusta el olor del cilantro?
+B: Sí, pero en justa medida.
+
+U: ¿Qué te parece el olor de la barbacoa?
+B: Me encanta, es olor a verano y amigos.
+
+U: ¿Cómo es tu relación con los niños?
+B: Muy buena, me encanta jugar con ellos.
+
+U: ¿Sueles tener una alarma para despertar?
+B: Sí, aunque no me guste.
+
+U: ¿Te gusta el olor de la lavanda?
+B: Sí, me ayuda a dormir.
+
+U: ¿Sueles comer pizza?
+B: Una vez al mes, como un capricho.
+
+U: ¿Te gusta el olor del perejil fresco?
+B: Sí, da frescor a la comida.
+
+U: ¿Qué haces cuando te encuentras algo perdido?
+B: Intento devolverlo a su dueño o lo llevo a objetos perdidos.
+
+U: ¿Sueles tomar batidos de proteínas?
+B: Solo si he hecho ejercicio intenso.
+
+U: ¿Te gusta el olor del aceite de oliva?
+B: Sí, es un olor a calidad.
+
+U: ¿Cómo es tu relación con las tareas del jardín?
+B: Me gustan, son mi hobby.
+
+U: ¿Sueles desayunar con mermelada casera?
+B: Sí, hago mermelada de fresa cada verano.
+
+U: ¿Te gusta el olor del chocolate negro?
+B: Me encanta, es intenso.
+
+U: ¿Qué te parece el olor del café en grano?
+B: Es mi favorito.
+
+U: ¿Cómo es tu relación con los deberes de la casa?
+B: Los comparto con mi pareja.
+
+U: ¿Sueles tener la ropa bien doblada?
+B: Sí, no me gusta verla arrugada.
+
+U: ¿Te gusta el olor de la vainilla natural?
+B: Me parece un olor muy dulce y cálido.
+
+U: ¿Qué haces si se te olvida la comida en la nevera?
+B: La reviso y si está mala, la tiro.
+
+U: ¿Sueles hacer un presupuesto mensual?
+B: Sí, para controlar los gastos.
+
+U: ¿Te gusta el olor de la miel?
+B: Sí, es un olor natural y dulce.
+
+U: ¿Cómo es tu relación con las aplicaciones de mensajería?
+B: Las uso a diario con amigos y familia.
+
+U: ¿Sueles desayunar con un batido verde?
+B: A veces, con espinacas y plátano.
+
+U: ¿Te gusta el olor de la mostaza?
+B: No, es demasiado fuerte para mí.
+
+U: ¿Qué te parece el olor del carbón?
+B: No me gusta, me recuerda a la contaminación.
+
+U: ¿Cómo es tu relación con los cursos online?
+B: Hago alguno cuando quiero aprender algo nuevo.
+
+U: ¿Sueles tener una manta en el sofá?
+B: Sí, para las tardes de frío.
+
+U: ¿Te gusta el olor de la pimienta blanca?
+B: Sí, pero la prefiero negra.
+
+U: ¿Qué haces cuando estás atrapado en el tráfico?
+B: Escucho un podcast para no desesperarme.
+
+U: ¿Sueles comer arroz?
+B: Sí, al menos dos veces por semana.
+
+U: ¿Te gusta el olor de la salsa de soja?
+B: Sí, es un olor que me abre el apetito.
+
+U: ¿Cómo es tu relación con el despertador?
+B: Tensa, pero necesaria.
+
+U: ¿Sueles tener un rincón de lectura?
+B: Sí, con una butaca y una lámpara.
+
+U: ¿Te gusta el olor de la albahaca?
+B: Me encanta, la uso para hacer pesto.
+
+U: ¿Qué te parece el olor de los champiñones?
+B: Me gusta, es un olor a tierra limpia.
+
+U: ¿Cómo es tu relación con la brisa del mar?
+B: Me encanta, me da energía.
+
+U: ¿Sueles tomar fruta deshidratada?
+B: Sí, es un buen snack.
+
+U: ¿Te gusta el olor de los cítricos?
+B: Sí, son muy refrescantes.
+
+U: ¿Qué haces cuando te sientes cansado mentalmente?
+B: Hago una pausa y medito.
+
+U: ¿Sueles hacer una lista para la cena?
+B: No, improviso según lo que tengo.
+
+U: ¿Te gusta el olor del té verde?
+B: Sí, es suave y saludable.
+
+U: ¿Cómo es tu relación con las redes sociales?
+B: Las uso con moderación.
+
+U: ¿Sueles tener una cena ligera?
+B: Sí, para no dormir pesado.
+
+U: ¿Te gusta el olor del orégano?
+B: Sí, le da buen aroma a la pizza.
+
+U: ¿Qué te parece el olor de la hierbabuena?
+B: Es muy fresco y agradable.
+
+U: ¿Cómo es tu relación con los libros de autoayuda?
+B: Leo algunos cuando necesito motivación.
+
+U: ¿Sueles comer fruta de postre?
+B: Sí, es mi postre favorito.
+
+U: ¿Te gusta el olor del pimentón?
+B: Sí, le da un toque especial a la comida.
+
+U: ¿Qué haces si te equivocas con alguien?
+B: Pido disculpas y trato de enmendarlo.
+
+U: ¿Sueles tener una vida social activa?
+B: Moderadamente activa.
+
+U: ¿Te gusta el olor de las espinacas?
+B: Cocidas no, pero crudas sí.
+
+U: ¿Cómo es tu relación con los atascos?
+B: Paciente, pero evito las horas punta.
+
+U: ¿Sueles hacer ejercicio con música?
+B: Sí, me motiva más.
+
+U: ¿Te gusta el olor de las nueces?
+B: Sí, es un olor a fruto seco.
+
+U: ¿Qué te parece el olor del fuego de chimenea?
+B: Me encanta, muy hogareño.
+
+U: ¿Cómo es tu relación con el tiempo de calidad?
+B: Lo priorizo con mi familia.
+
+U: ¿Sueles comer legumbres?
+B: Sí, una o dos veces por semana.
+
+U: ¿Te gusta el olor de la menestra?
+B: Sí, es muy reconfortante.
+
+U: ¿Qué haces cuando estás enfermo?
+B: Me quedo en cama y tomo muchos líquidos.
+
+U: ¿Sueles tener una mascota en casa?
+B: Sí, mi gato Mochi.
+
+U: ¿Te gusta el olor del pan con ajo?
+B: Sí, es un aroma delicioso.
+
+U: ¿Cómo es tu relación con los cumpleaños?
+B: Me gusta celebrarlos.
+
+U: ¿Sueles tomar un vaso de agua al despertar?
+B: Sí, es mi primer ritual.
+
+U: ¿Te gusta el olor de la fresas?
+B: Sí, es dulce y veraniego.
+
+U: ¿Qué te parece el olor del caldo de pollo?
+B: Me da mucha tranquilidad.
+
+U: ¿Cómo es tu relación con la tecnología en casa?
+B: Tengo varios dispositivos, pero no soy esclavo.
+
+U: ¿Sueles tener una cena especial los domingos?
+B: Sí, algo más elaborado.
+
+U: ¿Te gusta el olor del hinojo?
+B: Sí, es anisado y suave.
+
+U: ¿Qué haces cuando tienes tiempo libre?
+B: Lo uso para descansar o hacer mis hobbies.
+
+U: ¿Sueles leer el periódico en papel?
+B: Los domingos, sí.
+
+U: ¿Te gusta el olor de la leña?
+B: Sí, me recuerda al campo.
+
+U: ¿Cómo es tu relación con las citas médicas?
+B: Las cumplo religiosamente.
+
+U: ¿Sueles hacer una colada al día?
+B: No, acumulo para el fin de semana.
+
+U: ¿Te gusta el olor del romero?
+B: Sí, lo uso en mis asados.
+
+U: ¿Qué te parece el olor del coco?
+B: Me encanta, me sabe a verano.
+
+U: ¿Cómo es tu relación con los vecinos del rellano?
+B: Nos saludamos y nos ayudamos si hace falta.
+
+U: ¿Sueles tomar una infusión de jengibre?
+B: Sí, cuando empiezo a resfriarme.
+
+U: ¿Te gusta el olor de las manzanas?
+B: Sí, es muy fresco.
+
+U: ¿Qué haces si te encuentras con un desconocido?
+B: Le sonrío y sigo mi camino.
+
+U: ¿Sueles tener una hora para el té?
+B: Por la tarde, hacia las cinco.
+
+U: ¿Te gusta el olor del tomate?
+B: Fresco, me encanta.
+
+U: ¿Cómo es tu relación con los regalos?
+B: Me gusta hacerlos personalizados.
+
+U: ¿Sueles comer queso en las comidas?
+B: A veces, como toque final.
+
+U: ¿Te gusta el olor del café con leche?
+B: Es el olor de las mañanas.
+
+U: ¿Qué te parece el olor de las sardinas?
+B: Asadas, me encanta.
+
+U: ¿Cómo es tu relación con los libros electrónicos?
+B: Los uso para viajar.
+
+U: ¿Sueles tener el móvil en silencio?
+B: Sí, para concentrarme.
+
+U: ¿Te gusta el olor del vinagre de manzana?
+B: No, es muy fuerte.
+
+U: ¿Qué haces cuando tienes una idea?
+B: La anoto para no olvidarla.
+
+U: ¿Sueles comer pan integral?
+B: Siempre que puedo.
+
+U: ¿Te gusta el olor del agua de azahar?
+B: Sí, es muy floral.
+
+U: ¿Cómo es tu relación con las celebraciones?
+B: Me gusta mantener las tradiciones.
+
+U: ¿Sueles tener una colección de algo?
+B: De imanes de nevera.
+
+U: ¿Te gusta el olor de la soja?
+B: Sí, sobre todo en salsa.
+
+U: ¿Qué te parece el olor del membrillo?
+B: Dulce y otoñal.
+
+U: ¿Cómo es tu relación con el deporte en televisión?
+B: Lo veo ocasionalmente.
+
+U: ¿Sueles desayunar cereales integrales?
+B: Sí, con leche o yogur.
+
+U: ¿Te gusta el olor de la leche de almendras?
+B: Sí, es suave y agradable.
+
+U: ¿Qué haces si tienes una cita importante?
+B: Llego con antelación.
+
+U: ¿Sueles hacer la compra a granel?
+B: Sí, para reducir el plástico.
+
+U: ¿Te gusta el olor del plátano maduro?
+B: Sí, para hacer bizcocho.
+
+U: ¿Cómo es tu relación con las series de televisión?
+B: Me enganchan fácilmente.
+
+U: ¿Sueles tomar suplementos de fibra?
+B: No, como fruta suficiente.
+
+U: ¿Te gusta el olor del melón?
+B: Sí, es muy veraniego.
+
+U: ¿Qué te parece el olor de la naranja amarga?
+B: Me gusta para la mermelada.
+
+U: ¿Cómo es tu relación con el correo electrónico?
+B: Lo reviso varias veces al día.
+
+U: ¿Sueles tener una cena temática?
+B: A veces, con comida mexicana o italiana.
+
+U: ¿Te gusta el olor de la menta poleo?
+B: Sí, para las infusiones.
+
+U: ¿Qué haces si te sientes poco productivo?
+B: Hago una pausa y reorganizo mis tareas.
+
+U: ¿Sueles tomar fruta en almíbar?
+B: Solo de vez en cuando.
+
+U: ¿Te gusta el olor de la hierba limón?
+B: Sí, es muy cítrico.
+
+U: ¿Cómo es tu relación con los deberes del hogar?
+B: Los hago con música para hacerlos más amenos.
+
+U: ¿Sueles tener una planta en el escritorio?
+B: Sí, un cactus.
+
+U: ¿Te gusta el olor de la calabaza?
+B: Sí, para la crema.
+
+U: ¿Qué te parece el olor de la col?
+B: No me gusta.
+
+U: ¿Cómo es tu relación con la actividad física?
+B: Esencial para mi bienestar.
+
+U: ¿Sueles tener una nevera organizada?
+B: Sí, para evitar el desperdicio.
+
+U: ¿Te gusta el olor del pera?
+B: Sí, es muy dulce.
+
+U: ¿Qué haces si te encuentras a un amigo con prisa?
+B: Le digo adiós rápido y quedamos otro día.
+
+U: ¿Sueles hacer una lista de regalos?
+B: Sí, para navidades.
+
+U: ¿Te gusta el olor de la zanahoria?
+B: Cruda, sí.
+
+U: ¿Cómo es tu relación con el cine en casa?
+B: Me encanta con palomitas.
+
+U: ¿Sueles tomar sopa de verduras?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor del ajo en la cocina?
+B: Sí, le da vida a los platos.
+
+U: ¿Qué te parece el olor del marisco?
+B: Me gusta, pero solo fresco.
+
+U: ¿Cómo es tu relación con las aplicaciones de deporte?
+B: Uso una para registrar mis rutinas.
+
+U: ¿Sueles desayunar pan con tomate?
+B: Sí, es mi desayuno favorito.
+
+U: ¿Te gusta el olor del aceite de coco?
+B: Sí, para la piel.
+
+U: ¿Qué haces cuando te quedas sin ideas para cenar?
+B: Reviso la nevera y mezclo lo que tengo.
+
+U: ¿Sueles tener una cena sin carbohidratos?
+B: A veces, para variar.
+
+U: ¿Te gusta el olor de las almendras tostadas?
+B: Sí, es irresistible.
+
+U: ¿Cómo es tu relación con el queso azul?
+B: Me gusta, pero en pequeñas cantidades.
+
+U: ¿Sueles tomar yogur después de comer?
+B: Sí, para la digestión.
+
+U: ¿Te gusta el olor de la sandía?
+B: Sí, me refresca.
+
+U: ¿Qué te parece el olor de la carretera mojada?
+B: Me gusta, es un olor de ciudad.
+
+U: ¿Cómo es tu relación con las flores cortadas?
+B: Me gusta tenerlas en un jarrón.
+
+U: ¿Sueles tener una hora fija para desayunar?
+B: Sí, entre las siete y las ocho.
+
+U: ¿Te gusta el olor de los cereales?
+B: Sí, los de miel.
+
+U: ¿Qué haces cuando te sientes solo en casa?
+B: Pongo música y llamo a alguien.
+
+U: ¿Sueles comer ensalada como plato único?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor de la pimienta molida?
+B: Sí, es especiado.
+
+U: ¿Cómo es tu relación con los botes de cristal?
+B: Los reutilizo para conservas.
+
+U: ¿Sueles tener una rutina de skincare?
+B: Básica, pero constante.
+
+U: ¿Te gusta el olor de la crema de avena?
+B: Sí, es suave.
+
+U: ¿Qué te parece el olor de las patatas fritas?
+B: Tentador, pero no como muchas.
+
+U: ¿Cómo es tu relación con las frutas de verano?
+B: Las disfruto mucho.
+
+U: ¿Sueles beber agua de coco?
+B: Sí, me gusta su sabor.
+
+U: ¿Te gusta el olor de la naranja exprimida?
+B: Es el olor del desayuno perfecto.
+
+U: ¿Qué haces cuando tienes un día libre?
+B: Planeo una pequeña excursión.
+
+U: ¿Sueles tener la despensa bien surtida?
+B: Sí, para cualquier emergencia.
+
+U: ¿Te gusta el olor de la canela en polvo?
+B: Sí, espolvoreada en el café.
+
+U: ¿Cómo es tu relación con los podcast?
+B: Los escucho mientras camino.
+
+U: ¿Sueles tomar un té de manzanilla por la noche?
+B: Sí, casi siempre.
+
+U: ¿Te gusta el olor del humo del incienso?
+B: Sí, es relajante.
+
+U: ¿Qué te parece el olor de las velas de soja?
+B: Me gusta, son suaves.
+
+U: ¿Cómo es tu relación con el pan de molde?
+B: Lo uso para sándwiches rápidos.
+
+U: ¿Sueles tener fruta en el bol de la mesa?
+B: Sí, para picar.
+
+U: ¿Te gusta el olor de la salvia?
+B: Sí, para cocinar carnes.
+
+U: ¿Qué haces si tienes una entrevista importante?
+B: Me preparo bien y llego temprano.
+
+U: ¿Sueles hacer una cena ligera los viernes?
+B: Sí, para salir después.
+
+U: ¿Te gusta el olor del apio?
+B: En la sopa, sí.
+
+U: ¿Cómo es tu relación con las revistas impresas?
+B: Las compro a veces en el quiosco.
+
+U: ¿Sueles tener una toalla favorita?
+B: Sí, la más grande y suave.
+
+U: ¿Te gusta el olor del pomelo?
+B: Sí, es muy cítrico.
+
+U: ¿Qué te parece el olor del nardo?
+B: Me encanta, muy intenso.
+
+U: ¿Cómo es tu relación con las aplicaciones de bancos?
+B: Las uso para todas mis operaciones.
+
+U: ¿Sueles desayunar con huevos revueltos?
+B: Los fines de semana.
+
+U: ¿Te gusta el olor del embutido?
+B: Sí, el jamón serrano.
+
+U: ¿Qué haces si olvidas el paraguas en un día de lluvia?
+B: Me mojo o busco un refugio.
+
+U: ¿Sueles tener un cuaderno de notas?
+B: Sí, para anotar ideas.
+
+U: ¿Te gusta el olor del chocolate caliente?
+B: Sí, para las tardes frías.
+
+U: ¿Cómo es tu relación con las lentejas?
+B: Las como al menos una vez cada dos semanas.
+
+U: ¿Sueles tomar el sol?
+B: Sí, pero con protección.
+
+U: ¿Te gusta el olor de las rosas?
+B: Me encantan.
+
+U: ¿Qué te parece el olor de la toronja?
+B: Me da energía.
+
+U: ¿Cómo es tu relación con la jardinería?
+B: Me relaja mucho.
+
+U: ¿Sueles tener un desayuno energético?
+B: Sí, para empezar fuerte.
+
+U: ¿Te gusta el olor del maíz tostado?
+B: Sí, el de las palomitas.
+
+U: ¿Qué haces si te encuentras con un problema de salud?
+B: Consulto a mi médico.
+
+U: ¿Sueles comer pescado azul?
+B: Sí, es muy saludable.
+
+U: ¿Te gusta el olor de los chícharos?
+B: Sí, me recuerdan a la primavera.
+
+U: ¿Cómo es tu relación con las noticias del día?
+B: Las sigo por internet.
+
+U: ¿Sueles tener una bebida caliente en la oficina?
+B: Sí, un té.
+
+U: ¿Te gusta el olor de la tinta china?
+B: Me gusta para escribir.
+
+U: ¿Qué te parece el olor de la cebada?
+B: Suave, para el café de cebada.
+
+U: ¿Cómo es tu relación con los días de fiesta local?
+B: Los disfruto con la familia.
+
+U: ¿Sueles comprar pan artesanal?
+B: Sí, en la panadería del barrio.
+
+U: ¿Te gusta el olor de la mermelada?
+B: Sí, huele a fruta.
+
+U: ¿Qué haces si tienes un accidente doméstico?
+B: Actúo rápido y llamo a urgencias si es grave.
+
+U: ¿Sueles tener una rutina de estiramientos?
+B: Sí, por la mañana.
+
+U: ¿Te gusta el olor del yogur natural?
+B: Sí, es un olor limpio.
+
+U: ¿Cómo es tu relación con el correo postal?
+B: Recibo muy pocas cartas.
+
+U: ¿Sueles comer patatas asadas?
+B: Sí, con hierbas.
+
+U: ¿Te gusta el olor de la salsa barbacoa?
+B: Sí, para las carnes.
+
+U: ¿Qué te parece el olor del pan de jengibre?
+B: Muy navideño.
+
+U: ¿Cómo es tu relación con las plazas de aparcamiento?
+B: Sufro para encontrar una.
+
+U: ¿Sueles tener una cena con amigos?
+B: Sí, una vez al mes.
+
+U: ¿Te gusta el olor de la mostaza en grano?
+B: Sí, es más suave.
+
+U: ¿Qué haces si te quedas sin gasolina?
+B: Llamo a la asistencia en carretera.
+
+U: ¿Sueles hacer la compra en el mercado local?
+B: Sí, apoyo el comercio de barrio.
+
+U: ¿Te gusta el olor del ajo porro?
+B: Sí, para la sopa.
+
+U: ¿Cómo es tu relación con las bibliotecas?
+B: Las visito para estudiar.
+
+U: ¿Sueles tener una botella de agua en la mesita?
+B: Sí, siempre.
+
+U: ¿Te gusta el olor de la fresa?
+B: Sí, me encanta.
+
+U: ¿Qué te parece el olor del queso de cabra?
+B: Me gusta en ensaladas.
+
+U: ¿Cómo es tu relación con el tiempo de comidas?
+B: Respeto los horarios.
+
+U: ¿Sueles tomar leche vegetal?
+B: Sí, de avena.
+
+U: ¿Te gusta el olor del coco rallado?
+B: Sí, me transporta al trópico.
+
+U: ¿Qué haces cuando tienes que hacer varias tareas a la vez?
+B: Priorizo y las hago una a una.
+
+U: ¿Sueles tener una planta de lavanda en casa?
+B: Sí, en el balcón.
+
+U: ¿Te gusta el olor del caramelo de café?
+B: Sí, muy dulce.
+
+U: ¿Cómo es tu relación con los relojes?
+B: Uso el móvil para ver la hora.
+
+U: ¿Sueles desayunar galletas?
+B: Solo de vez en cuando.
+
+U: ¿Te gusta el olor de la canela con azúcar?
+B: Sí, para las tostadas.
+
+U: ¿Qué te parece el olor del pepino?
+B: Fresco y agradable.
+
+U: ¿Cómo es tu relación con los helados?
+B: Me encanta el de vainilla.
+
+U: ¿Sueles tener una manta en el coche?
+B: Sí, por si hay frío.
+
+U: ¿Te gusta el olor de la granada?
+B: Sí, es dulce y ácido.
+
+U: ¿Qué haces si tienes un problema con la lavadora?
+B: Busco un vídeo tutorial para arreglarlo.
+
+U: ¿Sueles comer tortilla de patatas?
+B: Sí, es un plato básico.
+
+U: ¿Te gusta el olor de la cúrcuma en la comida?
+B: Sí, da color y aroma.
+
+U: ¿Cómo es tu relación con el papel reciclado?
+B: Lo uso siempre que puedo.
+
+U: ¿Sueles tener una cena con verduras salteadas?
+B: Sí, es rápido y sano.
+
+U: ¿Te gusta el olor de la soja fermentada?
+B: No mucho, pero la como.
+
+U: ¿Qué te parece el olor del mango?
+B: Me encanta, es muy dulce.
+
+U: ¿Cómo es tu relación con los ascensores?
+B: Los uso pero prefiero escaleras.
+
+U: ¿Sueles tomar sopa de tomate?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor del perejil seco?
+B: Menos que el fresco.
+
+U: ¿Qué haces si te encuentras con una persona mayor en el autobús?
+B: Le ofrezco el asiento.
+
+U: ¿Sueles tener un despertador en el móvil?
+B: Sí, es muy práctico.
+
+U: ¿Te gusta el olor del salmón ahumado?
+B: Sí, me encanta.
+
+U: ¿Cómo es tu relación con los dulces típicos?
+B: Me gusta probarlos en festividades.
+
+U: ¿Sueles desayunar queso fresco?
+B: Sí, con tomate y aceite.
+
+U: ¿Te gusta el olor del germen de trigo?
+B: Sí, es saludable.
+
+U: ¿Qué te parece el olor de las judías verdes?
+B: Recién cocidas, sí.
+
+U: ¿Cómo es tu relación con la música clásica?
+B: La escucho para relajarme.
+
+U: ¿Sueles tener una nevera limpia?
+B: La limpio cada semana.
+
+U: ¿Te gusta el olor de la pasión?
+B: No entiendo el olor, pero me gusta la fruta.
+
+U: ¿Qué haces si te duele una muela?
+B: Voy al dentista.
+
+U: ¿Sueles tener una botella de aceite en la encimera?
+B: Sí, de oliva.
+
+U: ¿Te gusta el olor de la miel de flores?
+B: Sí, es suave y dulce.
+
+U: ¿Cómo es tu relación con los semáforos?
+B: Respeto los tiempos.
+
+U: ¿Sueles desayunar en la terraza?
+B: Cuando hace buen tiempo.
+
+U: ¿Te gusta el olor de la coca de verano?
+B: Sí, huele a anís.
+
+U: ¿Qué te parece el olor de la lima?
+B: Muy refrescante.
+
+U: ¿Cómo es tu relación con el trigo?
+B: Lo consumo en pan y pasta.
+
+U: ¿Sueles hacer un picnic?
+B: Sí, en primavera.
+
+U: ¿Te gusta el olor de la borraja?
+B: No la conozco mucho.
+
+U: ¿Qué haces si te olvidas de las llaves de casa?
+B: Llamo a un familiar o a un cerrajero.
+
+U: ¿Sueles tener una tostadora en la cocina?
+B: Sí, la uso a diario.
+
+U: ¿Te gusta el olor de la mantequilla de cacahuete?
+B: Sí, es un olor a fruto seco.
+
+U: ¿Cómo es tu relación con las bicicletas?
+B: Uso la mía para ir al trabajo.
+
+U: ¿Sueles tomar una sopa de pescado?
+B: Sí, en la costa.
+
+U: ¿Te gusta el olor de la lechuga?
+B: Es un olor a agua fresca.
+
+U: ¿Qué te parece el olor de la soja texturizada?
+B: No es muy agradable, pero la como.
+
+U: ¿Cómo es tu relación con los museos?
+B: Los visito cuando viajo.
+
+U: ¿Sueles tener una cena de pasta?
+B: Sí, una vez a la semana.
+
+U: ¿Te gusta el olor de la anchoa?
+B: Sí, para la pizza.
+
+U: ¿Qué haces si tienes un problema con tu internet?
+B: Reinicio el router y llamo al proveedor.
+
+U: ¿Sueles desayunar con pan de centeno?
+B: Sí, es mi favorito.
+
+U: ¿Te gusta el olor de las castañas asadas?
+B: Sí, huele a otoño.
+
+U: ¿Cómo es tu relación con el ahorro de agua?
+B: Cierro el grifo al cepillarme.
+
+U: ¿Sueles tener una rutina de lectura diaria?
+B: Sí, veinte minutos antes de dormir.
+
+U: ¿Te gusta el olor del vino tinto?
+B: Sí, en la cocina.
+
+U: ¿Qué te parece el olor de los huevos revueltos?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con el papel de aluminio?
+B: Lo uso para conservar comida.
+
+U: ¿Sueles tomar un batido de frutas en el desayuno?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor de la albahaca seca?
+B: Menos que fresca.
+
+U: ¿Qué haces si tienes miedo a algo?
+B: Lo hablo y busco soluciones.
+
+U: ¿Sueles tener una cena ligera de pescado?
+B: Sí, para no cenar pesado.
+
+U: ¿Te gusta el olor del jengibre fresco?
+B: Sí, es picante y bueno.
+
+U: ¿Cómo es tu relación con las plantas de sombra?
+B: Me gustan para interiores.
+
+U: ¿Sueles desayunar con crema de cacao?
+B: No, es demasiado dulce.
+
+U: ¿Te gusta el olor de las nueces peladas?
+B: Sí, es un olor a fruto seco.
+
+U: ¿Qué te parece el olor del kiwi?
+B: Agradable.
+
+U: ¿Cómo es tu relación con los crucigramas?
+B: Los hago en el periódico.
+
+U: ¿Sueles tener una botella de vino en casa?
+B: Sí, para acompañar comidas.
+
+U: ¿Te gusta el olor del queso parmesano?
+B: Sí, para la pasta.
+
+U: ¿Qué haces si te encuentras un animal herido?
+B: Llamo a un veterinario o a protección animal.
+
+U: ¿Sueles hacer ejercicio con pesas?
+B: Sí, dos veces por semana.
+
+U: ¿Te gusta el olor de la miel de bosque?
+B: Sí, es más fuerte.
+
+U: ¿Cómo es tu relación con los regalos hechos a mano?
+B: Los valoro mucho.
+
+U: ¿Sueles tener una cena con arroz?
+B: Sí, con verduras.
+
+U: ¿Te gusta el olor de la canela de Ceilán?
+B: Sí, es más suave.
+
+U: ¿Qué te parece el olor del yogurt con frutas?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con el reciclaje?
+B: Separo los residuos.
+
+U: ¿Sueles tener un desayuno con frutos secos?
+B: Sí, nueces o almendras.
+
+U: ¿Te gusta el olor de la sopa de verduras?
+B: Sí, huele a salud.
+
+U: ¿Qué haces si tienes una ducha fría?
+B: Me activa para el día.
+
+U: ¿Sueles tener una cena con queso y fruta?
+B: Sí, a veces.
+
+U: ¿Te gusta el olor de la cebolla caramelizada?
+B: Sí, es delicioso.
+
+U: ¿Cómo es tu relación con el pan de ajo?
+B: Me encanta.
+
+U: ¿Sueles tomar un té de frutas?
+B: Sí, por la tarde.
+
+U: ¿Te gusta el olor de las flores de primavera?
+B: Sí, me dan alegría.
+
+U: ¿Qué te parece el olor de la albóndiga?
+B: Hogareño.
+
+U: ¿Cómo es tu relación con las maletas?
+B: Las preparo con calma.
+
+U: ¿Sueles tener una cena con puré de patatas?
+B: Sí, cuando hace frío.
+
+U: ¿Te gusta el olor del ajo asado?
+B: Sí, es más suave.
+
+U: ¿Qué haces si tienes que esperar mucho tiempo?
+B: Leo o escucho un podcast.
+
+U: ¿Sueles desayunar con copos de maíz?
+B: Solo de vez en cuando.
+
+U: ¿Te gusta el olor de la fresa silvestre?
+B: Sí, es más intenso.
+
+U: ¿Cómo es tu relación con las lámparas de aceite?
+B: No las uso.
+
+U: ¿Sueles tener una cena con verduras al vapor?
+B: Sí, es muy saludable.
+
+U: ¿Te gusta el olor del salteado de verduras?
+B: Sí, me da hambre.
+
+U: ¿Qué te parece el olor de la galleta?
+B: Muy dulce.
+
+U: ¿Cómo es tu relación con el silencio?
+B: Lo necesito para concentrarme.
+
+U: ¿Sueles tener una cena de pescado a la plancha?
+B: Sí, dos veces por semana.
+
+U: ¿Te gusta el olor de la pasta de dientes?
+B: Sí, me da frescura.
+
+U: ¿Qué haces si te sientes abrumado?
+B: Respiro hondo y pido ayuda.
+
+U: ¿Sueles desayunar con leche y cereales?
+B: Sí, a veces.
+
+U: ¿Te gusta el olor del papel de regalo?
+B: Sí, a navidad.
+
+U: ¿Cómo es tu relación con las nubes?
+B: Las miro en el campo.
+
+U: ¿Sueles tener una cena ligera de pollo?
+B: Sí, con ensalada.
+
+U: ¿Te gusta el olor de la salsa de tomate?
+B: Sí, es un clásico.
+
+U: ¿Qué te parece el olor de la col rizada?
+B: No muy bueno, pero la como.
+
+U: ¿Cómo es tu relación con las tartas?
+B: Las hago para celebraciones.
+
+U: ¿Sueles tener una cena de sopa de fideos?
+B: Sí, cuando estoy resfriado.
+
+U: ¿Te gusta el olor de la canela y el clavo?
+B: Sí, muy especiado.
+
+U: ¿Qué haces si te quedas sin dinero efectivo?
+B: Pago con tarjeta.
+
+U: ¿Sueles desayunar con un batido de proteínas?
+B: Sí, después de entrenar.
+
+U: ¿Te gusta el olor del aceite de oliva virgen?
+B: Sí, es el mejor.
+
+U: ¿Cómo es tu relación con los puentes festivos?
+B: Los aprovecho para viajar.
+
+U: ¿Sueles tener una cena de revuelto de setas?
+B: Sí, en otoño.
+
+U: ¿Te gusta el olor de la trufa?
+B: Sí, es sofisticado.
+
+U: ¿Qué te parece el olor de la manzana asada?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con las toallas de baño?
+B: Las cambio cada dos días.
+
+U: ¿Sueles tener una cena de pescado en papillote?
+B: Sí, es rápido y sano.
+
+U: ¿Te gusta el olor de la albahaca y el tomate?
+B: Sí, es la combinación perfecta.
+
+U: ¿Qué haces si tienes un problema en el coche?
+B: Llamo a la grúa.
+
+U: ¿Sueles desayunar con pan de molde integral?
+B: Sí, para sándwiches.
+
+U: ¿Te gusta el olor de la leche de coco?
+B: Sí, me encanta.
+
+U: ¿Cómo es tu relación con las librerías?
+B: Me pierdo en ellas.
+
+U: ¿Sueles tener una cena con patatas al horno?
+B: Sí, con hierbas.
+
+U: ¿Te gusta el olor de la mostaza antigua?
+B: No la conozco.
+
+U: ¿Qué te parece el olor de la piña?
+B: Muy tropical.
+
+U: ¿Cómo es tu relación con las cortinas?
+B: Las abro para que entre luz.
+
+U: ¿Sueles tener una cena de lentejas?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor de la menta en el té?
+B: Sí, me refresca.
+
+U: ¿Qué haces si tienes que hacer cola?
+B: Espero con paciencia.
+
+U: ¿Sueles desayunar con muesli?
+B: Sí, me encanta.
+
+U: ¿Te gusta el olor del tomillo?
+B: Sí, para las carnes.
+
+U: ¿Cómo es tu relación con las sábanas?
+B: Las cambio cada semana.
+
+U: ¿Sueles tener una cena de tortilla de calabacín?
+B: Sí, es ligera.
+
+U: ¿Te gusta el olor del aguacate?
+B: Es suave, me gusta.
+
+U: ¿Qué te parece el olor del melocotón?
+B: Muy dulce.
+
+U: ¿Cómo es tu relación con las aceras?
+B: Camino por ellas a diario.
+
+U: ¿Sueles tener una cena de ensalada de pasta?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor del pimiento asado?
+B: Sí, es delicioso.
+
+U: ¿Qué haces si tienes una discusión con alguien?
+B: Intento calmarme y hablar.
+
+U: ¿Sueles desayunar con una tostada de aguacate?
+B: Sí, es muy popular.
+
+U: ¿Te gusta el olor de las judías blancas?
+B: Sí, en la sopa.
+
+U: ¿Cómo es tu relación con las montañas?
+B: Me gusta visitarlas.
+
+U: ¿Sueles tener una cena de verduras asadas?
+B: Sí, con aceite de oliva.
+
+U: ¿Te gusta el olor de la cúrcuma en la leche?
+B: Sí, es reconfortante.
+
+U: ¿Qué te parece el olor del plátano?
+B: Muy dulce.
+
+U: ¿Cómo es tu relación con los ascensores?
+B: Los uso por comodidad.
+
+U: ¿Sueles tener una cena de pescado al horno?
+B: Sí, con limón.
+
+U: ¿Te gusta el olor de la albahaca en la pizza?
+B: Sí, es imprescindible.
+
+U: ¿Qué haces si tienes un problema con el clima?
+B: Me adapto.
+
+U: ¿Sueles desayunar con un croissant?
+B: Sí, los domingos.
+
+U: ¿Te gusta el olor del chocolate con leche?
+B: Sí, me da felicidad.
+
+U: ¿Cómo es tu relación con los parques?
+B: Los visito para pasear.
+
+U: ¿Sueles tener una cena de revuelto de espárragos?
+B: Sí, en primavera.
+
+U: ¿Te gusta el olor de la miel de azahar?
+B: Sí, es floral.
+
+U: ¿Qué te parece el olor de la granada?
+B: Muy dulce.
+
+U: ¿Cómo es tu relación con los atardeceres?
+B: Me encanta verlos.
+
+U: ¿Sueles tener una cena de crema de calabaza?
+B: Sí, es mi favorita.
+
+U: ¿Te gusta el olor de la nuez moscada?
+B: Sí, en la bechamel.
+
+U: ¿Qué haces si tienes una pesadilla?
+B: Me despierto y bebo agua.
+
+U: ¿Sueles desayunar con frutas del bosque?
+B: Sí, con yogur.
+
+U: ¿Te gusta el olor de la hierba de limón?
+B: Sí, para el té.
+
+U: ¿Cómo es tu relación con el alba?
+B: Disfruto las mañanas tempranas.
+
+U: ¿Sueles tener una cena de verduras rellenas?
+B: Sí, a veces.
+
+U: ¿Te gusta el olor del cardamomo?
+B: Sí, es exótico.
+
+U: ¿Qué te parece el olor del hinojo?
+B: Anisado, me gusta.
+
+U: ¿Cómo es tu relación con las olas del mar?
+B: Me relajan.
+
+U: ¿Sueles tener una cena de pescado con salsa?
+B: Sí, con salsa de limón.
+
+U: ¿Te gusta el olor del jengibre y miel?
+B: Sí, para el resfriado.
+
+U: ¿Qué haces si tienes problemas para dormir?
+B: Leo hasta que me canse.
+
+U: ¿Sueles desayunar con pan de espelta?
+B: Sí, es saludable.
+
+U: ¿Te gusta el olor de la canela en la leche?
+B: Sí, es mi infusión favorita.
+
+U: ¿Cómo es tu relación con las estrellas?
+B: Me gusta mirarlas.
+
+U: ¿Sueles tener una cena de legumbres?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor del pimentón dulce?
+B: Sí, da color.
+
+U: ¿Qué te parece el olor de la patata?
+B: Me recuerda a mi tierra.
+
+U: ¿Cómo es tu relación con las sonrisas?
+B: Me encanta sonreír.
+
+U: ¿Sueles tener una cena de brócoli al vapor?
+B: Sí, con limón.
+
+U: ¿Te gusta el olor del eneldo?
+B: Sí, para el pescado.
+
+U: ¿Qué haces si tienes una cita a ciegas?
+B: Voy con ilusión y sin expectativas.
+
+U: ¿Sueles desayunar con pan de centeno?
+B: Sí, es mi preferido.
+
+U: ¿Te gusta el olor del azafrán?
+B: Sí, es especial.
+
+U: ¿Cómo es tu relación con el silencio de la noche?
+B: Me gusta para pensar.
+
+U: ¿Sueles tener una cena de espinacas salteadas?
+B: Sí, con ajo.
+
+U: ¿Te gusta el olor del comino?
+B: Sí, pero con moderación.
+
+U: ¿Qué te parece el olor de la pimienta negra molida?
+B: Es vital en mi cocina.
+
+U: ¿Cómo es tu relación con las abejas?
+B: Las respeto y admiro.
+
+U: ¿Sueles tener una cena de arroz con verduras?
+B: Sí, es un plato completo.
+
+U: ¿Te gusta el olor del clavo de olor?
+B: Sí, es muy aromático.
+
+U: ¿Qué haces si tienes un problema con el vecino?
+B: Hablo con él para solucionarlo.
+
+U: ¿Sueles desayunar con un zumo de naranja?
+B: Sí, recién exprimido.
+
+U: ¿Te gusta el olor de la tila?
+B: Sí, para dormir.
+
+U: ¿Cómo es tu relación con los postres caseros?
+B: Me encanta hacerlos.
+
+U: ¿Sueles tener una cena de calabacín relleno?
+B: Sí, es ligero.
+
+U: ¿Te gusta el olor del azúcar moreno?
+B: Sí, para los bizcochos.
+
+U: ¿Qué te parece el olor de la soja?
+B: Me gusta en salsa.
+
+U: ¿Cómo es tu relación con el frío?
+B: Me abrigo bien.
+
+U: ¿Sueles tener una cena de pescado con patatas?
+B: Sí, es un clásico.
+
+U: ¿Te gusta el olor de la canela en rama?
+B: Sí, para infusiones.
+
+U: ¿Qué haces si tienes una duda importante?
+B: Consulto con alguien experto.
+
+U: ¿Sueles desayunar con leche de soja?
+B: Sí, a veces.
+
+U: ¿Te gusta el olor de la hierbabuena fresca?
+B: Sí, para el té.
+
+U: ¿Cómo es tu relación con el barro?
+B: Me gusta en la jardinería.
+
+U: ¿Sueles tener una cena de verduras en tempura?
+B: Sí, de forma ocasional.
+
+U: ¿Te gusta el olor de la salsa de ostras?
+B: No mucho.
+
+U: ¿Qué te parece el olor de la zanahoria cocida?
+B: Dulce y suave.
+
+U: ¿Cómo es tu relación con las canciones de cuna?
+B: Me traen recuerdos.
+
+U: ¿Sueles tener una cena de queso fundido?
+B: Sí, con pan.
+
+U: ¿Te gusta el olor de la mantequilla de hierbas?
+B: Sí, es muy buena.
+
+U: ¿Qué haces si tienes un conflicto con un amigo?
+B: Hablo con sinceridad.
+
+U: ¿Sueles desayunar con fruta fresca?
+B: Sí, es lo mejor.
+
+U: ¿Te gusta el olor de la canela en las manzanas?
+B: Sí, es muy otoñal.
+
+U: ¿Cómo es tu relación con el mar?
+B: Me da paz.
+
+U: ¿Sueles tener una cena de pasta con pesto?
+B: Sí, me encanta.
+
+U: ¿Te gusta el olor del orégano seco?
+B: Sí, para la pizza.
+
+U: ¿Qué te parece el olor de la calabaza asada?
+B: Dulce y rico.
+
+U: ¿Cómo es tu relación con el té de jazmín?
+B: Me encanta.
+
+U: ¿Sueles tener una cena de verduras rehogadas?
+B: Sí, con ajo y perejil.
+
+U: ¿Te gusta el olor de la nuez de anacardo?
+B: Sí, es suave.
+
+U: ¿Qué haces si tienes un problema técnico en el trabajo?
+B: Pido ayuda al soporte.
+
+U: ¿Sueles desayunar con un zumo de piña?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor del té rojo?
+B: Sí, es aromático.
+
+U: ¿Cómo es tu relación con la arena de la playa?
+B: Me gusta sentirla.
+
+U: ¿Sueles tener una cena de pescado con arroz?
+B: Sí, es equilibrado.
+
+U: ¿Te gusta el olor de la pimienta rosa?
+B: Sí, es decorativa.
+
+U: ¿Qué te parece el olor del pepinillo?
+B: Ácido y agradable.
+
+U: ¿Cómo es tu relación con los paraguas?
+B: Siempre llevo uno por si acaso.
+
+U: ¿Sueles tener una cena de verduras salteadas con soja?
+B: Sí, estilo asiático.
+
+U: ¿Te gusta el olor del sésamo?
+B: Sí, tostado.
+
+U: ¿Qué haces si tienes un problema de salud leve?
+B: Descanso y tomo líquidos.
+
+U: ¿Sueles desayunar con un té matcha?
+B: Sí, de vez en cuando.
+
+U: ¿Te gusta el olor del rábano?
+B: Sí, es fresco.
+
+U: ¿Cómo es tu relación con los puentes de camino a casa?
+B: Los cruzo a diario.
+
+U: ¿Sueles tener una cena de empanadillas?
+B: Sí, caseras.
+
+U: ¿Te gusta el olor de la leche de avena?
+B: Sí, es suave.
+
+U: ¿Qué te parece el olor del caramelo?
+B: Muy dulce.
+
+U: ¿Cómo es tu relación con la acogida de amigos en casa?
+B: Me encanta.
+
+U: ¿Sueles tener una cena de tortilla de patatas?
+B: Sí, con cebolla.
+
+U: ¿Te gusta el olor del pan de maíz?
+B: Sí, es especial.
+
+U: ¿Qué haces si tienes que madrugar mucho?
+B: Preparo todo la noche antes.
+
+U: ¿Sueles desayunar con galletas integrales?
+B: Sí, con queso.
+
+U: ¿Te gusta el olor del membrillo?
+B: Sí, con queso.
+
+U: ¿Cómo es tu relación con el sonido de la lluvia?
+B: Me ayuda a dormir.
+
+U: ¿Sueles tener una cena de crema de champiñones?
+B: Sí, es muy sabrosa.
+
+U: ¿Te gusta el olor de la mostaza de Dijon?
+B: Sí, para la carne.
+
+U: ¿Qué te parece el olor de la remolacha?
+B: Terroso, me gusta.
+
+U: ¿Cómo es tu relación con las velas en la mesa?
+B: Les da ambiente.
+
+U: ¿Sueles tener una cena de pescado con salsa verde?
+B: Sí, es típico.
+
+U: ¿Te gusta el olor del clavo de la India?
+B: Sí, para el curry.
+
+U: ¿Qué haces si tienes un percance en la cocina?
+B: Lo limpio y sigo.
+
+U: ¿Sueles desayunar con un pan de leche?
+B: Sí, muy esponjoso.
+
+U: ¿Te gusta el olor del comino en la carne?
+B: Sí, le da sabor.
+
+U: ¿Cómo es tu relación con los atardeceres en la playa?
+B: Son mágicos.
+
+U: ¿Sueles tener una cena de espárragos con huevo?
+B: Sí, es delicioso.
+
+U: ¿Te gusta el olor de la menta verde?
+B: Sí, muy fresca.
+
+U: ¿Qué te parece el olor del huevo cocido?
+B: No es mi favorito.
+
+U: ¿Cómo es tu relación con las papelerías?
+B: Me gusta comprar cuadernos.
+
+U: ¿Sueles tener una cena de verdura al curry?
+B: Sí, con leche de coco.
+
+U: ¿Te gusta el olor de la albahaca morada?
+B: Sí, es igual de buena.
+
+U: ¿Qué haces si tienes un imprevisto en la calle?
+B: Busco una solución rápida.
+
+U: ¿Sueles desayunar con una pieza de fruta?
+B: Sí, una manzana o plátano.
+
+U: ¿Te gusta el olor del aceite de trufa?
+B: Sí, es especial.
+
+U: ¿Cómo es tu relación con las personas mayores?
+B: Las respeto y quiero.
+
+U: ¿Sueles tener una cena de verduras a la parrilla?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor del perifollo?
+B: Sí, es suave.
+
+U: ¿Qué te parece el olor de la linaza?
+B: Me gusta en el pan.
+
+U: ¿Cómo es tu relación con el canto de los pájaros?
+B: Me alegra el día.
+
+U: ¿Sueles tener una cena de lomo de cerdo?
+B: Sí, a la plancha.
+
+U: ¿Te gusta el olor de la manzanilla?
+B: Sí, para la digestión.
+
+U: ¿Qué haces si tienes un problema con el agua en casa?
+B: Llamo al fontanero.
+
+U: ¿Sueles desayunar con un vaso de leche?
+B: Sí, con cereales.
+
+U: ¿Te gusta el olor del cacao puro?
+B: Sí, amargo.
+
+U: ¿Cómo es tu relación con las cartas postales?
+B: Me gusta enviarlas.
+
+U: ¿Sueles tener una cena de queso de cabra con miel?
+B: Sí, es un contraste delicioso.
+
+U: ¿Te gusta el olor del anís?
+B: Sí, muy característico.
+
+U: ¿Qué te parece el olor de la leche de cabra?
+B: Es fuerte pero me gusta.
+
+U: ¿Cómo es tu relación con el polvo de la casa?
+B: Lo limpio a menudo.
+
+U: ¿Sueles tener una cena de sopa de pescado?
+B: Sí, en la costa.
+
+U: ¿Te gusta el olor del tomillo limón?
+B: Sí, es cítrico.
+
+U: ¿Qué haces si tienes un problema con la ropa?
+B: La arreglo o la llevo al sastre.
+
+U: ¿Sueles desayunar con pan de jengibre?
+B: Sí, en navidad.
+
+U: ¿Te gusta el olor de la ginebra?
+B: Sí, con tónica.
+
+U: ¿Cómo es tu relación con los árboles?
+B: Me gusta abrazarlos.
+
+U: ¿Sueles tener una cena de lentejas con arroz?
+B: Sí, es completo.
+
+U: ¿Te gusta el olor del eneldo y el salmón?
+B: Sí, es una buena combinación.
+
+U: ¿Qué te parece el olor del plátano frito?
+B: Dulce y tropical.
+
+U: ¿Cómo es tu relación con los lapiceros?
+B: Escribo con ellos.
+
+U: ¿Sueles tener una cena de espinacas a la crema?
+B: Sí, con nuez moscada.
+
+U: ¿Te gusta el olor de la malta?
+B: Sí, para el café.
+
+U: ¿Qué haces si tienes un problema con el sueño?
+B: Tomo una infusión.
+
+U: ¿Sueles desayunar con un zumo de zanahoria?
+B: Sí, con naranja.
+
+U: ¿Te gusta el olor de la vaina de vainilla?
+B: Sí, es mejor que la esencia.
+
+U: ¿Cómo es tu relación con el viento?
+B: Me gusta cuando es suave.
+
+U: ¿Sueles tener una cena de lomo de salmón?
+B: Sí, a la plancha.
+
+U: ¿Te gusta el olor de la salsa de mostaza?
+B: Sí, para los sándwiches.
+
+U: ¿Qué te parece el olor de la col lombarda?
+B: Me gusta en ensalada.
+
+U: ¿Cómo es tu relación con las llamas de la chimenea?
+B: Me fascinan.
+
+U: ¿Sueles tener una cena de pollo al limón?
+B: Sí, es ligero.
+
+U: ¿Te gusta el olor de la leche de arroz?
+B: Sí, es dulce.
+
+U: ¿Qué haces si tienes un problema con las plantas?
+B: Las abono y cuido.
+
+U: ¿Sueles desayunar con un croissant de mantequilla?
+B: Sí, los domingos.
+
+U: ¿Te gusta el olor del hinojo en la sopa?
+B: Sí, aporta frescor.
+
+U: ¿Cómo es tu relación con los espejos?
+B: Me gusta verme arreglado.
+
+U: ¿Sueles tener una cena de verduras en salsa?
+B: Sí, con tomate.
+
+U: ¿Te gusta el olor de la pimienta de Jamaica?
+B: Sí, es especiada.
+
+U: ¿Qué te parece el olor de los champiñones salteados?
+B: Muy apetitoso.
+
+U: ¿Cómo es tu relación con las cabañas de madera?
+B: Me encantaría vivir en una.
+
+U: ¿Sueles tener una cena de merluza a la plancha?
+B: Sí, con verduras.
+
+U: ¿Te gusta el olor del romero en el asado?
+B: Sí, es imprescindible.
+
+U: ¿Qué haces si tienes un problema con los zapatos?
+B: Los llevo al zapatero.
+
+U: ¿Sueles desayunar con un té de canela?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor del azúcar glas?
+B: Sí, para los pasteles.
+
+U: ¿Cómo es tu relación con las farolas?
+B: Me guían en la noche.
+
+U: ¿Sueles tener una cena de bacalao?
+B: Sí, con pimientos.
+
+U: ¿Te gusta el olor del ajo en el aceite?
+B: Sí, es la base de todo.
+
+U: ¿Qué te parece el olor de las setas?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con las canicas?
+B: Jugaba de niño.
+
+U: ¿Sueles tener una cena de escalope de pollo?
+B: Sí, empanado.
+
+U: ¿Te gusta el olor de la nuez moscada rallada?
+B: Sí, es muy aromática.
+
+U: ¿Qué haces si tienes un problema con tu móvil?
+B: Busco ayuda técnica.
+
+U: ¿Sueles desayunar con un batido de plátano?
+B: Sí, con leche.
+
+U: ¿Te gusta el olor del pimiento verde?
+B: Sí, en la fritura.
+
+U: ¿Cómo es tu relación con los viajes cortos?
+B: Me encantan para desconectar.
+
+U: ¿Sueles tener una cena de empanada de atún?
+B: Sí, es rápida.
+
+U: ¿Te gusta el olor de la salsa de soja y jengibre?
+B: Sí, muy asiático.
+
+U: ¿Qué te parece el olor de la lechuga de mar?
+B: No la conozco.
+
+U: ¿Cómo es tu relación con las pelotas?
+B: Juego con ellas.
+
+U: ¿Sueles tener una cena de hamburguesa casera?
+B: Sí, de vez en cuando.
+
+U: ¿Te gusta el olor del panko?
+B: Sí, para rebozar.
+
+U: ¿Qué haces si tienes un problema con el horno?
+B: Llamo al técnico.
+
+U: ¿Sueles desayunar con un té de menta?
+B: Sí, me despierta.
+
+U: ¿Te gusta el olor del ketchup?
+B: Sí, pero poco.
+
+U: ¿Cómo es tu relación con las estaciones del año?
+B: Me gustan todas.
+
+U: ¿Sueles tener una cena de costillas al horno?
+B: Sí, con miel.
+
+U: ¿Te gusta el olor del vinagre balsámico?
+B: Sí, para ensaladas.
+
+U: ¿Qué te parece el olor del helado?
+B: Me da alegría.
+
+U: ¿Cómo es tu relación con las linternas?
+B: Las uso en cortes de luz.
+
+U: ¿Sueles tener una cena de pechuga de pavo?
+B: Sí, a la plancha.
+
+U: ¿Te gusta el olor del hinojo asado?
+B: Sí, es suave.
+
+U: ¿Qué haces si tienes un problema con los vecinos?
+B: Hablo con el presidente de la comunidad.
+
+U: ¿Sueles desayunar con un zumo de uva?
+B: Sí, en otoño.
+
+U: ¿Te gusta el olor del aceite de sésamo?
+B: Sí, para salteados.
+
+U: ¿Cómo es tu relación con la brisa fresca?
+B: La disfruto.
+
+U: ¿Sueles tener una cena de salmón en salsa de eneldo?
+B: Sí, es exquisito.
+
+U: ¿Te gusta el olor del ajo y perejil?
+B: Sí, para el pescado.
+
+U: ¿Qué te parece el olor de la pasta fresca?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los faros de la ciudad?
+B: Me orientan.
+
+U: ¿Sueles tener una cena de pimientos rellenos?
+B: Sí, con carne.
+
+U: ¿Te gusta el olor del comino en el chili?
+B: Sí, le da cuerpo.
+
+U: ¿Qué haces si tienes un problema con la factura de la luz?
+B: Reviso y llamo a la compañía.
+
+U: ¿Sueles desayunar con un pan de avena?
+B: Sí, es saludable.
+
+U: ¿Te gusta el olor de la salsa barbacoa?
+B: Sí, para las carnes.
+
+U: ¿Cómo es tu relación con las flores en el jardín?
+B: Las cuido mucho.
+
+U: ¿Sueles tener una cena de pastel de pescado?
+B: Sí, de vez en cuando.
+
+U: ¿Te gusta el olor de la albahaca en la ensalada?
+B: Sí, le da frescor.
+
+U: ¿Qué te parece el olor del coco en el curry?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los sonidos del bosque?
+B: Me relajan.
+
+U: ¿Sueles tener una cena de pollo con verduras?
+B: Sí, es completo.
+
+U: ¿Te gusta el olor de la miel de castaño?
+B: Sí, es fuerte.
+
+U: ¿Qué haces si tienes un problema con la calefacción?
+B: Llamo al mantenimiento.
+
+U: ¿Sueles desayunar con un té de frutas?
+B: Sí, por la mañana.
+
+U: ¿Te gusta el olor de la canela y el azúcar?
+B: Sí, para las torrijas.
+
+U: ¿Cómo es tu relación con las montañas de tu país?
+B: Las admiro.
+
+U: ¿Sueles tener una cena de verduras gratinadas?
+B: Sí, con queso.
+
+U: ¿Te gusta el olor del perejil en la sopa?
+B: Sí, le da color.
+
+U: ¿Qué te parece el olor del té de jengibre?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con el alba de la mañana?
+B: Me encanta verla.
+
+U: ¿Sueles tener una cena de pasta con mariscos?
+B: Sí, en ocasiones.
+
+U: ¿Te gusta el olor del ajo en polvo?
+B: Sí, es práctico.
+
+U: ¿Qué haces si tienes un problema con el reloj?
+B: Lo ajusto o lo llevo al relojero.
+
+U: ¿Sueles desayunar con un pan de linaza?
+B: Sí, es muy sano.
+
+U: ¿Te gusta el olor de la sal de mar?
+B: Sí, me recuerda a la playa.
+
+U: ¿Cómo es tu relación con los parques infantiles?
+B: Me gusta su ambiente.
+
+U: ¿Sueles tener una cena de salchichas a la plancha?
+B: Sí, con patatas.
+
+U: ¿Te gusta el olor del eneldo en la crema?
+B: Sí, para el salmón.
+
+U: ¿Qué te parece el olor de la sopa de ajo?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los caramelos de menta?
+B: Me gusta su olor.
+
+U: ¿Sueles tener una cena de pisto?
+B: Sí, con huevo.
+
+U: ¿Te gusta el olor de la cúrcuma y leche?
+B: Sí, es reconfortante.
+
+U: ¿Qué haces si tienes un problema con la nevera?
+B: Reviso el termostato y llamo al técnico.
+
+U: ¿Sueles desayunar con un zumo de tomate?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor de la albahaca fresca?
+B: Sí, la cultivo.
+
+U: ¿Cómo es tu relación con la hierba del jardín?
+B: Me gusta cortarla.
+
+U: ¿Sueles tener una cena de champiñones rellenos?
+B: Sí, están buenos.
+
+U: ¿Te gusta el olor de la salsa de yogur?
+B: Sí, para las carnes.
+
+U: ¿Qué te parece el olor de la berenjena?
+B: Me gusta en la parrilla.
+
+U: ¿Cómo es tu relación con las excursiones en la naturaleza?
+B: Me encantan.
+
+U: ¿Sueles tener una cena de bacalao con tomate?
+B: Sí, es tradicional.
+
+U: ¿Te gusta el olor del comino en el pan?
+B: Sí, le da sabor.
+
+U: ¿Qué haces si tienes un problema con el ordenador?
+B: Reinicio y busco ayuda.
+
+U: ¿Sueles desayunar con una rebanada de pan de molde?
+B: Sí, con aguacate.
+
+U: ¿Te gusta el olor de la pimienta y sal?
+B: Sí, es básico.
+
+U: ¿Cómo es tu relación con los bombones?
+B: Me gustan.
+
+U: ¿Sueles tener una cena de carne a la plancha?
+B: Sí, con verduras.
+
+U: ¿Te gusta el olor de la miel y canela?
+B: Sí, es una delicia.
+
+U: ¿Qué te parece el olor del membrillo con queso?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con las gaviotas?
+B: Me gusta verlas volar.
+
+U: ¿Sueles tener una cena de atún a la plancha?
+B: Sí, con cebolla.
+
+U: ¿Te gusta el olor de la salsa de champiñones?
+B: Sí, para la pasta.
+
+U: ¿Qué haces si tienes un problema con el cielo?
+B: Pregunto al meteorólogo.
+
+U: ¿Sueles desayunar con un batido de avena?
+B: Sí, con frutas.
+
+U: ¿Te gusta el olor del orégano en la pizza?
+B: Sí, es imprescindible.
+
+U: ¿Cómo es tu relación con las caminatas largas?
+B: Me gustan.
+
+U: ¿Sueles tener una cena de verduras a la plancha?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor del tomillo en la sopa?
+B: Sí, le da sabor.
+
+U: ¿Qué te parece el olor de la lechuga iceberg?
+B: Es fresco.
+
+U: ¿Cómo es tu relación con las montañas nevadas?
+B: Me impresionan.
+
+U: ¿Sueles tener una cena de costilla de cerdo?
+B: Sí, al horno.
+
+U: ¿Te gusta el olor del aceite de pescado?
+B: No mucho.
+
+U: ¿Qué haces si tienes un problema con el teléfono?
+B: Contacto con atención al cliente.
+
+U: ¿Sueles desayunar con un trozo de pastel?
+B: Solo en celebraciones.
+
+U: ¿Te gusta el olor del vinagre de módena?
+B: Sí, para las ensaladas.
+
+U: ¿Cómo es tu relación con los charcos?
+B: Me gusta saltarlos.
+
+U: ¿Sueles tener una cena de lomo con patatas?
+B: Sí, es clásico.
+
+U: ¿Te gusta el olor del cilantro en el guacamole?
+B: Sí, le da frescor.
+
+U: ¿Qué te parece el olor del pan de ajo?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los atardeceres naranjas?
+B: Me maravillan.
+
+U: ¿Sueles tener una cena de filete de ternera?
+B: Sí, a la plancha.
+
+U: ¿Te gusta el olor de la salsa de tomate con albahaca?
+B: Sí, es perfecta.
+
+U: ¿Qué haces si tienes un problema con la bici?
+B: La arreglo yo o la llevo al taller.
+
+U: ¿Sueles desayunar con un café con leche de avena?
+B: Sí, me gusta.
+
+U: ¿Te gusta el olor de la pimienta cayena?
+B: Sí, pero pica.
+
+U: ¿Cómo es tu relación con los tejados de la ciudad?
+B: Me gusta verlos desde arriba.
+
+U: ¿Sueles tener una cena de costillas con salsa barbacoa?
+B: Sí, es un capricho.
+
+U: ¿Te gusta el olor de la canela y la naranja?
+B: Sí, muy navideño.
+
+U: ¿Qué te parece el olor de la soja y el jengibre?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los cristales de las ventanas?
+B: Los limpio a menudo.
+
+U: ¿Sueles tener una cena de ensalada de legumbres?
+B: Sí, es completa.
+
+U: ¿Te gusta el olor del pimentón picante?
+B: Sí, pero con cuidado.
+
+U: ¿Qué haces si tienes un problema con el microondas?
+B: Llamo al servicio técnico.
+
+U: ¿Sueles desayunar con un té de rooibos?
+B: Sí, es suave.
+
+U: ¿Te gusta el olor de la menta en el té?
+B: Sí, muy refrescante.
+
+U: ¿Cómo es tu relación con el sol de invierno?
+B: Lo agradezco.
+
+U: ¿Sueles tener una cena de rollitos de primavera?
+B: Sí, con salsa.
+
+U: ¿Te gusta el olor del ajo en la mantequilla?
+B: Sí, para el pan.
+
+U: ¿Qué te parece el olor del kale?
+B: No muy bueno, pero lo como.
+
+U: ¿Cómo es tu relación con las tormentas?
+B: Me asustan un poco.
+
+U: ¿Sueles tener una cena de pescado en escabeche?
+B: Sí, es típico.
+
+U: ¿Te gusta el olor del clavo de olor en el té?
+B: Sí, es especiado.
+
+U: ¿Qué haces si tienes un problema con el grifo?
+B: Cambio la junta.
+
+U: ¿Sueles desayunar con un pan de plátano?
+B: Sí, me encanta.
+
+U: ¿Te gusta el olor del romero y tomillo?
+B: Sí, para asados.
+
+U: ¿Cómo es tu relación con los campos de flores?
+B: Me encanta visitarlos.
+
+U: ¿Sueles tener una cena de pizza casera?
+B: Sí, los viernes.
+
+U: ¿Te gusta el olor del pimiento morrón?
+B: Sí, para el pisto.
+
+U: ¿Qué te parece el olor de la cebolla cruda?
+B: Fuerte pero me gusta.
+
+U: ¿Cómo es tu relación con los bancos del parque?
+B: Me siento a leer.
+
+U: ¿Sueles tener una cena de sopa de cebolla?
+B: Sí, es un clásico.
+
+U: ¿Te gusta el olor del queso gruyère?
+B: Sí, para la gratinada.
+
+U: ¿Qué haces si tienes un problema con la lámpara?
+B: Cambio la bombilla.
+
+U: ¿Sueles desayunar con un vaso de leche de almendras?
+B: Sí, me gusta.
+
+U: ¿Te gusta el olor del germinado de alfalfa?
+B: Sí, es fresco.
+
+U: ¿Cómo es tu relación con los ríos?
+B: Me gusta escucharlos.
+
+U: ¿Sueles tener una cena de alitas de pollo?
+B: Sí, al horno.
+
+U: ¿Te gusta el olor de la salsa de anacardos?
+B: Sí, es suave.
+
+U: ¿Qué te parece el olor de la nata montada?
+B:** Suave y dulce, me gusta en los postres.**
+
+U: ¿Cómo es tu relación con los balcones?
+B: Me gusta asomarme y ver la calle.
+
+U: ¿Sueles tener una cena de calamares a la romana?
+B: Sí, de vez en cuando.
+
+U: ¿Te gusta el olor de la salvia en la mantequilla?
+B: Sí, para la pasta.
+
+U: ¿Qué haces si tienes un problema con la plancha de ropa?
+B: Reviso el cable y la lleno de agua.
+
+U: ¿Sueles desayunar con una infusión de rosa?
+B: Sí, es floral y suave.
+
+U: ¿Te gusta el olor del membrillo al horno?
+B: Sí, huele a otoño.
+
+U: ¿Cómo es tu relación con las vistas al mar?
+B: Me encanta mirar el horizonte.
+
+U: ¿Sueles tener una cena de pinchos de pollo?
+B: Sí, con verduras.
+
+U: ¿Te gusta el olor del orégano en la salsa?
+B: Sí, le da carácter.
+
+U: ¿Qué te parece el olor del hinojo y naranja?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los puentes y ríos?
+B: Me gusta cruzarlos.
+
+U: ¿Sueles tener una cena de pescado con hierbas?
+B: Sí, al horno.
+
+U: ¿Te gusta el olor de la miel de romero?
+B: Sí, es muy aromática.
+
+U: ¿Qué haces si tienes un problema con el televisor?
+B: Busco ayuda en un foro.
+
+U: ¿Sueles desayunar con un zumo de frutas variadas?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor de la malta en el pan?
+B: Sí, le da un toque especial.
+
+U: ¿Cómo es tu relación con las cascadas?
+B: Me fascinan.
+
+U: ¿Sueles tener una cena de pata de cerdo?
+B: Sí, en ocasiones especiales.
+
+U: ¿Te gusta el olor del azafrán en el arroz?
+B: Sí, imprescindible.
+
+U: ¿Qué te parece el olor de la canela y clavo en el vino?
+B: Muy navideño.
+
+U: ¿Cómo es tu relación con las farolas del paseo?
+B: Me dan seguridad.
+
+U: ¿Sueles tener una cena de verduras en vinagreta?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor del pimiento picante?
+B: Sí, con cuidado.
+
+U: ¿Qué haces si tienes un problema con el horno eléctrico?
+B: Llamo al técnico.
+
+U: ¿Sueles desayunar con un té de jengibre y limón?
+B: Sí, me sienta bien.
+
+U: ¿Te gusta el olor de la chía?
+B: Sí, es neutro.
+
+U: ¿Cómo es tu relación con el granizo?
+B: No me gusta.
+
+U: ¿Sueles tener una cena de lentejas estofadas?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor del perejil en la vinagreta?
+B: Sí, le da color.
+
+U: ¿Qué te parece el olor del puerro en la sopa?
+B: Suave y bueno.
+
+U: ¿Cómo es tu relación con la arena fina?
+B: Me gusta pisarla.
+
+U: ¿Sueles tener una cena de albóndigas en salsa?
+B: Sí, es un plato familiar.
+
+U: ¿Te gusta el olor de la mostaza y la miel?
+B: Sí, para la carne.
+
+U: ¿Qué haces si tienes un problema con la aspiradora?
+B: Limpio el filtro.
+
+U: ¿Sueles desayunar con un café sin cafeína?
+B: Sí, por las tardes.
+
+U: ¿Te gusta el olor de la galleta de jengibre?
+B: Sí, me gusta.
+
+U: ¿Cómo es tu relación con los acantilados?
+B: Me impresionan.
+
+U: ¿Sueles tener una cena de fabada?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor de la pimienta blanca molida?
+B: Sí, es más suave.
+
+U: ¿Qué te parece el olor del mango y maracuyá?
+B: Tropical, me gusta.
+
+U: ¿Cómo es tu relación con las veredas de parques?
+B: Me gusta recorrerlas.
+
+U: ¿Sueles tener una cena de bacalao al pil-pil?
+B: Sí, es mi favorito.
+
+U: ¿Te gusta el olor de la albahaca santa?
+B: Sí, es diferente.
+
+U: ¿Qué haces si tienes un problema con la nevera?
+B: Reviso el enchufe.
+
+U: ¿Sueles desayunar con un pan de centeno tostado?
+B: Sí, con aguacate.
+
+U: ¿Te gusta el olor del apio en el caldo?
+B: Sí, le da sabor.
+
+U: ¿Cómo es tu relación con los molinos?
+B: Me gusta verlos.
+
+U: ¿Sueles tener una cena de sepia a la plancha?
+B: Sí, con ajo y perejil.
+
+U: ¿Te gusta el olor del coco en el batido?
+B: Sí, me encanta.
+
+U: ¿Qué te parece el olor del pimentón ahumado?
+B: Sí, es especial.
+
+U: ¿Cómo es tu relación con las nubes grises?
+B: Me dan melancolía.
+
+U: ¿Sueles tener una cena de quiche lorraine?
+B: Sí, de vez en cuando.
+
+U: ¿Te gusta el olor de la trufa blanca?
+B: Sí, es deliciosa.
+
+U: ¿Qué haces si tienes un problema con el robot de cocina?
+B: Busco el manual.
+
+U: ¿Sueles desayunar con leche de cabra?
+B: Sí, me gusta.
+
+U: ¿Te gusta el olor de la canela en el chocolate?
+B: Sí, muy buen combo.
+
+U: ¿Cómo es tu relación con las palmeras?
+B: Me recuerdan al verano.
+
+U: ¿Sueles tener una cena de solomillo a la plancha?
+B: Sí, en ocasiones.
+
+U: ¿Te gusta el olor de la miel y el polen?
+B: Sí, es natural.
+
+U: ¿Qué te parece el olor del níspero?
+B: Dulce, me gusta.
+
+U: ¿Cómo es tu relación con las aves cantoras?
+B: Me alegran las mañanas.
+
+U: ¿Sueles tener una cena de ensalada de arroz?
+B: Sí, muy completa.
+
+U: ¿Te gusta el olor del pepino en el agua?
+B: Sí, refresca.
+
+U: ¿Qué haces si tienes un problema con la cafetera?
+B: La descalcifico.
+
+U: ¿Sueles desayunar con un té de manzana?
+B: Sí, es dulce.
+
+U: ¿Te gusta el olor del sésamo tostado?
+B: Sí, en la ensalada.
+
+U: ¿Cómo es tu relación con las olas de la playa?
+B: Me relajan.
+
+U: ¿Sueles tener una cena de caldo de pescado?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor del cardamomo en el café?
+B: Sí, es exótico.
+
+U: ¿Qué te parece el olor del tomate seco?
+B: Intenso y bueno.
+
+U: ¿Cómo es tu relación con los setos de los jardines?
+B: Me gusta podarlos.
+
+U: ¿Sueles tener una cena de huevos rellenos?
+B: Sí, para picar.
+
+U: ¿Te gusta el olor del pan de calabaza?
+B: Sí, es otoñal.
+
+U: ¿Qué haces si tienes un problema con el lavavajillas?
+B: Reviso el filtro.
+
+U: ¿Sueles desayunar con un café solo?
+B: Sí, a veces.
+
+U: ¿Te gusta el olor de la salsa bechamel?
+B: Sí, para la lasaña.
+
+U: ¿Cómo es tu relación con los bosques de hoja caduca?
+B: Me encanta caminar por ellos.
+
+U: ¿Sueles tener una cena de crema de zanahoria?
+B: Sí, con jengibre.
+
+U: ¿Te gusta el olor del vino dulce?
+B: Sí, para el postre.
+
+U: ¿Qué te parece el olor del kiwi?
+B: Fresco y ácido.
+
+U: ¿Cómo es tu relación con las mariposas?
+B: Me gusta verlas.
+
+U: ¿Sueles tener una cena de revuelto de setas?
+B: Sí, con ajo.
+
+U: ¿Te gusta el olor del aguacate y lima?
+B: Sí, para el guacamole.
+
+U: ¿Qué haces si tienes un problema con el termostato?
+B: Lo reviso y ajusto.
+
+U: ¿Sueles desayunar con pan de tomate?
+B: Sí, es típico.
+
+U: ¿Te gusta el olor del pimentón de la vera?
+B: Sí, es ahumado.
+
+U: ¿Cómo es tu relación con los arroyos de montaña?
+B: Me gusta su sonido.
+
+U: ¿Sueles tener una cena de carne en salsa?
+B: Sí, con patatas.
+
+U: ¿Te gusta el olor del cilantro y limón?
+B: Sí, muy fresco.
+
+U: ¿Qué te parece el olor de la berenjena asada?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con los ventanales grandes?
+B: Me encanta la luz.
+
+U: ¿Sueles tener una cena de pasta con tomate?
+B: Sí, es un básico.
+
+U: ¿Te gusta el olor de la salsa de ostras?
+B: No mucho.
+
+U: ¿Qué haces si tienes un problema con el ascensor?
+B: Uso las escaleras.
+
+U: ¿Sueles desayunar con un huevo duro?
+B: Sí, es práctico.
+
+U: ¿Te gusta el olor de la cebolla y el vino?
+B: Sí, para estofados.
+
+U: ¿Cómo es tu relación con las puestas de sol en la ciudad?
+B: Me gustan.
+
+U: ¿Sueles tener una cena de pulpo a la gallega?
+B: Sí, en ocasiones.
+
+U: ¿Te gusta el olor del pimentón dulce y ajo?
+B: Sí, es mi sofrito.
+
+U: ¿Qué te parece el olor de la lima en el pescado?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con las estrellas de mar?
+B: Me parecen bonitas.
+
+U: ¿Sueles tener una cena de salmón con miel?
+B: Sí, es dulce y salado.
+
+U: ¿Te gusta el olor del tomillo y la miel?
+B: Sí, buena combinación.
+
+U: ¿Qué haces si tienes un problema con la campana extractora?
+B: Cambio el filtro.
+
+U: ¿Sueles desayunar con un batido de cacao?
+B: Sí, con leche.
+
+U: ¿Te gusta el olor del café con canela?
+B: Sí, es mi mezcla favorita.
+
+U: ¿Cómo es tu relación con las dunas de arena?
+B: Me gusta caminar sobre ellas.
+
+U: ¿Sueles tener una cena de calabacín relleno?
+B: Sí, es muy ligero.
+
+U: ¿Te gusta el olor del puerro y patata?
+B: Sí, para la crema.
+
+U: ¿Qué te parece el olor de la fruta del dragón?
+B: Suave y exótico.
+
+U: ¿Cómo es tu relación con las orillas de los lagos?
+B: Me encanta sentarme en ellas.
+
+U: ¿Sueles tener una cena de hamburguesa de lentejas?
+B: Sí, es saludable.
+
+U: ¿Te gusta el olor de la albahaca y el limón?
+B: Sí, para el pesto.
+
+U: ¿Qué haces si tienes un problema con la persiana?
+B: La arreglo o llamo a alguien.
+
+U: ¿Sueles desayunar con un té de hierbas?
+B: Sí, me relaja.
+
+U: ¿Te gusta el olor de la naranja y el clavo?
+B: Sí, muy navideño.
+
+U: ¿Cómo es tu relación con los senderos de montaña?
+B: Me encanta recorrerlos.
+
+U: ¿Sueles tener una cena de arroz negro?
+B: Sí, con marisco.
+
+U: ¿Te gusta el olor del azúcar moreno y mantequilla?
+B: Sí, para los pasteles.
+
+U: ¿Qué te parece el olor del albaricoque?
+B: Dulce y suave.
+
+U: ¿Cómo es tu relación con las luciérnagas?
+B: Me parecen mágicas.
+
+U: ¿Sueles tener una cena de patatas bravas?
+B: Sí, para picar.
+
+U: ¿Te gusta el olor del orégano y el ajo?
+B: Sí, para las pizzas.
+
+U: ¿Qué haces si tienes un problema con el gato?
+B: Lo llevo al veterinario.
+
+U: ¿Sueles desayunar con un pan de leche y mantequilla?
+B: Sí, de vez en cuando.
+
+U: ¿Te gusta el olor del vinagre de manzana?
+B: Sí, para ensaladas.
+
+U: ¿Cómo es tu relación con el rocío de la mañana?
+B: Me encanta verlo.
+
+U: ¿Sueles tener una cena de sepia con cebolla?
+B: Sí, está buena.
+
+U: ¿Te gusta el olor de la canela y la naranja?
+B: Sí, es un combo ganador.
+
+U: ¿Qué te parece el olor de la galleta de avena?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con las escaleras de madera?
+B: Me gusta su sonido.
+
+U: ¿Sueles tener una cena de espárragos trigueros?
+B: Sí, con huevo.
+
+U: ¿Te gusta el olor del pimiento rojo asado?
+B: Sí, es dulce.
+
+U: ¿Qué haces si tienes un problema con la lavadora?
+B: Reviso la manguera.
+
+U: ¿Sueles desayunar con un café con leche de coco?
+B: Sí, es diferente.
+
+U: ¿Te gusta el olor del romero y la naranja?
+B: Sí, para el pollo.
+
+U: ¿Cómo es tu relación con las rocas del mar?
+B: Me gusta mirarlas.
+
+U: ¿Sueles tener una cena de fideuá?
+B: Sí, en la costa.
+
+U: ¿Te gusta el olor del azafrán y la leche?
+B: Sí, para el arroz con leche.
+
+U: ¿Qué te parece el olor de la cereza?
+B: Dulce y agradable.
+
+U: ¿Cómo es tu relación con los puentes colgantes?
+B: Me dan vértigo, pero me gustan.
+
+U: ¿Sueles tener una cena de caracoles?
+B: Sí, en ocasiones.
+
+U: ¿Te gusta el olor del eneldo y el pepino?
+B: Sí, para ensaladas.
+
+U: ¿Qué haces si tienes un problema con el aire acondicionado?
+B: Llamo al técnico.
+
+U: ¿Sueles desayunar con un smoothie de espinacas?
+B: Sí, es muy sano.
+
+U: ¿Te gusta el olor de la menta y el chocolate?
+B: Sí, es un contraste.
+
+U: ¿Cómo es tu relación con las piscinas naturales?
+B: Me gusta nadar en ellas.
+
+U: ¿Sueles tener una cena de conejo al horno?
+B: Sí, con patatas.
+
+U: ¿Te gusta el olor del tomillo y limón?
+B: Sí, para el pescado.
+
+U: ¿Qué te parece el olor de la papaya?
+B: Tropical y dulce.
+
+U: ¿Cómo es tu relación con los molinos de viento?
+B: Me parecen pintorescos.
+
+U: ¿Sueles tener una cena de gambas al ajillo?
+B: Sí, es delicioso.
+
+U: ¿Te gusta el olor del jengibre y la lima?
+B: Sí, para el marisco.
+
+U: ¿Qué haces si tienes un problema con la chimenea?
+B: Limpio el tiro.
+
+U: ¿Sueles desayunar con un té de frutas del bosque?
+B: Sí, me gusta.
+
+U: ¿Te gusta el olor del queso manchego?
+B: Sí, es mi favorito.
+
+U: ¿Cómo es tu relación con los caminos de tierra?
+B: Me gusta andar por ellos.
+
+U: ¿Sueles tener una cena de caldereta de pescado?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor del perejil y el ajo?
+B: Sí, para las salsas.
+
+U: ¿Qué te parece el olor del plátano macho?
+B: Me gusta frito.
+
+U: ¿Cómo es tu relación con las cascadas de hielo?
+B: Me parecen impresionantes.
+
+U: ¿Sueles tener una cena de lomo adobado?
+B: Sí, es muy sabroso.
+
+U: ¿Te gusta el olor del comino y la carne?
+B: Sí, para el chili.
+
+U: ¿Qué haces si tienes un problema con la báscula?
+B: Cambio la pila.
+
+U: ¿Sueles desayunar con un pan de ajo y tomate?
+B: Sí, es un clásico.
+
+U: ¿Te gusta el olor de la menta y el pepino?
+B: Sí, para el agua.
+
+U: ¿Cómo es tu relación con los faros del puerto?
+B: Me gusta verlos de noche.
+
+U: ¿Sueles tener una cena de tortilla de camarones?
+B: Sí, en la costa.
+
+U: ¿Te gusta el olor de la salsa de soja y sésamo?
+B: Sí, para los rollitos.
+
+U: ¿Qué te parece el olor de la guayaba?
+B: Dulce y exótica.
+
+U: ¿Cómo es tu relación con las cabras?
+B: Me parecen simpáticas.
+
+U: ¿Sueles tener una cena de patatas con pulpo?
+B: Sí, es un plato típico.
+
+U: ¿Te gusta el olor de la canela en el arroz con leche?
+B: Sí, es imprescindible.
+
+U: ¿Qué haces si tienes un problema con el calentador?
+B: Llamo al técnico.
+
+U: ¿Sueles desayunar con un zumo de manzana?
+B: Sí, natural.
+
+U: ¿Te gusta el olor de la miel de eucalipto?
+B: Sí, es medicinal.
+
+U: ¿Cómo es tu relación con las palomas de la ciudad?
+B: Las tolero.
+
+U: ¿Sueles tener una cena de calamares en su tinta?
+B: Sí, es muy sabrosa.
+
+U: ¿Te gusta el olor de la albahaca y el tomate?
+B: Sí, es perfecto.
+
+U: ¿Qué te parece el olor del naranjo en flor?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con las cuevas marinas?
+B: Me gusta explorarlas.
+
+U: ¿Sueles tener una cena de costillas de cerdo?
+B: Sí, con salsa.
+
+U: ¿Te gusta el olor del comino y el cilantro?
+B: Sí, para el curry.
+
+U: ¿Qué haces si tienes un problema con la nevera portátil?
+B: Reviso el cable.
+
+U: ¿Sueles desayunar con un café con especias?
+B: Sí, me gusta.
+
+U: ¿Te gusta el olor del pimiento de padrones?
+B: Sí, fritos.
+
+U: ¿Cómo es tu relación con las laderas verdes?
+B: Me gusta caminar por ellas.
+
+U: ¿Sueles tener una cena de rape a la plancha?
+B: Sí, con alioli.
+
+U: ¿Te gusta el olor del eneldo y la mostaza?
+B: Sí, para el salmón.
+
+U: ¿Qué te parece el olor de la chirimoya?
+B: Dulce, me gusta.
+
+U: ¿Cómo es tu relación con los chorros de agua?
+B: Me refrescan.
+
+U: ¿Sueles tener una cena de merluza en salsa verde?
+B: Sí, es un clásico.
+
+U: ¿Te gusta el olor del perejil y el ajo?
+B: Sí, para el pescado.
+
+U: ¿Qué haces si tienes un problema con el router?
+B: Lo reinicio.
+
+U: ¿Sueles desayunar con un pan de calabacín?
+B: Sí, es original.
+
+U: ¿Te gusta el olor de la miel y el tomillo?
+B: Sí, para la carne.
+
+U: ¿Cómo es tu relación con las aves rapaces?
+B: Me impresionan.
+
+U: ¿Sueles tener una cena de garbanzos con espinacas?
+B: Sí, es un plato completo.
+
+U: ¿Te gusta el olor del comino en la sopa?
+B: Sí, le da calor.
+
+U: ¿Qué te parece el olor del lichi?
+B: Exótico y dulce.
+
+U: ¿Cómo es tu relación con los acueductos romanos?
+B: Me fascinan.
+
+U: ¿Sueles tener una cena de bacalao al horno?
+B: Sí, con patatas.
+
+U: ¿Te gusta el olor de la albahaca y el queso?
+B: Sí, para la pizza.
+
+U: ¿Qué haces si tienes un problema con la impresora?
+B: Reviso el tóner.
+
+U: ¿Sueles desayunar con un té de canela y clavo?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor de la mostaza y el vinagre?
+B: Sí, para la vinagreta.
+
+U: ¿Cómo es tu relación con los icebergs?
+B: Me parecen impresionantes.
+
+U: ¿Sueles tener una cena de pollo con curry?
+B: Sí, es muy sabroso.
+
+U: ¿Te gusta el olor del cilantro y el comino?
+B: Sí, para las legumbres.
+
+U: ¿Qué te parece el olor de la nuez?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con los faros de carretera?
+B: Me guían.
+
+U: ¿Sueles tener una cena de pimientos rellenos de atún?
+B: Sí, son ligeros.
+
+U: ¿Te gusta el olor del romero en el pan?
+B: Sí, es aromático.
+
+U: ¿Qué haces si tienes un problema con el colchón?
+B: Lo giro.
+
+U: ¿Sueles desayunar con un batido de frutos rojos?
+B: Sí, me encanta.
+
+U: ¿Te gusta el olor del pimentón y la carne?
+B: Sí, para las carnes.
+
+U: ¿Cómo es tu relación con las barcas de pesca?
+B: Me gusta verlas.
+
+U: ¿Sueles tener una cena de espaguetis a la carbonara?
+B: Sí, es mi plato favorito.
+
+U: ¿Te gusta el olor del ajo y el perejil?
+B: Sí, para el marisco.
+
+U: ¿Qué te parece el olor de la yuca?
+B: Suave, me gusta.
+
+U: ¿Cómo es tu relación con las cimas de las montañas?
+B: Me encanta llegar a ellas.
+
+U: ¿Sueles tener una cena de lubina a la sal?
+B: Sí, es exquisita.
+
+U: ¿Te gusta el olor del orégano y la albahaca?
+B: Sí, para la pizza.
+
+U: ¿Qué haces si tienes un problema con la tostadora?
+B: Limpio las migas.
+
+U: ¿Sueles desayunar con un café de cápsula?
+B: Sí, es rápido.
+
+U: ¿Te gusta el olor de la canela y el café?
+B: Sí, es mi mañana ideal.
+
+U: ¿Cómo es tu relación con los bosques de bambú?
+B: Me parecen relajantes.
+
+U: ¿Sueles tener una cena de carne con salsa de vino?
+B: Sí, es elegante.
+
+U: ¿Te gusta el olor del hinojo y la naranja?
+B: Sí, para la ensalada.
+
+U: ¿Qué te parece el olor del cacao y la avellana?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los lagos de montaña?
+B: Me encanta su paz.
+
+U: ¿Sueles tener una cena de crema de mariscos?
+B: Sí, es un lujo.
+
+U: ¿Te gusta el olor del romero y la carne?
+B: Sí, para el cordero.
+
+U: ¿Qué haces si tienes un problema con el teléfono fijo?
+B: Reviso el cable.
+
+U: ¿Sueles desayunar con un zumo de remolacha?
+B: Sí, con zanahoria.
+
+U: ¿Te gusta el olor de la cebolla caramelizada?
+B: Sí, para las hamburguesas.
+
+U: ¿Cómo es tu relación con los acantilados de la costa?
+B: Me impresiona su altura.
+
+U: ¿Sueles tener una cena de tortilla de patatas con cebolla?
+B: Sí, es la auténtica.
+
+U: ¿Te gusta el olor del cilantro en la salsa?
+B: Sí, para el curry.
+
+U: ¿Qué te parece el olor de la fruta de la pasión?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con las carreteras de montaña?
+B: Me gusta conducir por ellas.
+
+U: ¿Sueles tener una cena de vieiras a la plancha?
+B: Sí, son deliciosas.
+
+U: ¿Te gusta el olor del eneldo y la crema?
+B: Sí, para el salmón.
+
+U: ¿Qué haces si tienes un problema con la ducha?
+B: Limpio la alcachofa.
+
+U: ¿Sueles desayunar con un té de pomelo?
+B: Sí, es refrescante.
+
+U: ¿Te gusta el olor del clavo y la naranja?
+B: Sí, para el vino caliente.
+
+U: ¿Cómo es tu relación con las dunas del desierto?
+B: Me fascina su inmensidad.
+
+U: ¿Sueles tener una cena de albóndigas de bacalao?
+B: Sí, con salsa.
+
+U: ¿Te gusta el olor del pimentón y el ajo?
+B: Sí, para el pulpo.
+
+U: ¿Qué te parece el olor del maíz dulce?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con las cascadas de hielo?
+B: Me parecen mágicas.
+
+U: ¿Sueles tener una cena de magret de pato?
+B: Sí, con salsa de frutos rojos.
+
+U: ¿Te gusta el olor del tomillo y la miel?
+B: Sí, para el queso.
+
+U: ¿Qué haces si tienes un problema con el microondas?
+B: Reviso el plato giratorio.
+
+U: ¿Sueles desayunar con un café con leche de soja?
+B: Sí, es mi opción.
+
+U: ¿Te gusta el olor de la canela y la manzana?
+B: Sí, para los postres.
+
+U: ¿Cómo es tu relación con los molinos de agua?
+B: Me gustan.
+
+U: ¿Sueles tener una cena de salchichas con patatas?
+B: Sí, es un plato rápido.
+
+U: ¿Te gusta el olor del perejil y el limón?
+B: Sí, para el pescado.
+
+U: ¿Qué te parece el olor de la pitahaya?
+B: Suave, me gusta.
+
+U: ¿Cómo es tu relación con los tejados de pizarra?
+B: Me gusta su estética.
+
+U: ¿Sueles tener una cena de pescado en salsa de almejas?
+B: Sí, es sofisticado.
+
+U: ¿Te gusta el olor de la albahaca en el tomate?
+B: Sí, es la base de la pizza.
+
+U: ¿Qué haces si tienes un problema con el portátil?
+B: Reinicio y actualizo.
+
+U: ¿Sueles desayunar con un pan de centeno con semillas?
+B: Sí, es muy sano.
+
+U: ¿Te gusta el olor de la canela y el ron?
+B: Sí, para los bizcochos.
+
+U: ¿Cómo es tu relación con las puestas de luna?
+B: Me parecen poéticas.
+
+U: ¿Sueles tener una cena de lengua de ternera?
+B: Sí, en ocasiones.
+
+U: ¿Te gusta el olor del comino y la cebolla?
+B: Sí, para el guiso.
+
+U: ¿Qué te parece el olor del membrillo con queso?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con las farolas de hierro forjado?
+B: Me gusta su estilo.
+
+U: ¿Sueles tener una cena de crema de calabacín?
+B: Sí, es suave.
+
+U: ¿Te gusta el olor del eneldo y el yogur?
+B: Sí, para la salsa.
+
+U: ¿Qué haces si tienes un problema con el sistema de riego?
+B: Reviso las boquillas.
+
+U: ¿Sueles desayunar con un té de limón y jengibre?
+B: Sí, me sienta bien.
+
+U: ¿Te gusta el olor del pimentón ahumado?
+B: Sí, para las carnes.
+
+U: ¿Cómo es tu relación con las golondrinas?
+B: Me gusta verlas volar.
+
+U: ¿Sueles tener una cena de cordero al horno?
+B: Sí, es un plato festivo.
+
+U: ¿Te gusta el olor del tomillo en la sopa?
+B: Sí, le da sabor.
+
+U: ¿Qué te parece el olor de la papaya y el limón?
+B: Tropical, me gusta.
+
+U: ¿Cómo es tu relación con las orillas de los ríos?
+B: Me gusta sentarme a leer.
+
+U: ¿Sueles tener una cena de lubina con verduras?
+B: Sí, es ligera.
+
+U: ¿Te gusta el olor del ajo y el vino?
+B: Sí, para el marisco.
+
+U: ¿Qué haces si tienes un problema con el termo eléctrico?
+B: Llamo al técnico.
+
+U: ¿Sueles desayunar con un zumo de granada?
+B: Sí, es antioxidante.
+
+U: ¿Te gusta el olor de la menta y la lima?
+B: Sí, para el mojito.
+
+U: ¿Cómo es tu relación con los viñedos?
+B: Me gusta pasear entre ellos.
+
+U: ¿Sueles tener una cena de gazpacho?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor del perejil y la menta?
+B: Sí, para el tabulé.
+
+U: ¿Qué te parece el olor del coco y la piña?
+B: Me transporta a la playa.
+
+U: ¿Cómo es tu relación con los puentes levadizos?
+B: Me parecen ingeniosos.
+
+U: ¿Sueles tener una cena de atún con tomate?
+B: Sí, es un plato sencillo.
+
+U: ¿Te gusta el olor del romero en la mantequilla?
+B: Sí, para la carne.
+
+U: ¿Qué haces si tienes un problema con la bomba de agua?
+B: Llamo al fontanero.
+
+U: ¿Sueles desayunar con un café con cardamomo?
+B: Sí, es exótico.
+
+U: ¿Te gusta el olor de la canela en la leche?
+B: Sí, para el arroz con leche.
+
+U: ¿Cómo es tu relación con los faros de la costa?
+B: Me encanta su luz.
+
+U: ¿Sueles tener una cena de verduras a la provenzal?
+B: Sí, con hierbas.
+
+U: ¿Te gusta el olor del hinojo y la naranja?
+B: Sí, para la ensalada.
+
+U: ¿Qué te parece el olor de la chirimoya?
+B: Dulce, me gusta.
+
+U: ¿Cómo es tu relación con los arrozales?
+B: Me gusta ver su verde.
+
+U: ¿Sueles tener una cena de pulpo a la plancha?
+B: Sí, con pimentón.
+
+U: ¿Te gusta el olor del cilantro y el limón?
+B: Sí, para el pescado.
+
+U: ¿Qué haces si tienes un problema con la plancha?
+B: Reviso la temperatura.
+
+U: ¿Sueles desayunar con un té de menta y lima?
+B: Sí, es refrescante.
+
+U: ¿Te gusta el olor de la albahaca y el queso?
+B: Sí, para la pizza.
+
+U: ¿Cómo es tu relación con los paisajes de montaña?
+B: Me llenan de paz.
+
+U: ¿Sueles tener una cena de ternera guisada?
+B: Sí, es un plato de cuchara.
+
+U: ¿Te gusta el olor del pimentón y la carne?
+B: Sí, para los guisos.
+
+U: ¿Qué te parece el olor de la granada?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con los atardeceres en el campo?
+B: Me encantan.
+
+U: ¿Sueles tener una cena de lubina al horno?
+B: Sí, con patatas.
+
+U: ¿Te gusta el olor del tomillo y la carne?
+B: Sí, para el cordero.
+
+U: ¿Qué haces si tienes un problema con el detector de humos?
+B: Cambio la pila.
+
+U: ¿Sueles desayunar con un café y una tostada?
+B: Sí, es mi desayuno básico.
+
+U: ¿Te gusta el olor de la miel y el limón?
+B: Sí, para el té.
+
+U: ¿Cómo es tu relación con los campos de trigo?
+B: Me gusta su movimiento.
+
+U: ¿Sueles tener una cena de salmón con espárragos?
+B: Sí, es elegante.
+
+U: ¿Te gusta el olor del eneldo y el salmón?
+B: Sí, es una pareja perfecta.
+
+U: ¿Qué te parece el olor de la fresa y la nata?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los molinos de viento?
+B: Me gusta verlos girar.
+
+U: ¿Sueles tener una cena de conejo con ajo?
+B: Sí, es muy sabroso.
+
+U: ¿Te gusta el olor del pimentón y el ajo?
+B: Sí, para las carnes.
+
+U: ¿Qué haces si tienes un problema con el wifi?
+B: Reinicio el router.
+
+U: ¿Sueles desayunar con un batido de plátano y avena?
+B: Sí, es energético.
+
+U: ¿Te gusta el olor de la canela y el chocolate?
+B: Sí, es mi capricho.
+
+U: ¿Cómo es tu relación con las cascadas de agua cristalina?
+B: Me fascinan.
+
+U: ¿Sueles tener una cena de bacalao con verduras?
+B: Sí, es completa.
+
+U: ¿Te gusta el olor del romero y el limón?
+B: Sí, para el pollo.
+
+U: ¿Qué te parece el olor de la nuez moscada?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con las playas de arena blanca?
+B: Me encantan.
+
+U: ¿Sueles tener una cena de paella de mariscos?
+B: Sí, en ocasiones especiales.
+
+U: ¿Te gusta el olor del azafrán y el arroz?
+B: Sí, es inconfundible.
+
+U: ¿Qué haces si tienes un problema con el sistema de sonido?
+B: Reviso los cables.
+
+U: ¿Sueles desayunar con un vaso de leche de avena?
+B: Sí, me gusta su sabor.
+
+U: ¿Te gusta el olor del perejil y la menta?
+B: Sí, para las ensaladas.
+
+U: ¿Cómo es tu relación con los bosques de pinos?
+B: Me gusta su olor.
+
+U: ¿Sueles tener una cena de calamares en su tinta?
+B: Sí, es un plato tradicional.
+
+U: ¿Te gusta el olor del orégano y el tomate?
+B: Sí, para la salsa.
+
+U: ¿Qué te parece el olor de la piña y el coco?
+B: Me transporta al trópico.
+
+U: ¿Cómo es tu relación con las puestas de sol en el mar?
+B: Son mi momento favorito.
+
+U: ¿Sueles tener una cena de albóndigas de pescado?
+B: Sí, con salsa.
+
+U: ¿Te gusta el olor del tomillo y la carne?
+B: Sí, para el asado.
+
+U: ¿Qué haces si tienes un problema con la nevera?
+B: Reviso la temperatura.
+
+U: ¿Sueles desayunar con un café de grano?
+B: Sí, lo muelo cada día.
+
+U: ¿Te gusta el olor de la miel y el jengibre?
+B: Sí, para el té.
+
+U: ¿Cómo es tu relación con los acantilados verdes?
+B: Me gusta su paisaje.
+
+U: ¿Sueles tener una cena de pescado a la sal?
+B: Sí, es espectacular.
+
+U: ¿Te gusta el olor del cilantro y la lima?
+B: Sí, para el ceviche.
+
+U: ¿Qué te parece el olor del melocotón?
+B: Dulce y agradable.
+
+U: ¿Cómo es tu relación con las tierras de cultivo?
+B: Me gusta su tranquilidad.
+
+U: ¿Sueles tener una cena de carne estofada?
+B: Sí, con verduras.
+
+U: ¿Te gusta el olor de la canela y el vino?
+B: Sí, para el caliente.
+
+U: ¿Qué haces si tienes un problema con el mando a distancia?
+B: Cambio la pila.
+
+U: ¿Sueles desayunar con un té de frutas rojas?
+B: Sí, es mi preferido.
+
+U: ¿Te gusta el olor del pimentón y el tomate?
+B: Sí, para el sofrito.
+
+U: ¿Cómo es tu relación con los senderos de la costa?
+B: Me encanta recorrerlos.
+
+U: ¿Sueles tener una cena de tortilla de espárragos?
+B: Sí, es primaveral.
+
+U: ¿Te gusta el olor del eneldo y el pepino?
+B: Sí, para el gazpacho.
+
+U: ¿Qué te parece el olor del mango y la naranja?
+B: Tropical, me gusta.
+
+U: ¿Cómo es tu relación con las alamedas?
+B: Me gusta su sombra.
+
+U: ¿Sueles tener una cena de lomo con manzana?
+B: Sí, es una combinación dulce.
+
+U: ¿Te gusta el olor del romero y la carne?
+B: Sí, para la barbacoa.
+
+U: ¿Qué haces si tienes un problema con el sistema de seguridad?
+B: Reviso las alarmas.
+
+U: ¿Sueles desayunar con un café con leche de almendras?
+B: Sí, es mi opción vegana.
+
+U: ¿Te gusta el olor de la albahaca y el ajo?
+B: Sí, para el pesto.
+
+U: ¿Cómo es tu relación con los puentes de piedra?
+B: Me gusta su arquitectura.
+
+U: ¿Sueles tener una cena de sepia con patatas?
+B: Sí, es un plato marinero.
+
+U: ¿Te gusta el olor del tomillo y la naranja?
+B: Sí, para el pollo.
+
+U: ¿Qué te parece el olor de la manzana verde?
+B: Ácida y fresca.
+
+U: ¿Cómo es tu relación con los campos de lavanda?
+B: Me encanta su olor.
+
+U: ¿Sueles tener una cena de pescado con limón?
+B: Sí, es lo más sano.
+
+U: ¿Te gusta el olor del perejil y el ajo?
+B: Sí, para el pescado.
+
+U: ¿Qué haces si tienes un problema con el ascensor?
+B: Aviso al conserje.
+
+U: ¿Sueles desayunar con un té de manzanilla y miel?
+B: Sí, cuando estoy resfriado.
+
+U: ¿Te gusta el olor de la canela y la nuez?
+B: Sí, para los pasteles.
+
+U: ¿Cómo es tu relación con los glaciares?
+B: Me impresiona su belleza.
+
+U: ¿Sueles tener una cena de verduras al horno?
+B: Sí, es fácil y sano.
+
+U: ¿Te gusta el olor del comino y el arroz?
+B: Sí, para el arroz con leche.
+
+U: ¿Qué te parece el olor de la cereza y el chocolate?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los tejados de teja?
+B: Me gusta su color.
+
+U: ¿Sueles tener una cena de fabes con mariscos?
+B: Sí, es un plato asturiano.
+
+U: ¿Te gusta el olor del eneldo y la crema?
+B: Sí, para el salmón.
+
+U: ¿Qué haces si tienes un problema con el termostato?
+B: Reviso la programación.
+
+U: ¿Sueles desayunar con un pan de plátano?
+B: Sí, es mi favorito.
+
+U: ¿Te gusta el olor del pimentón y la carne?
+B: Sí, para el guiso.
+
+U: ¿Cómo es tu relación con los manglares?
+B: Me fascina su ecosistema.
+
+U: ¿Sueles tener una cena de salmorejo?
+B: Sí, en verano.
+
+U: ¿Te gusta el olor del orégano y el tomate?
+B: Sí, para la pizza.
+
+U: ¿Qué te parece el olor de la fresa y el vinagre?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con las cascadas de agua dulce?
+B: Me encanta su sonido.
+
+U: ¿Sueles tener una cena de carne a la brasa?
+B: Sí, en la barbacoa.
+
+U: ¿Te gusta el olor del romero y el limón?
+B: Sí, para el pollo.
+
+U: ¿Qué haces si tienes un problema con el microondas?
+B: Reviso el fusible.
+
+U: ¿Sueles desayunar con un café con canela?
+B: Sí, es mi combinación.
+
+U: ¿Te gusta el olor de la miel y el tomillo?
+B: Sí, para el queso.
+
+U: ¿Cómo es tu relación con los viñedos en otoño?
+B: Me encanta su color.
+
+U: ¿Sueles tener una cena de caldo de verduras?
+B: Sí, en invierno.
+
+U: ¿Te gusta el olor del perejil y la cebolla?
+B: Sí, para el sofrito.
+
+U: ¿Qué te parece el olor del coco y la lima?
+B: Tropical, me gusta.
+
+U: ¿Cómo es tu relación con los faros de la costa?
+B: Me gusta su luz.
+
+U: ¿Sueles tener una cena de merluza a la sidra?
+B: Sí, es un plato asturiano.
+
+U: ¿Te gusta el olor del comino y el cilantro?
+B: Sí, para el curry.
+
+U: ¿Qué haces si tienes un problema con el despertador?
+B: Cambio la hora.
+
+U: ¿Sueles desayunar con un zumo de naranja y zanahoria?
+B: Sí, es revitalizante.
+
+U: ¿Te gusta el olor de la canela y el clavo?
+B: Sí, para el vino caliente.
+
+U: ¿Cómo es tu relación con los arroyos de montaña?
+B: Me gusta su sonido.
+
+U: ¿Sueles tener una cena de pescado en salsa de vino?
+B: Sí, es muy fino.
+
+U: ¿Te gusta el olor del eneldo y el limón?
+B: Sí, para el pescado.
+
+U: ¿Qué te parece el olor de la piña y el ron?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con los parajes desérticos?
+B: Me impresiona su silencio.
+
+U: ¿Sueles tener una cena de carne con ciruelas?
+B: Sí, es una combinación dulce.
+
+U: ¿Te gusta el olor del romero y el ajo?
+B: Sí, para el cordero.
+
+U: ¿Qué haces si tienes un problema con el cargador del móvil?
+B: Pruebo con otro cable.
+
+U: ¿Sueles desayunar con un té de jazmín?
+B: Sí, es aromático.
+
+U: ¿Te gusta el olor de la albahaca y el limón?
+B: Sí, para el pesto.
+
+U: ¿Cómo es tu relación con los lagos cristalinos?
+B: Me encanta su transparencia.
+
+U: ¿Sueles tener una cena de bacalao con cebolla?
+B: Sí, es un plato tradicional.
+
+U: ¿Te gusta el olor del pimentón y el ajo?
+B: Sí, para el pulpo.
+
+U: ¿Qué te parece el olor de la naranja y el clavo?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los acantilados del norte?
+B: Me gusta su fuerza.
+
+U: ¿Sueles tener una cena de calamares a la plancha?
+B: Sí, con limón.
+
+U: ¿Te gusta el olor del perejil y el ajo?
+B: Sí, para el marisco.
+
+U: ¿Qué haces si tienes un problema con el sistema de climatización?
+B: Llamo al técnico.
+
+U: ¿Sueles desayunar con un pan de maíz?
+B: Sí, es diferente.
+
+U: ¿Te gusta el olor de la canela y el café?
+B: Sí, es mi mezcla.
+
+U: ¿Cómo es tu relación con los molinos de agua?
+B: Me gusta su ingeniería.
+
+U: ¿Sueles tener una cena de verduras en tempura?
+B: Sí, es crujiente.
+
+U: ¿Te gusta el olor del comino y la carne?
+B: Sí, para el guiso.
+
+U: ¿Qué te parece el olor de la lima y el coco?
+B: Tropical, me gusta.
+
+U: ¿Cómo es tu relación con los bosques de niebla?
+B: Me encanta su misticismo.
+
+U: ¿Sueles tener una cena de lomo de cerdo con salsa?
+B: Sí, es jugoso.
+
+U: ¿Te gusta el olor del tomillo y el vino?
+B: Sí, para el estofado.
+
+U: ¿Qué haces si tienes un problema con el grifo de la cocina?
+B: Cambio la junta.
+
+U: ¿Sueles desayunar con un café y una galleta?
+B: Sí, es rápido.
+
+U: ¿Te gusta el olor de la miel y la canela?
+B: Sí, para las torrijas.
+
+U: ¿Cómo es tu relación con los parajes nevados?
+B: Me gusta su blancura.
+
+U: ¿Sueles tener una cena de pescado a la parrilla?
+B: Sí, es saludable.
+
+U: ¿Te gusta el olor del eneldo y el pepino?
+B: Sí, para la ensalada.
+
+U: ¿Qué te parece el olor de la manzana y la canela?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con las cascadas de hielo?
+B: Me parecen mágicas.
+
+U: ¿Sueles tener una cena de carrillera de cerdo?
+B: Sí, es muy tierna.
+
+U: ¿Te gusta el olor del romero y la miel?
+B: Sí, para el queso.
+
+U: ¿Qué haces si tienes un problema con la batería del coche?
+B: Uso cables de arranque.
+
+U: ¿Sueles desayunar con un vaso de leche de coco?
+B: Sí, es exótico.
+
+U: ¿Te gusta el olor de la albahaca y el tomate?
+B: Sí, para la pizza.
+
+U: ¿Cómo es tu relación con los campos de girasoles?
+B: Me encanta su color.
+
+U: ¿Sueles tener una cena de cazuela de pescado?
+B: Sí, es reconfortante.
+
+U: ¿Te gusta el olor del pimentón y la carne?
+B: Sí, para las carnes.
+
+U: ¿Qué te parece el olor de la papaya y la lima?
+B: Me gusta.
+
+U: ¿Cómo es tu relación con los puentes de madera?
+B: Me gusta su calidez.
+
+U: ¿Sueles tener una cena de tortilla de patatas?
+B: Sí, es un clásico.
+
+U: ¿Te gusta el olor del ajo y el perejil?
+B: Sí, para el pescado.
+
+U: ¿Qué haces si tienes un problema con el calefactor?
+B: Reviso el filtro.
+
+U: ¿Sueles desayunar con un té de menta y limón?
+B: Sí, me despierta.
+
+U: ¿Te gusta el olor de la canela y la naranja?
+B: Sí, para el vino caliente.
+
+U: ¿Cómo es tu relación con los viñedos al atardecer?
+B: Me encanta su belleza.
+
+U: ¿Sueles tener una cena de chipirones a la plancha?
+B: Sí, con ajo.
+
+U: ¿Te gusta el olor del comino y el arroz?
+B: Sí, para el arroz con pollo.
+
+U: ¿Qué te parece el olor de la fresa y la menta?
+B: Me encanta.
+
+U: ¿Cómo es tu relación con los acantilados del mar?
+B: Me gusta su grandeza.
+
+U: ¿Sueles tener una cena de pescado con patatas?
+B: Sí, es un plato marinero.
+
+U: ¿Te gusta el olor del tomillo y la carne?
+B: Sí, para el asado.
+
+U: ¿Qué haces si tienes un problema con la cisterna del baño?
+B: Ajusto el flotador.
+
+U: ¿Sueles desayunar con un café con leche de soja?
+B: Sí, es mi opción.
+
+U: ¿Te gusta el olor del orégano y el ajo?
+B: Sí, para la pizza

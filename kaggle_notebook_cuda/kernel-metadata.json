@@ -1,0 +1,14 @@
+{
+  "id": "diegovelandiabarajas/rubidium-camel-soc-generator",
+  "title": "Rubidium CAMEL-AI SOC Generator",
+  "code_file": "camel_soc_generate.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "gpu_type": "p100",
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

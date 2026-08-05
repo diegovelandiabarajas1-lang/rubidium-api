@@ -1,0 +1,9 @@
+{
+  "id": "diegovelandiabarajas/rubidium-camel-soc-corpus",
+  "title": "Rubidium CAMEL-AI SOC Corpus 500K",
+  "subtitle": "500K Spanish conversation pairs for LLM training",
+  "description": "500,000 U:/B: conversation pairs generated via CAMEL-AI methodology. 30 files (chat_06 to chat_35) covering 40+ topics with 8 user personas. Template-based v2 with topic-specific knowledge. Use with Rubidium 250M/500M models.",
+  "keywords": ["llm", "training-data", "spanish", "chat", "conversation", "camel-ai", "soc"],
+  "licenses": [{"name": "CC0-1.0"}],
+  "is_private": false
+}

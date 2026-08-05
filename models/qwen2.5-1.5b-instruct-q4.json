@@ -1,0 +1,31 @@
+{
+  "name": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+  "model_id": "qwen2.5-1.5b-instruct-q4",
+  "description": "Qwen2.5-1.5B-Instruct quantized to 4-bit (Q4_K_M) using llama.cpp GGUF format",
+  "huggingface_repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "quantization": "Q4_K_M",
+  "size_gb": 1.1,
+  "context_window": 131072,
+  "license": "Apache-2.0",
+  "license_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/blob/main/LICENSE",
+  "architecture": "qwen2",
+  "parameters": "1.5B",
+  "recommended_for": [
+    "Spanish language tasks",
+    "General chat",
+    "Code generation",
+    "Reasoning"
+  ],
+  "download_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "sha256": "",
+  "engine_compatibility": ["llama.cpp", "ollama", "llama-cpp-python"],
+  "default_engine": "llama.cpp",
+  "generation_defaults": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 40,
+    "max_tokens": 2048,
+    "repeat_penalty": 1.1
+  }
+}

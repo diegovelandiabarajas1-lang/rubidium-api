@@ -1,0 +1,806 @@
+U: ¿Qué es un número primo? / B: Un número primo es un número natural mayor que 1 que solo tiene dos divisores: 1 y sí mismo.
+U: ¿Cuál es la fórmula del área del círculo? / B: El área del círculo es πr², donde r es el radio del círculo.
+U: ¿Qué es el Teorema de Pitágoras? / B: En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos: a² + b² = c².
+U: ¿Cómo se calcula el perímetro de un rectángulo? / B: El perímetro de un rectángulo es 2(largo + ancho), es decir P = 2(l + a).
+U: ¿Qué es una función lineal? / B: Una función lineal es una función de la forma f(x) = mx + b, donde m es la pendiente y b es la intersección con el eje Y.
+U: ¿Cuál es la fórmula del volumen del cubo? / B: El volumen del cubo es V = a³, donde a es la longitud de una arista.
+U: ¿Qué es el dominio de una función? / B: El dominio es el conjunto de todos los valores posibles de entrada para los cuales la función está definida.
+U: ¿Cómo se resuelve una ecuación lineal? / B: Se despeja la variable realizando operaciones inversas en ambos miembros de la ecuación.
+U: ¿Cuál es el área del triángulo? / B: El área del triángulo es (base × altura) / 2.
+U: ¿Qué es un número racional? / B: Un número racional es cualquier número que puede expresarse como una fracción p/q donde p y q son enteros y q no es cero.
+U: ¿Cuál es la fórmula de la distancia entre dos puntos? / B: d = √[(x₂ - x₁)² + (y₂ - y₁)²]
+U: ¿Qué es el teorema fundamental del álgebra? / B: Todo polinomio de grado n tiene exactamente n raíces complejas contando multiplicidades.
+U: ¿Cómo se calcula el promedio aritmético? / B: Se suman todos los valores y se divide entre la cantidad de valores.
+U: ¿Qué es un triángulo isósceles? / B: Un triángulo isósceles es aquel que tiene dos lados iguales y dos ángulos iguales.
+U: ¿Cuál es la fórmula del volumen del cilindro? / B: V = πr²h, donde r es el radio de la base y h es la altura.
+U: ¿Qué es una ecuación cuadrática? / B: Una ecuación cuadrática es una ecuación de la forma ax² + bx + c = 0, donde a ≠ 0.
+U: ¿Cómo se factoriza una diferencia de cuadrados? / B: a² - b² = (a + b)(a - b)
+U: ¿Qué es el seno de un ángulo? / B: En un triángulo rectángulo, el seno es la razón entre el cateto opuesto y la hipotenusa.
+U: ¿Cómo se calcula el área del trapecio? / B: A = ((base mayor + base menor) × altura) / 2
+U: ¿Qué es un número irracional? / B: Un número irracional es un número real que no puede expresarse como una fracción de dos enteros, como π o √2.
+U: ¿Cuál es la fórmula cuadrática? / B: x = (-b ± √(b² - 4ac)) / (2a)
+U: ¿Qué es el coseno de un ángulo? / B: El coseno es la razón entre el cateto adyacente y la hipotenusa en un triángulo rectángulo.
+U: ¿Cómo se calcula el perímetro del círculo? / B: P = 2πr, donde r es el radio.
+U: ¿Qué es un polinomio? / B: Un polinomio es una expresión algebraica que consiste en términos con variables elevadas a potencias enteras no negativas.
+U: ¿Cuál es la suma de los ángulos internos de un triángulo? / B: La suma de los ángulos internos de un triángulo es siempre 180 grados.
+U: ¿Qué es la raíz cuadrada? / B: La raíz cuadrada de un número x es un valor que multiplicado por sí mismo da x.
+U: ¿Cómo se resuelve un sistema de ecuaciones lineales? / B: Se puede usar sustitución, igualación, reducción o el método de Cramer.
+U: ¿Qué es el valor absoluto? / B: El valor absoluto de un número es su distancia desde cero en la recta numérica, siempre positivo.
+U: ¿Cuál es el volumen de una esfera? / B: V = (4/3)πr³, donde r es el radio.
+U: ¿Qué es la pendiente de una recta? / B: La pendiente es la razón de cambio vertical entre el cambio horizontal: m = (y₂ - y₁)/(x₂ - x₁).
+U: ¿Cómo se calcula el área del paralelogramo? / B: A = base × altura
+U: ¿Qué es un exponente negativo? / B: Un exponente negativo indica la inversa de la base elevada al valor absoluto del exponente: a⁻ⁿ = 1/aⁿ.
+U: ¿Cuál es la fórmula del área del rectángulo? / B: A = largo × ancho
+U: ¿Qué es la media geométrica? / B: La media geométrica de n números es la raíz n-ésima del producto de todos los números.
+U: ¿Cómo se calcula la varianza? / B: La varianza es el promedio de los cuadrados de las desviaciones respecto a la media.
+U: ¿Qué es un ángulo agudo? / B: Un ángulo agudo es un ángulo menor de 90 grados.
+U: ¿Cuál es la fórmula del volumen del cono? / B: V = (1/3)πr²h
+U: ¿Qué es el coseno de 0 grados? / B: El coseno de 0 grados es 1.
+U: ¿Cómo se suma fracciones con diferente denominador? / B: Se busca un denominador común, se convierten las fracciones y se suman los numeradores.
+U: ¿Qué es un vector? / B: Un vector es una cantidad con magnitud y dirección, representada como una flecha en el espacio.
+U: ¿Cuál es el seno de 90 grados? / B: El seno de 90 grados es 1.
+U: ¿Qué es la recta numérica? / B: Una representación visual de los números reales dispuestos en línea recta.
+U: ¿Cómo se calcula la desviación estándar? / B: Es la raíz cuadrada de la varianza: σ = √(varianza).
+U: ¿Qué es un polígono regular? / B: Un polígono regular es aquel cuyos lados y ángulos interiores son todos iguales.
+U: ¿Cuál es la fórmula del área del rombo? / B: A = (d₁ × d₂) / 2, donde d₁ y d₂ son las diagonales.
+U: ¿Qué es el tangente de un ángulo? / B: El tangente es la razón entre el seno y el coseno: tan(θ) = sen(θ)/cos(θ).
+U: ¿Cómo se reduce una fracción a su mínima expresión? / B: Se divide el numerador y el denominador por su máximo común divisor.
+U: ¿Qué es una asíntota? / B: Una línea recta que una curva se acerca indefinidamente pero nunca toca.
+U: ¿Cuál es el área del pentágono regular? / B: A = (perímetro × apotema) / 2
+U: ¿Qué es el máximo común divisor? / B: Es el mayor número que divide exactamente a dos o más números.
+U: ¿Cómo se calcula el área de un sector circular? / B: A = (θ/360) × πr², donde θ es el ángulo central en grados.
+U: ¿Qué es una función exponencial? / B: Una función de la forma f(x) = aˣ, donde a es una constante positiva llamada base.
+U: ¿Cuál es la suma de los ángulos externos de un polígono? / B: La suma de los ángulos externos de cualquier polígono convexo es 360 grados.
+U: ¿Qué es la razón áurea? / B: Un número irracional aproximadamente igual a 1.618, representado por la letra griega φ.
+U: ¿Cómo se calcula el perímetro del triángulo? / B: Se suman las longitudes de los tres lados.
+U: ¿Qué es un número entero? / B: Un número entero es un número sin decimales, puede ser positivo, negativo o cero.
+U: ¿Cuál es el área del trapecio isósceles? / B: A = ((B + b) × h) / 2, igual que cualquier trapecio.
+U: ¿Qué es una función cuadrática? / B: Una función de la forma f(x) = ax² + bx + c, cuya gráfica es una parábola.
+U: ¿Cómo se calcula el MCM? / B: El mínimo común múltiplo se encuentra multiplicando cada factor por la mayor potencia que aparece.
+U: ¿Qué es un círculo? / B: El conjunto de puntos que están a una distancia fija (radio) de un punto central.
+U: ¿Cuál es el seno de 30 grados? / B: El seno de 30 grados es 0.5 o 1/2.
+U: ¿Qué es un número compuesto? / B: Un número compuesto es un número natural mayor que 1 que no es primo, tiene más de dos divisores.
+U: ¿Cómo se calcula el área de un polígono regular? / B: A = (perímetro × apotema) / 2
+U: ¿Qué es la tangente de 45 grados? / B: La tangente de 45 grados es 1.
+U: ¿Cuál es el perímetro del cuadrado? / B: P = 4l, donde l es la longitud de un lado.
+U: ¿Qué es una matriz? / B: Una matriz es una disposición rectangular de números organizados en filas y columnas.
+U: ¿Cómo se resuelve un sistema de ecuaciones con tres incógnitas? / B: Se pueden usar métodos de eliminación, sustitución o la regla de Cramer.
+U: ¿Qué es la derivada de una función? / B: La derivada representa la tasa de cambio instantánea de una función respecto a su variable.
+U: ¿Cuál es el área del hexágono regular? / B: A = (3√3/2) × a², donde a es la longitud del lado.
+U: ¿Qué es una integral? / B: Una integral es la operación inversa de la derivada, utilizada para calcular áreas bajo curvas.
+U: ¿Cómo se calcula el radio de un círculo conocida su área? / B: r = √(A/π), donde A es el área.
+U: ¿Qué es un número complejo? / B: Un número de la forma a + bi, donde i es la unidad imaginaria.
+U: ¿Cuál es la fórmula del área del triángulo equilátero? / B: A = (√3/4) × a², donde a es el lado.
+U: ¿Qué es la integral definida? / B: La integral definida calcula el área neta bajo la curva entre dos límites de integración.
+U: ¿Cómo se encuentra el centro de gravedad de un triángulo? / B: Es la intersección de las medianas, ubicada a 1/3 de la base desde el lado opuesto.
+U: ¿Qué es el límite de una función? / B: El valor al que se aproxima una función cuando la variable se acerca a un valor dado.
+U: ¿Cuál es el volumen del prisma rectangular? / B: V = largo × ancho × altura
+U: ¿Qué es una serie infinita? / B: La suma de los términos de una sucesión infinita.
+U: ¿Cómo se calcula el área de la elipse? / B: A = πab, donde a y b son los semiejes mayor y menor.
+U: ¿Qué es el Teorema de Tales? / B: Si dos rectas paralelas son cortadas por dos transversales, los segmentos creados son proporcionales.
+U: ¿Cuál es el coseno de 60 grados? / B: El coseno de 60 grados es 0.5 o 1/2.
+U: ¿Qué es la factorial de un número? / B: n! = n × (n-1) × (n-2) × ... × 2 × 1, con 0! = 1.
+U: ¿Cómo se calcula el área del paralelogramo? / B: A = base × altura
+U: ¿Qué es un sistema de ecuaciones lineales? / B: Un conjunto de dos o más ecuaciones lineales con las mismas variables.
+U: ¿Cuál es la fórmula del volumen del prisma triangular? / B: V = (base del triángulo × altura del triángulo × altura del prisma) / 2
+U: ¿Qué es una sucesión aritmética? / B: Una sucesión donde la diferencia entre términos consecutivos es constante.
+U: ¿Cómo se calcula el perímetro del polígono regular? / B: P = número de lados × longitud de un lado
+U: ¿Qué es el determinante de una matriz? / B: Un valor numérico que se calcula a partir de una matriz cuadrada, con propiedades algebraicas importantes.
+U: ¿Cuál es la tangente de 30 grados? / B: La tangente de 30 grados es 1/√3 o √3/3.
+U: ¿Qué es una función seno? / B: Una función periódica que oscila entre -1 y 1, utilizada para modelar fenómenos cíclicos.
+U: ¿Cómo se calcula el área del segmento circular? / B: A = (r²/2)(θ - sen θ), donde θ está en radianes.
+U: ¿Qué es el radio de curvatura? / B: La inversa de la curvatura, indica qué tan curvada es una curva en un punto.
+U: ¿Cuál es la fórmula de Herón? / B: A = √[s(s-a)(s-b)(s-c)], donde s = (a+b+c)/2 es el semiperímetro.
+U: ¿Qué es una asíntota vertical? / B: Una línea vertical x = a donde la función tiende a infinito o menos infinito.
+U: ¿Cómo se calcula el área del trapecio? / B: A = ((B + b) × h) / 2
+U: ¿Qué es el seno hiperbólico? / B: senh(x) = (eˣ - e⁻ˣ) / 2
+U: ¿Cuál es la fórmula del área del pentágono? / B: A = (5 × a² × √(5 + 2√5)) / 4, donde a es el lado.
+U: ¿Qué es una función logarítmica? / B: La inversa de la función exponencial, de la forma f(x) = logₐ(x).
+U: ¿Cómo se calcula el volumen del cono truncado? / B: V = (πh/3)(R² + Rr + r²), donde R y r son los radios de las bases.
+U: ¿Qué es un ángulo obtuso? / B: Un ángulo mayor de 90 grados pero menor de 180 grados.
+U: ¿Cuál es el coseno de 30 grados? / B: El coseno de 30 grados es √3/2.
+U: ¿Qué es el logaritmo natural? / B: El logaritmo en base e, donde e ≈ 2.71828, escrito como ln(x).
+U: ¿Cómo se calcula el área de un polígono irregular? / B: Se puede dividir en triángulos y sumar sus áreas, o usar la fórmula de la shoelace.
+U: ¿Qué es el Teorema de los Valor Intermedio? / B: Si una función continua toma valores a y b, toma todos los valores entre a y b.
+U: ¿Cuál es la fórmula del área del romboide? / B: A = base × altura
+U: ¿Qué es una asíntota horizontal? / B: Una línea horizontal y = b donde la función se aproxima cuando x tiende a infinito.
+U: ¿Cómo se resuelve una ecuación cuadrática? / B: Usando la fórmula general: x = (-b ± √(b² - 4ac)) / (2a)
+U: ¿Qué es el número de Euler? / B: Una constante matemática aproximadamente igual a 2.71828, denotada como e.
+U: ¿Cuál es la tangente de 60 grados? / B: La tangente de 60 grados es √3.
+U: ¿Qué es una función continua? / B: Una función que no tiene saltos, rupturas ni agujeros en su dominio.
+U: ¿Cómo se calcula el área del cuadrilátero cíclico? / B: Usando la fórmula de Brahmagupta: A = √[(s-a)(s-b)(s-c)(s-d)]
+U: ¿Qué es el Teorema del Binomio? / B: (a + b)ⁿ = Σ C(n,k) × aⁿ⁻ᵏ × bᵏ para k = 0 a n.
+U: ¿Cuál es el área del octágono regular? / B: A = 2(1 + √2) × a², donde a es el lado.
+U: ¿Qué es una asíntota oblicua? / B: Una línea recta no horizontal ni vertical que la curva se aproxima cuando x tiende a infinito.
+U: ¿Cómo se calcula el volumen de una pirámide? / B: V = (área de base × altura) / 3
+U: ¿Qué es el seno de 45 grados? / B: El seno de 45 grados es √2/2.
+U: ¿Cuál es la fórmula del área del cuadrilátero? / B: Depende del tipo de cuadrilátero; para uno general se divide en triángulos.
+U: ¿Qué es una función par? / B: Una función donde f(-x) = f(x), simétrica respecto al eje Y.
+U: ¿Cómo se calcula el área del triángulo rectángulo? / B: A = (cateto₁ × cateto₂) / 2
+U: ¿Qué es el coseno hiperbólico? / B: cosh(x) = (eˣ + e⁻ˣ) / 2
+U: ¿Cuál es la fórmula del área del triángulo isósceles? / B: A = (base × altura) / 2
+U: ¿Qué es una función impar? / B: Una función donde f(-x) = -f(x), simétrica respecto al origen.
+U: ¿Cómo se calcula el perímetro del trapecio? / B: Se suman las longitudes de los cuatro lados.
+U: ¿Qué es el Teorema de Bayes? / B: P(A|B) = P(B|A) × P(A) / P(B),用于计算条件概率。
+U: ¿Cuál es el área del cuadrado? / B: A = lado²
+U: ¿Qué es una integral imprópia? / B: Una integral donde uno o ambos límites son infinitos o la función tiene una discontinuidad.
+U: ¿Cómo se calcula el radio del círculo circunscrito a un triángulo? / B: R = abc / (4A), donde a, b, c son los lados y A es el área.
+U: ¿Qué es una sucesión geométrica? / B: Una sucesión donde cada término se obtiene multiplicando el anterior por una razón constante.
+U: ¿Cuál es la fórmula del área del trapecio isósceles? / B: A = ((B + b) × h) / 2
+U: ¿Qué es el determinante de una matriz 2x2? / B: Para [[a,b],[c,d]], el determinante es ad - bc.
+U: ¿Cómo se calcula el área del sector circular? / B: A = (πr² × θ) / 360, donde θ está en grados.
+U: ¿Qué es un número imaginario? / B: Un número de la forma bi, donde b es real y i = √(-1).
+U: ¿Cuál es el perímetro del triángulo equilátero? / B: P = 3a, donde a es la longitud de un lado.
+U: ¿Qué es el Teorema de L'Hôpital? / B: Para resolver límites indeterminados 0/0 o ∞/∞, se derivan numerador y denominador.
+U: ¿Cómo se calcula el área del paralelogramo usando vectores? / B: A = |u × v|, el módulo del producto cruz.
+U: ¿Qué es un autovalor de una matriz? / B: Un escalar λ tal que Av = λv para algún vector no nulo v.
+U: ¿Cuál es la fórmula del área del rectángulo? / B: A = largo × ancho
+U: ¿Qué es una función periódica? / B: Una función que repite sus valores en intervalos regulares: f(x + T) = f(x).
+U: ¿Cómo se calcula el ángulo entre dos vectores? / B: cos(θ) = (u · v) / (|u| × |v|)
+U: ¿Qué es el Teorema Fundamental del Cálculo? / B: La integral y la derivada son operaciones inversas una de la otra.
+U: ¿Cuál es el área del triángulo escaleno? / B: Se usa la fórmula de Herón: A = √[s(s-a)(s-b)(s-c)]
+U: ¿Qué es un número trascendente? / B: Un número que no es raíz de ningún polinomio con coeficientes enteros, como π y e.
+U: ¿Cómo se calcula el centro de masa de una lámina? / B: Usando coordenadas de centroide: x̄ = ∫x dA / A, ȳ = ∫y dA / A
+U: ¿Qué es una ecuación diferencial? / B: Una ecuación que relaciona una función con sus derivadas.
+U: ¿Cuál es la fórmula del área del paralelogramo? / B: A = base × altura perpendicular
+U: ¿Qué es el Teorema de los Cuatro Colores? / B: Cualquier mapa plano puede colorearse con solo cuatro colores sin que regiones adyacentes compartan color.
+U: ¿Cómo se calcula el área del polígono estrellado? / B: Dividiéndolo en triángulos y sumando sus áreas.
+U: ¿Qué es un cuerpo de revolución? / B: Un sólido generado al rotar una curva alrededor de un eje.
+U: ¿Cuál es el área del triángulo rectángulo? / B: A = (cateto₁ × cateto₂) / 2
+U: ¿Qué es la regla de la cadena? / B: Para funciones compuestas: (f∘g)'(x) = f'(g(x)) × g'(x).
+U: ¿Cómo se calcula el volumen del toro? / B: V = 2π²Rr², donde R es la distancia del centro del tubo al centro del toro.
+U: ¿Qué es un determinante de una matriz 3x3? / B: Se calcula por expansión de cofactores o la regla de Sarrus.
+U: ¿Cuál es la fórmula del área del círculo? / B: A = πr²
+U: ¿Qué es la integral de superficie? / B: La integral de una función sobre una superficie en el espacio tridimensional.
+U: ¿Cómo se calcula el área del triángulo con coordenadas? / B: A = |x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)| / 2
+U: ¿Qué es una función diferenciable? / B: Una función que tiene derivada en cada punto de su dominio.
+U: ¿Cuál es el perímetro del rectángulo? / B: P = 2(largo + ancho)
+U: ¿Qué es el Teorema de Stokes? / B: Relaciona la integral de superficie del rotacional de un campo con la integral de línea sobre su frontera.
+U: ¿Cómo se calcula el volumen del cilindro hueco? / B: V = πh(R² - r²), donde R es el radio externo y r el interno.
+U: ¿Qué es un vector normal? / B: Un vector perpendicular a una superficie o curva en un punto dado.
+U: ¿Cuál es la fórmula del área del triángulo? / B: A = (base × altura) / 2
+U: ¿Qué es el rotacional de un campo vectorial? / B: Un operador que mide la tendencia de un campo a rotar alrededor de un punto.
+U: ¿Cómo se calcula el área de una región polar? / B: A = (1/2)∫r² dθ
+U: ¿Qué es una matriz inversa? / B: Para una matriz A, es la matriz A⁻¹ tal que AA⁻¹ = I (matriz identidad).
+U: ¿Cuál es el área del triángulo con base b y altura h? / B: A = (b × h) / 2
+U: ¿Qué es la divergencia de un campo vectorial? / B: Un operador que mide la tendencia de un campo a emanar o converger en un punto.
+U: ¿Cómo se calcula el área de la superficie de una esfera? / B: S = 4πr²
+U: ¿Qué es un polinomio de Taylor? / B: Una aproximación de una función como suma de términos polinomiales basada en derivadas en un punto.
+U: ¿Cuál es el área del triángulo isósceles con base b y altura h? / B: A = (b × h) / 2
+U: ¿Qué es el Teorema de Green? / B: Relaciona una integral doble sobre una región con una integral doble sobre su frontera.
+U: ¿Cómo se calcula el volumen del esferoide? / B: V = (4/3)πabc, donde a, b, c son los semiejes.
+U: ¿Qué es una matriz diagonal? / B: Una matriz donde todos los elementos fuera de la diagonal principal son cero.
+U: ¿Cuál es el área del triángulo con vértices en el origen? / B: A = |x₁y₂ - x₂y₁| / 2
+U: ¿Qué es una integral múltiple? / B: Una integral sobre dominios de más de una dimensión.
+U: ¿Cómo se calcula el área del paralelogramo determinado por dos vectores? / B: A = |u₁v₂ - u₂v₁|
+U: ¿Qué es un espacio vectorial? / B: Un conjunto con operaciones de suma y multiplicación por escalar que satisfacen ciertos axiomas.
+U: ¿Cuál es la fórmula del área del triángulo con lados a, b y ángulo C? / B: A = (1/2)ab sen(C)
+U: ¿Qué es el producto punto de dos vectores? / B: u · v = |u| × |v| × cos(θ), una operación que resulta en un escalar.
+U: ¿Cómo se calcula el área del triángulo con coordenadas polares? / B: A = (1/2)|r₁r₂ sen(θ₂ - θ₁)|
+U: ¿Qué es una transformación lineal? / B: Una función entre espacios vectoriales que preserva la suma y la multiplicación por escalar.
+U: ¿Cuál es el área del cuadrado con lado a? / B: A = a²
+U: ¿Qué es la integral de línea? / B: La integral de una función a lo largo de una curva en el plano o en el espacio.
+U: ¿Cómo se calcula el volumen del paralelepípedo? / B: V = |a · (b × c)|, el producto triple escalar.
+U: ¿Qué es una base ortogonal? / B: Un conjunto de vectores donde cada par es perpendicular y todos tienen magnitud 1.
+U: ¿Cuál es el área del cuadrado con diagonal d? / B: A = d²/2
+U: ¿Qué es el gradiente de una función escalar? / B: Un vector que apunta en la dirección de mayor crecimiento y cuya magnitud es la tasa de cambio máxima.
+U: ¿Cómo se calcula el área del trapecio con coordenadas? / B: Usando la fórmula del polígono con coordenadas o dividiéndolo en triángulos.
+U: ¿Qué es una serie de Taylor? / B: Una representación de una función como suma infinita de términos polinomiales.
+U: ¿Cuál es el área del rectángulo con lados a y b? / B: A = a × b
+U: ¿Qué es el laplaciano de una función? / B: La divergencia del gradiente: ∇²f = ∂²f/∂x² + ∂²f/∂y² + ∂²f/∂z².
+U: ¿Cómo se calcula el área de una región en coordenadas polares? / B: A = ∫(1/2)r² dθ desde α hasta β.
+U: ¿Qué es un vector de posición? / B: Un vector que va desde el origen hasta un punto en el espacio.
+U: ¿Cuál es el área del triángulo rectángulo con hipotenusa c? / B: Se necesita al menos un cateto o el ángulo para calcular el área.
+U: ¿Qué es la convolución de dos funciones? / B: Una operación matemática que combina dos funciones para producir una tercera.
+U: ¿Cómo se calcula el volumen del cilindro con altura h y radio r? / B: V = πr²h
+U: ¿Qué es una métrica en un espacio vectorial? / B: Una función que asigna una distancia entre dos puntos del espacio.
+U: ¿Cuál es el área del trapecio con bases a, b y altura h? / B: A = ((a + b) × h) / 2
+U: ¿Qué es el rotacional del gradiente? / B: Siempre es cero: ∇ × (∇f) = 0.
+U: ¿Cómo se calcula el área del rectángulo inscrito en un círculo? / B: A = 2r² sen(2θ), donde θ es un ángulo variable.
+U: ¿Qué es una forma bilineal? / B: Una función que es lineal en cada uno de sus dos argumentos.
+U: ¿Cuál es el área del triángulo equilátero con lado a? / B: A = (√3/4)a²
+U: ¿Qué es la integral de convolución? / B: (f * g)(t) = ∫f(τ)g(t - τ) dτ
+U: ¿Cómo se calcula el volumen del esferoide oblato? / B: V = (4/3)πa²b, donde a es el semieje ecuatorial y b el polar.
+U: ¿Qué es un tensor? / B: Una generalización de vectores y matrices a任意 número de dimensiones.
+U: ¿Cuál es el área del rectángulo con perímetro P y diagonal d? / B: Se puede resolver usando P = 2(a+b) y d² = a² + b².
+U: ¿Qué es la derivada direccional? / B: La tasa de cambio de una función en la dirección de un vector dado.
+U: ¿Cómo se calcula el área del triángulo con base b y ángulo opuesto α? / B: Se necesita la altura, que depende de los otros elementos del triángulo.
+U: ¿Qué es un espacio métrico? / B: Un conjunto con una función de distancia que satisface las propiedades de métrica.
+U: ¿Cuál es el área del cuadrilátero con diagonales perpendiculares? / B: A = (d₁ × d₂) / 2
+U: ¿Qué es la transformada de Fourier? / B: Una transformada que descompone una función en sus componentes de frecuencia.
+U: ¿Cómo se calcula el volumen del cono con radio r y altura h? / B: V = (1/3)πr²h
+U: ¿Qué es una serie de potencias? / B: Una serie de la forma Σaₙ(x - c)ⁿ, una generalización de polinomios a grados infinitos.
+U: ¿Cuál es el área del rectángulo con lados en proporción áurea? / B: A = a² × φ, donde φ es la razón áurea y a es el lado menor.
+U: ¿Qué es el teorema de Green-Gauss? / B: Relaciona una integral de volumen con una integral de superficie sobre la frontera.
+U: ¿Cómo se calcula el área del triángulo con dos lados y el ángulo entre ellos? / B: A = (1/2)ab sen(C)
+U: ¿Qué es una curva cerrada? / B: Una curva que comienza y termina en el mismo punto.
+U: ¿Cuál es el área del polígono regular de n lados con apotema a? / B: A = (perímetro × apotema) / 2
+U: ¿Qué es el producto cruz de dos vectores? / B: u × v = |u| × |v| × sen(θ) × n̂, un vector perpendicular a ambos.
+U: ¿Cómo se calcula el área de la superficie de un cilindro? / B: S = 2πr² + 2πrh
+U: ¿Qué es una función armónica? / B: Una función que satisface la ecuación de Laplace: ∇²f = 0.
+U: ¿Cuál es el área del triángulo con vértices (x₁,y₁), (x₂,y₂), (x₃,y₃)? / B: A = |x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)| / 2
+U: ¿Qué es la integral de superficie de un campo escalar? / B: La integral de una función sobre una superficie parametrizada.
+U: ¿Cómo se calcula el volumen del prisma pentagonal? / B: V = área de base pentagonal × altura
+U: ¿Qué es un grupo de Lie? / B: Un grupo que es simultáneamente una variedad diferenciable con operaciones de grupo suaves.
+U: ¿Cuál es el área del rectángulo con lados 5 y 8? / B: A = 5 × 8 = 40
+U: ¿Qué es la función zeta de Riemann? / B: ζ(s) = Σ(1/nˢ), una función con importancia en la distribución de números primos.
+U: ¿Cómo se calcula el área del triángulo con base 10 y altura 6? / B: A = (10 × 6) / 2 = 30
+U: ¿Qué es un anillo conmutativo? / B: Un algebraic structure con dos operaciones donde la multiplicación es conmutativa.
+U: ¿Cuál es el área del rectángulo con lados 7 y 3? / B: A = 7 × 3 = 21
+U: ¿Qué es el teorema de los restos chinos? / B: Un sistema de congruencias con módulos coprimos tiene solución única módulo el producto de los módulos.
+U: ¿Cómo se calcula el área del triángulo con base 8 y altura 12? / B: A = (8 × 12) / 2 = 48
+U: ¿Qué es un homomorfismo? / B: Una función entre dos estructuras algebraicas que preserva las operaciones.
+U: ¿Cuál es el área del rectángulo con lados 10 y 5? / B: A = 10 × 5 = 50
+U: ¿Qué es el anillo de polinomios? / B: El conjunto de polinomios con coeficientes en un anillo, con operaciones de suma y multiplicación.
+U: ¿Cómo se calcula el área del triángulo con base 15 y altura 4? / B: A = (15 × 4) / 2 = 30
+U: ¿Qué es un cuerpo (campo) matemático? / B: Un anillo donde todo elemento no nulo tiene inverso multiplicativo.
+U: ¿Cuál es el área del rectángulo con lados 12 y 8? / B: A = 12 × 8 = 96
+U: ¿Qué es el Teorema de Bezout? / B: Para polinomios, el grado del MCD es menor o igual que el grado de cualquiera de ellos.
+U: ¿Cómo se calcula el área del triángulo con base 20 y altura 10? / B: A = (20 × 10) / 2 = 100
+U: ¿Qué es una variedad diferenciable? / B: Un espacio topológico que localmente se parece a un espacio euclidiano con estructura de diferenciabilidad.
+U: ¿Cuál es el área del rectángulo con lados 6 y 9? / B: A = 6 × 9 = 54
+U: ¿Qué es el Teorema de Stokes generalizado? / B: Una unificación de los teoremas de Green, Stokes y Gauss en dimensiones superiores.
+U: ¿Cómo se calcula el área del triángulo con base 25 y altura 8? / B: A = (25 × 8) / 2 = 100
+U: ¿Qué es un espacio de Banach? / B: Un espacio vectorial completo con una norma.
+U: ¿Cuál es el área del rectángulo con lados 14 y 7? / B: A = 14 × 7 = 98
+U: ¿Qué es la divergencia de un campo vectorial en un punto? / B: La cantidad neta de campo que sale de una región infinitesimal alrededor del punto.
+U: ¿Cómo se calcula el área del triángulo con base 30 y altura 6? / B: A = (30 × 6) / 2 = 90
+U: ¿Qué es un espacio de Hilbert? / B: Un espacio vectorial con producto interno que es completo con respecto a la norma inducida.
+U: ¿Cuál es el área del rectángulo con lados 16 y 4? / B: A = 16 × 4 = 64
+U: ¿Qué es el gradiente de una función de varias variables? / B: Un vector que contiene las derivadas parciales de la función respecto a cada variable.
+U: ¿Cómo se calcula el área del triángulo con base 35 y altura 12? / B: A = (35 × 12) / 2 = 210
+U: ¿Qué es una forma diferencial? / B: Una generalización de funciones y diferenciales para integrar sobre variedades.
+U: ¿Cuál es el área del rectángulo con lados 18 y 6? / B: A = 18 × 6 = 108
+U: ¿Qué es el Teorema de la Divergencia? / B: La integral de volumen de la divergencia de un campo vectorial es igual a la integral de flujo sobre la superficie cerrada.
+U: ¿Cómo se calcula el área del triángulo con base 40 y altura 5? / B: A = (40 × 5) / 2 = 100
+U: ¿Qué es un operador diferencial? / B: Un operador que actúa sobre funciones para producir derivadas.
+U: ¿Cuál es el área del rectángulo con lados 20 y 10? / B: A = 20 × 10 = 200
+U: ¿Qué es la integral de línea de un campo vectorial? / B: El trabajo realizado por el campo a lo largo de una curva.
+U: ¿Cómo se calcula el área del triángulo con base 45 y altura 8? / B: A = (45 × 8) / 2 = 180
+U: ¿Qué es un campo escalar? / B: Una función que asigna un valor escalar a cada punto del espacio.
+U: ¿Cuál es el área del rectángulo con lados 22 y 9? / B: A = 22 × 9 = 198
+U: ¿Qué es el teorema de Green en 3D? / B: El teorema de Green se generaliza al teorema de Stokes y al teorema de la divergencia.
+U: ¿Cómo se calcula el área del triángulo con base 50 y altura 10? / B: A = (50 × 10) / 2 = 250
+U: ¿Qué es un campo vectorial conservativo? / B: Un campo donde el trabajo depende solo de los puntos inicial y final, no del camino.
+U: ¿Cuál es el área del rectángulo con lados 24 y 7? / B: A = 24 × 7 = 168
+U: ¿Qué es la curvatura de una curva? / B: Una medida de qué tan rápido cambia la dirección de la curva en un punto.
+U: ¿Cómo se calcula el área del triángulo con base 55 y altura 6? / B: A = (55 × 6) / 2 = 165
+U: ¿Qué es un tensor de segundo orden? / B: Un objeto matemático que se representa como una matriz y transforma como producto de dos vectores.
+U: ¿Cuál es el área del rectángulo con lados 26 y 11? / B: A = 26 × 11 = 286
+U: ¿Qué es la torsión de una curva espacial? / B: Una medida de qué tan rápido una curva se sale de su plano osculador.
+U: ¿Cómo se calcula el área del triángulo con base 60 y altura 12? / B: A = (60 × 12) / 2 = 360
+U: ¿Qué es un manifold (variedad)? / B: Un espacio topológico que localmente parece un espacio euclidiano.
+U: ¿Cuál es el área del rectángulo con lados 28 y 8? / B: A = 28 × 8 = 224
+U: ¿Qué es el Teorema de Arzelà-Ascoli? / B: Caracteriza conjuntos compactos en espacios de funciones continuas.
+U: ¿Cómo se calcula el área del triángulo con base 65 y altura 10? / B: A = (65 × 10) / 2 = 325
+U: ¿Qué es una topología? / B: Una colección de conjuntos abiertos que satisface ciertos axiomas, definiendo la estructura de cercanía.
+U: ¿Cuál es el área del rectángulo con lados 30 y 12? / B: A = 30 × 12 = 360
+U: ¿Qué es el Teorema de Heine-Borel? / B: Un subconjunto de Rⁿ es compacto si y solo si es cerrado y acotado.
+U: ¿Cómo se calcula el área del triángulo con base 70 y altura 8? / B: A = (70 × 8) / 2 = 280
+U: ¿Qué es un espacio topológico? / B: Un conjunto junto con una topología, que define qué conjuntos son abiertos.
+U: ¿Cuál es el área del rectángulo con lados 32 y 9? / B: A = 32 × 9 = 288
+U: ¿Qué es la continuidad uniforme? / B: Una función es uniformemente continua si para todo ε existe un δ que funciona para todos los puntos.
+U: ¿Cómo se calcula el área del triángulo con base 75 y altura 12? / B: A = (75 × 12) / 2 = 450
+U: ¿Qué es un espacio métrico completo? / B: Un espacio métrico donde toda sucesión de Cauchy converge.
+U: ¿Cuál es el área del rectángulo con lados 34 y 6? / B: A = 34 × 6 = 204
+U: ¿Qué es el Teorema del Punto Fijo de Banach? / B: Toda contracción en un espacio métrico completo tiene exactamente un punto fijo.
+U: ¿Cómo se calcula el área del triángulo con base 80 y altura 10? / B: A = (80 × 10) / 2 = 400
+U: ¿Qué es una función de Baire? / B: El límite uniforme de funciones continuas, generalizando la continuidad.
+U: ¿Cuál es el área del rectángulo con lados 36 y 11? / B: A = 36 × 11 = 396
+U: ¿Qué es el Teorema de Ascoli? / B: Un conjunto de funciones continuas es relativamente compacto si es uniformemente acotado y equicontinuo.
+U: ¿Cómo se calcula el área del triángulo con base 85 y altura 6? / B: A = (85 × 6) / 2 = 255
+U: ¿Qué es una función medible? / B: Una función cuya preimagen de conjuntos medibles es medible, fundamental en teoría de la medida.
+U: ¿Cuál es el área del rectángulo con lados 38 y 8? / B: A = 38 × 8 = 304
+U: ¿Qué es la integral de Lebesgue? / B: Una generalización de la integral de Riemann que permite integrar más funciones.
+U: ¿Cómo se calcula el área del triángulo con base 90 y altura 12? / B: A = (90 × 12) / 2 = 540
+U: ¿Qué es un espacio de medida? / B: Un conjunto con una σ-álgebra y una medida que asigna tamaño a los conjuntos.
+U: ¿Cuál es el área del rectángulo con lados 40 y 10? / B: A = 40 × 10 = 400
+U: ¿Qué es el Teorema de Fubini? / B: Permite calcular integrales múltiples como integrales iteradas bajo ciertas condiciones.
+U: ¿Cómo se calcula el área del triángulo con base 95 y altura 8? / B: A = (95 × 8) / 2 = 380
+U: ¿Qué es una medida de Borel? / B: La medida de Lebesgue restringida a los conjuntos de Borel, los generados por abiertos.
+U: ¿Cuál es el área del rectángulo con lados 42 y 7? / B: A = 42 × 7 = 294
+U: ¿Qué es la convergencia casi segura? / B: Un tipo de convergencia en probabilidad donde la secuencia converge excepto en un conjunto de medida cero.
+U: ¿Cómo se calcula el área del triángulo con base 100 y altura 10? / B: A = (100 × 10) / 2 = 500
+U: ¿Qué es un espacio de probabilidad? / B: Un espacio de medida donde la medida total es 1, usado para modelar azar.
+U: ¿Cuál es el área del rectángulo con lados 44 y 12? / B: A = 44 × 12 = 528
+U: ¿Qué es el Teorema de Kolmogorov? / B: Caracteriza las distribuciones de probabilidad en espacios de secuencias.
+U: ¿Cómo se calcula el área del triángulo con base 105 y altura 6? / B: A = (105 × 6) / 2 = 315
+U: ¿Qué es una variable aleatoria? / B: Una función medible de un espacio de probabilidad al conjunto de los reales.
+U: ¿Cuál es el área del rectángulo con lados 46 y 9? / B: A = 46 × 9 = 414
+U: ¿Qué es el Teorema de Bayes? / B: P(A|B) = P(B|A)P(A)/P(B), una fórmula para actualizar probabilidades.
+U: ¿Cómo se calcula el área del triángulo con base 110 y altura 8? / B: A = (110 × 8) / 2 = 440
+U: ¿Qué es un proceso estocástico? / B: Una familia de variables aleatorias indexadas, generalmente por el tiempo.
+U: ¿Cuál es el área del rectángulo con lados 48 y 11? / B: A = 48 × 11 = 528
+U: ¿Qué es la integral de Itô? / B: Una integral estocástica fundamental para el cálculo de Itô en procesos de difusión.
+U: ¿Cómo se calcula el área del triángulo con base 115 y altura 10? / B: A = (115 × 10) / 2 = 575
+U: ¿Qué es una ecuación diferencial estocástica? / B: Una ecuación diferencial donde al menos un término es un proceso de ruido.
+U: ¿Cuál es el área del rectángulo con lados 50 y 8? / B: A = 50 × 8 = 400
+U: ¿Qué es el lema de Itô? / B: Una regla para calcular diferenciales de funciones de procesos estocásticos.
+U: ¿Cómo se calcula el área del triángulo con base 120 y altura 12? / B: A = (120 × 12) / 2 = 720
+U: ¿Qué es un movimiento browniano? / B: Un proceso estocástico con incrementos independientes y distribución normal.
+U: ¿Cuál es el área del rectángulo con lados 52 y 6? / B: A = 52 × 6 = 312
+U: ¿Qué es la fórmula de Black-Scholes? / B: Un modelo para el precio de opciones financieras basado en difusión geométrica.
+U: ¿Cómo se calcula el área del triángulo con base 125 y altura 10? / B: A = (125 × 10) / 2 = 625
+U: ¿Qué es una cadena de Markov? / B: Un proceso estocástico donde el siguiente estado depende solo del actual, no del pasado.
+U: ¿Cuál es el área del rectángulo con lados 54 y 9? / B: A = 54 × 9 = 486
+U: ¿Qué es la distribución normal? / B: Una distribución de probabilidad en forma de campana, definida por media y varianza.
+U: ¿Cómo se calcula el área del triángulo con base 130 y altura 8? / B: A = (130 × 8) / 2 = 520
+U: ¿Qué es el Teorema Central del Límite? / B: La distribución de la media muestral se aproxima a una normal para muestras grandes.
+U: ¿Cuál es el área del rectángulo con lados 56 y 12? / B: A = 56 × 12 = 672
+U: ¿Qué es un intervalo de confianza? / B: Un rango de valores que probablemente contenga un parámetro poblacional.
+U: ¿Cómo se calcula el área del triángulo con base 135 y altura 6? / B: A = (135 × 6) / 2 = 405
+U: ¿Qué es la prueba de hipótesis? / B: Un método estadístico para decidir si hay evidencia suficiente para rechazar una hipótesis nula.
+U: ¿Cuál es el área del rectángulo con lados 58 y 7? / B: A = 58 × 7 = 406
+U: ¿Qué es el valor p en estadística? / B: La probabilidad de obtener un resultado igual o más extremo que el observado.
+U: ¿Cómo se calcula el área del triángulo con base 140 y altura 10? / B: A = (140 × 10) / 2 = 700
+U: ¿Qué es la regresión lineal? / B: Un método para modelar la relación entre variables mediante una recta.
+U: ¿Cuál es el área del rectángulo con lados 60 y 10? / B: A = 60 × 10 = 600
+U: ¿Qué es el coeficiente de correlación? / B: Una medida de la fuerza y dirección de la relación lineal entre dos variables, entre -1 y 1.
+U: ¿Cómo se calcula el área del triángulo con base 145 y altura 12? / B: A = (145 × 12) / 2 = 870
+U: ¿Qué es la distribución de Poisson? / B: Una distribución que modela el número de eventos en un intervalo de tiempo, con parámetro λ.
+U: ¿Cuál es el área del rectángulo con lados 62 y 8? / B: A = 62 × 8 = 496
+U: ¿Qué es el teorema del límite central? / B: La suma de variables aleatorias independientes se aproxima a una distribución normal.
+U: ¿Cómo se calcula el área del triángulo con base 150 y altura 10? / B: A = (150 × 10) / 2 = 750
+U: ¿Qué es una prueba t de Student? / B: Una prueba estadística para comparar medias cuando la varianza poblacional es desconocida.
+U: ¿Cuál es el área del rectángulo con lados 64 y 11? / B: A = 64 × 11 = 704
+U: ¿Qué es el error estándar de la media? / B: La desviación estándar dividida por la raíz cuadrada del tamaño de la muestra.
+U: ¿Cómo se calcula el área del triángulo con base 155 y altura 8? / B: A = (155 × 8) / 2 = 620
+U: ¿Qué es una distribución chi-cuadrado? / B: Una distribución que surge de la suma de cuadrados de variables normales estándar.
+U: ¿Cuál es el área del rectángulo con lados 66 y 9? / B: A = 66 × 9 = 594
+U: ¿Qué es una distribución F de Fisher? / B: Una distribución usada en análisis de varianza y pruebas de hipótesis sobre varianzas.
+U: ¿Cómo se calcula el área del triángulo con base 160 y altura 12? / B: A = (160 × 12) / 2 = 960
+U: ¿Qué es el análisis de varianza (ANOVA)? / B: Un método estadístico para comparar medias de tres o más grupos.
+U: ¿Cuál es el área del rectángulo con lados 68 y 6? / B: A = 68 × 6 = 408
+U: ¿Qué es la distribución exponencial? / B: Una distribución que modela el tiempo entre eventos en un proceso de Poisson.
+U: ¿Cómo se calcula el área del triángulo con base 165 y altura 10? / B: A = (165 × 10) / 2 = 825
+U: ¿Qué es la estimación por máxima verosimilitud? / B: Un método para estimar parámetros maximizando la función de verosimilitud.
+U: ¿Cuál es el área del rectángulo con lados 70 y 12? / B: A = 70 × 12 = 840
+U: ¿Qué es un intervalo de predicción? / B: Un rango donde se espera que caiga un valor futuro con cierta probabilidad.
+U: ¿Cómo se calcula el área del triángulo con base 170 y altura 8? / B: A = (170 × 8) / 2 = 680
+U: ¿Qué es la prueba de chi-cuadrado? / B: Una prueba que compara distribuciones observadas con esperadas para datos categóricos.
+U: ¿Cuál es el área del rectángulo con lados 72 y 7? / B: A = 72 × 7 = 504
+U: ¿Qué es el método de los mínimos cuadrados? / B: Un método para ajustar un modelo minimizando la suma de cuadrados de los residuos.
+U: ¿Cómo se calcula el área del triángulo con base 175 y altura 6? / B: A = (175 × 6) / 2 = 525
+U: ¿Qué es la distribución binomial? / B: Una distribución que modela el número de éxitos en n ensayos independientes con probabilidad p.
+U: ¿Cuál es el área del rectángulo con lados 74 y 10? / B: A = 74 × 10 = 740
+U: ¿Qué es la prueba de hipótesis alternativa? / B: La hipótesis que se acepta si se rechaza la hipótesis nula.
+U: ¿Cómo se calcula el área del triángulo con base 180 y altura 10? / B: A = (180 × 10) / 2 = 900
+U: ¿Qué es un modelo de regresión? / B: Una ecuación que describe la relación entre una variable dependiente y una o más independientes.
+U: ¿Cuál es el área del rectángulo con lados 76 y 8? / B: A = 76 × 8 = 608
+U: ¿Qué es la multicolinealidad? / B: Cuando dos o más variables independientes en un modelo están altamente correlacionadas.
+U: ¿Cómo se calcula el área del triángulo con base 185 y altura 12? / B: A = (185 × 12) / 2 = 1110
+U: ¿Qué es el R-cuadrado? / B: Una medida de la proporción de varianza explicada por el modelo de regresión.
+U: ¿Cuál es el área del rectángulo con lados 78 y 9? / B: A = 78 × 9 = 702
+U: ¿Qué es un residuo en regresión? / B: La diferencia entre el valor observado y el predicho por el modelo.
+U: ¿Cómo se calcula el área del triángulo con base 190 y altura 10? / B: A = (190 × 10) / 2 = 950
+U: ¿Qué es la homocedasticidad? / B: Cuando la varianza de los residuos es constante a través de los niveles de las variables independientes.
+U: ¿Cuál es el área del rectángulo con lados 80 y 11? / B: A = 80 × 11 = 880
+U: ¿Qué es una prueba de normalidad? / B: Una prueba estadística para determinar si los datos siguen una distribución normal.
+U: ¿Cómo se calcula el área del triángulo con base 195 y altura 8? / B: A = (195 × 8) / 2 = 780
+U: ¿Qué es el análisis de regresión múltiple? / B: Un modelo que usa varias variables independientes para predecir una dependiente.
+U: ¿Cuál es el área del rectángulo con lados 82 y 6? / B: A = 82 × 6 = 492
+U: ¿Qué es un intervalo de confianza del 95%? / B: Un rango que contiene el verdadero parámetro poblacional con 95% de probabilidad.
+U: ¿Cómo se calcula el área del triángulo con base 200 y altura 10? / B: A = (200 × 10) / 2 = 1000
+U: ¿Qué es la desviación estándar poblacional? / B: La raíz cuadrada de la varianza poblacional, que usa n en el denominador.
+U: ¿Cuál es el área del rectángulo con lados 84 y 12? / B: A = 84 × 12 = 1008
+U: ¿Qué es la desviación estándar muestral? / B: La raíz cuadrada de la varianza muestral, que usa n-1 en el denominador.
+U: ¿Cómo se calcula el área del triángulo con base 205 y altura 6? / B: A = (205 × 6) / 2 = 615
+U: ¿Qué es el sesgo en estadística? / B: La diferencia entre el estimador y el valor verdadero del parámetro.
+U: ¿Cuál es el área del rectángulo con lados 86 y 7? / B: A = 86 × 7 = 602
+U: ¿Qué es la consistencia de un estimador? / B: Cuando el estimador converge al valor verdadero del parámetro a medida que aumenta la muestra.
+U: ¿Cómo se calcula el área del triángulo con base 210 y altura 8? / B: A = (210 × 8) / 2 = 840
+U: ¿Qué es la eficiencia de un estimador? / B: La inversa de la varianza del estimador, comparado con el mejor estimador posible.
+U: ¿Cuál es el área del rectángulo con lados 88 y 10? / B: A = 88 × 10 = 880
+U: ¿Qué es el Teorema de Rao-Blackwell? / B: Mejora un estimador insesgado convirtiéndolo en uno con menor varianza.
+U: ¿Cómo se calcula el área del triángulo con base 215 y altura 12? / B: A = (215 × 12) / 2 = 1290
+U: ¿Qué es el Teorema de Lehmann-Scheffé? / B: Un estimador insesgado que es función suficiente es el único de varianza mínima.
+U: ¿Cuál es el área del rectángulo con lados 90 y 8? / B: A = 90 × 8 = 720
+U: ¿Qué es un estimador de máxima verosimilitud? / B: El parámetro que maximiza la probabilidad de observar los datos.
+U: ¿Cómo se calcula el área del triángulo con base 220 y altura 10? / B: A = (220 × 10) / 2 = 1100
+U: ¿Qué es la información de Fisher? / B: Una medida de la cantidad de información que una muestra contiene sobre un parámetro.
+U: ¿Cuál es el área del rectángulo con lados 92 y 11? / B: A = 92 × 11 = 1012
+U: ¿Qué es el límite de Cramér-Rao? / B: Una cota inferior para la varianza de un estimador insesgado.
+U: ¿Cómo se calcula el área del triángulo con base 225 y altura 6? / B: A = (225 × 6) / 2 = 675
+U: ¿Qué es la prueba de Wald? / B: Una prueba que usa el estimador de máxima verosimilitud para probar hipótesis sobre parámetros.
+U: ¿Cuál es el área del rectángulo con lados 94 y 9? / B: A = 94 × 9 = 846
+U: ¿Qué es la razón de verosimilitud? / B: La razón entre las verosimilitudes bajo la hipótesis nula y alternativa.
+U: ¿Cómo se calcula el área del triángulo con base 230 y altura 8? / B: A = (230 × 8) / 2 = 920
+U: ¿Qué es la prueba de razón de verosimilitud? / B: Una prueba estadística que compara modelos usando la razón de verosimilitud.
+U: ¿Cuál es el área del rectángulo con lados 96 y 7? / B: A = 96 × 7 = 672
+U: ¿Qué es un modelo lineal generalizado? / B: Un modelo que extiende la regresión lineal a respuestas no normales.
+U: ¿Cómo se calcula el área del triángulo con base 235 y altura 10? / B: A = (235 × 10) / 2 = 1175
+U: ¿Qué es la función de enlace? / B: Una función que conecta la media de la respuesta con los predictores lineales en un GLM.
+U: ¿Cuál es el área del rectángulo con lados 98 y 12? / B: A = 98 × 12 = 1176
+U: ¿Qué es la distribución logística? / B: Una distribución usada en modelos de regresión logística para modelar probabilidades.
+U: ¿Cómo se calcula el área del triángulo con base 240 y altura 12? / B: A = (240 × 12) / 2 = 1440
+U: ¿Qué es la regresión logística? / B: Un modelo para predecir la probabilidad de un evento binario.
+U: ¿Cuál es el área del rectángulo con lados 100 y 10? / B: A = 100 × 10 = 1000
+U: ¿Qué es la regresión de Poisson? / B: Un modelo para datos de conteo, usando la distribución de Poisson.
+U: ¿Cómo se calcula el área del triángulo con base 245 y altura 8? / B: A = (245 × 8) / 2 = 980
+U: ¿Qué es la correlación de Pearson? / B: Un coeficiente que mide la relación lineal entre dos variables, entre -1 y 1.
+U: ¿Cuál es el área del rectángulo con lados 102 y 8? / B: A = 102 × 8 = 816
+U: ¿Qué es la correlación de Spearman? / B: Un coeficiente no paramétrico que mide la relación monótona entre dos variables.
+U: ¿Cómo se calcula el área del triángulo con base 250 y altura 6? / B: A = (250 × 6) / 2 = 750
+U: ¿Qué es un análisis de componentes principales? / B: Un método para reducir dimensionalidad encontrando direcciones de máxima varianza.
+U: ¿Cuál es el área del rectángulo con lados 104 y 9? / B: A = 104 × 9 = 936
+U: ¿Qué es la transformada discreta de Fourier? / B: Una transformada que descompone una señal en sus componentes de frecuencia.
+U: ¿Cómo se calcula el área del triángulo con base 255 y altura 10? / B: A = (255 × 10) / 2 = 1275
+U: ¿Qué es un análisis de series temporales? / B: El estudio de datos secuenciales indexados por el tiempo.
+U: ¿Cuál es el área del rectángulo con lados 106 y 11? / B: A = 106 × 11 = 1166
+U: ¿Qué es la autocorrelación? / B: La correlación de una serie temporal con su propia versión rezagada.
+U: ¿Cómo se calcula el área del triángulo con base 260 y altura 12? / B: A = (260 × 12) / 2 = 1560
+U: ¿Qué es un modelo ARIMA? / B: Un modelo de series temporales que combina autorregresión, diferenciación y media móvil.
+U: ¿Cuál es el área del rectángulo con lados 108 y 6? / B: A = 108 × 6 = 648
+U: ¿Qué es la estacionariedad? / B: Cuando las propiedades estadísticas de una serie temporal no cambian con el tiempo.
+U: ¿Cómo se calcula el área del triángulo con base 265 y altura 10? / B: A = (265 × 10) / 2 = 1325
+U: ¿Qué es un análisis de Fourier? / B: El estudio de funciones o señales descomponiéndolos en componentes sinusoidales.
+U: ¿Cuál es el área del rectángulo con lados 110 y 8? / B: A = 110 × 8 = 880
+U: ¿Qué es el teorema de muestreo de Nyquist? / B: Para reconstruir una señal, la frecuencia de muestreo debe ser al menos el doble de la máxima frecuencia.
+U: ¿Cómo se calcula el área del triángulo con base 270 y altura 8? / B: A = (270 × 8) / 2 = 1080
+U: ¿Qué es un filtro paso bajo? / B: Un filtro que permite pasar frecuencias por debajo de un umbral y atenúa las superiores.
+U: ¿Cuál es el área del rectángulo con lados 112 y 10? / B: A = 112 × 10 = 1120
+U: ¿Qué es la densidad espectral de potencia? / B: Una medida de la distribución de potencia de una señal en función de la frecuencia.
+U: ¿Cómo se calcula el área del triángulo con base 275 y altura 6? / B: A = (275 × 6) / 2 = 825
+U: ¿Qué es el método de Monte Carlo? / B: Una técnica que usa números aleatorios para resolver problemas computacionales.
+U: ¿Cuál es el área del rectángulo con lados 114 y 12? / B: A = 114 × 12 = 1368
+U: ¿Qué es una cadena de Markov de tiempo discreto? / B: Un proceso estocástico donde los saltos ocurren en pasos discretos.
+U: ¿Cómo se calcula el área del triángulo con base 280 y altura 10? / B: A = (280 × 10) / 2 = 1400
+U: ¿Qué es la distribución geométrica? / B: Una distribución que modela el número de ensayos hasta el primer éxito.
+U: ¿Cuál es el área del rectángulo con lados 116 y 7? / B: A = 116 × 7 = 812
+U: ¿Qué es la distribución hipergeométrica? / B: Una distribución para muestreo sin reemplazo de poblaciones finitas.
+U: ¿Cómo se calcula el área del triángulo con base 285 y altura 12? / B: A = (285 × 12) / 2 = 1710
+U: ¿Qué es el Teorema de Bayes para distribuciones continuas? / B: f(θ|x) = f(x|θ)f(θ) / f(x), la base del inferencia Bayesiana.
+U: ¿Cuál es el área del rectángulo con lados 118 y 9? / B: A = 118 × 9 = 1062
+U: ¿Qué es una distribución a priori? / B: La distribución de probabilidad de un parámetro antes de observar datos.
+U: ¿Cómo se calcula el área del triángulo con base 290 y altura 8? / B: A = (290 × 8) / 2 = 1160
+U: ¿Qué es una distribución a posteriori? / B: La distribución de un parámetro después de actualizar con datos observados.
+U: ¿Cuál es el área del rectángulo con lados 120 y 11? / B: A = 120 × 11 = 1320
+U: ¿Qué es el factor de Bayes? / B: La razón de verosimilitud marginal bajo dos hipótesis rivales.
+U: ¿Cómo se calcula el área del triángulo con base 295 y altura 6? / B: A = (295 × 6) / 2 = 885
+U: ¿Qué es un intervalo de credibilidad? / B: Un intervalo que contiene un parámetro con cierta probabilidad en el marco bayesiano.
+U: ¿Cuál es el área del rectángulo con lados 122 y 8? / B: A = 122 × 8 = 976
+U: ¿Qué es la simulación MCMC? / B: Markov Chain Monte Carlo, un método para muestrear de distribuciones a posteriori.
+U: ¿Cómo se calcula el área del triángulo con base 300 y altura 10? / B: A = (300 × 10) / 2 = 1500
+U: ¿Qué es el algoritmo de Metropolis-Hastings? / B: Un algoritmo MCMC para muestrear de distribuciones de probabilidad.
+U: ¿Cuál es el área del rectángulo con lados 124 y 6? / B: A = 124 × 6 = 744
+U: ¿Qué es el muestreo de Gibbs? / B: Un algoritmo MCMC que genera muestras actualizando cada variable condicionando en las demás.
+U: ¿Cómo se calcula el área del triángulo con base 305 y altura 8? / B: A = (305 × 8) / 2 = 1220
+U: ¿Qué es la verosimilitud marginal? / B: La integral de la verosimilitud multiplicada por la distribución a priori.
+U: ¿Cuál es el área del rectángulo con lados 126 y 10? / B: A = 126 × 10 = 1260
+U: ¿Qué es un modelo bayesiano jerárquico? / B: Un modelo con múltiples niveles de parámetros, cada uno con su distribución a priori.
+U: ¿Cómo se calcula el área del triángulo con base 310 y altura 12? / B: A = (310 × 12) / 2 = 1860
+U: ¿Qué es la predicción bayesiana? / B: La distribución predictiva a posteriori para nuevos datos.
+U: ¿Cuál es el área del rectángulo con lados 128 y 9? / B: A = 128 × 9 = 1152
+U: ¿Qué es el criterio de información de Akaike? / B: Un criterio para seleccionar modelos que penaliza la complejidad: AIC = 2k - 2ln(L).
+U: ¿Cómo se calcula el área del triángulo con base 315 y altura 10? / B: A = (315 × 10) / 2 = 1575
+U: ¿Qué es el criterio de información bayesiano? / B: Similar al AIC pero con penalización por tamaño de muestra: BIC = kln(n) - 2ln(L).
+U: ¿Cuál es el área del rectángulo con lados 130 y 7? / B: A = 130 × 7 = 910
+U: ¿Qué es la validación cruzada? / B: Un método para evaluar modelos dividiendo los datos en entrenamiento y prueba.
+U: ¿Cómo se calcula el área del triángulo con base 320 y altura 8? / B: A = (320 × 8) / 2 = 1280
+U: ¿Qué es el sobreajuste? / B: Cuando un modelo se ajusta demasiado a los datos de entrenamiento y generaliza mal.
+U: ¿Cuál es el área del rectángulo con lados 132 y 12? / B: A = 132 × 12 = 1584
+U: ¿Qué es el sesgo-varianza? / B: El trade-off entre un modelo simple (alto sesgo) y uno complejo (alta varianza).
+U: ¿Cómo se calcula el área del triángulo con base 325 y altura 6? / B: A = (325 × 6) / 2 = 975
+U: ¿Qué es la regularización en modelos? / B: Técnicas que penalizan parámetros grandes para evitar sobreajuste.
+U: ¿Cuál es el área del rectángulo con lados 134 y 8? / B: A = 134 × 8 = 1072
+U: ¿Qué es la regularización L1 (Lasso)? / B: Una penalización que tiende a hacer cero algunos coeficientes, seleccionando variables.
+U: ¿Cómo se calcula el área del triángulo con base 330 y altura 10? / B: A = (330 × 10) / 2 = 1650
+U: ¿Qué es la regularización L2 (Ridge)? / B: Una penalización que reduce el tamaño de todos los coeficientes, evitando colinealidad.
+U: ¿Cuál es el área del rectángulo con lados 136 y 11? / B: A = 136 × 11 = 1496
+U: ¿Qué es la red elástica? / B: Una combinación de regularizaciones L1 y L2 en regresión.
+U: ¿Cómo se calcula el área del triángulo con base 335 y altura 12? / B: A = (335 × 12) / 2 = 2010
+U: ¿Qué es un bosque aleatorio? / B: Un método de ensemble que combina múltiples árboles de decisión para mejorar predicciones.
+U: ¿Cuál es el área del rectángulo con lados 138 y 6? / B: A = 138 × 6 = 828
+U: ¿Qué es el boosting en machine learning? / B: Un método que combina modelos débiles para crear un modelo fuerte.
+U: ¿Cómo se calcula el área del triángulo con base 340 y altura 8? / B: A = (340 × 8) / 2 = 1360
+U: ¿Qué es la SVM (Máquina de Soporte Vectorial)? / B: Un algoritmo que encuentra el hiperplano óptimo que separa clases con máximo margen.
+U: ¿Cuál es el área del rectángulo con lados 140 y 9? / B: A = 140 × 9 = 1260
+U: ¿Qué es el kernel trick? / B: Una técnica para trabajar en dimensiones implícitamente altas usando funciones kernel.
+U: ¿Cómo se calcula el área del triángulo con base 345 y altura 6? / B: A = (345 × 6) / 2 = 1035
+U: ¿Qué es la vecindad más cercana (KNN)? / B: Un algoritmo que clasifica basándose en la clase mayoritaria de los k vecinos más cercanos.
+U: ¿Cuál es el área del rectángulo con lados 142 y 10? / B: A = 142 × 10 = 1420
+U: ¿Qué es una red neuronal? / B: Un modelo computacional inspirado en redes biológicas, con capas de neuronas interconectadas.
+U: ¿Cómo se calcula el área del triángulo con base 350 y altura 10? / B: A = (350 × 10) / 2 = 1750
+U: ¿Qué es la propagación hacia atrás (backpropagation)? / B: Un algoritmo para entrenar redes neuronales calculando gradientes de la función de pérdida.
+U: ¿Cuál es el área del rectángulo con lados 144 y 12? / B: A = 144 × 12 = 1728
+U: ¿Qué es la función de activación? / B: Una función no lineal aplicada a la salida de cada neurona en una red neuronal.
+U: ¿Cómo se calcula el área del triángulo con base 355 y altura 8? / B: A = (355 × 8) / 2 = 1420
+U: ¿Qué es el gradiente descendente? / B: Un algoritmo de optimización que ajusta parámetros en la dirección opuesta al gradiente.
+U: ¿Cuál es el área del rectángulo con lados 146 y 7? / B: A = 146 × 7 = 1022
+U: ¿Qué es la tasa de aprendizaje? / B: Un hiperparámetro que controla el tamaño de los pasos en el gradiente descendente.
+U: ¿Cómo se calcula el área del triángulo con base 360 y altura 12? / B: A = (360 × 12) / 2 = 2160
+U: ¿Qué es la normalización en machine learning? / B: Escalar las características a un rango específico, típicamente [0,1].
+U: ¿Cuál es el área del rectángulo con lados 148 y 8? / B: A = 148 × 8 = 1184
+U: ¿Qué es el batch normalization? / B: Una técnica que normaliza las activaciones de cada capa para estabilizar el entrenamiento.
+U: ¿Cómo se calcula el área del triángulo con base 365 y altura 6? / B: A = (365 × 6) / 2 = 1095
+U: ¿Qué es el dropout? / B: Una técnica de regularización que apaga aleatoriamente neuronas durante el entrenamiento.
+U: ¿Cuál es el área del rectángulo con lados 150 y 10? / B: A = 150 × 10 = 1500
+U: ¿Qué es la entropía cruzada? / B: Una función de pérdida usada en clasificación que mide la diferencia entre distribuciones.
+U: ¿Cómo se calcula el área del triángulo con base 370 y altura 8? / B: A = (370 × 8) / 2 = 1480
+U: ¿Qué es el sobreajuste en redes neuronales? / B: Cuando la red memoriza los datos de entrenamiento pero generaliza mal a nuevos datos.
+U: ¿Cuál es el área del rectángulo con lados 152 y 11? / B: A = 152 × 11 = 1672
+U: ¿Qué es una máquina de Boltzmann? / B: Un modelo generativo basado en redes neuronales para aprender distribuciones de datos.
+U: ¿Cómo se calcula el área del triángulo con base 375 y altura 10? / B: A = (375 × 10) / 2 = 1875
+U: ¿Qué es el aprendizaje por refuerzo? / B: Un paradigma donde un agente aprende a tomar decisiones maximizando una recompensa acumulada.
+U: ¿Cuál es el área del rectángulo con lados 154 y 6? / B: A = 154 × 6 = 924
+U: ¿Qué es una tabla Q? / B: Una estructura de datos que almacena los valores de acción-estado en aprendizaje por refuerzo.
+U: ¿Cómo se calcula el área del triángulo con base 380 y altura 12? / B: A = (380 × 12) / 2 = 2280
+U: ¿Qué es la exploración vs. explotación? / B: El dilema entre probar nuevas acciones o usar las mejores conocidas.
+U: ¿Cuál es el área del rectángulo con lados 156 y 9? / B: A = 156 × 9 = 1404
+U: ¿Qué es el descuento temporal (gamma)? / B: Un factor que controla la importancia de las recompensas futuras vs. inmediatas.
+U: ¿Cómo se calcula el área del triángulo con base 385 y altura 8? / B: A = (385 × 8) / 2 = 1540
+U: ¿Qué es el valor de estado-acción (Q)? / B: La recompensa esperada al tomar una acción en un estado y seguir una política óptima.
+U: ¿Cuál es el área del rectángulo con lados 158 y 7? / B: A = 158 × 7 = 1106
+U: ¿Qué es el aprendizaje Q (Q-learning)? / B: Un algoritmo de aprendizaje por refuerzo off-policy que estima valores Q.
+U: ¿Cómo se calcula el área del triángulo con base 390 y altura 6? / B: A = (390 × 6) / 2 = 1170
+U: ¿Qué es una política en aprendizaje por refuerzo? / B: Una estrategia que asigna acciones a estados.
+U: ¿Cuál es el área del rectángulo con lados 160 y 12? / B: A = 160 × 12 = 1920
+U: ¿Qué es el aprendizaje actor-crítico? / B: Un método que combina una red de políticas (actor) con una de valor (crítico).
+U: ¿Cómo se calcula el área del triángulo con base 395 y altura 10? / B: A = (395 × 10) / 2 = 1975
+U: ¿Qué es la diferencia temporal (TD learning)? / B: Un método que combina ideas de Monte Carlo y programación dinámica.
+U: ¿Cuál es el área del rectángulo con lados 162 y 8? / B: A = 162 × 8 = 1296
+U: ¿Qué es el policy gradient? / B: Un método que optimiza directamente la política usando gradientes.
+U: ¿Cómo se calcula el área del triángulo con base 400 y altura 10? / B: A = (400 × 10) / 2 = 2000
+U: ¿Qué es el algoritmo REINFORCE? / B: Un algoritmo de gradientes de política que usa recompensas descontadas.
+U: ¿Cuál es el área del rectángulo con lados 164 y 11? / B: A = 164 × 11 = 1804
+U: ¿Qué es el equilibrio de Nash? / B: Un estado donde ningún jugador puede mejorar su resultado cambiando unilateralmente su estrategia.
+U: ¿Cómo se calcula el área del triángulo con base 405 y altura 8? / B: A = (405 × 8) / 2 = 1620
+U: ¿Qué es un juego de suma cero? / B: Un juego donde la ganancia de un jugador es exactamente la pérdida del otro.
+U: ¿Cuál es el área del rectángulo con lados 166 y 6? / B: A = 166 × 6 = 996
+U: ¿Qué es el dilema del prisionero? / B: Un juego que muestra por qué dos individuos racionales no cooperan, aunque sería mejor para ambos.
+U: ¿Cómo se calcula el área del triángulo con base 410 y altura 12? / B: A = (410 × 12) / 2 = 2460
+U: ¿Qué es la teoría de juegos? / B: El estudio matemático de situaciones estratégicas donde el resultado depende de las acciones de varios participantes.
+U: ¿Cuál es el área del rectángulo con lados 168 y 9? / B: A = 168 × 9 = 1512
+U: ¿Qué es la estrategia dominante? / B: Una estrategia que es mejor para un jugador sin importar lo que hagan los demás.
+U: ¿Cómo se calcula el área del triángulo con base 415 y altura 6? / B: A = (415 × 6) / 2 = 1245
+U: ¿Qué es un juego cooperativo? / B: Un juego donde los jugadores pueden formar coaliciones y repartir beneficios.
+U: ¿Cuál es el área del rectángulo con lados 170 y 10? / B: A = 170 × 10 = 1700
+U: ¿Qué es la solución de Nash? / B: Un conjunto de estrategias donde ningún jugador tiene incentivo para cambiar unilateralmente.
+U: ¿Cómo se calcula el área del triángulo con base 420 y altura 8? / B: A = (420 × 8) / 2 = 1680
+U: ¿Qué es un subjuego perfecto? / B: Un equilibrio de Nash que es una estrategia óptima en cada subjuego del juego extensivo.
+U: ¿Cuál es el área del rectángulo con lados 172 y 12? / B: A = 172 × 12 = 2064
+U: ¿Qué es el valor esperado? / B: La suma de cada resultado posible multiplicado por su probabilidad.
+U: ¿Cómo se calcula el área del triángulo con base 425 y altura 10? / B: A = (425 × 10) / 2 = 2125
+U: ¿Qué es la utilidad esperada? / B: La utilidad promedio que un jugador obtendría de un resultado incierto.
+U: ¿Cuál es el área del rectángulo con lados 174 y 7? / B: A = 174 × 7 = 1218
+U: ¿Qué es el teorema de la utilidad esperada de Von Neumann-Morgenstern? / B: Bajo ciertos axiomas, las preferencias pueden representarse maximizando utilidad esperada.
+U: ¿Cómo se calcula el área del triángulo con base 430 y altura 12? / B: A = (430 × 12) / 2 = 2580
+U: ¿Qué es el coeficiente de Gini? / B: Una medida de desigualdad que va de 0 (igualdad perfecta) a 1 (desigualdad máxima).
+U: ¿Cuál es el área del rectángulo con lados 176 y 8? / B: A = 176 × 8 = 1408
+U: ¿Qué es la curva de Lorenz? / B: Un gráfico que representa la distribución de ingresos o riqueza en una población.
+U: ¿Cómo se calcula el área del triángulo con base 435 y altura 6? / B: A = (435 × 6) / 2 = 1305
+U: ¿Qué es el índice de Theil? / B: Una medida de desigualdad basada en la entropía de la distribución de ingresos.
+U: ¿Cuál es el área del rectángulo con lados 178 y 11? / B: A = 178 × 11 = 1958
+U: ¿Qué es el principio de Pareto? / B: Que aproximadamente el 80% de los efectos provienen del 20% de las causas.
+U: ¿Cómo se calcula el área del triángulo con base 440 y altura 10? / B: A = (440 × 10) / 2 = 2200
+U: ¿Qué es una distribución de Pareto? / B: Una distribución de potencia usada para modelar distribuciones de riqueza y otros fenómenos.
+U: ¿Cuál es el área del rectángulo con lados 180 y 9? / B: A = 180 × 9 = 1620
+U: ¿Qué es la paradoja de la centipedia? / B: La observación de que los humanos a menudo eligen opciones que reducen su utilidad esperada.
+U: ¿Cómo se calcula el área del triángulo con base 445 y altura 8? / B: A = (445 × 8) / 2 = 1780
+U: ¿Qué es la teoría de prospectos? / B: Un modelo del comportamiento económico que describe cómo las personas eligen entre alternativas de riesgo.
+U: ¿Cuál es el área del rectángulo con lados 182 y 6? / B: A = 182 × 6 = 1092
+U: ¿Qué es el sesgo de aversión a la pérdida? / B: La tendencia a preferir evitar pérdidas que adquirir ganancias equivalentes.
+U: ¿Cómo se calcula el área del triángulo con base 450 y altura 12? / B: A = (450 × 12) / 2 = 2700
+U: ¿Qué es el efecto dotación? / B: La tendencia a sobrevalorar algo que ya poseemos simplemente por tenerlo.
+U: ¿Cuál es el área del rectángulo con lados 184 y 10? / B: A = 184 × 10 = 1840
+U: ¿Qué es el ancla cognitiva? / B: La tendencia a depender demasiado de la primera información recibida al tomar decisiones.
+U: ¿Cómo se calcula el área del triángulo con base 455 y altura 6? / B: A = (455 × 6) / 2 = 1365
+U: ¿Qué es la heurística de disponibilidad? / B: La tendencia a juzgar la probabilidad de un evento basándose en ejemplos fáciles de recordar.
+U: ¿Cuál es el área del rectángulo con lados 186 y 8? / B: A = 186 × 8 = 1488
+U: ¿Qué es la representación mental de problemas? / B: El proceso cognitivo de crear una estructura mental para entender y resolver problemas.
+U: ¿Cómo se calcula el área del triángulo con base 460 y altura 10? / B: A = (460 × 10) / 2 = 2300
+U: ¿Qué es la resolución de problemas en psicología cognitiva? / B: El proceso de encontrar soluciones a situaciones nuevas o difíciles.
+U: ¿Cuál es el área del rectángulo con lados 188 y 12? / B: A = 188 × 12 = 2256
+U: ¿Qué es un diagrama de flujo de problemas? / B: Una representación visual de los pasos necesarios para resolver un problema.
+U: ¿Cómo se calcula el área del triángulo con base 465 y altura 8? / B: A = (465 × 8) / 2 = 1860
+U: ¿Qué es la depuración (debugging)? / B: El proceso de encontrar y corregir errores en código o sistemas.
+U: ¿Cuál es el área del rectángulo con lados 190 y 7? / B: A = 190 × 7 = 1330
+U: ¿Qué es el análisis de complejidad computacional? / B: El estudio de los recursos necesarios para resolver problemas computacionales.
+U: ¿Cómo se calcula el área del triángulo con base 470 y altura 12? / B: A = (470 × 12) / 2 = 2820
+U: ¿Qué es un problema NP-completo? / B: Un problema en la clase NP que es tan difícil como cualquier problema en NP.
+U: ¿Cuál es el área del rectángulo con lados 192 y 9? / B: A = 192 × 9 = 1728
+U: ¿Qué es la hipótesis P vs NP? / B: La pregunta abierta más importante en informática teórica sobre la igualdad de las clases P y NP.
+U: ¿Cómo se calcula el área del triángulo con base 475 y altura 6? / B: A = (475 × 6) / 2 = 1425
+U: ¿Qué es un algoritmo voraz (greedy)? / B: Un algoritmo que en cada paso elige la opción localmente óptima esperando encontrar la solución global.
+U: ¿Cuál es el área del rectángulo con lados 194 y 11? / B: A = 194 × 11 = 2134
+U: ¿Qué es la programación dinámica? / B: Un método para resolver problemas complejos descomponiéndolos en subproblemas más simples.
+U: ¿Cómo se calcula el área del triángulo con base 480 y altura 10? / B: A = (480 × 10) / 2 = 2400
+U: ¿Qué es el principio de optimalidad de Bellman? / B: Una solución óptima contiene soluciones óptimas a subproblemas.
+U: ¿Cuál es el área del rectángulo con lados 196 y 8? / B: A = 196 × 8 = 1568
+U: ¿Qué es un árbol de decisión? / B: Una estructura de datos que modela decisiones y sus posibles consecuencias.
+U: ¿Cómo se calcula el área del triángulo con base 485 y altura 12? / B: A = (485 × 12) / 2 = 2910
+U: ¿Qué es la poda alfa-beta? / B: Una técnica de optimización para árboles de juego que reduce los nodos evaluados.
+U: ¿Cuál es el área del rectángulo con lados 198 y 6? / B: A = 198 × 6 = 1188
+U: ¿Qué es la minimax? / B: Un algoritmo de toma de decisiones que minimiza la pérdida máxima posible.
+U: ¿Cómo se calcula el área del triángulo con base 490 y altura 8? / B: A = (490 × 8) / 2 = 1960
+U: ¿Qué es el mapeo de Minimax? / B: Una representación del estado del juego que muestra las mejores jugadas para ambos jugadores.
+U: ¿Cuál es el área del rectángulo con lados 200 y 10? / B: A = 200 × 10 = 2000
+U: ¿Qué es la evaluación heurística? / B: Una función que estima la bondad de un estado del juego sin resolverlo completamente.
+U: ¿Cómo se calcula el área del triángulo con base 495 y altura 6? / B: A = (495 × 6) / 2 = 1485
+U: ¿Qué es el parámetro de exploración en Monte Carlo Tree Search? / B: Una constante que balancea exploración y explotación en la selección de nodos.
+U: ¿Cuál es el área del rectángulo con lados 202 y 12? / B: A = 202 × 12 = 2424
+U: ¿Qué es AlphaGo? / B: Un programa de Google DeepMind que jugó Go a nivel profesional usando redes neuronales y MCTS.
+U: ¿Cómo se calcula el área del triángulo con base 500 y altura 10? / B: A = (500 × 10) / 2 = 2500
+U: ¿Qué es el aprendizaje por refuerzo profundo? / B: Combinación de redes neuronales profundas con aprendizaje por refuerzo para problemas complejos.
+U: ¿Cuál es el área del rectángulo con lados 204 y 8? / B: A = 204 × 8 = 1632
+U: ¿Qué es DQN (Deep Q-Network)? / B: Un algoritmo que usa redes neuronales para aproximar la función Q en juegos de Atari.
+U: ¿Cómo se calcula el área del triángulo con base 505 y altura 12? / B: A = (505 × 12) / 2 = 3030
+U: ¿Qué es la experiencia replay? / B: Una técnica que almacena y reutiliza experiencias pasadas para entrenar agentes de RL.
+U: ¿Cuál es el área del rectángulo con lados 206 y 9? / B: A = 206 × 9 = 1854
+U: ¿Qué es la red neuronal twin delayed DDPG? / B: Un algoritmo de RL continuo que usa dos redes Q y retraso en la actualización de la política.
+U: ¿Cómo se calcula el área del triángulo con base 510 y altura 8? / B: A = (510 × 8) / 2 = 2040
+U: ¿Qué es la compensación exploración-explotación en RL? / B: El balance entre probar nuevas acciones y usar las mejores conocidas.
+U: ¿Cuál es el área del rectángulo con lados 208 y 11? / B: A = 208 × 11 = 2288
+U: ¿Qué es el aprendizaje por imitación? / B: Un paradigma donde el agente aprende a imitar el comportamiento de un experto.
+U: ¿Cómo se calcula el área del triángulo con base 515 y altura 6? / B: A = (515 × 6) / 2 = 1545
+U: ¿Qué es el aprendizaje inverso (inverse reinforcement learning)? / B: Inferir la función de recompensa de un experto a partir de sus comportamientos.
+U: ¿Cuál es el área del rectángulo con lados 210 y 10? / B: A = 210 × 10 = 2100
+U: ¿Qué es el multi-agente reinforcement learning? / B: Un entorno donde múltiples agentes aprenden a interactuar entre sí.
+U: ¿Cómo se calcula el área del triángulo con base 520 y altura 12? / B: A = (520 × 12) / 2 = 3120
+U: ¿Qué es la recompensa formada (shaped reward)? / B: Una recompensa modificada para guiar el aprendizaje hacia soluciones más rápidas.
+U: ¿Cuál es el área del rectángulo con lados 212 y 7? / B: A = 212 × 7 = 1484
+U: ¿Qué es el sesgo de exploración en RL? / B: La tendencia de un agente a explorar demasiado o explotar demasiado según la configuración.
+U: ¿Cómo se calcula el área del triángulo con base 525 y altura 8? / B: A = (525 × 8) / 2 = 2100
+U: ¿Qué es el transfer learning en RL? / B: Aplicar conocimiento aprendido en una tarea a una tarea diferente pero relacionada.
+U: ¿Cuál es el área del rectángulo con lados 214 y 12? / B: A = 214 × 12 = 2568
+U: ¿Qué es el meta-aprendizaje (meta-learning)? / B: Aprender a aprender, desarrollando la capacidad de adaptarse rápidamente a nuevas tareas.
+U: ¿Cómo se calcula el área del triángulo con base 530 y altura 10? / B: A = (530 × 10) / 2 = 2650
+U: ¿Qué es el aprendizaje por refuerzo modelado (model-based RL)? / B: Un agente que construye un modelo del entorno para planificar acciones.
+U: ¿Cuál es el área del rectángulo con lados 216 y 9? / B: A = 216 × 9 = 1944
+U: ¿Qué es el world model en RL? / B: Una red neuronal que predice el siguiente estado y recompensa dadas una acción y estado actual.
+U: ¿Cómo se calcula el área del triángulo con base 535 y altura 6? / B: A = (535 × 6) / 2 = 1605
+U: ¿Qué es el control óptimo? / B: La teoría de encontrar una ley de control que optimice un criterio de rendimiento.
+U: ¿Cuál es el área del rectángulo con lados 218 y 8? / B: A = 218 × 8 = 1744
+U: ¿Qué es la ecuación de Bellman? / B: Una ecuación recursiva que relaciona el valor de un estado con los valores de sus estados sucesores.
+U: ¿Cómo se calcula el área del triángulo con base 540 y altura 12? / B: A = (540 × 12) / 2 = 3240
+U: ¿Qué es la iteración de valor? / B: Un algoritmo que calcula la función de valor óptima aplicando la ecuación de Bellman repetidamente.
+U: ¿Cuál es el área del rectángulo con lados 220 y 11? / B: A = 220 × 11 = 2420
+U: ¿Qué es la iteración de política? / B: Un algoritmo que alterna entre evaluar una política y mejorarla.
+U: ¿Cómo se calcula el área del triángulo con base 545 y altura 8? / B: A = (545 × 8) / 2 = 2180
+U: ¿Qué es el aprendizaje por diferencia temporal (TD)? / B: Un método que aprende directamente de experiencias sin necesidad de un modelo del entorno.
+U: ¿Cuál es el área del rectángulo con lados 222 y 6? / B: A = 222 × 6 = 1332
+U: ¿Qué es SARSA? / B: Un algoritmo TD on-policy que actualiza valores basándose en la acción realmente tomada.
+U: ¿Cómo se calcula el área del triángulo con base 550 y altura 10? / B: A = (550 × 10) / 2 = 2750
+U: ¿Qué es Q-learning off-policy? / B: Un algoritmo que aprende la política óptima mientras sigue una política de exploración diferente.
+U: ¿Cuál es el área del rectángulo con lados 224 y 9? / B: A = 224 × 9 = 2016
+U: ¿Qué es el valor de estado (V)? / B: La recompensa esperada acumulada desde un estado siguiendo una política.
+U: ¿Cómo se calcula el área del triángulo con base 555 y altura 12? / B: A = (555 × 12) / 2 = 3330
+U: ¿Qué es la ventaja (advantage) en RL? / B: La diferencia entre el valor de estado-acción y el valor de estado.
+U: ¿Cuál es el área del rectángulo con lados 226 y 7? / B: A = 226 × 7 = 1582
+U: ¿Qué es A3C (Asynchronous Advantage Actor-Critic)? / B: Un algoritmo que entrena múltiples agentes en paralelo de forma asíncrona.
+U: ¿Cómo se calcula el área del triángulo con base 560 y altura 8? / B: A = (560 × 8) / 2 = 2240
+U: ¿Qué es PPO (Proximal Policy Optimization)? / B: Un algoritmo de RL que actualiza políticas de forma estable limitando la magnitud de las actualizaciones.
+U: ¿Cuál es el área del rectángulo con lados 228 y 12? / B: A = 228 × 12 = 2736
+U: ¿Qué es TRPO (Trust Region Policy Optimization)? / B: Un algoritmo que restringe las actualizaciones de política para garantizar mejoras monotónicas.
+U: ¿Cómo se calcula el área del triángulo con base 565 y altura 6? / B: A = (565 × 6) / 2 = 1695
+U: ¿Qué es DDPG (Deep Deterministic Policy Gradient)? / B: Un algoritmo para espacios de acción continuos que combina DPG con experience replay.
+U: ¿Cuál es el área del rectángulo con lados 230 y 10? / B: A = 230 × 10 = 2300
+U: ¿Qué es SAC (Soft Actor-Critic)? / B: Un algoritmo off-policy que maximiza tanto la recompensa como la entropía de la política.
+U: ¿Cómo se calcula el área del triángulo con base 570 y altura 12? / B: A = (570 × 12) / 2 = 3420
+U: ¿Qué es Rainbow DQN? / B: Una combinación de mejoras a DQN que incluye dueling networks, prioritized replay, y más.
+U: ¿Cuál es el área del rectángulo con lados 232 y 8? / B: A = 232 × 8 = 1856
+U: ¿Qué es la distribución de recompensa distribuida? / B: Un enfoque que modela la distribución completa de recompensas futuras, no solo el valor esperado.
+U: ¿Cómo se calcula el área del triángulo con base 575 y altura 10? / B: A = (575 × 10) / 2 = 2875
+U: ¿Qué es el aprendizaje por refuerzo con restricciones? / B: Un marco donde el agente debe maximizar recompensas cumpliendo restricciones de seguridad.
+U: ¿Cuál es el área del rectángulo con lados 234 y 11? / B: A = 234 × 11 = 2574
+U: ¿Qué es la exploración basada en ruido? / B: Añadir ruido a las acciones para descubrir nuevos estados del entorno.
+U: ¿Cómo se calcula el área del triángulo con base 580 y altura 8? / B: A = (580 × 8) / 2 = 2320
+U: ¿Qué es la exploración curiosity-driven? / B: Un enfoque donde la curiosidad intrínseca motiva al agente a explorar estados nuevos o inusuales.
+U: ¿Cuál es el área del rectángulo con lados 236 y 6? / B: A = 236 × 6 = 1416
+U: ¿Qué es el aprendizaje por refuerzo jerárquico? / B: Un enfoque que descompone tareas complejas en subtareas manejables con diferentes niveles de abstracción.
+U: ¿Cómo se calcula el área del triángulo con base 585 y altura 12? / B: A = (585 × 12) / 2 = 3510
+U: ¿Qué es la opción framework en RL? / B: Un marco para RL jerárquico donde las opciones son pseudo-acciones que duran múltiples pasos.
+U: ¿Cuál es el área del rectángulo con lados 238 y 9? / B: A = 238 × 9 = 2142
+U: ¿Qué es MAXQ decomposition? / B: Un algoritmo de RL jerárquico que descompone la función de valor en subfunciones.
+U: ¿Cómo se calcula el área del triángulo con base 590 y altura 6? / B: A = (590 × 6) / 2 = 1770
+U: ¿Qué es Feudal RL? / B: Un marco jerárquico donde un manager da instrucciones de alto nivel a un worker.
+U: ¿Cuál es el área del rectángulo con lados 240 y 10? / B: A = 240 × 10 = 2400
+U: ¿Qué es el aprendizaje por refuerzo multi-objeto? / B: Un enfoque donde el agente debe optimizar múltiples objetivos simultáneamente.
+U: ¿Cómo se calcula el área del triángulo con base 595 y altura 8? / B: A = (595 × 8) / 2 = 2380
+U: ¿Qué es la frontera de Pareto en RL multi-objeto? / B: El conjunto de soluciones donde ningún objetivo puede mejorarse sin empeorar otro.
+U: ¿Cuál es el área del rectángulo con lados 242 y 12? / B: A = 242 × 12 = 2904
+U: ¿Qué es el refuerzo social? / B: Un enfoque donde los agentes aprenden de las interacciones sociales con otros agentes.
+U: ¿Cómo se calcula el área del triángulo con base 600 y altura 10? / B: A = (600 × 10) / 2 = 3000
+U: ¿Qué es la comunicación emergente en RL? / B: Cuando agentes desarrollan sistemas de comunicación para coordinar acciones.
+U: ¿Cuál es el área del rectángulo con lados 244 y 7? / B: A = 244 × 7 = 1708
+U: ¿Qué es el aprendizaje por refuerzo basado en modelos? / B: Un enfoque donde el agente aprende un modelo del entorno y lo usa para planificar.
+U: ¿Cómo se calcula el área del triángulo con base 605 y altura 12? / B: A = (605 × 12) / 2 = 3630
+U: ¿Qué es Dyna-Q? / B: Un algoritmo que combina Q-learning directo con simulaciones basadas en un modelo aprendido.
+U: ¿Cuál es el área del rectángulo con lados 246 y 8? / B: A = 246 × 8 = 1968
+U: ¿Qué es el planning en RL? / B: El uso de un modelo del entorno para simular experiencias y mejorar la política.
+U: ¿Cómo se calcula el área del triángulo con base 610 y altura 6? / B: A = (610 × 6) / 2 = 1830
+U: ¿Qué es el imagination-based planning? / B: Un enfoque donde el agente usa su modelo para imaginar trajectories futuras.
+U: ¿Cuál es el área del rectángulo con lados 248 y 11? / B: A = 248 × 11 = 2728
+U: ¿Qué es el world model en RL? / B: Un modelo que predice cómo cambiará el entorno basándose en las acciones del agente.
+U: ¿Cómo se calcula el área del triángulo con base 615 y altura 10? / B: A = (615 × 10) / 2 = 3075
+U: ¿Qué es el aprendizaje por refuerzo offline? / B: Un enfoque donde el agente aprende de un conjunto de datos pre-recopilado sin interacción adicional.
+U: ¿Cuál es el área del rectángulo con lados 250 y 9? / B: A = 250 × 9 = 2250
+U: ¿Qué es batch RL? / B: Aprendizaje por refuerzo usando solo datos pre-recopilados, sin exploración adicional.
+U: ¿Cómo se calcula el área del triángulo con base 620 y altura 8? / B: A = (620 × 8) / 2 = 2480
+U: ¿Qué es Conservative Q-Learning (CQL)? / B: Un algoritmo offline RL que evita sobreestimar valores de acciones no observadas.
+U: ¿Cuál es el área del rectángulo con lados 252 y 12? / B: A = 252 × 12 = 3024
+U: ¿Qué es el RL offline con restricciones? / B: Aprender políticas seguras de datos offline sin interacción con el entorno.
+U: ¿Cómo se calcula el área del triángulo con base 625 y altura 6? / B: A = (625 × 6) / 2 = 1875
+U: ¿Qué es el aprendizaje por refuerzo seguro? / B: Un enfoque que garantiza comportamiento seguro durante el entrenamiento del agente.
+U: ¿Cuál es el área del rectángulo con lados 254 y 8? / B: A = 254 × 8 = 2032
+U: ¿Qué es la verificación formal en RL? / B: El uso de métodos matemáticos para garantizar que el agente cumple especificaciones de seguridad.
+U: ¿Cómo se calcula el área del triángulo con base 630 y altura 12? / B: A = (630 × 12) / 2 = 3780
+U: ¿Qué es el aprendizaje por refuerzo robusto? / B: Un enfoque que hace que el agente sea resistente a incertidumbres en el entorno.
+U: ¿Cuál es el área del rectángulo con lados 256 y 10? / B: A = 256 × 10 = 2560
+U: ¿Qué es el adversarial RL? / B: Un marco donde múltiples agentes compiten o cooperan en entornos adversariales.
+U: ¿Cómo se calcula el área del triángulo con base 635 y altura 8? / B: A = (635 × 8) / 2 = 2540
+U: ¿Qué es el GAN en el contexto de RL? / B: Redes Generativas Adversariales usadas para generar trajectories o modelar distribuciones en RL.
+U: ¿Cuál es el área del rectángulo con lados 258 y 6? / B: A = 258 × 6 = 1548
+U: ¿Qué es la imitación inversa en RL? / B: Aprender a imitar trajectories de expertos para resolver tareas.
+U: ¿Cómo se calcula el área del triángulo con base 640 y altura 10? / B: A = (640 × 10) / 2 = 3200
+U: ¿Qué es el aprendizaje por refuerzo continuo? / B: RL donde el espacio de acciones es continuo en lugar de discreto.
+U: ¿Cuál es el área del rectángulo con lados 260 y 11? / B: A = 260 × 11 = 2860
+U: ¿Qué es el espacio de acción continuo? / B: Un espacio donde las acciones pueden tomar cualquier valor dentro de un rango, no solo valores discretos.
+U: ¿Cómo se calcula el área del triángulo con base 645 y altura 12? / B: A = (645 × 12) / 2 = 3870
+U: ¿Qué es el muestreo de acciones en espacios continuos? / B: Técnicas como ruido gaussiano o distribuciones paramétricas para explorar acciones continuas.
+U: ¿Cuál es el área del rectángulo con lados 262 y 7? / B: A = 262 × 7 = 1834
+U: ¿Qué es la distribución de política en RL continuo? / B: Una distribución paramétrica que define probabilidades sobre acciones continuas.
+U: ¿Cómo se calcula el área del triángulo con base 650 y altura 8? / B: A = (650 × 8) / 2 = 2600
+U: ¿Qué es el reparametrization trick? / B: Una técnica para calcular gradientes a través de distribuciones de muestreo en RL continuo.
+U: ¿Cuál es el área del rectángulo con lados 264 y 9? / B: A = 264 × 9 = 2376
+U: ¿Qué es la entropy regularization en RL continuo? / B: Añadir entropía a la política para mantener exploración en espacios de acción continuos.
+U: ¿Cómo se calcula el área del triángulo con base 655 y altura 6? / B: A = (655 × 6) / 2 = 1965
+U: ¿Qué es el control adaptativo? / B: Un enfoque que ajusta la política del agente basándose en cambios en el entorno.
+U: ¿Cuál es el área del rectángulo con lados 266 y 12? / B: A = 266 × 12 = 3192
+U: ¿Qué es el RL en entornos parcialmente observables (POMDP)? / B: Un marco donde el agente no tiene acceso completo al estado del entorno.
+U: ¿Cómo se calcula el área del triángulo con base 660 y altura 10? / B: A = (660 × 10) / 2 = 3300
+U: ¿Qué es la memoria de episodios en POMDP? / B: Usar secuencias pasadas de observaciones para inferir el estado oculto.
+U: ¿Cuál es el área del rectángulo con lados 268 y 8? / B: A = 268 × 8 = 2144
+U: ¿Qué es el recurrente RL? / B: Usar redes recurrentes (LSTM, GRU) para mantener un historial de observaciones.
+U: ¿Cómo se calcula el área del triángulo con base 665 y altura 12? / B: A = (665 × 12) / 2 = 3990
+U: ¿Qué es el transformer en RL? / B: Usar arquitecturas transformer para procesar secuencias de observaciones en RL.
+U: ¿Cuál es el área del rectángulo con lados 270 y 6? / B: A = 270 × 6 = 1620
+U: ¿Qué es el attention mechanism en RL? / B: Un mecanismo que permite al agente enfocarse en partes relevantes de la observación.
+U: ¿Cómo se calcula el área del triángulo con base 670 y altura 8? / B: A = (670 × 8) / 2 = 2680
+U: ¿Qué es el RL con información imperfecta? / B: Un entorno donde los jugadores no tienen acceso a toda la información del juego.
+U: ¿Cuál es el área del rectángulo con lados 272 y 11? / B: A = 272 × 11 = 2992
+U: ¿Qué es la estrategia de Nash en información imperfecta? / B: Un conjunto de estrategias donde ningún jugador puede mejorar cambiando unilateralmente.
+U: ¿Cómo se calcula el área del triángulo con base 675 y altura 10? / B: A = (675 × 10) / 2 = 3375
+U: ¿Qué es el counterfactual regret minimization (CFR)? / B: Un algoritmo para resolver juegos de información imperfecta minimizando el arrepentimiento contrafactual.
+U: ¿Cuál es el área del rectángulo con lados 274 y 9? / B: A = 274 × 9 = 2466
+U: ¿Qué es Libratus? / B: Un programa de IA que derrotó a profesionales del póker en 2017 usando CFR.
+U: ¿Cómo se calcula el área del triángulo con base 680 y altura 12? / B: A = (680 × 12) / 2 = 4080
+U: ¿Qué es Pluribus? / B: Un programa de IA de Facebook que jugó póker de 6 jugadores a nivel profesional.
+U: ¿Cuál es el área del rectángulo con lados 276 y 7? / B: A = 276 × 7 = 1932
+U: ¿Qué es el equilibrio de Nash computacional? / B: Encontrar estrategias de Nash usando algoritmos en juegos complejos.
+U: ¿Cómo se calcula el área del triángulo con base 685 y altura 8? / B: A = (685 × 8) / 2 = 2740
+U: ¿Qué es el deep CFR? / B: Una extensión de CFR que usa redes neuronales para aproximar las estrategias.
+U: ¿Cuál es el área del rectángulo con lados 278 y 12? / B: A = 278 × 12 = 3336
+U: ¿Qué es el tournament de poker para IA? / B: Competiciones donde programas de póker se enfrentan entre sí o contra humanos.
+U: ¿Cómo se calcula el área del triángulo con base 690 y altura 6? / B: A = (690 × 6) / 2 = 2070
+U: ¿Qué es la bluffing strategy en póker? / B: Apostar con cartas débiles para hacer que los oponentes se retiren.
+U: ¿Cuál es el área del rectángulo con lados 280 y 10? / B: A = 280 × 10 = 2800
+U: ¿Qué es la range en póker? / B: El conjunto de todas las manos posibles que un jugador podría tener en una situación dada.
+U: ¿Cómo se calcula el área del triángulo con base 695 y altura 12? / B: A = (695 × 12) / 2 = 4170
+U: ¿Qué es el pot odds en póker? / B: La relación entre el tamaño del bote y el costo de una apuesta futura.
+U: ¿Cuál es el área del rectángulo con lados 282 y 8? / B: A = 282 × 8 = 2256
+U: ¿Qué es la implied odds en póker? / B: Una extensión de los pot odds que considera dinero adicional que se puede ganar en rondas futuras.
+U: ¿Cómo se calcula el área del triángulo con base 700 y altura 10? / B: A = (700 × 10) / 2 = 3500
+U: ¿Qué es el expected value en póker? / B: La ganancia o pérdida promedio esperada de una jugada a largo plazo.
+U: ¿Cuál es el área del rectángulo con lados 284 y 11? / B: A = 284 × 11 = 3124
+U: ¿Qué es la fold equity en póker? / B: El valor adicional que se obtiene cuando el oponente puede retirarse por nuestra apuesta.
+U: ¿Cómo se calcula el área del triángulo con base 705 y altura 8? / B: A = (705 × 8) / 2 = 2820
+U: ¿Qué es la stack size en póker? / B: La cantidad de fichas que tiene un jugador, que afecta las estrategias disponibles.
+U: ¿Cuál es el área del rectángulo con lados 286 y 6? / B: A = 286 × 6 = 1716
+U: ¿Qué es el independent chip model (ICM)? / B: Un modelo que asigna valor a las fichas en torneos basándose en las probabilidades de pago.
+U: ¿Cómo se calcula el área del triángulo con base 710 y altura 12? / B: A = (710 × 12) / 2 = 4260
+U: ¿Qué es la burbuja en torneos de póker? / B: El punto donde los últimos jugadores que no ganan dinero se quedan fuera del premio.
+U: ¿Cuál es el área del rectángulo con lados 288 y 9? / B: A = 288 × 9 = 2592
+U: ¿Qué es la equity share en póker? / B: La porción del bote que pertenece a un jugador basándose en su probabilidad de ganar.
+U: ¿Cómo se calcula el área del triángulo con base 715 y altura 6? / B: A = (715 × 6) / 2 = 2145
+U: ¿Qué es la nash equilibrium en póker? / B: Una estrategia donde ningún jugador puede mejorar su resultado cambiando unilateralmente.
+U: ¿Cuál es el área del rectángulo con lados 290 y 10? / B: A = 290 × 10 = 2900
+U: ¿Qué es el game theory optimal (GTO) en póker? / B: Una estrategia que es indiferente a la estrategia del oponente.
+U: ¿Cómo se calcula el área del triángulo con base 720 y altura 8? / B: A = (720 × 8) / 2 = 2880
+U: ¿Qué es el exploitative play en póker? / B: Una estrategia que se desvía del GTO para explotar las debilidades del oponente.
+U: ¿Cuál es el área del rectángulo con lados 292 y 12? / B: A = 292 × 12 = 3504
+U: ¿Qué es el equilibrio mixto en póker? / B: Una estrategia que mezcla acciones de manera que el oponente sea indiferente entre sus opciones.
+U: ¿Cómo se calcula el área del triángulo con base 725 y altura 10? / B: A = (725 × 10) / 2 = 3625
+U: ¿Qué es el range merging en póker? / B: La tendencia de ranges a mezclarse cuando se hacen múltiples raises.
+U: ¿Cuál es el área del rectángulo con lados 294 y 7? / B: A = 294 × 7 = 2058
+U: ¿Qué es la polarización en póker? / B: Un rango que contiene principalmente manos muy fuertes o muy débiles, pocas medias.

@@ -132,7 +132,7 @@ def train():
     print("=" * 60)
 
     device = torch.device('cuda')
-    V = 256; T = 192; D = 384; H = 6; L = 8; FF = 1536
+    V = 256; T = 256; D = 2048; H = 32; L = 10; FF = 8192
 
     full_text = load_corpus()
     chars = sorted(set(full_text))
@@ -157,7 +157,7 @@ def train():
     else:
         print(f"sm_{cc[0]}{cc[1]}: torch.compile no disponible, modo eager")
 
-    BS = 8; GA = 4; max_steps = 100000
+    BS = 2; GA = 16; max_steps = 200000
     lr = 3e-4; warmup = 4000; gc = 1.0
     optim = torch.optim.AdamW(model.parameters(), lr=lr, betas=(0.9, 0.999), weight_decay=0.1)
 

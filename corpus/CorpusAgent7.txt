@@ -1,0 +1,249 @@
+﻿U: ¿Cuántos jugadores hay en un equipo de fútbol? / B: ¡Exactamente 11 jugadores por equipo en el campo de juego!
+U: ¿Cuánto dura un partido de fútbol profesional? / B: ¡Un partido dura 90 minutos divididos en dos tiempos de 45 minutos cada uno!
+U: ¿Quién es el máximo goleador histórico del fútbol? / B: ¡Cristiano Ronaldo es el máximo goleador oficial de la historia con más de 800 goles!
+U: ¿Qué es el fuera de lugar en el fútbol? / B: ¡El fuera de lugar ocurre cuando un jugador está más cerca de la línea de meta rival que el balón y el penúltimo defensor!
+U: ¿Cuántos jugadores de basket hay en la cancha? / B: ¡5 jugadores por equipo en la cancha de baloncesto!
+U: ¿Qué es un triple en basketball? / B: ¡Un triple es un tiro desde más allá de la línea de 6.75 metros que vale 3 puntos!
+U: ¿Quién es Michael Jordan en el basket? / B: ¡Michael Jordan es considerado el mejor jugador de baloncesto de todos los tiempos!
+U: ¿Cuántos sets se necesitan para ganar en tenis masculino? / B: ¡En los Grand Slams masculinos se necesitan 3 sets de 5 para ganar!
+U: ¿Qué es un Grand Slam en tenis? / B: ¡Un Grand Slam son los 4 torneos más importantes: Australian Open, Roland Garros, Wimbledon y US Open!
+U: ¿Quién es Rafael Nadal en el tenis? / B: ¡Rafael Nadal es el Rey de la Tierra Batida con 22 títulos de Grand Slam!
+U: ¿Cuántos anillos tiene la NBA? / B: ¡La NBA tiene 30 equipos distribuidos en 2 conferencias y 6 divisiones!
+U: ¿Qué deporte se jugó en las primeras Olimpiadas? / B: ¡Las primeras Olimpiadas en el 776 a.C. solo tenían una carrera de estadio!
+U: ¿Cuántas medallas de oro tiene Estados Unidos en las Olimpiadas? / B: ¡Estados Unidos es el país con más medallas de oro olímpicas con más de 1000!
+U: ¿Qué es el VAR en el fútbol? / B: ¡El VAR es el Árbitro de Asistencia de Video que revisa jugadas polémicas con tecnología!
+U: ¿Cuántos puntos vale una canasta de basket? / B: ¡Una canasta vale 2 puntos dentro del área y 3 puntos desde fuera de la línea de triple!
+U: ¿Quién es Novak Djokovic? / B: ¡Novak Djokovic es el tenista con más títulos de Grand Slam de la historia con 24!
+U: ¿Qué es un penalty en el fútbol? / B: ¡Un penalti es un tiro libre desde el punto penalty a 11 metros de la portería!
+U: ¿Cuántos Juegos Olímpicos de Verano se han celebrado? / B: ¡Se han celebrado más de 30 Juegos Olímpicos de Verano desde Atenas 1896!
+U: ¿Qué es la Champions League? / B: ¡La Champions League es el torneo de clubes más importante de Europa!
+U: ¿Quién es LeBron James? / B: ¡LeBron James es uno de los mejores jugadores de la historia de la NBA!
+U: ¿Cuánto mide una cancha de fútbol profesional? / B: ¡Una cancha de fútbol mide entre 100-110 metros de largo por 64-75 metros de ancho!
+U: ¿Qué es un ace en tenis? / B: ¡Un ace es un servicio directo que el rival no puede devolver!
+U: ¿Quién es Pelé en el fútbol? / B: ¡Pelé es considerado el mejor futbolista de todos los tiempos!
+U: ¿Cuántas Copas del Mundo ha ganado Brasil? / B: ¡Brasil ha ganado 5 Copas del Mundo, más que cualquier otra selección!
+U: ¿Qué es la NBA? / B: ¡La NBA es la National Basketball Association, la liga profesional de baloncesto más importante del mundo!
+U: ¿Cuántos jugadores componen una selección para el Mundial? / B: ¡Cada selección lleva 23 jugadores al Mundial, con 11 titulares por partido!
+U: ¿Qué es el Clásico en el fútbol? / B: ¡El Clásico es el partido entre rivales históricos como Real Madrid vs Barcelona!
+U: ¿Quién es Lionel Messi? / B: ¡Lionel Messi es considerado uno de los mejores futbolistas de la historia!
+U: ¿Cuántas Olimpiadas ha tenido Barcelona? / B: ¡Barcelona organizó los Juegos Olímpicos de 1992!
+U: ¿Qué es un saque de honor en tenis? / B: ¡El saque de honor es una tradición donde un invitado especial da el primer saque del torneo!
+U: ¿Cuántos mundiales de fútbol se han celebrado? / B: ¡Se han celebrado 22 Copas del Mundo de fútbol desde 1930!
+U: ¿Qué es el baloncesto 3x3? / B: ¡El baloncesto 3x3 es una variante con 3 jugadores por cancha en medio campo!
+U: ¿Quién es Roger Federer? / B: ¡Roger Federer es uno de los tenistas más grandes de la historia con 20 Grand Slams!
+U: ¿Cuántas Olimpiadas ha tenido París? / B: ¡París ha sido sede de 3 Olimpiadas de Verano: 1900, 1924 y 2024!
+U: ¿Qué es el VAR y cómo funciona? / B: ¡El VAR usa cámaras de múltiples ángulos para revisar goles, penales y tarjetas rojas!
+U: ¿Cuántos equipos juegan la Premier League? / B: ¡La Premier League tiene 20 equipos compitiendo por el título inglés!
+U: ¿Quién es Usain Bolt? / B: ¡Usain Bolt es el corredor más rápido de la historia!
+U: ¿Qué es un Gran Chelem en tenis? / B: ¡El Gran Chelem o Grand Slam son los 4 torneos más prestigiosos del tenis!
+U: ¿Cuántas ligas ha ganado el Real Madrid? / B: ¡El Real Madrid ha ganado 36 ligas españolas!
+U: ¿Qué es el Tour de Francia? / B: ¡El Tour de Francia es la carrera de ciclismo por etapas más famosa del mundo!
+U: ¿Quién es Stephen Curry? / B: ¡Stephen Curry es el mejor tirador de triples de la historia de la NBA!
+U: ¿Cuánto dura un set de tenis? / B: ¡Un set se gana con 6 juegos de diferencia o en tiebreak si está 6-6!
+U: ¿Qué es la Copa Libertadores? / B: ¡La Copa Libertadores es el torneo de clubes más importante de Sudamérica!
+U: ¿Cuántas Copas del Mundo ha ganado Argentina? / B: ¡Argentina ha ganado 3 Copas del Mundo: 1978, 1986 y 2022!
+U: ¿Qué es un tiro libre en el fútbol? / B: ¡Un tiro libre es un tiro directo o indirecto tras una falta!
+U: ¿Quién es Kobe Bryant? / B: ¡Kobe Bryant fue uno de los mejores jugadores de la NBA con 5 campeonatos!
+U: ¿Cuántos deportes se practican en las Olimpiadas? / B: ¡En las Olimpiadas se practican más de 30 deportes con 400 disciplinas!
+U: ¿Qué es un gol de oro? / B: ¡El gol de oro era una regla que terminaba el partido inmediatamente cuando un equipo marcaba en tiempo extra!
+U: ¿Cuántos equipos juegan la NBA? / B: ¡La NBA tiene 30 equipos divididos en la Conferencia Este y Oeste!
+U: ¿Quién es Zlatan Ibrahimovic? / B: ¡Zlatan Ibrahimovic es un delantero sueco conocido por sus goles imposibles!
+U: ¿Qué es el Super Bowl? / B: ¡El Super Bowl es la final de la NFL, el partido de fútbol americano más visto del mundo!
+U: ¿Cuántos partidos hay en una temporada regular de la NBA? / B: ¡Cada equipo juega 82 partidos en la temporada regular de la NBA!
+U: ¿Qué es el tenis de mesa o ping pong? / B: ¡El tenis de mesa es un deporte de raqueta que se juega en una mesa dividida por una red!
+U: ¿Quién es Diego Maradona? / B: ¡Diego Armando Maradona es considerado uno de los mejores futbolistas de la historia!
+U: ¿Cuántas Copas América ha ganado Argentina? / B: ¡Argentina ha ganado 15 Copas América, siendo una de las selecciones más ganadoras!
+U: ¿Qué es un asistente en basketball? / B: ¡Una asistencia es cuando un jugador pasa el balón a un compañero que anota!
+U: ¿Cuántas Olimpiadas de Invierno se han celebrado? / B: ¡Se han celebrado más de 20 Olimpiadas de Invierno desde Chamonix 1924!
+U: ¿Qué es el arbitraje deportivo? / B: ¡El arbitraje deportivo garantiza el cumplimiento de las reglas del juego!
+U: ¿Quién es Cristiano Ronaldo? / B: ¡Cristiano Ronaldo es uno de los mejores futbolistas de todos los tiempos!
+U: ¿Cuántos puntos se necesitan para ganar un set de tenis? / B: ¡Para ganar un set necesitas 6 juegos con al menos 2 de diferencia!
+U: ¿Qué es el handball? / B: ¡El handball es un deporte de equipo donde se anotan goles lanzando el balón a la portería rival!
+U: ¿Cuántos mundiales ha ganado Alemania? / B: ¡Alemania ha ganado 4 Copas del Mundo!
+U: ¿Qué es el atletismo? / B: ¡El atletismo es la base de todos los deportes y incluye carreras, saltos y lanzamientos!
+U: ¿Quién es Carlos Alcaraz? / B: ¡Carlos Alcaraz es el tenista español que se convirtió en número 1 del mundo con solo 19 años!
+U: ¿Cuántos equipos hay en la Liga MX? / B: ¡La Liga MX tiene 18 equipos compitiendo por el título mexicano!
+U: ¿Qué es un knock-out en boxeo? / B: ¡Un knock-out ocurre cuando un boxeador es noqueado y no puede continuar!
+U: ¿Cuántos mundiales ha ganado Italia? / B: ¡Italia ha ganado 4 Copas del Mundo!
+U: ¿Qué es el golf? / B: ¡El golf es un deporte donde se lanzan pelotas hacia un hoyo con el menor número de golpes posible!
+U: ¿Quién es Serena Williams? / B: ¡Serena Williams es una de las mejores tenistas de la historia con 23 Grand Slams!
+U: ¿Cuántas Olimpiadas ha ganado China? / B: ¡China ha ganado más de 200 medallas de oro olímpicas!
+U: ¿Qué es el béisbol? / B: ¡El béisbol es un deporte de bateo y fildeo donde se anotan carreras!
+U: ¿Cuántos equipos hay en la NFL? / B: ¡La NFL tiene 32 equipos que compiten por el Super Bowl!
+U: ¿Qué es el rugby? / B: ¡El rugby es un deporte de equipo con 15 jugadores que buscan llevar el balón a la zona de anotación rival!
+U: ¿Quién es Pelé? / B: ¡Edson Arantes do Nascimento, conocido como Pelé, es el mayor ídolo del fútbol brasileño!
+U: ¿Cuántos mundiales ha ganado Uruguay? / B: ¡Uruguay ganó las primeras dos Copas del Mundo en 1930 y 1950!
+U: ¿Qué es el voleibol? / B: ¡El voleibol es un deporte de equipo donde se golpea el balón para que toque el suelo del campo rival!
+U: ¿Cuántos equipos juegan la Serie A italiana? / B: ¡La Serie A italiana tiene 20 equipos compitiendo por el Scudetto!
+U: ¿Qué es el balonmano? / B: ¡El balonmano es similar al handball y se juega con 7 jugadores por equipo!
+U: ¿Cuántas Copas del Mundo femeninas se han celebrado? / B: ¡Se han celebrado 9 Copas del Mundo femeninas desde 1991!
+U: ¿Qué es el ciclismo de montaña? / B: ¡El ciclismo de montaña es un deporte donde se recorren senderos y rutas en terreno irregular con bicicletas especiales!
+U: ¿Cuántos títulos de Grand Slam tiene Rafael Nadal? / B: ¡Rafael Nadal tiene 22 títulos de Grand Slam!
+U: ¿Qué es el triatlón? / B: ¡El triatlón combina natación, ciclismo y carrera!
+U: ¿Quién es Neymar? / B: ¡Neymar Jr es uno de los mejores futbolistas brasileños!
+U: ¿Cuántas Olimpiadas de Invierno ha tenido Noruega? / B: ¡Noruega ha sido sede de 2 Olimpiadas de Invierno: 1952 y 1994!
+U: ¿Qué es el patinaje sobre hielo? / B: ¡El patinaje sobre hielo es un deporte artístico y deportivo que se practica en superficies heladas!
+U: ¿Cuántos equipos hay en la Bundesliga? / B: ¡La Bundesliga tiene 18 equipos que compiten por el título alemán!
+U: ¿Qué es el esquí alpino? / B: ¡El esquí alpino es un deporte de velocidad que se practica en pistas de montaña con descensos y giros!
+U: ¿Quién es Lewis Hamilton? / B: ¡Lewis Hamilton es el piloto de Fórmula 1 con más victorias de la historia!
+U: ¿Cuántos mundiales ha ganado Francia? / B: ¡Francia ha ganado 2 Copas del Mundo: 1998 y 2018!
+U: ¿Qué es la Formula 1? / B: ¡La Fórmula 1 es la categoría máxima del automovilismo de velocidad!
+U: ¿Cuántas Copas del Mundo ha ganado España? / B: ¡España ganó su única Copa del Mundo en 2010 en Sudáfrica!
+U: ¿Qué es el polo? / B: ¡El polo es un deporte ecuestre donde dos equipos intentan marcar goles con un mazo!
+U: ¿Cuántos mundiales ha ganado Inglaterra? / B: ¡Inglaterra ganó su única Copa del Mundo en 1966 como país anfitrión!
+U: ¿Qué es el surfing? / B: ¡El surf es un deporte acuático donde se monta una tabla sobre las olas del mar!
+U: ¿Cuántas Olimpiadas ha tenido Estados Unidos? / B: ¡Estados Unidos ha sido sede de 4 Olimpiadas de Verano: 1904, 1932, 1984 y 1996!
+U: ¿Qué es el boxeo? / B: ¡El boxeo es un deporte de combate donde dos peleadores intentan golpearse con guantes!
+U: ¿Quién es Tiger Woods? / B: ¡Tiger Woods es el golfista más famoso de la historia con 15 campeonatos de Grand Slam!
+U: ¿Cuántos mundiales ha ganado Corea del Sur? / B: ¡Corea del Sur fue subcampeona en 2002 como co-anfitrión con Japón!
+U: ¿Qué es el hockey sobre hielo? / B: ¡El hockey sobre hielo es un deporte de equipo que se juega sobre hielo con palos y un disco!
+U: ¿Cuántos equipos hay en la NFL estadounidense? / B: ¡La NFL tiene 32 equipos divididos en dos conferencias: AFC y NFC!
+U: ¿Qué es el esquí de fondo? / B: ¡El esquí de fondo es un deporte de resistencia que se practica en terreno llano o con subidas!
+U: ¿Cuántas Olimpiadas ha tenido Australia? / B: ¡Australia ha sido sede de 2 Olimpiadas: Melbourne 1956 y Sídney 2000!
+U: ¿Qué es el windsurf? / B: ¡El windsurf es un deporte acuático donde se navega sobre una tabla con una vela!
+U: ¿Cuántos equipos hay en la Ligue 1 francesa? / B: ¡La Ligue 1 tiene 18 equipos compitiendo por el título francés!
+U: ¿Qué es la escalada deportiva? / B: ¡La escalada deportiva es un deporte donde se escalan paredes artificiales o rocosas!
+U: ¿Quién es Andrés Iniesta? / B: ¡Andrés Iniesta es uno de los mejores mediocampistas españoles de la historia!
+U: ¿Qué es el squash? / B: ¡El squash es un deporte de raqueta que se juega en una pista cerrada donde se golpea la pelota contra la pared!
+U: ¿Cuántos títulos de Serie A tiene la Juventus? / B: ¡La Juventus tiene 36 títulos de Serie A, más que ningún otro equipo italiano!
+U: ¿Qué es el remo? / B: ¡El remo es un deporte acuático donde se propulsan embarcaciones con remos!
+U: ¿Quién es Xavi Hernández? / B: ¡Xavi Hernández es uno de los mejores mediocampistas de la historia del fútbol español!
+U: ¿Cuántas Olimpiadas ha tenido Japón? / B: ¡Japón ha sido sede de 2 Olimpiadas de Verano: Tokio 1964 y Tokio 2020!
+U: ¿Qué es el deporte ecuestre? / B: ¡El deporte ecuestre incluye disciplinas como doma, salto y concurso completo!
+U: ¿Cuántos equipos hay en la Eredivisie holandesa? / B: ¡La Eredivisie tiene 18 equipos compitiendo por el título neerlandés!
+U: ¿Qué es el tiro con arco? / B: ¡El tiro con arco es un deporte donde se lanzan flechas hacia un blanco!
+U: ¿Cuántos mundiales ha ganado Países Bajos? / B: ¡Países Bajos ha sido subcampeona en 3 ocasiones pero nunca ha ganado la Copa del Mundo!
+U: ¿Qué es la natación sincronizada? / B: ¡La natación sincronizada combina natación, gimnasia y baile!
+U: ¿Cuántos títulos de La Liga tiene el Barcelona? / B: ¡El Barcelona tiene 27 títulos de La Liga española!
+U: ¿Qué es el hockey hierba? / B: ¡El hockey hierba es un deporte de equipo donde se golpea una pelota con palos curvados!
+U: ¿Quién es Kevin De Bruyne? / B: ¡Kevin De Bruyne es uno de los mejores mediocampistas del mundo actual!
+U: ¿Cuántas Olimpiadas ha tenido Grecia? / B: ¡Grecia fue sede de las primeras Olimpiadas modernas en Atenas 1896!
+U: ¿Qué es la esgrima? / B: ¡La esgrima es un deporte de combate donde se lucha con espadas, floretes o sables!
+U: ¿Cuántos equipos hay en la Premier League inglesa? / B: ¡La Premier League tiene 20 equipos!
+U: ¿Qué es el lacrosse? / B: ¡El lacrosse es un deporte de equipo originario de Norteamérica donde se usa una raqueta con una red!
+U: ¿Quién es Luka Modric? / B: ¡Luka Modric es el mediocampista croata que ganó el Balón de Oro 2018!
+U: ¿Cuántos mundiales ha ganado Croacia? / B: ¡Croacia fue subcampeona en 2018 y tercera en 2022!
+U: ¿Qué es el piragüismo? / B: ¡El piragüismo es un deporte acuático donde se navegan embarcaciones ligeras usando remos!
+U: ¿Cuántos títulos de la NFL tienen los New England Patriots? / B: ¡Los New England Patriots tienen 6 títulos de Super Bowl!
+U: ¿Qué es el skateboard? / B: ¡El skateboarding es un deporte donde se realizan trucos sobre una patineta con ruedas!
+U: ¿Quién es Erling Haaland? / B: ¡Erling Haaland es el delantero noruego del Manchester City!
+U: ¿Cuántas Olimpiadas ha tenido Canadá? / B: ¡Canadá ha sido sede de 3 Olimpiadas: Montreal 1976, Calgary 1988 y Vancouver 2010!
+U: ¿Qué es el boccia? / B: ¡La boccia es un deporte similar a las bochas diseñado para personas con discapacidad!
+U: ¿Qué es la vela olímpica? / B: ¡La vela olímpica es un deporte donde se compite navegando con embarcaciones de diversas clases!
+U: ¿Quién es Diego Simeone? / B: ¡Diego Simeone es el técnico del Atlético de Madrid conocido por su pasión y tácticas defensivas!
+U: ¿Cuántos mundiales ha ganado Portugal? / B: ¡Portugal nunca ha ganado una Copa del Mundo, pero ganó la Eurocopa 2016!
+U: ¿Qué es el karate olímpico? / B: ¡El karate olímpico incluye kumite y kata!
+U: ¿Quién es Kevin Durant? / B: ¡Kevin Durant es uno de los mejores anotadores de la NBA con más de 25,000 puntos en su carrera!
+U: ¿Cuántas Olimpiadas ha tenido Rusia? / B: ¡Rusia ha sido sede de 3 Olimpiadas: Moscú 1980, Sochi 2014 y el Mundial 2018!
+U: ¿Qué es el rugby league? / B: ¡El rugby league es una variante del rugby con 13 jugadores por equipo!
+U: ¿Cuántos equipos hay en la Superliga argentina? / B: ¡La Superliga argentina tiene 28 equipos compitiendo por el título!
+U: ¿Qué es el ciclismo en ruta? / B: ¡El ciclismo en ruta es una disciplina donde los ciclistas recorren largas distancias en carretera!
+U: ¿Quién es Mohamed Salah? / B: ¡Mohamed Salah es el delantero egipcio del Liverpool!
+U: ¿Cuántos mundiales ha ganado Nigeria? / B: ¡Nigeria nunca ha ganado una Copa del Mundo, pero ha ganado la Copa Africana de Naciones 3 veces!
+U: ¿Cuántos títulos de Liga de Campeones tiene el AC Milan? / B: ¡El AC Milan tiene 7 títulos de Liga de Campeones!
+U: ¿Quién es Sergio Ramos? / B: ¡Sergio Ramos es un defensor español que ganó 4 Champions League con el Real Madrid!
+U: ¿Cuántos equipos hay en la Bundesliga alemana? / B: ¡La Bundesliga tiene 18 equipos!
+U: ¿Qué es el judo olímpico? / B: ¡El judo es un arte marcial japonés donde se busca derribar o someter al oponente!
+U: ¿Cuántas Olimpiadas ha tenido Alemania? / B: ¡Alemania ha sido sede de 3 Olimpiadas: Berlín 1936, Múnich 1972!
+U: ¿Qué es el buceo olímpico? / B: ¡El buceo olímpico consiste en realizar acrobacias al saltar desde plataformas o trampolines!
+U: ¿Qué es el atletismo adaptado? / B: ¡El atletismo adaptado es para atletas con discapacidad que compiten en carreras, saltos y lanzamientos!
+U: ¿Cuántos mundiales ha ganado la selección femenina de Estados Unidos? / B: ¡La selección femenina de EE.UU. ha ganado 4 Copas del Mundo!
+U: ¿Qué es la esgrima olímpica? / B: ¡La esgrima olímpica tiene tres armas: florete, espada y sable!
+U: ¿Cuántos títulos de Champions League tiene el FC Barcelona? / B: ¡El FC Barcelona tiene 5 títulos de Liga de Campeones!
+U: ¿Qué es el hockey sobre patines? / B: ¡El hockey sobre patines se juega con patines en roller sobre una pista!
+U: ¿Cuántas Olimpiadas ha tenido Brasil? / B: ¡Brasil ha sido sede de 1 Olimpiada de Verano: Río 2016!
+U: ¿Qué es el taekwondo olímpico? / B: ¡El taekwondo es un arte marcial coreano donde se patea al oponente!
+U: ¿Cuántos equipos hay en la liga de tenis profesional masculina (ATP)? / B: ¡La ATP Tour tiene cientos de jugadores profesionales compitiendo en torneos por todo el mundo!
+U: ¿Qué es el bobsled o skeleton? / B: ¡El bobsled es un deporte de invierno donde se descienden pistas heladas en trineos!
+U: ¿Cuántos mundiales ha ganado la selección masculina de España? / B: ¡España ganó su primera Copa del Mundo en 2010!
+U: ¿Qué es el remo olímpico? / B: ¡El remo olímpico se realiza en embarcaciones con uno o más remadores!
+U: ¿Qué es el patinaje de velocidad sobre hielo? / B: ¡El patinaje de velocidad se compite en pistas de hielo ovaladas!
+U: ¿Qué es el curling? / B: ¡El curling es un deporte de invierno donde se deslizan piedras sobre hielo hacia un blanco!
+U: ¿Qué es el levantamiento de pesas olímpico? / B: ¡El levantamiento de pesas tiene dos movimientos: arrancada y envión!
+U: ¿Cuántos mundiales ha ganado la selección de México? / B: ¡México nunca ha ganado una Copa del Mundo, pero ha sido octavofinalista en varios mundials!
+U: ¿Qué es la gimnasia artística? / B: ¡La gimnasia artística combina acrobacias, saltos y ejercicios en aparatos!
+U: ¿Quién es Giannis Antetokounmpo? / B: ¡Giannis Antetokounmpo es el Greek Freak de los Milwaukee Bucks!
+U: ¿Qué es el water polo femenino olímpico? / B: ¡El water polo femenino olímpico es un deporte acuático muy competitivo!
+U: ¿Cuántos títulos de Europa League tiene el Sevilla FC? / B: ¡El Sevilla FC tiene 7 títulos de Europa League!
+U: ¿Quién es Scottie Barnes? / B: ¡Scottie Barnes es el alero de los Toronto Raptors y Rookie del Año 2021!
+U: ¿Qué es el piragüismo en eslalon? / B: ¡El piragüismo en eslalon combina velocidad y habilidad para esquivar puertas en aguas bravas!
+U: ¿Cuántas Olimpiadas ha tenido Colombia? / B: ¡Colombia nunca ha sido sede de Olimpiadas, pero ha ganado medallas en ciclismo y halterofilia!
+U: ¿Qué es el voleibol femenino olímpico? / B: ¡El voleibol femenino olímpico es un deporte de equipo muy competitivo!
+U: ¿Qué es el atletismo de marcha olímpica? / B: ¡La marcha olímpica es una disciplina donde los atletas deben mantener un pie en contacto con el suelo!
+U: ¿Qué es el esquí alpino olímpico? / B: ¡El esquí alpino olímpico incluye descenso, super gigante, gigante y slalom!
+U: ¿Qué es la escalada olímpica? / B: ¡La escalada olímpica tiene tres disciplinas: velocidad, bloques y dificultad!
+U: ¿Cuántos títulos de Copa Libertadores tiene el Palmeiras? / B: ¡El Palmeiras tiene 12 títulos de Copa Libertadores!
+U: ¿Quién es LaMelo Ball? / B: ¡LaMelo Ball es el base de los Charlotte Hornets y Rookie del Año 2021!
+U: ¿Qué es el padel? / B: ¡El padel es un deporte de raqueta que se juega en una pista cerrada con paredes!
+U: ¿Cuántas Olimpiadas ha tenido Argentina? / B: ¡Argentina fue sede de 1 Olimpiada: Buenos Aires 2018 como Juegos Olímpicos de la Juventud!
+U: ¿Qué es el críquet? / B: ¡El críquet es un deporte de bateo y fildeo popular en India, Inglaterra y Australia!
+U: ¿Cuántos títulos de Premier League tiene el Manchester City? / B: ¡El Manchester City tiene 10 títulos de Premier League!
+U: ¿Qué es el futsal? / B: ¡El futsal es una variante del fútbol que se juega en una pista cubierta con 5 jugadores!
+U: ¿Cuántos mundiales ha ganado la selección de Marruecos? / B: ¡Marruecos nunca ha ganado una Copa del Mundo, pero fue semifinalista en Qatar 2022!
+U: ¿Qué es el kitesurf? / B: ¡El kitesurf es un deporte acuático donde se navega sobre una tabla con una cometa!
+U: ¿Quién es Nikola Jokic? / B: ¡Nikola Jokic es el pivote serbio de los Denver Nuggets y MVP de la NBA!
+U: ¿Cuántos títulos de Superliga de Turquía tiene el Galatasaray? / B: ¡El Galatasaray tiene más de 20 títulos de Superliga turca!
+U: ¿Qué es el patinaje artístico? / B: ¡El patinaje artístico combina ballet, gimnasia y patinaje sobre hielo!
+U: ¿Cuántos equipos hay en la liga de hockey NHL? / B: ¡La NHL tiene 32 equipos de hockey sobre hielo!
+U: ¿Quién es Jimmy Butler? / B: ¡Jimmy Butler es el alero de los Miami Heat conocido por su intensidad defensiva!
+U: ¿Cuántos mundiales ha ganado la selección de Grecia? / B: ¡Grecia nunca ha ganado una Copa del Mundo, pero ganó la Eurocopa 2004 como anfitrión!
+U: ¿Qué es el bádminton? / B: ¡El bádminton es un deporte de raqueta que se juega con una plumilla ligera!
+U: ¿Cuántos títulos de Copa Libertadores tiene el Boca Juniors? / B: ¡El Boca Juniors tiene 6 títulos de Copa Libertadores!
+U: ¿Quién es Damian Lillard? / B: ¡Damian Lillard es el base de los Milwaukee Bucks conocido por sus triples desde media cancha!
+U: ¿Cuántos equipos hay en la liga de voleibol femenina italiana? / B: ¡La liga italiana de voleibol femenino tiene 14 equipos compitiendo!
+U: ¿Qué es el ultimate frisbee? / B: ¡El ultimate frisbee es un deporte de equipo donde se pasa un frisbee para anotar en la zona rival!
+U: ¿Quién es Jayson Tatum? / B: ¡Jayson Tatum es el alero de los Boston Celtics y campeón de la NBA en 2024!
+U: ¿Cuántos mundiales ha ganado la selección de Irán? / B: ¡Irán nunca ha ganado una Copa del Mundo, pero ha clasificado a varios mundiales!
+U: ¿Qué es el squash olímpico? / B: ¡El squash olímpico se juega en una pista cerrada donde se golpea la pelota contra la pared!
+U: ¿Quién es Victor Wembanyama? / B: ¡Victor Wembanyama es el pivote francés de los San Antonio Spurs con 2.24 metros!
+U: ¿Qué es el tenis adaptado? / B: ¡El tenis adaptado es para jugadores con discapacidad que usan sillas de ruedas!
+U: ¿Cuántos equipos hay en la liga de voleibol masculina italiana? / B: ¡La liga italiana de voleibol masculino tiene 14 equipos!
+U: ¿Qué es el patinaje de velocidad sobre pista corta? / B: ¡El patinaje sobre pista corta se compite en pistas ovaladas más pequeñas!
+U: ¿Quién es Jabari Smith Jr.? / B: ¡Jabari Smith Jr. es el ala de los Houston Rockets conocido por su tiro de tres puntos!
+U: ¿Cuántos mundiales ha ganado la selección de Colombia? / B: ¡Colombia nunca ha ganado una Copa del Mundo, pero ha sido cuartofinalista en 2014!
+U: ¿Cuántos títulos de La Liga tiene el Barcelona? / B: ¡El FC Barcelona tiene 27 títulos de La Liga española!
+U: ¿Quién es Jabari Walker? / B: ¡Jabari Walker es el ala de los Portland Trail Blazers!
+U: ¿Cuántas Olimpiadas ha tenido Egipto? / B: ¡Egipto nunca ha sido sede de Olimpiadas, pero ha ganado medallas en halterofilia y lucha!
+U: ¿Qué es el ciclismo BMX? / B: ¡El ciclismo BMX es un deporte donde se realizan trucos y carreras en bicicletas pequeñas!
+U: ¿Cuántos equipos hay en la liga de rugby inglesa (Premiership)? / B: ¡La Premiership inglesa tiene 10 equipos compitiendo por el título!
+U: ¿Quién es Keegan Murray? / B: ¡Keegan Murray es el ala de los Sacramento Kings y número 4 del draft 2022!
+U: ¿Qué es el surf olímpico femenino? / B: ¡El surf olímpico femenino se compite en olas naturales donde las surfistas hacen maniobras!
+U: ¿Qué es el water polo femenino? / B: ¡El water polo femenino es un deporte acuático donde las mujeres compiten en piscinas!
+U: ¿Quién es Jalen Green? / B: ¡Jalen Green es el escolta de los Houston Rockets conocido por su explosividad!
+U: ¿Cuántas Olimpiadas ha tenido Nigeria? / B: ¡Nigeria nunca ha sido sede de Olimpiadas, pero ha ganado medallas en atletismo!
+U: ¿Qué es la escalada de velocidad? / B: ¡La escalada de velocidad es una disciplina donde se escala una pared de 15 metros en el menor tiempo posible!
+U: ¿Cuántos equipos hay en la liga de baloncesto australiana (NBL)? / B: ¡La NBL tiene 10 equipos compitiendo en Australia y Nueva Zelanda!
+U: ¿Qué es el hockey de campo? / B: ¡El hockey de campo es un deporte de equipo donde se golpea una pelota con palos hacia la portería rival!
+U: ¿Cuántos mundiales ha ganado la selección de Costa Rica? / B: ¡Costa Rica nunca ha ganado una Copa del Mundo, pero ha sido cuartofinalista en 2014!
+U: ¿Qué es el pentatlón moderno olímpico? / B: ¡El pentatlón moderno combina esgrima, natación, equitación, tiro y carrera!
+U: ¿Cuántos títulos de Eurocopa tiene España? / B: ¡España ha ganado 3 Eurocopas: 1964, 2008 y 2012!
+U: ¿Quién es Chet Holmgren? / B: ¡Chet Holmgren es el pívot de los Oklahoma City Thunder conocido por su habilidad para un jugador de 2.13 metros!
+U: ¿Cuántas Olimpiadas ha tenido India? / B: ¡India nunca ha sido sede de Olimpiadas, pero ha ganado medallas en hockey sobre hierba!
+U: ¿Qué es el ciclismo de pista? / B: ¡El ciclismo de pista se compite en velódromos ovalados!
+U: ¿Qué es el tiro olímpico con pistola? / B: ¡El tiro con pistola olímpico se compite a 10, 25 y 50 metros!
+U: ¿Quién es Jalen Brunson? / B: ¡Jalen Brunson es el base de los New York Knicks y una de las estrellas emergentes de la NBA!
+U: ¿Cuántos mundiales ha ganado la selección de Nueva Zelanda (All Blacks)? / B: ¡Los All Blacks de Nueva Zelanda han ganado 3 Copas del Mundo de rugby: 1987, 2011 y 2015!
+U: ¿Qué es el triatlón IRONMAN? / B: ¡El IRONMAN es un triatlón extremo con 3.8 km de natación, 180 km de ciclismo y 42 km de carrera!
+U: ¿Cuántos títulos de Copa del Rey tiene el Barcelona? / B: ¡El FC Barcelona tiene 31 títulos de Copa del Rey!
+U: ¿Quién es Paolo Banchero? / B: ¡Paolo Banchero es el ala de los Orlando Magic y número 1 del draft 2022!
+U: ¿Cuántos mundiales ha ganado la selección de Australia? / B: ¡Australia nunca ha ganado una Copa del Mundo de fútbol, pero es potencia en cricket y rugby!
+U: ¿Qué es el windsurfing olímpico? / B: ¡El windsurfing olímpico combina navegación y viento!
+U: ¿Cuántos títulos de Euroliga tiene el Real Madrid de baloncesto? / B: ¡El Real Madrid de baloncesto tiene 11 títulos de Euroliga!
+U: ¿Cuántas Olimpiadas ha tenido Turquía? / B: ¡Turquía nunca ha sido sede de Olimpiadas de Verano, pero ha organizado eventos deportivos importantes!
+U: ¿Cuántos equipos hay en la liga de baloncesto turca (BSL)? / B: ¡La BSL tiene 16 equipos compitiendo por el título turco!
+U: ¿Qué es el ciclismo de pista de velocidad? / B: ¡El ciclismo de pista de velocidad es una disciplina de explosividad!
+U: ¿Quién es Dejounte Murray? / B: ¡Dejounte Murray es el base de los Atlanta Hawks conocido por su doble-doble!
+U: ¿Cuántos mundiales ha ganado la selección de Burkina Faso? / B: ¡Burkina Faso nunca ha ganado una Copa del Mundo, pero fue subcampeón de la Copa Africana en 2022!
+U: ¿Qué es el patinaje sobre hielo artístico individual femenino? / B: ¡El patinaje artístico femenino combina ballet, gimnasia y patinaje!
+U: ¿Cuántos títulos de Serie A tiene el Inter de Milán? / B: ¡El Inter de Milán tiene 20 títulos de Serie A italiana!
+U: ¿Qué es el tiro con arco de precisión olímpico? / B: ¡El tiro con arco de precisión olímpico se compite a 70 metros de distancia!
+U: ¿Cuántas Olimpiadas ha tenido Bolivia? / B: ¡Bolivia nunca ha sido sede de Olimpiadas, pero ha representado al deporte sudamericano!
+U: ¿Cuántos equipos hay en la liga de bádminton china (BWF)? / B: ¡La liga china de bádminton tiene equipos de élite compitiendo!
+U: ¿Qué es el remo de banco fijo masculino? / B: ¡El remo de banco fijo masculino es una disciplina donde los equipos compiten en embarcaciones de 8 personas!
+U: ¿Cuántos mundiales ha ganado la selección de Camerún? / B: ¡Camerún nunca ha ganado una Copa del Mundo, pero fue cuartofinalista en 1990!
+U: ¿Cuántos títulos de La Liga tiene el Villarreal CF? / B: ¡El Villarreal CF tiene 1 título de La Liga!
+U: ¿Cuántas Olimpiadas ha tenido Paraguay? / B: ¡Paraguay nunca ha sido sede de Olimpiadas, pero ha representado al deporte sudamericano!
+U: ¿Cuántos equipos hay en la liga de voleibol femenina brasileña? / B: ¡La Superliga femenina brasileña tiene 12 equipos!
+U: ¿Quién es Jabari Smith Jr.? / B: ¡Jabari Smith Jr. es el ala-pívot de los Houston Rockets conocido por su tiro de triple!
+U: ¿Cuántos mundiales ha ganado la selección de Senegal? / B: ¡Senegal nunca ha ganado una Copa del Mundo, pero ganó la Copa Africana de Naciones en 2022!
+U: ¿Cuántos títulos de Premier League tiene el Chelsea? / B: ¡El Chelsea tiene 6 títulos de Premier League!

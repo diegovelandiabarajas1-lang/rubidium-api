@@ -1,0 +1,501 @@
+﻿U: ¿Quién pintó la Mona Lisa? / B: Leonardo da Vinci la pintó entre 1503 y 1519.
+U: ¿Qué es el Renacimiento? / B: Un movimiento artístico y cultural que surgió en Italia en el siglo XV.
+U: ¿Quién esculpió el David de Miguel Ángel? / B: Miguel Ángel Buonarroti esculpió el David entre 1501 y 1504.
+U: ¿Qué es el Impresionismo? / B: Un movimiento pictórico del siglo XIX que buscaba capturar la luz y el color natural.
+U: ¿Quién pintó Las Meninas? / B: Diego Velázquez pintó Las Meninas en 1656.
+U: ¿Qué es el Cubismo? / B: Un movimiento artístico que descompone las formas geométricamente, iniciado por Picasso y Braque.
+U: ¿Quién es considerado el padre del Surrealismo? / B: André Breton es considerado el padre del Surrealismo.
+U: ¿Qué es el Barroco? / B: Un movimiento artístico del siglo XVII caracterizado por el dramatismo y el claroscuro.
+U: ¿Quién pintó La Persistencia de la Memoria? / B: Salvador Dalí la pintó en 1931.
+U: ¿Qué es el Neoclasicismo? / B: Un movimiento artístico del siglo XVIII inspirado en la antigüedad clásica.
+U: ¿Quién esculpió el Pensador? / B: Auguste Rodin esculpió El Pensador en 1904.
+U: ¿Qué es el arte gótico? / B: Un estilo arquitectónico y artístico medieval con arcos apuntados y vitrales.
+U: ¿Quién pintó La Noche Estrellada? / B: Vincent van Gogh la pintó en junio de 1889.
+U: ¿Qué es el Expresionismo? / B: Un movimiento artístico que expresa emociones intensas mediante distorsiones.
+U: ¿Quién esculpió el David de Donatello? / B: Donatello esculpió su David alrededor de 1440.
+U: ¿Qué es el arte abstracto? / B: Un tipo de arte que no representa la realidad de forma literal.
+U: ¿Quién pintó El Grito? / B: Edvard Munch pintó El Grito en 1893.
+U: ¿Qué es el Pop Art? / B: Un movimiento artístico de los años 60 que usa imágenes de la cultura popular.
+U: ¿Quién es considerado el maestro del claroscuro? / B: Caravaggio es considerado el maestro del claroscuro.
+U: ¿Qué es el arte románico? / B: Un estilo artístico medieval con arcos de medio punto y muros gruesos.
+U: ¿Quién pintó El Nacimiento de Venus? / B: Sandro Botticelli lo pintó alrededor de 1485.
+U: ¿Qué es el arte barroco? / B: Un estilo del siglo XVII con dramatismo, movimiento y rica ornamentación.
+U: ¿Quién esculpió la Piedad? / B: Miguel Ángel la esculpió entre 1498 y 1499.
+U: ¿Qué es el Postimpresionismo? / B: Un movimiento que siguió al Impresionismo con enfoques más personales.
+U: ¿Quién pintó La Libertad Guiando al Pueblo? / B: Eugène Delacroix la pintó en 1830.
+U: ¿Qué es el arte renacentista? / B: El arte producido durante el Renacimiento, con énfasis en la proporción y la perspectiva.
+U: ¿Quién esculpió el David de Bernini? / B: Gian Lorenzo Bernini lo esculpió entre 1623 y 1624.
+U: ¿Qué es el arte contemporáneo? / B: El arte producido desde mediados del siglo XX hasta la actualidad.
+U: ¿Quién pintó Las Tres Gracias? / B: Peter Paul Rubens pintó Las Tres Gracias en 1635.
+U: ¿Qué es el Dadaísmo? / B: Un movimiento artístico antisistema surgido en 1916 en Zúrich.
+U: ¿Quién esculpió la Venus de Milo? / B: Se atribuye a Alejandro de Antioco, alrededor del 100 a.C.
+U: ¿Qué es la perspectiva lineal? / B: Una técnica para representar la profundidad en una superficie bidimensional.
+U: ¿Quién pintó La Escuela de Atenas? / B: Rafael Sanzio la pintó entre 1509 y 1511.
+U: ¿Qué es el arte gótico tardío? / B: También conocido como Flamígero, con formas elaboradas y decoración excesiva.
+U: ¿Quién es considerado el padre del arte moderno? / B: Paul Cézanne es considerado el padre del arte moderno.
+U: ¿Qué es el Óleo sobre lienzo? / B: Una técnica pictórica que utiliza pigmentos mezclados con aceite sobre tela.
+U: ¿Quién pintó El Jardín de las Delicias? / B: El Bosco lo pintó entre 1490 y 1510.
+U: ¿Qué es el Ukiyo-e? / B: Un género de arte japonés que retrata escenas del mundo flotante.
+U: ¿Quién esculpió el Moisés? / B: Miguel Ángel lo esculpió entre 1513 y 1515.
+U: ¿Qué es el arte renacentista tardío? / B: La fase final del Renacimiento con figuras como Miguel Ángel y Tiziano.
+U: ¿Quién pintó La Ronda de Noche? / B: Rembrandt la pintó en 1642.
+U: ¿Qué es el Manierismo? / B: Un movimiento del siglo XVI que distorsionaba las proporciones clásicas.
+U: ¿Quién esculpió el Apoxiomeno? / B: Lisipo de Sición lo esculpió alrededor del 330 a.C.
+U: ¿Qué es el arte bizantino? / B: Un estilo artístico del Imperio Romano de Oriente con iconos y mosaicos dorados.
+U: ¿Quién pintó El Juicio Final? / B: Miguel Ángel lo pintó en la Capilla Sixtina entre 1536 y 1541.
+U: ¿Qué es la acuarela? / B: Una técnica pictórica que utiliza pigmentos solubles en agua sobre papel.
+U: ¿Quién es considerado el genio del Renacimiento? / B: Leonardo da Vinci es considerado el genio del Renacimiento.
+U: ¿Qué es el arte paleolítico? / B: El arte más antiguo conocido, con pinturas rupestres en cuevas.
+U: ¿Quién pintó Las Bodas de Caná? / B: Veronés la pintó en 1563.
+U: ¿Qué es el Prerrenacimiento? / B: El período de transición entre el Medievo y el Renacimiento.
+U: ¿Quién esculpió el Laocoonte? / B: Los escultores rodios Agesandro, Atenodoro y Polidoro, al 50 a.C.
+U: ¿Qué es el arte egipcio? / B: El arte producido en el Antiguo Egipto, con estatuas hieráticas y jeroglíficos.
+U: ¿Quién pintó Las Nenúfares? / B: Claude Monet pintó Las Nenúfares entre 1896 y 1926.
+U: ¿Qué es el arte helenístico? / B: El arte de la cultura griega posterior a Alejandro Magno, con mayor dinamismo.
+U: ¿Quién esculpió el Discóbolo? / B: Mirón de Eleuteras lo esculpió alrededor del 450 a.C.
+U: ¿Qué es el arte renacentista temprano? / B: La fase inicial del Renacimiento con Giotto, Masaccio y Donatello.
+U: ¿Quién pintó La Anunciación? / B: Leonardo da Vinci la pintó entre 1472 y 1475.
+U: ¿Qué es el arte islámico? / B: El arte producido en el mundo islámico, con patrones geométricos y caligrafía.
+U: ¿Quién esculpió el Perseo con la cabeza de Medusa? / B: Benvenuto Cellini la esculpió entre 1545 y 1554.
+U: ¿Qué es el arte indígena americano? / B: El arte producido por las civilizaciones precolombinas como los mayas y aztecas.
+U: ¿Quién pintó La Creación de Adán? / B: Miguel Ángel la pintó en la Capilla Sixtina alrededor de 1512.
+U: ¿Qué es el arte nómada? / B: El arte producido por pueblos nómadas con motivos naturales y animales.
+U: ¿Quién esculpió el Busto de Nefertiti? / B: Se atribuye a Tutmosis, alrededor del 1345 a.C.
+U: ¿Qué es el arte romano? / B: El arte producido por la civilización romana, influenciado por los griegos.
+U: ¿Quién pintó Las Hilanderas? / B: Diego Velázquez las pintó entre 1655 y 1660.
+U: ¿Qué es el arte chino tradicional? / B: Un arte con tradición milenaria que incluye caligrafía, pintura y cerámica.
+U: ¿Quién esculpió el Atlante de Telamón? / B: Se utiliza en la arquitectura griega para soportar estructuras.
+U: ¿Qué es el arte persa? / B: El arte de la antigua Persia, con jarrones, tapices y miniaturas.
+U: ¿Quién pintó La Gioconda? / B: Leonardo da Vinci la pintó entre 1503 y 1519.
+U: ¿Qué es el arte africano? / B: El arte producido por las diversas culturas del continente africano.
+U: ¿Quién esculpió el David de Verrocchio? / B: Andrea del Verrocchio lo esculpió entre 1473 y 1475.
+U: ¿Qué es el arte oceánico? / B: El arte producido por los pueblos de Oceanía, con tótems y máscaras.
+U: ¿Qué es el arte mesopotámico? / B: El arte de la antigua Mesopotamia, con zigurats y estatuas votivas.
+U: ¿Quién esculpió el Kuros? / B: Escultura griega arcaica de pie masculino desnudo, siglo VII a.C.
+U: ¿Qué es el arte paleocristiano? / B: El arte producido por los primeros cristianos, con catacumbas y sarcófagos.
+U: ¿Quién pintó Las Tentaciones de San Antonio? / B: Hieronymus Bosch lo pintó alrededor de 1501.
+U: ¿Qué es el arte precolombino? / B: El arte producido por las civilizaciones indígenas de América antes de la colonización.
+U: ¿Quién esculpió el Grupo de los Tiranosl? / B: Escultura griega del siglo V a.C. que representa a un jinete.
+U: ¿Qué es el arte copto? / B: El arte de los cristianos egipcios, con iconos y textiles.
+U: ¿Quién pintó Las Parcas? / B: Francisco de Zurbarán las pintó entre 1630 y 1635.
+U: ¿Qué es el arte sasánida? / B: El arte del Imperio Persa Sasánida, con relieves y plata.
+U: ¿Quién esculpió el Grupo de Laocoonte? / B: Los escultores rodios Agesandro, Atenodoro y Polidoro, al 50 a.C.
+U: ¿Qué es el arte visigótico? / B: El arte producido por los visigodos en España, con piezas metálicas.
+U: ¿Qué es el arte carolingio? / B: El arte producido bajo los emperadores carolingios, con manuscritos iluminados.
+U: ¿Quién esculpió el David de Mino da Fiesole? / B: Mino da Fiesole lo esculpió alrededor de 1470.
+U: ¿Qué es el arte otoniano? / B: El arte producido bajo los emperadores otonianos en Alemania.
+U: ¿Qué es el arte románico tardío? / B: La fase final del románico, con influencias góticas tempranas.
+U: ¿Qué es el arte gótico temprano? / B: La fase inicial del gótico, con catedrales como Notre-Dame de París.
+U: ¿Quién pintó Las Sibilas? / B: Miguel Ángel pintó las Sibilas en la Capilla Sixtina entre 1508 y 1512.
+U: ¿Qué es el arte renacentista alto? / B: La fase más alta del Renacimiento con Leonardo, Miguel Ángel y Rafael.
+U: ¿Qué es el arte barroco tardío? / B: La fase final del barroco, más decorativa y exuberante.
+U: ¿Quién pintó Las Gracias? / B: Rafael Sanzio las pintó en 1505.
+U: ¿Qué es el arte rococó? / B: Un estilo del siglo XVIII con formas ligeras, elegantes y decorativas.
+U: ¿Qué es el arte neoclásico? / B: Un movimiento del siglo XVIII inspirado en la antigüedad clásica.
+U: ¿Quién pintó Las Tres Edades del Hombre? / B: Tiziano Vecellio lo pintó en 1512.
+U: ¿Qué es el arte romántico? / B: Un movimiento del siglo XIX que enfatiza las emociones y la naturaleza.
+U: ¿Qué es el arte realista? / B: Un movimiento del siglo XIX que retrata la vida cotidiana tal como es.
+U: ¿Quién pintó Las Meninas de Picasso? / B: Pablo Picasso pintó su versión en 1957.
+U: ¿Qué es el arte impresionista? / B: Un movimiento que busca capturar la luz y el color natural mediante pinceladas sueltas.
+U: ¿Qué es el arte postimpresionista? / B: Un movimiento que sigue al Impresionismo con enfoques más personales y emocionales.
+U: ¿Quién pintó Les Demoiselles d'Avignon? / B: Pablo Picasso lo pintó en 1907.
+U: ¿Qué es el arte fauvista? / B: Un movimiento que usa colores vivos y expresivos de forma no naturalista.
+U: ¿Quién esculpió el David de Giambologna? / B: Giambologna lo esculpió en 1504.
+U: ¿Qué es el arte expresionista? / B: Un movimiento que distorsiona la realidad para expresar emociones internas.
+U: ¿Quién pintó Las Bailarinas de Degas? / B: Edgar Degas pintó varias versiones de bailarinas.
+U: ¿Qué es el arte abstracto geométrico? / B: Un tipo de arte abstracto que usa formas geométricas puras.
+U: ¿Quién esculpió el David de Alexandre Falguière? / B: Alexandre Falguière lo esculpió en 1871.
+U: ¿Qué es el arte conceptual? / B: Un movimiento donde la idea detrás de la obra es más importante que la forma.
+U: ¿Quién pintó Les Femmes d'Alger? / B: Pablo Picasso lo pintó en 1955.
+U: ¿Qué es el arte minimalista? / B: Un movimiento que reduce la obra a sus elementos esenciales.
+U: ¿Quién esculpió el David de Ivan Mestrovic? / B: Ivan Mestrovic lo esculpió en 1910.
+U: ¿Qué es el arte pop? / B: Un movimiento que usa imágenes de la cultura popular y los medios de comunicación.
+U: ¿Qué es el arte op art? / B: Un movimiento que crea efectos visuales ópticos mediante patrones geométricos.
+U: ¿Quién esculpió el David de George Frederic Watts? / B: George Frederic Watts lo esculpió en 1864.
+U: ¿Qué es el arte body art? / B: Un movimiento que usa el cuerpo humano como medio artístico.
+U: ¿Qué es el land art? / B: Un movimiento que crea obras directamente en el paisaje natural.
+U: ¿Quién esculpió el David de Eric Gill? / B: Eric Gill lo esculpió en 1924.
+U: ¿Qué es el arte performance? / B: Un movimiento donde la acción artística se realiza en vivo ante el público.
+U: ¿Quién pintó El Beso de Klimt? / B: Gustav Klimt lo pintó en 1907-1908.
+U: ¿Qué es el arte digital? / B: Arte creado o presentado usando tecnología digital.
+U: ¿Quién esculpió el David de Fernando Botero? / B: Fernando Botero esculpió su versión volumétrica del David.
+U: ¿Qué es el arte callejero? / B: Arte realizado en espacios públicos, como el graffiti y el street art.
+U: ¿Quién pintó Las Flores de O'Keeffe? / B: Georgia O'Keeffe pintó sus famosas flores gigantes.
+U: ¿Qué es el arte instalación? / B: Un tipo de arte tridimensional diseñado para transformar un espacio específico.
+U: ¿Quién esculpió el David de Henry Moore? / B: Henry Moore creó su versión abstracta del David en 1953.
+U: ¿Qué es el arte cinético? / B: Arte que incorpora movimiento real o percibido.
+U: ¿Quién pintó La Gran Ola de Kanagawa? / B: Katsushika Hokusai la pintó alrededor de 1831.
+U: ¿Qué es el arte lumínico? / B: Arte que utiliza la luz como medio principal.
+U: ¿Quién esculpió el David de Antoine Bourdelle? / B: Antoine Bourdelle lo esculpió en 1898.
+U: ¿Qué es el arte sonoro? / B: Arte que utiliza el sonido como medio expresivo principal.
+U: ¿Quién pintó Las Catedrales de Monet? / B: Claude Monet pintó una serie de catedrales de Rouen entre 1892 y 1894.
+U: ¿Qué es el arte video? / B: Arte que utiliza video y tecnología de movimiento como medio.
+U: ¿Quién esculpió el David de Auguste Rodin? / B: Auguste Rodin esculpió su versión del David en 1902.
+U: ¿Qué es el arte virtual? / B: Arte creado y presentado en entornos digitales y realidad virtual.
+U: ¿Quién pintó Las Figuras de Modigliani? / B: Amedeo Modigliani pintó figuras alargadas en múltiples obras.
+U: ¿Qué es el arte bioart? / B: Arte que utiliza organismos vivos y biotecnología.
+U: ¿Quién esculpió el David de Jacques Lipchitz? / B: Jacques Lipchitz creó su versión cubista del David.
+U: ¿Qué es el arte de datos? / B: Arte que visualiza datos complejos de manera estética.
+U: ¿Quién pintó Las Caras de Schiele? / B: Egon Schiele pintó autorretratos y retratos expresivos.
+U: ¿Qué es el arte algorítmico? / B: Arte creado mediante algoritmos y procesos computacionales.
+U: ¿Quién esculpió el David de Ossip Zadkine? / B: Ossip Zadkine esculpió su versión cubista del David.
+U: ¿Qué es el arte interactivo? / B: Arte que requiere la participación del espectador para completarse.
+U: ¿Quién pintó Las Figuras de Klee? / B: Paul Klee pintó figuras abstractas y coloridas.
+U: ¿Qué es el arte ambiental? / B: Arte diseñado para mejorar o interactuar con el entorno.
+U: ¿Quién esculpió el David de George Segal? / B: George Segal creó su versión en yeso del David.
+U: ¿Qué es el arte ecológico? / B: Arte que aborda temas ambientales y ecológicos.
+U: ¿Quién pintó Las Figuras de Kandinsky? / B: Wassily Kandinsky pintó figuras abstractas y coloridas.
+U: ¿Qué es el arte socialmente comprometido? / B: Arte que busca generar conciencia y cambio social.
+U: ¿Quién esculpió el David de Claes Oldenburg? / B: Claes Oldenburg creó su versión pop del David.
+U: ¿Qué es el arte textil? / B: Arte que utiliza fibras y tejidos como medio expresivo.
+U: ¿Quién pintó Las Figuras de Matisse? / B: Henri Matisse pintó figuras coloridas y decorativas.
+U: ¿Qué es el arte cerámico? / B: Arte que utiliza arcilla y fuego para crear objetos.
+U: ¿Quién esculpió el David de Antony Gormley? / B: Antony Gormley creó su versión contemporánea del David.
+U: ¿Qué es el arte joya? / B: Arte que utiliza materiales preciosos para crear joyas artísticas.
+U: ¿Quién pintó Las Figuras de Rothko? / B: Mark Rothko pintó campos de color puro y emotivo.
+U: ¿Qué es el arte del libro? / B: Arte que utiliza el libro como medio o tema.
+U: ¿Quién esculpió el David de Ron Mueck? / B: Ron Mueck creó su versión hiperrealista del David.
+U: ¿Qué es el arte efímero? / B: Arte diseñado para ser temporal y transitorio.
+U: ¿Quién pintó Las Figuras de Pollock? / B: Jackson Pollock pintó action painting con gotas y salpicaduras.
+U: ¿Qué es el arte posmoderno? / B: Arte que cuestiona las narrativas y convenciones artísticas establecidas.
+U: ¿Quién esculpió el David de Jeff Koons? / B: Jeff Koons creó su versión kitsch del David.
+U: ¿Qué es el arte underground? / B: Arte alternativo fuera del sistema artístico comercial.
+U: ¿Quién pintó Las Figuras de Basquiat? / B: Jean-Michel Basquiat pintó figuras expresivas y primitivas.
+U: ¿Qué es el arte outsider? / B: Arte creado por personas sin formación artística formal.
+U: ¿Quién esculpió el David de Takashi Murakami? / B: Takashi Murakami creó su versión superflat del David.
+U: ¿Qué es el arte amateur? / B: Arte realizado por personas no profesionales como afición.
+U: ¿Quién pintó Las Figuras de Haring? / B: Keith Haring pintó figuras simples y dinámicas.
+U: ¿Qué es el arte renacentista florentino? / B: El arte producido en Florencia durante el Renacimiento, centro de innovación artística.
+U: ¿Quién esculpió el David de KAWS? / B: KAWS creó su versión contemporánea del David.
+U: ¿Qué es el arte veneciano? / B: El arte producido en Venecia, famoso por sus colores ricos y la escuela de Tiziano.
+U: ¿Quién pintó Las Figuras de Banksy? / B: Banksy pinta figuras anónimas y políticas en muros.
+U: ¿Qué es el arte bolognés? / B: El arte producido en Bolonia, con artistas como los Carracci y Guido Reni.
+U: ¿Quién esculpió el David de Yayoi Kusama? / B: Yayoi Kusama creó su versión puntillista del David.
+U: ¿Qué es el arte napolitano? / B: El arte producido en Nápoles, con influencias griegas y españolas.
+U: ¿Quién pintó Las Figuras de Shepard Fairey? / B: Shepard Fairey pinta figuras gráficas y políticas.
+U: ¿Qué es el arte siciliano? / B: El arte producido en Sicilia, con influencias griegas, árabes y normandas.
+U: ¿Quién esculpió el David de Anish Kapoor? / B: Anish Kapoor creó su versión abstracta del David.
+U: ¿Qué es el arte sardo? / B: El arte producido en Cerdeña, con tradiciones nurágicas y tallas en madera.
+U: ¿Quién pintó Las Figuras de JR? / B: JR crea instalaciones fotográficas de figuras humanas a gran escala.
+U: ¿Qué es el arte milanés? / B: El arte producido en Milán, con influencias lombardas e internacionales.
+U: ¿Quién esculpió el David de Ai Weiwei? / B: Ai Weiwei creó su versión política del David.
+U: ¿Qué es el arte turinés? / B: El arte producido en Turín, con arquitectura barroca y arte contemporáneo.
+U: ¿Quién pintó Las Figuras de Swoon? / B: Swoon pinta figuras delicadas y detalladas en calcomanías.
+U: ¿Qué es el arte genovés? / B: El arte producido en Génova, con pintores como Van Dyck y Rubens.
+U: ¿Quién esculpió el David de Subodh Gupta? / B: Subodh Gupta creó su versión con utensilios de cocina.
+U: ¿Qué es el arte padano? / B: El arte producido en la llanura del Po, con realismo y naturalismo.
+U: ¿Quién pintó Las Figuras de Os Gêmeos? / B: Os Gêmeos pintan figuras amarillas y surrealistas en muros.
+U: ¿Qué es el arte umbro? / B: El arte producido en Umbría, con artistas como Perugino y Pinturicchio.
+U: ¿Quién esculpió el David de Jaume Plensa? / B: Jaume Plensa creó su versión luminosa y transparente del David.
+U: ¿Qué es el arte marchigiano? / B: El arte producido en las Marcas, con influencias de Perugino y Raphael.
+U: ¿Quién pintó Las Figuras de Retna? / B: Retna pinta figuras con escritura caligráfica única.
+U: ¿Qué es el arte abrucese? / B: El arte producido en los Abruzos, con arquitectura románica y pintura.
+U: ¿Quién esculpió el David de Sean Henry? / B: Sean Henry creó su versión hiperrealista del David.
+U: ¿Qué es el arte molisano? / B: El arte producido en Molise, con tradiciones populares y arte sacro.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils talla figuras en superficies urbanas erosionadas.
+U: ¿Qué es el arte campano? / B: El arte producido en Campania, con Pompeya y Herculano como centros.
+U: ¿Quién esculpió el David de Paul McCarthy? / B: Paul McCarthy creó su versión satírica del David.
+U: ¿Qué es el arte apuliano? / B: El arte producido en Apulia, con castillos normandos y arte rupestre.
+U: ¿Quién pintó Las Figuras de Roa? / B: Roa pinta figuras de animales gigantes en muros urbanos.
+U: ¿Qué es el arte calabrés? / B: El arte producido en Calabria, con influencias griegas y bizantinas.
+U: ¿Quién esculpió el David de Mark Quinn? / B: Mark Quinn creó su versión en sangre del David.
+U: ¿Qué es el arte lucano? / B: El arte producido en Basilicata, con cuevas habitadas y paisajes espectaculares.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras detalladas y fantásticas en muros.
+U: ¿Qué es el arte salentino? / B: El arte producido en Salento, con barroco leccese y trulli de Alberobello.
+U: ¿Quién esculpió el David de Theaster Gates? / B: Theaster Gates creó su versión con materiales reciclados.
+U: ¿Qué es el arte siciliano barroco? / B: Un estilo barroco desarrollado en Sicilia tras el terremoto de 1693.
+U: ¿Quién pintó Las Figuras de Faith47? / B: Faith47 pinta figuras etéreas y poéticas en muros.
+U: ¿Qué es el arte griego arcaico? / B: El arte de la Grecia del siglo VIII al V a.C., con kuros y korai.
+U: ¿Quién esculpió el David de Tom Friedman? / B: Tom Friedman creó su versión minimalista del David.
+U: ¿Qué es el arte griego clásico? / B: El arte de la Grecia del siglo V al IV a.C., con Fidias y Praxíteles.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras coloridas y folk en muros.
+U: ¿Qué es el arte griego helenístico? / B: El arte de la Grecia del siglo IV al I a.C., con mayor dramaticidad.
+U: ¿Quién esculpió el David de Wangechi Mutu? / B: Wangechi Mutu creó su versión femenina del David.
+U: ¿Qué es el arte etrusco? / B: El arte de los etruscos en Italia central, con tumbas y bronces.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras con texto integrado en muros.
+U: ¿Qué es el arte de la antigua Roma? / B: El arte de la civilización romana, con arcos, columnas y retrato realista.
+U: ¿Quién esculpió el David de Goshka Macuga? / B: Goshka Macuga creó su versión conceptual del David.
+U: ¿Qué es el arte celta? / B: El arte de los pueblos celtas, con espirales, nudos y animales estilizados.
+U: ¿Quién pintó Las Figuras de Ludo? / B: Ludo pinta figuras híbridas de naturaleza y maquinaria.
+U: ¿Qué es el arte nórdico vikingo? / B: El arte de los vikingos, con estilos animal, jellinge y urnes.
+U: ¿Quién esculpió el David de Tara Donovan? / B: Tara Donovan creó su versión acumulativa del David.
+U: ¿Qué es el arte anglosajón? / B: El arte de los anglosajones en Inglaterra, con joyería y manuscritos.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras surrealales y detalladas.
+U: ¿Qué es el arte románico español? / B: El arte románico en España, con iglesias del Camino de Santiago.
+U: ¿Quién esculpió el David de Tom Friedman? / B: Tom Friedman creó su versión conceptual del David.
+U: ¿Qué es el arte gótico español? / B: El arte gótico en España, con catedrales como Burgos y León.
+U: ¿Quién pintó Las Figuras de Nemo? / B: Nemo pinta figuras ocultas en paisajes urbanos.
+U: ¿Qué es el arte mudéjar? / B: Un estilo que mezcla elementos cristianos e islámicos en España.
+U: ¿Quién esculpió el David de Tom Friedman? / B: Tom Friedman creó su versión reducida del David.
+U: ¿Qué es el arte renacentista español? / B: El arte del Renacimiento en España, con El Greco y Zurbarán.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils talla figuras erosionadas en superficies urbanas.
+U: ¿Qué es el arte barroco español? / B: El arte del Barroco en España, con Velázquez, Murillo y Zurbarán.
+U: ¿Quién esculpió el David de Tara Donovan? / B: Tara Donovan creó su versión con materiales cotidianos.
+U: ¿Qué es el arte neoclásico español? / B: El arte neoclásico en España, con Goya y la Real Academia.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras fantásticas y detalladas en muros.
+U: ¿Qué es el arte romántico español? / B: El arte romántico en España, con Goya y sus pinturas negras.
+U: ¿Quién esculpió el David de Goshka Macuga? / B: Goshka Macuga creó su versión instalada del David.
+U: ¿Qué es el arte impresionista español? / B: El impresionismo en España, con Sorolla y la luz mediterránea.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras folk y coloridas en muros.
+U: ¿Qué es el arte modernista español? / B: El modernismo en España, con Gaudí y el Modernismo catalán.
+U: ¿Quién esculpió el David de Wangechi Mutu? / B: Wangechi Mutu creó su versión femenina y poderosa del David.
+U: ¿Qué es el arte vanguardista español? / B: Las vanguardias en España, con Picasso, Dalí y Miró.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras con textos poéticos en muros.
+U: ¿Qué es el arte de la posguerra española? / B: El arte en España tras la Guerra Civil, con realismo e informalismo.
+U: ¿Quién esculpió el David de Tom Friedman? / B: Tom Friedman creó su versión reducida del David.
+U: ¿Qué es el arte informalista español? / B: El informalismo en España, con Tàpies y Chillida.
+U: ¿Quién pintó Las Figuras de Ludo? / B: Ludo pinta figuras bio-mecánicas en muros urbanos.
+U: ¿Qué es el arte conceptual español? / B: El arte conceptual en España, con installations y performances.
+U: ¿Quién esculpió el David de Tara Donovan? / B: Tara Donovan creó su versión acumulativa del David.
+U: ¿Qué es el arte contemporáneo español? / B: El arte actual de España, con artistas como Plensa y Abakanowicz.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras surrealistas y detalladas.
+U: ¿Qué es el arte fotográfico español? / B: La fotografía artística en España, con tradición y vanguardia.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte francés del siglo XIX? / B: El arte en Francia durante el siglo XIX, con Impresionismo y Postimpresionismo.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras narrativas y detalladas en muros.
+U: ¿Qué es el arte francés del siglo XX? / B: El arte en Francia durante el siglo XX, con Surrealismo y Arte Povera.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré esculpió figuras folk coloridas.
+U: ¿Qué es el arte alemán del siglo XX? / B: El arte en Alemania, con Bauhaus, Expresionismo y Documenta.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras introspectivas en muros.
+U: ¿Qué es el arte italiano del siglo XX? / B: El arte en Italia, con Futurismo, Arte Povera y Transvanguardia.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon versiones surrealistas del David.
+U: ¿Qué es el arte británico del siglo XX? / B: El arte en Gran Bretaña, con YBA, Hirst y Emin.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte norteamericano del siglo XX? / B: El arte en EE.UU., con Abstract Expressionismo y Pop Art.
+U: ¿Quién esculpió el David de Ludo? / B: Ludo creó versiones bio-mecánicas del David.
+U: ¿Qué es el arte latinoamericano del siglo XX? / B: El arte en Latinoamérica, con muralismo y neoconcretismo.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras de mundos fantásticos en muros.
+U: ¿Qué es el arte japonés del siglo XX? / B: El arte en Japón, con Gutai, Mono-ha y Superflat.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas en muros.
+U: ¿Qué es el arte africano contemporáneo? / B: El arte actual de África, con Okwelos, El Anatsui y Neshat.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras vibrantes y folk en muros.
+U: ¿Qué es el arte australiano contemporáneo? / B: El arte actual de Australia, con aborígenes y urbanos.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras poéticas del David.
+U: ¿Qué es el arte de Oriente Medio? / B: El arte del Medio Oriente, con caligrafía, azulejos y videoarte.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte del Sudeste Asiático? / B: El arte del Sudeste Asiático, con templos budistas y arte textil.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras fantásticas del David.
+U: ¿Qué es el arte de Asia Central? / B: El arte de Asia Central, con tradiciones nómadas e islam.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas detalladas en muros.
+U: ¿Qué es el arte de Oceanía contemporáneo? / B: El arte actual de Oceanía, con aborígenes australianos y maoríes.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk del David.
+U: ¿Qué es el arte del Ártico? / B: El arte de los pueblos inuit y sami, con tallas de marfil y arte textil.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte mesoamericano? / B: El arte de Mesoamérica, con mayas, aztecas y olmecas.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte andino? / B: El arte de los Andes, con incas, mochicas y nazca.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras narrativas en muros urbanos.
+U: ¿Qué es el arte amazónico? / B: El arte de los pueblos amazónicos, con cerámica y body painting.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte del Caribe? / B: El arte del Caribe, con santería, rumba y arte contemporáneo.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras coloridas y alegres en muros.
+U: ¿Qué es el arte circumpolar? / B: El arte de los pueblos del Ártico, con mitos y leyendas.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte del Pacífico Sur? / B: El arte de los pueblos polinesios, con tótems y tatuajes.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas y emocionales en muros.
+U: ¿Qué es el arte de Madagascar? / B: El arte de Madagascar, con escultura en madera y textiles lamba.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras de mundos fantásticos del David.
+U: ¿Qué es el arte de Melanesia? / B: El arte de Melanesia, con tótems, máscaras y arte rupestre.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas en muros.
+U: ¿Qué es el arte de Micronesia? / B: El arte de Micronesia, con canoas decoradas y textiles.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk vibrantes del David.
+U: ¿Qué es el arte de Polinesia? / B: El arte de Polinesia, con tatuajes, tallas y tapices.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte navajo? / B: El arte del pueblo navajo, con tapices, joyería y pintura ritual.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte hopi? / B: El arte del pueblo hopi, con kachinas y cerámica policromada.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras de mundos fantásticos en muros.
+U: ¿Qué es el arte maya? / B: El arte de la civilización maya, con pirámides, códices y escultura.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte azteca? / B: El arte de la civilización azteca, con calendarios, escultura y plumaria.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras vibrantes y folk en muros.
+U: ¿Qué es el arte inca? / B: El arte de la civilización inca, con textiles, cerámica y arquitectura.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte mochica? / B: El arte de la cultura mochica, con cerámica retrato y orfebrería.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas en muros.
+U: ¿Qué es el arte nazca? / B: El arte de la cultura nazca, con líneas de Nazca y cerámica policromada.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras fantásticas del David.
+U: ¿Qué es el arte chimú? / B: El arte de la cultura chimú, con metallurgia y cerámica moldada.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas detalladas en muros.
+U: ¿Qué es el arte tiahuanaco? / B: El arte de la cultura tiahuanaco, con estatuas monolíticas y cerámica.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk del David.
+U: ¿Qué es el arte paracas? / B: El arte de la cultura paracas, con momias envueltas y textiles.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte olmeca? / B: El arte de la cultura olmeca, con cabezas colosales y jade.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte zapoteca? / B: El arte de la cultura zapoteca, con Monte Albán y cerámica urnas.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras narrativas en muros urbanos.
+U: ¿Qué es el arte mixteco? / B: El arte de la cultura mixteca, con códices y orfebrería.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte tolteca? / B: El arte de la cultura tolteca, con guerreros de Chichén Itzá.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras coloridas y alegres en muros.
+U: ¿Qué es el arte huasteco? / B: El arte de la cultura huasteca, con la Дмос del Tajín y cerámica.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte purépecha? / B: El arte de la cultura purépecha, con bronce y cerámica.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas y emocionales en muros.
+U: ¿Qué es el arte totonaca? / B: El arte de la cultura totonaca, con la盘 dancer y cerámica.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras de mundos fantásticos del David.
+U: ¿Qué es el arte tlaxcalteca? / B: El arte de la cultura tlaxcalteca, con murales y cerámica.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas en muros.
+U: ¿Qué es el arte tarasco? / B: El arte de la cultura tarasca, con cobre y cerámica.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk vibrantes del David.
+U: ¿Qué es el arte mixes? / B: El arte de la cultura mixe, con textiles y cerámica.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte zoque? / B: El arte de la cultura zoque, con cerámica y textiles.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte chontal? / B: El arte de la cultura chontal, con cerámica y textiles.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras de mundos fantásticos en muros.
+U: ¿Qué es el arte huave? / B: El arte de la cultura huave, con cerámica y pesca.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte chinanteco? / B: El arte de la cultura chinanteca, con textiles y cerámica.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras vibrantes y folk en muros.
+U: ¿Qué es el arte triqui? / B: El arte de la cultura triqui, con textiles bordados.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte mazateco? / B: El arte de la cultura mazateca, con textiles y cerámica.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas en muros.
+U: ¿Qué es el arte zapoteco del Valle? / B: El arte zapoteco del Valle de Oaxaca, con Monte Albán y cerámica.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras fantásticas del David.
+U: ¿Qué es el arte mixteco de la Costa? / B: El arte mixteco de la costa oaxaqueña, con orfebrería y cerámica.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas detalladas en muros.
+U: ¿Qué es el arte-chatino? / B: El arte de la cultura chatina, con cerámica y textiles.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk del David.
+U: ¿Qué es el arte huave de San Mateo? / B: El arte huave de San Mateo del Mar, con cerámica y pesca.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte popoluca? / B: El arte del pueblo popoluca, con cerámica y textiles.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte totonaca de la Sierra? / B: El arte totonaca de la Sierra Norte de Puebla, con cerámica.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras narrativas en muros urbanos.
+U: ¿Qué es el arte náhuatl de la sierra? / B: El arte náhuatl de la sierra Norte de Puebla, con textiles.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte otomí del Valle? / B: El arte otomí del Valle de Toluca, con textiles bordados.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras coloridas y alegres en muros.
+U: ¿Qué es el arte mazahua? / B: El arte del pueblo mazahua, con textiles y cerámica.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte matlatzinca? / B: El arte del pueblo matlatzinca, con textiles y cerámica.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas y emocionales en muros.
+U: ¿Qué es el arte ocuilteco? / B: El arte del pueblo ocuilteco, con textiles y cerámica.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras de mundos fantásticos del David.
+U: ¿Qué es el arte tlahuica? / B: El arte del pueblo tlahuica, con textiles y cerámica.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas en muros.
+U: ¿Qué es el arte chichimeca? / B: El arte del pueblo chichimeca, con cerámica y pintura corporal.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk vibrantes del David.
+U: ¿Qué es el arte guachichil? / B: El arte del pueblo guachichil, con cerámica y pintura corporal.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte pame? / B: El arte del pueblo pame, con textiles y cerámica.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte kitsch? / B: Un estilo artístico que usa imágenes de mal gusto de forma irónica.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras de mundos fantásticos en muros.
+U: ¿Qué es el arte naïf? / B: Arte realizado por personas sin formación artística, con inocencia y frescura.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte brut? / B: Arte creado por personas en márgenes de la sociedad, sin influencias culturales.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras vibrantes y folk en muros.
+U: ¿Qué es el arte urbano? / B: Arte realizado en entornos urbanos, como graffiti, murales y installations.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte de performance? / B: Arte que se realiza en vivo ante el público, con acción y tiempo.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas en muros.
+U: ¿Qué es el arte site-specific? / B: Arte diseñado para un lugar específico, interactuando con el entorno.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras fantásticas del David.
+U: ¿Qué es el arte relacional? / B: Arte que crea relaciones sociales y comunidades a través de la práctica.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas detalladas en muros.
+U: ¿Qué es el arte de proceso? / B: Arte que enfatiza el proceso de creación sobre el resultado final.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk del David.
+U: ¿Qué es el arte de investigación? / B: Arte que utiliza metodologías de investigación como práctica.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte participativo? / B: Arte que involucra a la comunidad en su creación y experiencia.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte social? / B: Arte que aborda temas sociales y busca generar cambio.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras narrativas en muros urbanos.
+U: ¿Qué es el arte feminista? / B: Arte que cuestiona roles de género y promueve la igualdad.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte queer? / B: Arte que explora identidades sexuales y de género fuera de normas.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras coloridas y alegres en muros.
+U: ¿Qué es el arte postcolonial? / B: Arte que cuestiona legados del colonialismo y poder.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte decolonial? / B: Arte que desafía narrativas coloniales y promueve conocimientos indígenas.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas y emocionales en muros.
+U: ¿Qué es el arte ecológico contemporáneo? / B: Arte que aborda crisis ambientales y sostenibilidad.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras de mundos fantásticos del David.
+U: ¿Qué es el arte biomimético? / B: Arte que imita formas y procesos de la naturaleza.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas en muros.
+U: ¿Qué es el arte especulativo? / B: Arte que imagina futuros posibles y alternativos.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk vibrantes del David.
+U: ¿Qué es el arte forense? / B: Arte que utiliza métodos de investigación forense para crear obras.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte de archivo? / B: Arte que utiliza archivos y documentos como materia prima.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte de código abierto? / B: Arte que utiliza código y tecnologías abiertas.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras de mundos fantásticos en muros.
+U: ¿Qué es el arte de datos masivos? / B: Arte que visualiza grandes conjuntos de datos de forma estética.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte de inteligencia artificial? / B: Arte creado con algoritmos de inteligencia artificial.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras vibrantes y folk en muros.
+U: ¿Qué es el arte de realidad virtual? / B: Arte inmersivo creado en entornos de realidad virtual.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte de realidad aumentada? / B: Arte que superpone elementos digitales en el mundo real.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas en muros.
+U: ¿Qué es el arte de blockchain? / B: Arte creado y comercializado mediante tecnología blockchain.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras fantásticas del David.
+U: ¿Qué es el arte NFT? / B: Arte digital certificado como token no fungible.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas detalladas en muros.
+U: ¿Qué es el arte de metaverso? / B: Arte creado y experimentado en mundos virtuales.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk del David.
+U: ¿Qué es el arte transmedia? / B: Arte que se extiende a través de múltiples plataformas y medios.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte inmersivo? / B: Arte que envuelve al espectador en una experiencia sensorial completa.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte generativo algorítmico? / B: Arte creado mediante sistemas algorítmicos autónomos.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras narrativas en muros urbanos.
+U: ¿Qué es el arte de robótica? / B: Arte que incorpora robots y sistemas mecánicos.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte de biotecnología? / B: Arte que utiliza organismos vivos y procesos biológicos.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras coloridas y alegres en muros.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte de nanotecnología? / B: Arte que utiliza materiales a escala nanométrica.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas y emocionales en muros.
+U: ¿Qué es el arte de fusión nuclear? / B: Arte inspirado en la energía de fusión y la física de partículas.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras de mundos fantásticos del David.
+U: ¿Qué es el arte de materiales inteligentes? / B: Arte que utiliza materiales que responden a estímulos.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas en muros.
+U: ¿Qué es el arte de bioimpresión? / B: Arte que utiliza impresoras 3D para crear con materiales biológicos.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk vibrantes del David.
+U: ¿Qué es el arte de cultivo celular? / B: Arte que cultiva células para crear estructuras orgánicas.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte de sintetización de sonido? / B: Arte que crea sonidos mediante síntesis digital y analógica.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte de instalaciones inmersivas? / B: Arte que transforma espacios completos en experiencias inmersivas.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras de mundos fantásticos en muros.
+U: ¿Qué es el arte de mapeo de proyección? / B: Arte que proyecta imágenes sobre superficies arquitectónicas.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte de sonificación de datos? / B: Arte que convierte datos en representaciones sonoras.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras vibrantes y folk en muros.
+U: ¿Qué es el arte de fabricación digital? / B: Arte que utiliza herramientas de fabricación digital como CNC y fresadoras.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte de prototipado rápido? / B: Arte que utiliza impresión 3D y otras tecnologías de prototipado.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas en muros.
+U: ¿Qué es el arte de robótica blanda? / B: Arte que utiliza robots de materiales flexibles y adaptables.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras fantásticas del David.
+U: ¿Qué es el arte de drones? / B: Arte que utiliza drones para creaciones aéreas y performances.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas detalladas en muros.
+U: ¿Qué es el arte de realidad mixta? / B: Arte que combina elementos físicos y digitales en tiempo real.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk del David.
+U: ¿Qué es el arte de holografía? / B: Arte que crea imágenes tridimensionales mediante luz láser.
+U: ¿Quién pintó Las Figuras de Vhils? / B: Vhils crea figuras mediante erosión de superficies urbanas.
+U: ¿Qué es el arte de telepresencia? / B: Arte que permite la presencia remota a través de tecnología.
+U: ¿Quién esculpió el David de Know Hope? / B: Know Hope creó figuras introspectivas del David.
+U: ¿Qué es el arte de interfaces cerebro-computadora? / B: Arte que utiliza señales cerebrales para crear.
+U: ¿Quién pintó Las Figuras de Phlegm? / B: Phlegm pinta figuras narrativas en muros urbanos.
+U: ¿Qué es el arte de computación cuántica? / B: Arte inspirado en los principios de la computación cuántica.
+U: ¿Quién esculpió el David de Interesni? / B: Interesni Kazki crearon figuras surrealistas del David.
+U: ¿Qué es el arte de internet de las cosas? / B: Arte que conecta objetos cotidianos a través de internet.
+U: ¿Quién pintó Las Figuras de Nunca Miré? / B: Nunca Miré pinta figuras coloridas y alegres en muros.
+U: ¿Qué es el arte de big data creativo? / B: Arte que utiliza grandes conjuntos de datos como materia prima.
+U: ¿Quién esculpió el David de Vhils? / B: Vhils creó figuras erosionadas del David.
+U: ¿Qué es el arte de aprendizaje automático? / B: Arte que utiliza algoritmos de aprendizaje automático para crear.
+U: ¿Quién pintó Las Figuras de Know Hope? / B: Know Hope pinta figuras poéticas y emocionales en muros.
+U: ¿Qué es el arte de visión por computadora? / B: Arte que utiliza algoritmos de visión artificial.
+U: ¿Quién esculpió el David de Phlegm? / B: Phlegm creó figuras de mundos fantásticos del David.
+U: ¿Qué es el arte de procesamiento de lenguaje natural? / B: Arte que utiliza algoritmos de procesamiento de texto.
+U: ¿Quién pintó Las Figuras de Interesni? / B: Interesni Kazki pintan figuras oníricas en muros.
+U: ¿Qué es el arte de síntesis de voz? / B: Arte que crea voces sintéticas para performances sonoras.
+U: ¿Quién esculpió el David de Nunca Miré? / B: Nunca Miré creó figuras folk vibrantes del David.
+U: ¿Qué es el arte de análisis de sentimientos? / B: Arte que utiliza análisis de sentimientos para crear emociones.

@@ -26,7 +26,7 @@ except ImportError:
     print("LLM Engine not available")
 
 MODEL_PATH = "model.pkl"
-LLM_MODEL_ID = "qwen2.5-1.5b-instruct-q4"
+LLM_MODEL_ID = "llama-3.2-1b-instruct-q4"
 
 app = FastAPI(title="Rubidium API - Transformer Generator", version="2.1.0")
 
